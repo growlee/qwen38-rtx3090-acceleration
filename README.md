@@ -5,8 +5,8 @@ Reproducibility material and measured evidence for accelerating
 300 W power limit.
 
 This is an experiment archive, not a model distribution or a turnkey server.
-It contains no weights, container images, credentials, prompts, or user
-outputs.
+It contains no weights, container images, credentials, user prompts, or user
+outputs. Synthetic benchmark prompts are included in the benchmark clients.
 
 ## Confirmed benchmark results
 
@@ -68,11 +68,11 @@ helper-pair bytes as well as the excluded host adapter.
 
 ## Provenance and upstream
 
-All imported files are byte-for-byte exports from tracked files in
-`E:\Projects\home_lab` commit
+The evidence and unmodified benchmark clients are byte-for-byte exports from
+tracked files in `E:\Projects\home_lab` commit
 `e232fa4a62505fe2e1c5cf30560b124920d04b5c`; their original relative paths are
-preserved in the Git history of that source repository. This repository adds
-only this README and `.gitignore`.
+preserved in the Git history of that source repository. The two Adaptive GPTQ
+helper modules are derived files and carry explicit modification notices.
 
 The measured runtime used the pinned
 [`syv-ai/qwen38-27b-rtx3090`](https://github.com/syv-ai/qwen38-27b-rtx3090)
@@ -80,5 +80,6 @@ recipe at `69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c` and the model source
 [`leminkozey/Qwen3.8-27B-Uncensored-W4A16-AutoRound`](https://huggingface.co/leminkozey/Qwen3.8-27B-Uncensored-W4A16-AutoRound)
 at `f958acb153eb8c7bbd25638149c8c75185559226`. Their licenses, terms, and
 acceptable-use conditions remain controlling. No upstream model or container
-image is redistributed here. The two adaptive GPTQ helper modules are derived
-from the pinned syv-ai recipe, as their source headers state.
+image is redistributed here. The two Adaptive GPTQ helper modules are derived
+from the pinned syv-ai recipe and are distributed under the included
+Apache-2.0 `LICENSE`.

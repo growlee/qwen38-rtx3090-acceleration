@@ -4,6 +4,9 @@ Derived from ``syv-ai/qwen38-27b-rtx3090`` revision
 ``69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c``.  This file is bind-mounted
 read-only as ``/app/drafter/gptq_utils.py`` only for the exact-target
 ``requant-mtp-int4`` step.
+
+Modified for this experiment on 2026-09-01: added bounded damping fallback,
+deterministic Hessian diagnostics, and numerical validation.
 """
 
 from __future__ import annotations

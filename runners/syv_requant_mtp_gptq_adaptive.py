@@ -1,4 +1,11 @@
-"""Pinned syv MTP requantization with exact-layer Hessian diagnostics."""
+"""Pinned syv MTP requantization with exact-layer Hessian diagnostics.
+
+Derived from ``syv-ai/qwen38-27b-rtx3090`` revision
+``69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c``.
+
+Modified for this experiment on 2026-09-01: added exact-layer adaptive GPTQ
+calibration, structured diagnostics, and bounded failure handling.
+"""
 
 from __future__ import annotations
 
