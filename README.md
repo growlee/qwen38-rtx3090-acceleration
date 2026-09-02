@@ -8,29 +8,41 @@ This is an experiment archive, not a model distribution or a turnkey server.
 It contains no weights, container images, credentials, user prompts, or user
 outputs. Synthetic benchmark prompts are included in the benchmark clients.
 
-## Confirmed benchmark results
+## Performance progression
 
-All figures are median decode throughput from three 1024-token requests after
-one warm-up, using the exact runtime and hardware recorded by the linked
-evidence. They are not a promise for another prompt, context size, GPU, driver,
-or server.
+**Original accepted setup at 300 W: 37.621 tok/s. Best confirmed median:
+103.615801 tok/s.** That is 2.754x the original result, an illustrative gain of
+65.994801 tok/s or 175.420%. The earlier value around 33 tok/s was
+**33.526 tok/s at 280 W**.
 
-| Configuration | Median decode tok/s | Change from baseline | Evidence |
-| --- | ---: | ---: | --- |
-| Accepted baseline | 81.000903 | — | [fast-MTP evidence](evidence/syv-leminkozey-fast-mtp-2026-08-31.md) |
-| Fast MTP | 94.782545 | +17.014% | [fast-MTP evidence](evidence/syv-leminkozey-fast-mtp-2026-08-31.md) |
-| Adaptive GPTQ MTP | **103.615801** | +27.919% | [adaptive GPTQ evidence](evidence/syv-leminkozey-adaptive-gptq-live09r5-2026-09-01.md) |
-| DFlash2 fast/n7 | 101.311639 | +25.075% | [DFlash2 fast/n7 evidence](evidence/syv-leminkozey-dflash2-fast-n7-2026-09-01.md) |
-| DFlash2 huge/n7 | 100.511082 | +24.086% | [DFlash2 huge/n7 evidence](evidence/syv-leminkozey-dflash2-huge-n7-2026-09-01.md) |
+The confirmed measurements below are ordered from slowest to fastest:
 
-The best confirmed median is **103.615801 tok/s** for Adaptive GPTQ MTP. The
-approximately 110 tok/s and 122.644630 tok/s numbers were individual cases,
-not three-request medians; the latter is recorded as one case in the adaptive
-GPTQ evidence.
+| Order | Configuration | Power | Median decode | Meaning | Evidence |
+| ---: | --- | ---: | ---: | --- | --- |
+| 1 | Original GGUF Q4_K_M + llama.cpp | 250 W | 27.273 tok/s | Original power-cap sweep | [original GPU evidence](evidence/phase2-qwen-gpu-300w-promotion-2026-08-23.md) |
+| 2 | Original GGUF Q4_K_M + llama.cpp | 280 W | 33.526 tok/s | The remembered ~33 tok/s result | [original GPU evidence](evidence/phase2-qwen-gpu-300w-promotion-2026-08-23.md) |
+| 3 | Original GGUF Q4_K_M + llama.cpp | 300 W | **37.621 tok/s** | Original accepted production setup | [original GPU evidence](evidence/phase2-qwen-gpu-300w-promotion-2026-08-23.md) |
+| 4 | AutoRound W4A16 candidate baseline | 300 W | 81.000903 tok/s | Baseline of the later acceleration series | [fast-MTP evidence](evidence/syv-leminkozey-fast-mtp-2026-08-31.md) |
+| 5 | Fast MTP | 300 W | 94.782545 tok/s | +17.014% within the later series | [fast-MTP evidence](evidence/syv-leminkozey-fast-mtp-2026-08-31.md) |
+| 6 | DFlash2 huge/n7 | 300 W | 100.511082 tok/s | +24.086% within the later series | [DFlash2 huge/n7 evidence](evidence/syv-leminkozey-dflash2-huge-n7-2026-09-01.md) |
+| 7 | DFlash2 fast/n7 | 300 W | 101.311639 tok/s | +25.075% within the later series | [DFlash2 fast/n7 evidence](evidence/syv-leminkozey-dflash2-fast-n7-2026-09-01.md) |
+| 8 | Adaptive GPTQ MTP | 300 W | **103.615801 tok/s** | Best confirmed median; +27.919% within the later series | [adaptive GPTQ evidence](evidence/syv-leminkozey-adaptive-gptq-live09r5-2026-09-01.md) |
+
+The first three rows used one warm-up and two measured 512-token completions.
+The later series used one warm-up and three measured 1024-token completions,
+and also changed the model packaging and runtime. Therefore the full 37.621 to
+103.615801 progression is a historical before/after comparison, not a single
+controlled A/B test. The controlled improvement inside the later series is
+81.000903 to 103.615801 tok/s, or **+27.919%**.
+
+The highest individual request was **122.644630 tok/s**, but it was one case,
+not the stable headline result. The maximum confirmed median remains
+**103.615801 tok/s**.
 
 ## What is included
 
-- `evidence/`: four Markdown reports and their machine-readable JSON evidence.
+- `evidence/`: the original GPU baseline report plus four acceleration reports
+  and their machine-readable JSON evidence.
 - `runners/`: portable benchmark clients, the two Adaptive GPTQ helper sources,
   and their narrow unit tests from the provenance commit below.
 
