@@ -1,0 +1,100 @@
+{
+  "schema": "qwen38-syv-leminkozey-dflash2-negative-result-summary/v1",
+  "date": "2026-09-01",
+  "classification": "valid_negative_result",
+  "hypothesis": "dflash2_huge_n7_outperforms_adaptive_gptq_int4_fast_mtp_k4",
+  "hypothesis_result": "rejected",
+  "source_report": {
+    "path": "/srv/ai-server/benchmarks/experiments/syv-leminkozey-dflash2-goal02-166c25da.json",
+    "sha256": "ebc11eab274d6de13f84638042180e57554f7ca6cc66b6409a2e4fb82183a462"
+  },
+  "coordinates": {
+    "target_repository": "leminkozey/Qwen3.8-27B-Uncensored-W4A16-AutoRound",
+    "target_revision": "f958acb153eb8c7bbd25638149c8c75185559226",
+    "target_receipt_sha256": "a1a385314549147c266eb404ab8d9255fc224b126040973797a95d34adfa621a",
+    "syv_repository": "syv-ai/qwen38-27b-rtx3090",
+    "syv_revision": "69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c",
+    "runtime_image": "ghcr.io/syv-ai/qwen38-27b-rtx3090:sha-69ba4d0@sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "draft_repository": "syvai/Qwen3.8-27B-DFlash2-W4A16",
+    "draft_revision": "4d30ec736ffc6b8688dc2ae2b502d9b48bdec279",
+    "draft_receipt_sha256": "4908dc8560ffa3c236c57adc579c3a3fdec3ed3df9a2c7b7ca8861356e788238",
+    "runner_sha256": "166c25da157ed79502a494738132846a6a32577516bf00fea5311f2895f4becb",
+    "test_sha256": "404833fced8c83b2e53efd1d2f2e02e29b432d6dd1677e368029a1e9ebafd80e"
+  },
+  "matrix": {
+    "warmup_count": 1,
+    "measured_request_count": 3,
+    "max_output_tokens_per_request": 1024,
+    "profile": {
+      "SPEC": "dflash2",
+      "CTX": "huge",
+      "DFLASH_MAX_LEN": "245760",
+      "DFLASH_TOKENS": "7",
+      "GPU_UTIL": "0.97",
+      "PREFIX_CACHE": "0",
+      "VISION": "0"
+    }
+  },
+  "comparison": {
+    "baseline": {
+      "variant": "adaptive_gptq_int4_fast_mtp_k4",
+      "decode_tokens_per_second_median": 103.615801,
+      "end_to_end_tokens_per_second_median": 102.115791,
+      "ttft_seconds_median": 0.134937,
+      "acceptance_ratio": 0.339793
+    },
+    "candidate": {
+      "variant": "dflash2_huge_n7",
+      "decode_tokens_per_second_median": 100.511082,
+      "end_to_end_tokens_per_second_median": 98.55674,
+      "ttft_seconds_median": 0.120219,
+      "acceptance_ratio": 0.244826,
+      "per_case_decode_tokens_per_second": [
+        100.511082,
+        83.732411,
+        118.91514
+      ]
+    },
+    "change": {
+      "decode_percent": -2.996,
+      "end_to_end_percent": -3.485,
+      "ttft_percent": -10.907,
+      "acceptance_percentage_points": -9.497
+    }
+  },
+  "correctness": {
+    "exact_marker": true,
+    "kernel_fault_free": true,
+    "dflash2_runtime_proven": true
+  },
+  "resources": {
+    "power_limit_w": 300.0,
+    "max_power_w": 301.42,
+    "max_gpu_utilization_percent": 100.0,
+    "max_temperature_c": 70.0,
+    "max_vram_used_mib": 23912.0,
+    "min_vram_free_mib": 216.0
+  },
+  "restoration": {
+    "outcome": "passed_restored",
+    "admission_public": true,
+    "qwen_ready": true,
+    "gateway_healthy": true,
+    "open_webui_healthy": true,
+    "candidate_absent": true,
+    "gateway_completion_count": 2,
+    "power_limit_w": 300.0
+  },
+  "privacy": {
+    "content_recorded": false,
+    "request_text_recorded": false,
+    "response_text_recorded": false,
+    "secrets_recorded": false
+  },
+  "scope_exclusions": [
+    "dflash2_ctx_fast",
+    "prefix_cache",
+    "lookup_drafting",
+    "different_speculative_block_length"
+  ]
+}

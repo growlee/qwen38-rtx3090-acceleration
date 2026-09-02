@@ -1,0 +1,28 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+*.pem
+*.key
+*.crt
+credentials*/
+secrets*/
+
+# Models, runtime artifacts, and user-generated data
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.ckpt
+models/
+artifacts/
+outputs/
+*.jsonl
+*.log

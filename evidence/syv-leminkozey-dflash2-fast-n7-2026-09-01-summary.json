@@ -1,0 +1,114 @@
+{
+  "schema": "qwen38-syv-leminkozey-dflash2-negative-result-summary/v1",
+  "date": "2026-09-01",
+  "classification": "valid_negative_result",
+  "hypothesis": "dflash2_fast_n7_outperforms_adaptive_gptq_int4_fast_mtp_k4_by_at_least_5_percent_decode_and_end_to_end",
+  "hypothesis_result": "rejected",
+  "source_report": {
+    "path": "/srv/ai-server/benchmarks/experiments/syv-leminkozey-dflash2-fast-n7-c4071aaa.json",
+    "sha256": "d6254e24be80d43d6d8b3af1b8e9f3a2e7cda7249e35460f6d72a86477ab2dcc"
+  },
+  "coordinates": {
+    "target_repository": "leminkozey/Qwen3.8-27B-Uncensored-W4A16-AutoRound",
+    "target_revision": "f958acb153eb8c7bbd25638149c8c75185559226",
+    "target_receipt_sha256": "a1a385314549147c266eb404ab8d9255fc224b126040973797a95d34adfa621a",
+    "syv_repository": "syv-ai/qwen38-27b-rtx3090",
+    "syv_revision": "69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c",
+    "runtime_image": "ghcr.io/syv-ai/qwen38-27b-rtx3090:sha-69ba4d0@sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "draft_repository": "syvai/Qwen3.8-27B-DFlash2-W4A16",
+    "draft_revision": "4d30ec736ffc6b8688dc2ae2b502d9b48bdec279",
+    "draft_receipt_sha256": "4908dc8560ffa3c236c57adc579c3a3fdec3ed3df9a2c7b7ca8861356e788238",
+    "runner_sha256": "c4071aaa9bb7ad6ec60e548fdb230101420073d3a851498e5ce42c2ef82a487e",
+    "test_sha256": "7e5c24c7bf3daba9ff8b160c2f22c48f4971211cc608bf4572330eb2bd8b51d6"
+  },
+  "matrix": {
+    "warmup_count": 1,
+    "measured_request_count": 3,
+    "max_output_tokens_per_request": 1024,
+    "all_samples_exact_length": true,
+    "profile": {
+      "SPEC": "dflash2",
+      "CTX": "fast",
+      "DFLASH_MAX_LEN": "65536",
+      "DFLASH_TOKENS": "7",
+      "GPU_UTIL": "0.93",
+      "PREFIX_CACHE": "0",
+      "VISION": "0"
+    }
+  },
+  "comparison": {
+    "baseline": {
+      "variant": "adaptive_gptq_int4_fast_mtp_k4",
+      "report_sha256": "454ecd10b26edbfe26cd5e3cc73f5b09ae80b790c604986c858dbfe4892c64f6",
+      "decode_tokens_per_second_median": 103.615801,
+      "end_to_end_tokens_per_second_median": 102.115791,
+      "ttft_seconds_median": 0.134937,
+      "acceptance_ratio": 0.339793
+    },
+    "candidate": {
+      "variant": "dflash2_fast_n7",
+      "decode_tokens_per_second_median": 101.311639,
+      "end_to_end_tokens_per_second_median": 99.31494,
+      "ttft_seconds_median": 0.137474,
+      "acceptance_ratio": 0.244736,
+      "accepted_tokens": 1941.0,
+      "draft_tokens": 7931.0,
+      "per_case_decode_tokens_per_second": [
+        101.311639,
+        85.725069,
+        148.269582
+      ]
+    },
+    "change": {
+      "decode_percent": -2.224,
+      "end_to_end_percent": -2.743,
+      "ttft_percent": 1.88,
+      "acceptance_percentage_points": -9.506
+    },
+    "minimum_required_speedup_percent": 5.0,
+    "speed_goal_met": false
+  },
+  "correctness": {
+    "all_samples_completion_tokens": 1024,
+    "all_samples_finish_reason": "length",
+    "completion_tokens_total": 3072,
+    "exact_marker": true,
+    "kernel_fault_free": true,
+    "dflash2_runtime_proven": true
+  },
+  "resources": {
+    "power_limit_w": 300.0,
+    "max_power_w": 300.49,
+    "max_gpu_utilization_percent": 100.0,
+    "max_temperature_c": 70.0,
+    "max_vram_used_mib": 23400.0,
+    "min_vram_free_mib": 728.0,
+    "sample_count": 1249
+  },
+  "restoration": {
+    "outcome": "passed_restored",
+    "admission_public": true,
+    "admission_queue_empty": true,
+    "admission_ledger_empty": true,
+    "qwen_ready": true,
+    "gateway_healthy": true,
+    "open_webui_healthy": true,
+    "candidate_absent": true,
+    "gateway_completion_count": 2,
+    "power_limit_w": 300.0,
+    "temporary_bundle_removed": true
+  },
+  "privacy": {
+    "content_recorded": false,
+    "request_text_recorded": false,
+    "response_text_recorded": false,
+    "secrets_recorded": false
+  },
+  "scope_exclusions": [
+    "prefix_cache",
+    "lookup_drafting",
+    "different_speculative_block_length",
+    "other_model_or_runtime_revision",
+    "repeated_long_context_prefill_workload"
+  ]
+}
