@@ -1,0 +1,545 @@
+{
+  "observed_utc": "2026-09-07T23:49:29Z",
+  "host": "server-a",
+  "scope": "Read-only candidate readiness; no model inference or remote writes",
+  "model_audit_runner_sha256": "ba5726f2c75389cbd547af53a04ac7246e7d6ea89b2a5f98e61e282162d2d591",
+  "model_audit_exit_code": 0,
+  "model_audit": [
+    {
+      "allocated_bytes": 12288,
+      "bytes": 8952,
+      "expected_sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "file": "chat_template.jinja",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 20480,
+      "bytes": 16746,
+      "expected_sha256": "48f115f0c4641c58426e55b49d20d9ae220d386949bc61cd175e5581f5ba1dfb",
+      "file": "config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "48f115f0c4641c58426e55b49d20d9ae220d386949bc61cd175e5581f5ba1dfb",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 4096,
+      "bytes": 214,
+      "expected_sha256": "6ef70d6670f24f03a9041724c7663ef26bc1e678d10f79c93fe11c192ba14b7d",
+      "file": "generation_config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "6ef70d6670f24f03a9041724c7663ef26bc1e678d10f79c93fe11c192ba14b7d",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 3211010048,
+      "bytes": 3211003472,
+      "expected_sha256": "1db7aff443812f7bd11869336c0b75a6ec59e70f089bf65208598a6bbe7a5eb3",
+      "file": "model-00001-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "1db7aff443812f7bd11869336c0b75a6ec59e70f089bf65208598a6bbe7a5eb3",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 3195031552,
+      "bytes": 3195027104,
+      "expected_sha256": "4b0c689af764d1fd35dd271ab95f7aa20bf305197fd98e68ad69a7367b199b13",
+      "file": "model-00002-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "4b0c689af764d1fd35dd271ab95f7aa20bf305197fd98e68ad69a7367b199b13",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 3195031552,
+      "bytes": 3195027104,
+      "expected_sha256": "75da50f643fb84a21cefe5a5186b3db35e6a941f21401e650e684eb7f3d34d1d",
+      "file": "model-00003-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "75da50f643fb84a21cefe5a5186b3db35e6a941f21401e650e684eb7f3d34d1d",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 3217448960,
+      "bytes": 3217442568,
+      "expected_sha256": "487171bff5e5361f3e6dba6b5da765b17e78a154823b5145dab616ec37cac67c",
+      "file": "model-00004-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "487171bff5e5361f3e6dba6b5da765b17e78a154823b5145dab616ec37cac67c",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 699281408,
+      "bytes": 699275200,
+      "expected_sha256": "0994bb8d91c07ceefc4bfffd3a7b7fd110cc9bd3ce865bdcb2821abf02a02fab",
+      "file": "model-00005-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "0994bb8d91c07ceefc4bfffd3a7b7fd110cc9bd3ce865bdcb2821abf02a02fab",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 1291280384,
+      "bytes": 1291274752,
+      "expected_sha256": "b2e0854ed3be3141ed79f4204f7aa8e616da626d4662017117330490747c2036",
+      "file": "model-00006-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "b2e0854ed3be3141ed79f4204f7aa8e616da626d4662017117330490747c2036",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 1291272192,
+      "bytes": 1291264320,
+      "expected_sha256": "ce55d80ec123bac872f2ff27eb39b2c11d50ede0b0e272656738b628b7f496a9",
+      "file": "model-00007-of-00007.safetensors",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "ce55d80ec123bac872f2ff27eb39b2c11d50ede0b0e272656738b628b7f496a9",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 200704,
+      "bytes": 198612,
+      "expected_sha256": "d96e1d1a01dd2ad852fd34bd7624917a96731aa4d15f48c4aaba5217b6525552",
+      "file": "model.safetensors.index.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "d96e1d1a01dd2ad852fd34bd7624917a96731aa4d15f48c4aaba5217b6525552",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 849408000,
+      "bytes": 849400392,
+      "expected_sha256": "1d8268aa85ace093a561e3e7b63b9d390dac1cd55a90cd55b5ec509c3c9da9fe",
+      "file": "model_extra_tensors.safetensors",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "1d8268aa85ace093a561e3e7b63b9d390dac1cd55a90cd55b5ec509c3c9da9fe",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 4096,
+      "bytes": 1220,
+      "expected_sha256": "bfbc24af59a3e73a9cd0653b8d4ae758dfaec4e3e6c15dfb1c6c8ee8d5683c85",
+      "file": "processor_config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "bfbc24af59a3e73a9cd0653b8d4ae758dfaec4e3e6c15dfb1c6c8ee8d5683c85",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 12288,
+      "bytes": 11374,
+      "expected_sha256": "804a69418fb6070b312327f778952739a9c742c13aa2e3eaa0042bdaefe43c78",
+      "file": "quantization_config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "804a69418fb6070b312327f778952739a9c742c13aa2e3eaa0042bdaefe43c78",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 19992576,
+      "bytes": 19989325,
+      "expected_sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "file": "tokenizer.json",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 4096,
+      "bytes": 1165,
+      "expected_sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b",
+      "file": "tokenizer_config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226",
+      "sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 12288,
+      "bytes": 8952,
+      "expected_sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "file": "chat_template.jinja",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 20480,
+      "bytes": 17055,
+      "expected_sha256": "557195567426ddb0206fffa2cebd4073b4d3a0d34f7c488e434331172d56ce44",
+      "file": "config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "557195567426ddb0206fffa2cebd4073b4d3a0d34f7c488e434331172d56ce44",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 241664,
+      "bytes": 238297,
+      "expected_sha256": "16048e758c7df4b5d5b4285c0d8f23f34f825c20d393350b60db80e2a3260dc6",
+      "file": "draft_vocab_ids.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "16048e758c7df4b5d5b4285c0d8f23f34f825c20d393350b60db80e2a3260dc6",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 4096,
+      "bytes": 214,
+      "expected_sha256": "6ef70d6670f24f03a9041724c7663ef26bc1e678d10f79c93fe11c192ba14b7d",
+      "file": "generation_config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "6ef70d6670f24f03a9041724c7663ef26bc1e678d10f79c93fe11c192ba14b7d",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 3211010048,
+      "bytes": 3211003472,
+      "expected_sha256": "1db7aff443812f7bd11869336c0b75a6ec59e70f089bf65208598a6bbe7a5eb3",
+      "file": "model-00001-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": true,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "1db7aff443812f7bd11869336c0b75a6ec59e70f089bf65208598a6bbe7a5eb3",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 3195031552,
+      "bytes": 3195027104,
+      "expected_sha256": "4b0c689af764d1fd35dd271ab95f7aa20bf305197fd98e68ad69a7367b199b13",
+      "file": "model-00002-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": true,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "4b0c689af764d1fd35dd271ab95f7aa20bf305197fd98e68ad69a7367b199b13",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 3195031552,
+      "bytes": 3195027104,
+      "expected_sha256": "75da50f643fb84a21cefe5a5186b3db35e6a941f21401e650e684eb7f3d34d1d",
+      "file": "model-00003-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": true,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "75da50f643fb84a21cefe5a5186b3db35e6a941f21401e650e684eb7f3d34d1d",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 3217448960,
+      "bytes": 3217442568,
+      "expected_sha256": "487171bff5e5361f3e6dba6b5da765b17e78a154823b5145dab616ec37cac67c",
+      "file": "model-00004-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": true,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "487171bff5e5361f3e6dba6b5da765b17e78a154823b5145dab616ec37cac67c",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 699281408,
+      "bytes": 699275200,
+      "expected_sha256": "0994bb8d91c07ceefc4bfffd3a7b7fd110cc9bd3ce865bdcb2821abf02a02fab",
+      "file": "model-00005-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": true,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "0994bb8d91c07ceefc4bfffd3a7b7fd110cc9bd3ce865bdcb2821abf02a02fab",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 1291280384,
+      "bytes": 1291274752,
+      "expected_sha256": "b2e0854ed3be3141ed79f4204f7aa8e616da626d4662017117330490747c2036",
+      "file": "model-00006-of-00007.safetensors",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": true,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "b2e0854ed3be3141ed79f4204f7aa8e616da626d4662017117330490747c2036",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 655572992,
+      "bytes": 655565120,
+      "expected_sha256": "1fd3179391c0550ff81e16e2fd2e8bee0aef8d70c4e35f807e516a6556db053a",
+      "file": "model-00007-of-00007.safetensors",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "1fd3179391c0550ff81e16e2fd2e8bee0aef8d70c4e35f807e516a6556db053a",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 200704,
+      "bytes": 200180,
+      "expected_sha256": "0821f46e4a9888262e8f63d5a3c39e3be93e62fa3acd95febeb9a2c9bd9131a1",
+      "file": "model.safetensors.index.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "0821f46e4a9888262e8f63d5a3c39e3be93e62fa3acd95febeb9a2c9bd9131a1",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 327163904,
+      "bytes": 327162544,
+      "expected_sha256": "c25058bfbe331912b177fa96ddb506de5611f8952546712ae9854eceb45fee2f",
+      "file": "model_extra_tensors.safetensors",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "c25058bfbe331912b177fa96ddb506de5611f8952546712ae9854eceb45fee2f",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 331776,
+      "bytes": 329341,
+      "expected_sha256": "8af9028616e41932e0c949cd5364d2da0a69d15375af9bb404cab1e4d723f581",
+      "file": "mtp_draft_vocab_ids.pt",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "8af9028616e41932e0c949cd5364d2da0a69d15375af9bb404cab1e4d723f581",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 4096,
+      "bytes": 1220,
+      "expected_sha256": "bfbc24af59a3e73a9cd0653b8d4ae758dfaec4e3e6c15dfb1c6c8ee8d5683c85",
+      "file": "processor_config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "bfbc24af59a3e73a9cd0653b8d4ae758dfaec4e3e6c15dfb1c6c8ee8d5683c85",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 12288,
+      "bytes": 11374,
+      "expected_sha256": "804a69418fb6070b312327f778952739a9c742c13aa2e3eaa0042bdaefe43c78",
+      "file": "quantization_config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "804a69418fb6070b312327f778952739a9c742c13aa2e3eaa0042bdaefe43c78",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 19992576,
+      "bytes": 19989325,
+      "expected_sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "file": "tokenizer.json",
+      "hardlinks": 2,
+      "hash_reused_for_same_inode": true,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 4096,
+      "bytes": 1165,
+      "expected_sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b",
+      "file": "tokenizer_config.json",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc",
+      "sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b",
+      "status": "PASS"
+    },
+    {
+      "allocated_bytes": 16810721280,
+      "bytes": 16810714496,
+      "expected_sha256": "3445102e9cde5d562508642c100a2f5ac3368a5a3f748442811d7a95daee3bec",
+      "file": "Qwen3.8-27B-Uncensored-Q4_K_M.gguf",
+      "hardlinks": 1,
+      "hash_reused_for_same_inode": false,
+      "model": "original-gguf",
+      "sha256": "3445102e9cde5d562508642c100a2f5ac3368a5a3f748442811d7a95daee3bec",
+      "status": "PASS"
+    },
+    {
+      "distinct_allocated_bytes": 34764304384,
+      "distinct_files_hashed": 28,
+      "elapsed_seconds": 65.363,
+      "files_checked": 35,
+      "status": "PASS",
+      "writes_performed": false
+    }
+  ],
+  "baseline_81_report_sha256": "52ae28160a79fc2b0f556265aaec394ed4b74abdeec4203d213874af8c68c9ce",
+  "baseline_81": {
+    "coordinates": {
+      "image": "ghcr.io/syv-ai/qwen38-27b-rtx3090:sha-69ba4d0@sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+      "image_manifest_digest": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+      "max_model_len": 57344,
+      "source_revision": "69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c",
+      "target_receipt_sha256": "a1a385314549147c266eb404ab8d9255fc224b126040973797a95d34adfa621a",
+      "target_repository": "leminkozey/Qwen3.8-27B-Uncensored-W4A16-AutoRound",
+      "target_revision": "f958acb153eb8c7bbd25638149c8c75185559226"
+    },
+    "outcome": "passed_with_dflash2_blocked_restored",
+    "modes": {
+      "dflash2_fast": {
+        "status": "BLOCKED",
+        "result": {
+          "mode_id": null,
+          "runtime_contract": null,
+          "target_receipt_sha256": null,
+          "metrics": null,
+          "startup_evidence": null
+        }
+      },
+      "mtp_fast": {
+        "status": "PASS",
+        "result": {
+          "mode_id": "leminkozey-mtp-fast-maxlen57344",
+          "runtime_contract": {
+            "cache_exec": true,
+            "ctx": "fast",
+            "max_model_len": 57344,
+            "network_mode": "none",
+            "read_only_rootfs": true,
+            "runner_mount_read_only": true,
+            "spec": "mtp",
+            "target_mount_read_only": true
+          },
+          "target_receipt_sha256": "a1a385314549147c266eb404ab8d9255fc224b126040973797a95d34adfa621a",
+          "metrics": {
+            "completion_tokens_total": 3072,
+            "decode_tokens_per_second_median": 81.000903,
+            "draft_acceptance_ratio": null,
+            "draft_n_accepted_total": null,
+            "draft_n_total": null,
+            "end_to_end_seconds_median": 12.8141,
+            "end_to_end_tokens_per_second_median": 79.911972,
+            "ttft_seconds_median": 0.154264
+          },
+          "startup_evidence": {
+            "matched_line_count": 13,
+            "matched_lines": [
+              "log:  PASS  qwen3_5-mtp-draft-vocab.patch applied",
+              "log:  WARN  MTP module still bf16 (prepare/quant_mtp.py) — single-user mode is slower without it",
+              "log:(APIServer pid=1) INFO 08-31 17:37:14 [api_utils.py:273] non-default args: {'model_tag': '/app/models/Qwen3.8-27B-W4A16-AutoRound', 'enable_auto_tool_choice': True, 'tool_call_parser': 'qwen3_coder', 'host': '0.0.0.0', 'port': 18020, 'model': '/app/models/Qwen3.8-27B-W4A16-AutoRound', 'max_model_len': 57344, 'served_model_name': ['qwen3.8-27b'], 'attention_backend': 'FLASH_ATTN', 'reasoning_parser': 'qwen3', 'gpu_memory_utilization': 0.93, 'kv_cache_dtype': 'bfloat16', 'mamba_ssm_cache_dtype': 'float16', 'language_model_only': True, 'max_num_batched_tokens': 2048, 'max_num_seqs': 8, 'async_scheduling': True, 'speculative_config': {'method': 'mtp', 'num_speculative_tokens': 4, 'draft_sample_method': 'probabilistic'}, 'compilation_config': {'mode': None, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['+rms_norm', '+silu_and_mul'], 'ir_enable_torch_wrap': None, 'splitting_ops': None, 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_vision_items_per_batch': 0, 'encoder_cudagraph_max_frames_per_batch': None, 'compile_sizes': None, 'compile_ranges_endpoints': None, 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': None, 'cudagraph_num_of_warmups': 0, 'cudagraph_capture_sizes': None, 'cudagraph_copy_inputs': False, 'cudagraph_s",
+              "log:(APIServer pid=1) WARNING 08-31 17:37:30 [speculative.py:912] Enabling num_speculative_tokens > 1 will run multiple times of forward on same MTP layer,which may result in lower acceptance rate",
+              "log:(APIServer pid=1) INFO 08-31 17:37:30 [speculative.py:1157] Overriding draft model max model len from 262144 to 57344",
+              "log:(APIServer pid=1) WARNING 08-31 17:37:30 [vllm.py:1774] max_num_scheduled_tokens is set to 2048 based on the speculative decoding settings. This may lead to suboptimal performance. Consider increasing max_num_batched_tokens to accommodate the additional draft token slots, or decrease num_speculative_tokens or max_num_seqs.",
+              "log:(EngineCore pid=482) INFO 08-31 17:37:38 [core.py:121] Initializing a V1 LLM engine (v0.27.1) with config: model='/app/models/Qwen3.8-27B-W4A16-AutoRound', speculative_config=SpeculativeConfig(method='mtp', model='/app/models/Qwen3.8-27B-W4A16-AutoRound', num_spec_tokens=<redacted> tokenizer=<redacted>, skip_tokenizer_init=<redacted> tokenizer_mode=<redacted> revision=None, tokenizer_revision=<redacted> trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=57344, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=compressed-tensors, quantization_config=None, enforce_eager=False, enable_return_routed_experts=False, kv_cache_dtype=bfloat16, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='qwen3', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False, jit_monitor_mode='warn', jit_monitor_verbose=False), seed=0, served_model_name=qwen3.8-27b, enable_pre",
+              "log:(EngineCore pid=482) WARNING 08-31 17:37:39 [__init__.py:205] min_p and logit_bias parameters won't work with speculative decoding.",
+              "log:(EngineCore pid=482) INFO 08-31 17:37:40 [flash_attn.py:789] Using FlashAttention version 2",
+              "log:(EngineCore pid=482) WARNING 08-31 17:38:02 [vllm.py:1774] max_num_scheduled_tokens is set to 2048 based on the speculative decoding settings. This may lead to suboptimal performance. Consider increasing max_num_batched_tokens to accommodate the additional draft token slots, or decrease num_speculative_tokens or max_num_seqs.",
+              "log:(EngineCore pid=482) INFO 08-31 17:38:02 [llm_base_proposer.py:1478] Detected MTP model. Sharing target model embedding weights with the draft model.",
+              "log:(EngineCore pid=482) INFO 08-31 17:38:02 [llm_base_proposer.py:1558] Detected MTP model. Sharing target model lm_head weights with the draft model.",
+              "process:2826556             /app/venv/bin/python3.12 /app/venv/bin/vllm serve /app/models/Qwen3.8-27B-W4A16-AutoRound --served-model-name qwen3.8-27b --host 0.0.0.0 --port 18020 --gpu-memory-utilization 0.93 --max-model-len 57344 --max-num-seqs 8 --api-server-count 1 --language-model-only --attention-backend FLASH_ATTN --kv-cache-dtype bfloat16 --mamba-ssm-cache-dtype float16 --async-scheduling --max-num-batched-tokens 2048 --speculative-config {\"method\":\"mtp\",\"num_speculative_tokens\":4,\"draft_sample_method\":\"probabilistic\"} --compilation-config {\"max_cudagraph_capture_size\":32,\"custom_ops\":[\"+rms_norm\",\"+silu_and_mul\"]} --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser qwen3_coder"
+            ],
+            "matched_lines_sha256": "ded7b70cd220b1f5de2c563728950d96f556c38fd2e56ec30fb9044836568736",
+            "mtp_runtime_proven": true
+          }
+        }
+      }
+    }
+  },
+  "old_candidate_path_presence": [
+    {
+      "path": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey-fast-mtp/f958acb153eb8c7bbd25638149c8c75185559226-syv69ba4d0-int8-vocab40960",
+      "exists": false,
+      "receipt_exists": false,
+      "model_exists": false
+    },
+    {
+      "path": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey-int4-fast-mtp-adaptive-r1/f958acb153eb8c7bbd25638149c8c75185559226",
+      "exists": false,
+      "receipt_exists": false,
+      "model_exists": false
+    },
+    {
+      "path": "/srv/ai-server/staging/experiments/qwen38-syv-leminkozey-dflash2/f958acb153eb8c7bbd25638149c8c75185559226/drafter/4d30ec736ffc6b8688dc2ae2b502d9b48bdec279",
+      "exists": false,
+      "receipt_exists": false,
+      "model_exists": false
+    }
+  ],
+  "current_adaptive_receipt": {
+    "receipt_path": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/COMPLETE.receipt",
+    "calibration": {
+      "base_prompt_count": 8,
+      "capture_complete": true,
+      "capture_log_sha256": "762adb6770642f6e8cf2fdf05118c5f0047ec8ff274e397c2e4e0a67ff099aba",
+      "captured_rows": 134832,
+      "corpus_sha256": "ab2e4aea1d82e31cd1c66f7adb5d7d79b72e4def704bfae1db438baf9a4ebf7d",
+      "lm_head_calibration_rows": 114832,
+      "max_output_tokens": 1024,
+      "mtp_hessians_sha256": "9dceee818263220f89a0dd2003b9c82e588cd83abd703cc4cde034b010a90cfb",
+      "record_count": 128,
+      "source": "pinned syv bench/prompts_real.jsonl at the recipe revision"
+    },
+    "source": {
+      "receipt_sha256": "a1a385314549147c266eb404ab8d9255fc224b126040973797a95d34adfa621a",
+      "repository": "leminkozey/Qwen3.8-27B-Uncensored-W4A16-AutoRound",
+      "revision": "f958acb153eb8c7bbd25638149c8c75185559226"
+    }
+  },
+  "quality_fixtures": {
+    "path": "runners/quality_suite.py",
+    "sha256": "9bb1c15f69c4d2f3fc83eb613840a1c1422ff60d255ef3fdd37a4c93b1a4580f",
+    "canonical_json_sha256": "51bc5577046b49aa95977171a911c22756e8754ed5378234e39b47eb7e1f5c02",
+    "canonical_json_bytes": 64675,
+    "counts": {"coding": 30, "reasoning_ru": 12, "instruction": 12, "retrieval": 6},
+    "test_path": "runners/test_quality_suite.py",
+    "test_sha256": "bed3a51101e4ac9d6edccc60f2889efa77f7d0fde8016b11127ed19a2c635622",
+    "validation": "python -m unittest runners/test_quality_suite.py: 5 tests OK on corrected fixture candidate; JSON round-trip equality passed",
+    "check_extension": "python_function_cases: each vector has args, optional kwargs, and exactly one of expected or expected_exception; only ValueError is used",
+    "execution_ready": false,
+    "remaining": ["thinking mode and output budget", "isolated generated-code execution", "minimal transport and paired scoring adapter", "authorized temporary runtime and restoration contract"]
+  },
+  "execution_safety_blocker": {
+    "source_scope": "Current local host-control source plus read-only live admission status; no live inference or mutation",
+    "archived_runner": "E:/Projects/home_lab/projects/ai-server/experiments/qwen38_nvfp4_one_shot/syv_acceleration_runner.py:747",
+    "runner_action": "operator.advance('closed') before candidate start",
+    "allowlist_sources": [
+      "E:/Projects/home_lab/projects/ai-server/gateway/core.py:365",
+      "E:/Projects/home_lab/projects/ai-server/gateway/service.py:483",
+      "E:/Projects/home_lab/projects/ai-server/supervisor/admission_protocol.py:28"
+    ],
+    "conclusion": "Existing queue accepts fixed production profile IDs, not an arbitrary benchmark container. Out-of-band candidate start while public can race with user work. A bounded AI-generation interruption needs user agreement before any switch.",
+    "runtime_mutations_performed": false,
+    "measured_model_cases": 0
+  },
+  "warnings": [
+    "Current Adaptive receipt/calibration differs from historical receipt 364884080cdc88a0a6a82e4445cfe8b6531d6103a61abaedc3510a4aafc90e87; identical tensor metadata is not identical weight bytes.",
+    "Existing archived execution path closes public admission and assumes older Qwen production prestate; it was not run.",
+    "No semantic quality or current performance result is claimed."
+  ]
+}

@@ -1,0 +1,2 @@
+# Preserve the hash-bound suite bytes on Windows checkouts as well as Linux.
+runners/quality_expanded_v2.json text eol=lf

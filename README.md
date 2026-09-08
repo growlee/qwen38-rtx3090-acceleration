@@ -8,7 +8,40 @@ This is an experiment archive, not a model distribution or a turnkey server.
 It contains no weights, container images, credentials, user prompts, or user
 outputs. Synthetic benchmark prompts are included in the benchmark clients.
 
-## Performance progression
+## Quality and context results — 2026-09-08
+
+Start with the [consolidated results](evidence/quality-summary-2026-09-08.md):
+seven measured configurations on the same frozen 200-task suite, speed/quality
+trade-offs, configured context windows, and the exact historical Adaptive
+candidate that remains BLOCKED. Useful 200k context has **not** been validated;
+the longest tested prompt was 11,017 tokens.
+
+Detailed reports:
+
+- [Initial 60-task series](evidence/quality-results-2026-09-08.md).
+- [Expanded 200-task controls](evidence/quality-expanded-results-2026-09-08.md).
+- [INT8 and DFlash configurations](evidence/quality-remaining-results-2026-09-08.md).
+- [Adaptive with new calibration](evidence/quality-adaptive-reconstruction-2026-09-08.md).
+- [Existing roadmap and context audit](roadmaps/quality-degradation.md).
+
+These reports record completed experiments, not a fresh runtime check or an
+automatic production switch. Their weighted decode metric must not be compared
+directly with the historical fixed-output median benchmark below. Full raw run
+artifacts remain in the local evidence directories identified by each report;
+they are not all embedded in this repository.
+
+The quality client includes the frozen 60-task and 200-task suites. The local
+`test_quality_suite.py` depends on a fixture in the separate `home_lab` checkout
+and is not published as a portable test; its reported historical test run must
+not be interpreted as a clone-independent replay command.
+
+The expanded suite adapts selected HumanEval prompts, reference solutions and
+literal test vectors from commit `6d43fb980f9fee3c892a914eda09951f772ad10d`.
+Those portions retain their [OpenAI MIT license](runners/HumanEval-LICENSE).
+The request wrappers and task selection are modified; this is not the official
+HumanEval benchmark or score.
+
+## Historical performance progression — through 2026-09-02
 
 **Original accepted setup at 300 W: 37.621 tok/s. Best confirmed median:
 103.615801 tok/s.** That is 2.754x the original result, an illustrative gain of
@@ -37,12 +70,12 @@ controlled A/B test. The controlled improvement inside the later series is
 
 The highest individual request was **122.644630 tok/s**, but it was one case,
 not the stable headline result. The maximum confirmed median remains
-**103.615801 tok/s**.
+**103.615801 tok/s** for that historical benchmark protocol.
 
 ## What is included
 
-- `evidence/`: the original GPU baseline report plus four acceleration reports
-  and their machine-readable JSON evidence.
+- `evidence/`: historical GPU/acceleration reports and JSON evidence, plus the
+  September 8 quality reports and consolidated context findings.
 - `runners/`: portable benchmark clients, the two Adaptive GPTQ helper sources,
   and their narrow unit tests from the provenance commit below.
 
@@ -80,11 +113,15 @@ helper-pair bytes as well as the excluded host adapter.
 
 ## Provenance and upstream
 
-The evidence and unmodified benchmark clients are byte-for-byte exports from
+The original historical evidence and unmodified benchmark clients are byte-for-byte exports from
 tracked files in `E:\Projects\home_lab` commit
 `e232fa4a62505fe2e1c5cf30560b124920d04b5c`; their original relative paths are
 preserved in the Git history of that source repository. The two Adaptive GPTQ
 helper modules are derived files and carry explicit modification notices.
+
+The September 8 quality reports and roadmap are later additions with their own
+run identities and evidence references; the original export claim above does
+not apply to them.
 
 The measured runtime used the pinned
 [`syv-ai/qwen38-27b-rtx3090`](https://github.com/syv-ai/qwen38-27b-rtx3090)
