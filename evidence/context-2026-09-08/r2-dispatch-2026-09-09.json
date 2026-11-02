@@ -1,0 +1,17 @@
+{
+  "manifest_sha256": "89e8667d4c2031b6ce91fe0f73b206592ea9a6f4066b2e9328b4d570e209299e",
+  "command_result": {
+    "exitCode": 0,
+    "timedOut": false,
+    "durationMs": 217,
+    "stdout": "",
+    "stderr": "Running as unit: qwen-context-20260908-r2.service; invocation ID: 2828b0102ddc417c81c886af0e0fe554\n"
+  },
+  "first_status": {
+    "exitCode": 0,
+    "timedOut": false,
+    "durationMs": 196,
+    "stdout": "Restart=no\nRuntimeMaxUSec=2w 2d 22h 6min\nMainPID=4101930\nExecMainStatus=0\nActiveState=active\nSubState=running\nInvocationID=2828b0102ddc417c81c886af0e0fe554\n",
+    "stderr": ""
+  }
+}

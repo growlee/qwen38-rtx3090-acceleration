@@ -1,0 +1,82 @@
+{
+  "epoch": 1788946613.3155868,
+  "source_sha256": "2085436ed77ec5a9f64d61568bb612254cb58158027869fc036fa666ff914cfd",
+  "probe_only": true,
+  "measurement": {
+    "owned_allocated_bytes": 35995648,
+    "root_free_bytes": 168293060608,
+    "owned_container_count": 12,
+    "reserved_write_bytes": 536870912
+  },
+  "containers": {
+    "c1f6eb47de02849646e110713c1fe892df569185e1e88d2682cfb6d618efcc8e": "qwen-context-20260908-r1-adaptive-mtp-fast",
+    "46beab5784b4ab96a4316e9859904c71c57fc5d17dfeafd6bbed2c8c96781ae2": "qwen-context-20260908-r1-adaptive-mtp-fast-client",
+    "54b8dfec96b44892f446048bd2228e141fa176a8a4f347b4a7aaa8d5819d1cdd": "qwen-context-20260908-r1-adaptive-mtp-huge",
+    "a3e4996012b70e20176895eddfd99f6fc450e059c11f9dd9d32e05b78148504d": "qwen-context-20260908-r1-adaptive-mtp-huge-client",
+    "2635957d3b0cf8e46249f7240633cdba3bedfa3edfcfe4c2b2ae3591022adc58": "qwen-context-20260908-r1-autoround-mtp-fast",
+    "c2305d0fa5f9e498db10d8f3d6990f8ed67e0da4b2f2eeabc4af9f3b8f7ad53a": "qwen-context-20260908-r1-autoround-mtp-fast-client",
+    "3d15b30f64667cc8b1e5096716f4ef11d0fedb3cef1569fdfa4c8e0c928e6a0b": "qwen-context-20260908-r1-autoround-mtp-huge",
+    "98bd3def14bba90dbb670549f7f2902fab0f75ebefe53a7f37d330746c645ba9": "qwen-context-20260908-r1-autoround-mtp-huge-client",
+    "6f92a4fe707436d8e3f91d9adcc12f3ce37b2afc2f806d53263e5f1b2346b1ab": "qwen-context-20260908-r1-int8-mtp-fast",
+    "53e7e3fa6f1d028ebc7a1f90e1d5c8b42d763f1be1577f302613eade01d146b7": "qwen-context-20260908-r1-int8-mtp-fast-client",
+    "cb57325547636ca7df9fc8221e507e1ec58d623329fdb302aa4e57ff48bb3a03": "qwen-context-20260908-r1-int8-mtp-huge",
+    "96c231a61a881f10b0597bbced4b056f1abf7b60d04461e725a19d20e1316bb7": "qwen-context-20260908-r1-int8-mtp-huge-client"
+  },
+  "root_container_count": 12,
+  "frozen_r1_sha256": "7cb2f97465a69992babc9887780477ab98d3eb548500e33052cba7eb70248816",
+  "frozen_manifest_sha256": "c71c26c5cf3124347a021489d60148b102a5ad2c35ee4b1314e37ef8eafa36e6",
+  "production": {
+    "Id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+    "Image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "State": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-09T00:54:32.915985426Z",
+      "FinishedAt": "2026-09-09T01:27:41.20730023Z",
+      "Health": {
+        "Status": "unhealthy",
+        "FailingStreak": 0,
+        "Log": [
+          {
+            "Start": "2026-09-09T01:26:52.129505723Z",
+            "End": "2026-09-09T01:26:52.212616911Z",
+            "ExitCode": 0,
+            "Output": ""
+          },
+          {
+            "Start": "2026-09-09T01:27:02.213893433Z",
+            "End": "2026-09-09T01:27:02.305192433Z",
+            "ExitCode": 0,
+            "Output": ""
+          },
+          {
+            "Start": "2026-09-09T01:27:12.305971454Z",
+            "End": "2026-09-09T01:27:12.397451651Z",
+            "ExitCode": 0,
+            "Output": ""
+          },
+          {
+            "Start": "2026-09-09T01:27:22.398723297Z",
+            "End": "2026-09-09T01:27:22.483355238Z",
+            "ExitCode": 0,
+            "Output": ""
+          },
+          {
+            "Start": "2026-09-09T01:27:32.484651311Z",
+            "End": "2026-09-09T01:27:32.569299431Z",
+            "ExitCode": 0,
+            "Output": ""
+          }
+        ]
+      }
+    }
+  },
+  "service_states": "ai-server-gateway\tUp 35 hours (healthy)\nai-server-open-webui\tUp 35 hours (healthy)"
+}

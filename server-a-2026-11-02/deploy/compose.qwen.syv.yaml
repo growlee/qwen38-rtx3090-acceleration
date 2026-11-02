@@ -1,0 +1,94 @@
+name: ai-server
+
+services:
+  qwen:
+    image: ghcr.io/syv-ai/qwen38-27b-rtx3090@sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0
+    pull_policy: never
+    container_name: ai-server-qwen
+    restart: "no"
+    user: "65532:65532"
+    entrypoint:
+      - /bin/bash
+      - -lc
+    command:
+      - |
+        set -euo pipefail
+        api_key="$$(cat <redacted-secret-path>)"
+        test -n "$$api_key"
+        export VLLM_API_KEY="$$api_key"
+        unset api_key
+        exec bash docker/entrypoint.sh single
+    environment:
+      MODEL: /models/qwen
+      CTX: fast
+      SPEC: mtp
+      MAX_LEN: "57344"
+      GPU_UTIL: "0.93"
+      PREFIX_CACHE: "0"
+      DRAFT_TOKENS: "4"
+      PREPARE: "0"
+      VERIFY: "0"
+      PORT: "8080"
+      EXTRA_ARGS: --served-model-name qwen3.8-27b-uncensored
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+      HF_DATASETS_OFFLINE: "1"
+      DO_NOT_TRACK: "1"
+      HOME: /cache
+      XDG_CACHE_HOME: /cache
+      VLLM_OFFLOAD_KEEP_SHM: "1"
+      NVIDIA_VISIBLE_DEVICES: void
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility
+      CUDA_VISIBLE_DEVICES: "0"
+    devices:
+      - "nvidia.com/gpu=all"
+    expose:
+      - "8080"
+    volumes:
+      - /srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model:/models/qwen:ro
+    secrets:
+      - qwen_api_keys
+    networks:
+      - ai-control
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:rw,nosuid,size=4g
+      - /cache:rw,exec,nosuid,size=4g
+    shm_size: 16g
+    init: true
+    pids_limit: 2048
+    mem_limit: 30g
+    memswap_limit: 32g
+    stop_grace_period: 60s
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - |
+          /app/venv/bin/python - <<'PY'
+          import urllib.request
+          key = open('<redacted-secret-path>', encoding='utf-8').read().strip()
+          request = urllib.request.Request(
+              'http://127.0.0.1:8080/v1/models',
+              headers={'Authorization': 'Bearer ' + key},
+          )
+          with urllib.request.urlopen(request, timeout=4) as response:
+              raise SystemExit(0 if response.status == 200 else 1)
+          PY
+      interval: 10s
+      timeout: 5s
+      retries: 60
+      start_period: 150s
+      start_interval: 2s
+
+networks:
+  ai-control:
+    name: ai-server-control
+    internal: true
+
+secrets:
+  qwen_api_keys:
+    file: <redacted-secret-path>

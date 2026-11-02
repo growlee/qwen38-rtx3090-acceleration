@@ -1,0 +1,31 @@
+{
+  "combined_original_sha256": "72103e603400b48ee00a63accc51f6d5389ce6c6eb1371418d8d3227ed232745",
+  "new_modes": {
+    "dflash2-huge-n7-kv4gb-204800": {
+      "BLOCKED": 84
+    },
+    "original-gguf": {
+      "BLOCKED": 12
+    }
+  },
+  "newly_graded_coordinates": 96,
+  "original_coordinates": 612,
+  "original_counts": {
+    "BLOCKED": 96,
+    "FAIL": 1,
+    "PASS": 515
+  },
+  "repaired_coordinates": 84,
+  "repaired_profile_sha256": "7fab944895b99568a26444fb4430165523ccf436f9590337ad0c409c762b7847",
+  "sandbox_fenced": false,
+  "storage": {
+    "owned_allocated_bytes": 1191936,
+    "owned_container_count": 2,
+    "reserved_write_bytes": 536870912,
+    "root_free_bytes": 167766441984
+  },
+  "storage_owned_containers": {
+    "4288da32fd7a3da19789d34fb2b75b876872cbb58d9120ba95cc39c28abbaa50": "qwen-context-20260910-repair-original-gguf-client",
+    "9ab99b2d0ec6453ef3f5f9bf4c253ae7444c32b54bc0156894f0b85733c8c000": "qwen-context-20260910-repair-original-gguf"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "qwen-context-r2-capture-integrity/v1",
+  "epoch": 1788969801.374175,
+  "source_manifest_sha256": "89e8667d4c2031b6ce91fe0f73b206592ea9a6f4066b2e9328b4d570e209299e",
+  "context_report_sha256": "19576e40e10a0977b3c62373a3614e7457ec5488dae037fe4e276bb4b9a8a80d",
+  "legacy_report_sha256": "b16794d81771985c45d104eaeaab78dc3c00117903a1797a73a8ec653f89488a",
+  "files": {
+    "results/adaptive-mtp-huge.jsonl": {
+      "sha256": "3f5fb12a7994afac877b5d436229343aa7c569be3ceb73d9f086e1af816475a7",
+      "bytes": 7881
+    },
+    "results/adaptive-mtp-huge-resources.json": {
+      "sha256": "321c5146aaaa97b95f517389259c2ff72a75fe63aade21204acdb145d2c16a97",
+      "bytes": 188070
+    },
+    "results/reconstructed-mtp-fast.jsonl": {
+      "sha256": "bfcc6c78ff87f9cada80d446b93e40b28d6ff6d3266c309feae913308da3c529",
+      "bytes": 45286
+    },
+    "results/reconstructed-mtp-fast-resources.json": {
+      "sha256": "3b0786ffba923d8a18e48825fde215966abf4c1ff8af6e9fa266699676b70188",
+      "bytes": 104478
+    },
+    "results/reconstructed-mtp-huge.jsonl": {
+      "sha256": "338f58600216a2ac6aa4aae0a4aef5417b04f69def97052d888d02baae5c125d",
+      "bytes": 104970
+    },
+    "results/reconstructed-mtp-huge-resources.json": {
+      "sha256": "adf87b394bd6386ed8d488ef81782a99baf65886af189271262dbfd6e1bf8916",
+      "bytes": 1085222
+    },
+    "results/dflash2-fast-n7.jsonl": {
+      "sha256": "8c479b20f86ec96a094868616669f3e93bafbaa808af61fe72a0b64123337577",
+      "bytes": 44765
+    },
+    "results/dflash2-fast-n7-resources.json": {
+      "sha256": "11b7de861a6a2b689651a47390fe2b2d2abaee07598a5f93f1e8ee6b5aa38db3",
+      "bytes": 102259
+    },
+    "results/dflash2-huge-n7.jsonl": {
+      "sha256": "3681403d4cef975700c8b620e30f53535bf561445c97f073897b67092c221b44",
+      "bytes": 1684
+    },
+    "results/dflash2-huge-n7-resources.json": {
+      "sha256": "a5d3623244cab1580c29c996eb7bd5892f3e70cb74e274b2660c5b34e2d2d0f1",
+      "bytes": 1098
+    }
+  },
+  "storage_owned_containers": {
+    "0a0a8d57f51acd29269cdaabb3b259b577e5ef552406f1417b8fcba4ad49373a": "qwen-context-20260908-r2-dflash2-fast-n7-client",
+    "32511ebd357482b40c8df5d1e7207487429de389ff6f39a8365e62b5a07d0bb7": "qwen-context-20260908-r2-dflash2-huge-n7",
+    "3bd5122253f3572afd8daa4a0a72cb47371be43bdf6bd67c0d3b951b527f6c70": "qwen-context-20260908-r2-reconstructed-mtp-fast",
+    "570e2301007e1f2cee1a828fdca8b0a79489a52203ee2ffb6238d8ce9542bb17": "qwen-context-20260908-r2-dflash2-fast-n7",
+    "58300881b2207b86c5a839f62572f8e9084a69bdc8a17ac6eb53fec262221c3c": "qwen-context-20260908-r2-dflash2-huge-n7-client",
+    "629089d23038770c627c99407a8e511c3104206ba6ecfca019dce1d43b7b5e61": "qwen-context-20260908-r2-reconstructed-mtp-huge",
+    "72c36b54f568a04e42407ba1a06c0b7160e2511dad6fb721db233d35f1bb624e": "qwen-context-20260908-r2-adaptive-mtp-huge",
+    "9adf0bcf44232ac76b963953671e9d99e3406f716591f4388145ccc7a6094d5a": "qwen-context-20260908-r2-reconstructed-mtp-fast-client",
+    "d7a949e7f76843e589916fcf9bb8b6ca1b718ee9eedd02734efea0cc1bc67416": "qwen-context-20260908-r2-reconstructed-mtp-huge-client",
+    "e90862291570babc458833023247a7131e79d9ebf077ca93c0fa0d2486301497": "qwen-context-20260908-r2-adaptive-mtp-huge-client"
+  }
+}

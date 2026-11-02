@@ -1,0 +1,38 @@
+{
+  "execution-settings.json": {
+    "sha256": "b58d1cf73a547943abd00f535af5b697908cb17351e4a0ef16d8ec9605bdb6ce",
+    "size": 6329
+  },
+  "frozen/frozen.json": {
+    "sha256": "2df1be2cff66b53ce57b3eefe3eed8be2d16c59d1e37b783341f176995689d94",
+    "size": 29781351
+  },
+  "results/context-window-report.json": {
+    "sha256": "9090bb05991c03401a0d8cc9c1ba224e3cb797ab83c81ea3a45d50d055292ab5",
+    "size": 45044
+  },
+  "results/autoround-mtp-fast.jsonl": {
+    "sha256": "88df9e73ff07f5a2a8270102af14c2ab9579384088233fa7638be49d38e3c3f0",
+    "size": 45022
+  },
+  "results/autoround-mtp-huge.jsonl": {
+    "sha256": "d987d712cd164bf843252fe820875926e25bcc35a6b68a071e7eced4a60c1bab",
+    "size": 104470
+  },
+  "results/int8-mtp-fast.jsonl": {
+    "sha256": "74f6c31955a1a91848071ec91c8a5e227e1faa5a15016a8f3a5f65b1317801c6",
+    "size": 44830
+  },
+  "results/int8-mtp-huge.jsonl": {
+    "sha256": "309333b0ecdef9e961dcff62bd915565a694ff6a84f7c02a2e9058f5955801ac",
+    "size": 103615
+  },
+  "results/adaptive-mtp-fast.jsonl": {
+    "sha256": "16697d22bc223faf1573265b4cf6ba8e0e7acaee3a3597c3566f12f156966cdf",
+    "size": 44854
+  },
+  "results/adaptive-mtp-huge.jsonl": {
+    "sha256": "ffd16cf0cc75134fcd3b1349ca0c26e0b01efbf462dfd47d3a34657ffe53d700",
+    "size": 97340
+  }
+}

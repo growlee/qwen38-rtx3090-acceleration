@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "body_bytes": 250,
+  "ports": {
+    "18020/tcp": null,
+    "1919/tcp": [
+      {
+        "HostIp": "127.0.0.1",
+        "HostPort": "19191"
+      }
+    ]
+  },
+  "network_id": "45324081b82e4f6f3a792747375ac79c0a51f895e9f1e81f3c3696b81dfb01c9",
+  "probe_id": "6618a4331ae83e5b707d5791e034d79be68de543fafb2dd92f0580c2ced51975",
+  "final_state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 137,
+    "Error": "",
+    "StartedAt": "2026-09-18T08:38:57.267107032Z",
+    "FinishedAt": "2026-09-18T08:39:02.64517557Z"
+  }
+}

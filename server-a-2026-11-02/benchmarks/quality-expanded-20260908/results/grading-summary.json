@@ -1,0 +1,26 @@
+{
+  "autoround-bf16-mtp": {
+    "BLOCKED": 0,
+    "FAIL": 43,
+    "PASS": 157,
+    "cases": 200,
+    "input_sha256": "0d5d24f2b1a4253aab2ce1ce786b113e8d2d274be5072bee7491a67d9d02b472",
+    "mode_id": "autoround-bf16-mtp"
+  },
+  "current-adaptive-k4": {
+    "BLOCKED": 0,
+    "FAIL": 44,
+    "PASS": 156,
+    "cases": 200,
+    "input_sha256": "05cfb6620becc27db1ac007f77294dc6ac00566641796c46357694b0dc94678b",
+    "mode_id": "current-adaptive-k4"
+  },
+  "original-gguf": {
+    "BLOCKED": 0,
+    "FAIL": 66,
+    "PASS": 134,
+    "cases": 200,
+    "input_sha256": "8802b08f3b235a509a3571585873414241137f1253728bb8245331b4ca5ef1cc",
+    "mode_id": "original-gguf"
+  }
+}

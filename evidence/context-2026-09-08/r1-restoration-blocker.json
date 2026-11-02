@@ -1,0 +1,167 @@
+{
+  "at": "2026-09-09T00:28:15.331274+00:00",
+  "unit": "MainPID=0\nExecMainStatus=1\nActiveState=failed\nSubState=failed\n",
+  "admission": {
+    "active_ledger": [],
+    "active_ledger_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "admission_epoch": 311,
+    "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+    "capacity_mode": "serialized-99",
+    "coordinator_generation": "b5978099-076e-4ff8-89be-e6463c5968fd",
+    "ok": true,
+    "phase": "closed",
+    "queue_depth": 0,
+    "reconciliation_required": false,
+    "request_id": "higgs-queue-e9e4814e301f42b3bc02e823afad48ac",
+    "restart_pending": false,
+    "resume_phase": "closed",
+    "schema": "ai-admission-operator-response/v1"
+  },
+  "production_identity": {
+    "id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+    "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+    "running": false
+  },
+  "qwen_state": "stopped",
+  "rejected_start": {
+    "command": {
+      "profile": "qwen",
+      "verb": "start"
+    },
+    "created_at": 1788913450.874061,
+    "operation_id": null,
+    "result": {
+      "error": "storage_guard_blocked",
+      "idempotency_key": "q38-nvfp4-3985739-start-1",
+      "ok": false,
+      "storage": {
+        "ai_budget_gib": 200,
+        "allowed": false,
+        "projected_ai_usage_gib": 211.21988662611693,
+        "projected_root_free_gib": 156.0375747680664,
+        "reasons": [
+          "ai_budget_exceeded"
+        ],
+        "root_free_floor_gib": 150
+      }
+    },
+    "status": "completed"
+  },
+  "owned_containers": [
+    {
+      "id": "a3e4996012b70e20176895eddfd99f6fc450e059c11f9dd9d32e05b78148504d",
+      "name": "/qwen-context-20260908-r1-adaptive-mtp-huge-client",
+      "running": false,
+      "exit_code": 3,
+      "oom_killed": false
+    },
+    {
+      "id": "54b8dfec96b44892f446048bd2228e141fa176a8a4f347b4a7aaa8d5819d1cdd",
+      "name": "/qwen-context-20260908-r1-adaptive-mtp-huge",
+      "running": false,
+      "exit_code": 137,
+      "oom_killed": false
+    },
+    {
+      "id": "46beab5784b4ab96a4316e9859904c71c57fc5d17dfeafd6bbed2c8c96781ae2",
+      "name": "/qwen-context-20260908-r1-adaptive-mtp-fast-client",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "c1f6eb47de02849646e110713c1fe892df569185e1e88d2682cfb6d618efcc8e",
+      "name": "/qwen-context-20260908-r1-adaptive-mtp-fast",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "96c231a61a881f10b0597bbced4b056f1abf7b60d04461e725a19d20e1316bb7",
+      "name": "/qwen-context-20260908-r1-int8-mtp-huge-client",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "cb57325547636ca7df9fc8221e507e1ec58d623329fdb302aa4e57ff48bb3a03",
+      "name": "/qwen-context-20260908-r1-int8-mtp-huge",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "53e7e3fa6f1d028ebc7a1f90e1d5c8b42d763f1be1577f302613eade01d146b7",
+      "name": "/qwen-context-20260908-r1-int8-mtp-fast-client",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "6f92a4fe707436d8e3f91d9adcc12f3ce37b2afc2f806d53263e5f1b2346b1ab",
+      "name": "/qwen-context-20260908-r1-int8-mtp-fast",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "98bd3def14bba90dbb670549f7f2902fab0f75ebefe53a7f37d330746c645ba9",
+      "name": "/qwen-context-20260908-r1-autoround-mtp-huge-client",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "3d15b30f64667cc8b1e5096716f4ef11d0fedb3cef1569fdfa4c8e0c928e6a0b",
+      "name": "/qwen-context-20260908-r1-autoround-mtp-huge",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "c2305d0fa5f9e498db10d8f3d6990f8ed67e0da4b2f2eeabc4af9f3b8f7ad53a",
+      "name": "/qwen-context-20260908-r1-autoround-mtp-fast-client",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "2635957d3b0cf8e46249f7240633cdba3bedfa3edfcfe4c2b2ae3591022adc58",
+      "name": "/qwen-context-20260908-r1-autoround-mtp-fast",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "53555327874f258d4cca7f93e5a3dd817c7f1cbac2fa1c7ff25f5cebeb0a3922",
+      "name": "/qwen-context-20260908-r1-reference-reference-context-code-end-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "780267cf530608987e5b3bde0f19b98c80c59c7e53bb87e4046cafc8aa0a9532",
+      "name": "/qwen-context-20260908-r1-reference-reference-context-code-middle-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "6ed7a6d08c02205afc75af0759d5cc43e2393015d4d5febf0e44274b7dea24a0",
+      "name": "/qwen-context-20260908-r1-reference-reference-context-code-start-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    {
+      "id": "3bff9d616c9d5aaeeea004df1445242aadbf6e649652e3b947d544f2a8e04db5",
+      "name": "/qwen-context-20260908-r1-tokenizer",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    }
+  ],
+  "gpu_compute_pids": [],
+  "free_bytes": 168251994112
+}

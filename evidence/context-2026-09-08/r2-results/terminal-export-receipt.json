@@ -1,0 +1,30 @@
+{
+  "exported_at": "2026-09-09",
+  "files": {
+    "results/window-report.json": {
+      "remote_sha256": "b16794d81771985c45d104eaeaab78dc3c00117903a1797a73a8ec653f89488a",
+      "remote_bytes": 34060,
+      "local_added_trailing_lf": false
+    },
+    "results/context-window-report.json": {
+      "remote_sha256": "19576e40e10a0977b3c62373a3614e7457ec5488dae037fe4e276bb4b9a8a80d",
+      "remote_bytes": 36531,
+      "local_added_trailing_lf": true
+    },
+    "results/dflash2-huge-n7.jsonl": {
+      "remote_sha256": "3681403d4cef975700c8b620e30f53535bf561445c97f073897b67092c221b44",
+      "remote_bytes": 1684,
+      "local_added_trailing_lf": false
+    },
+    "results/dflash2-huge-n7-resources.json": {
+      "remote_sha256": "a5d3623244cab1580c29c996eb7bd5892f3e70cb74e274b2660c5b34e2d2d0f1",
+      "remote_bytes": 1098,
+      "local_added_trailing_lf": true
+    },
+    "controller.log": {
+      "remote_sha256": "f7dc17873887d9ce9fa032df711866079d6910ee4b0a3efc609ada40e4a336aa",
+      "remote_bytes": 1804,
+      "local_added_trailing_lf": false
+    }
+  }
+}

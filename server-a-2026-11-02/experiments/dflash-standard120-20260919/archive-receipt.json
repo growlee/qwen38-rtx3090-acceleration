@@ -1,0 +1,10 @@
+{
+  "archive": "/srv/ai-server/artifacts/experiments/dflash-standard120-20260919/evidence-20260919T005212Z.tar.gz",
+  "bytes": 87528,
+  "sha256": "997699e336821ae795abcfef42c9312478ca91d31e5fea3883beeb09416fd3ec",
+  "files": 19,
+  "source_logical_bytes": 594393,
+  "before_free_bytes": 92151996416,
+  "after_free_bytes": 92151906304,
+  "archive_phase_growth_bytes": 90112
+}

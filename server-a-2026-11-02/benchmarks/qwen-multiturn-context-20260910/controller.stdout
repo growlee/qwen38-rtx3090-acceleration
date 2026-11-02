@@ -1,0 +1,3 @@
+{"mode": "autoround-mtp-huge", "phase": "preparation"}
+{"mode": "autoround-mtp-huge", "phase": "capture"}
+{"outcome": "failed_restored", "report": "/srv/ai-server/benchmarks/qwen-multiturn-context-20260910/results/window-report.json"}

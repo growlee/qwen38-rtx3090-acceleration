@@ -1,0 +1,6 @@
+{
+  "status": "FAIL",
+  "restoration_verified": true,
+  "image_id": "sha256:10bc9d29f79941c71bb27a77974be4b2312ae64f02636dd5445db20e77675134",
+  "error": "RuntimeError: insufficient_available_host_ram"
+}

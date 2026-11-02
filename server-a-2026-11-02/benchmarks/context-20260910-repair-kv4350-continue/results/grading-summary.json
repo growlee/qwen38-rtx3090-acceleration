@@ -1,0 +1,59 @@
+{
+  "combined_original_path": "/srv/ai-server/benchmarks/context-20260910-repair-clientfix/results/combined-original-scores.jsonl",
+  "combined_original_sha256": "4f47916f1f0444478cc408d2a0610c2781777fdbfd1579f6bd83d589e320391e",
+  "continued_capture_coordinates": 63,
+  "new_modes": {
+    "dflash2-huge-n7-kv4350mb-204800": {
+      "FAIL": 1,
+      "PASS": 83
+    }
+  },
+  "newly_graded_coordinates": 84,
+  "original_coordinates": 612,
+  "original_counts": {
+    "BLOCKED": 84,
+    "FAIL": 1,
+    "PASS": 527
+  },
+  "original_matrix_reused_without_grading": true,
+  "preserved_capture_coordinates": 21,
+  "preserved_capture_sha256": "7ab958bb3a131122430226c4d2abd653f76df88206357c4ff91da5728237c1e9",
+  "repaired_coordinates": 84,
+  "repaired_profile_sha256": "3b4b2a8421c5128211abc0da3536cb64f4cfb8ec50a5e543e8dd5ec650fc4b0d",
+  "sandbox_fenced": false,
+  "storage": {
+    "owned_allocated_bytes": 3948544,
+    "owned_container_count": 23,
+    "reserved_write_bytes": 536870912,
+    "root_free_bytes": 167357239296
+  },
+  "storage_owned_containers": {
+    "00dd88644c2b6e502ea89079f4ffe77ab749acd3bcf79f2f1b9e3d7e32917ae6": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-end-t8192",
+    "117cf1c309a109c52afdba94620f5e05a2171764f2632c4ca60ebda3e2b3e3e3": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-start-t50000",
+    "118200cd3900995da1eb24cdb98ab593bc4255e8e3b5365be41616569bb2bad7": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-end-t200000",
+    "1be51a6918ae8a750f9376b22ad6791679e8940374b9b8c67b7488fa3c04d99c": "qwen-context-20260910-repair-kv4350-continue-dflash2-huge-n7-kv4350mb-204800-client",
+    "22097702578f45e9f4a5328b4c9ca01b17181ef39f2d26061fafe7ff0a1de3d2": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-end-t32768",
+    "34aa3666896c8bd6c6a5ad7f68b61f80bd0491967d4abf7f7d0129dee98414ca": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-middle-t50000",
+    "3c92a9949e17807fa2474c108594810ed3b50641d787ff3246bc324cae29b1dd": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-end-t160000",
+    "3d2a77020cbb0b2b57fd2a28fd0ee3671629b24b197680bf0fee5afcd1847f4a": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-start-t200000",
+    "4091af4bb127a989e5132caefee7c35841a3399e1fe5837c5bdfbb007d0cde5f": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-end-t128000",
+    "522d83f4d1a6a7d3f08e2e49ac19c938e967f0358e5fef9616514aecc6a5b2b3": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-start-t128000",
+    "607eb4c2cdec213ce1121585ef66771dca5277b4160f9d80bc01b3befbf18c81": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-middle-t8192",
+    "694586aebb5d2db96d75e0b01c33efd54fe3aadc4bfe78626fde52e9592bff51": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-middle-t160000",
+    "7298d3fed7d047d4c69e20597bc1ed8ac8c854bbd88298672920e93dab516b79": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-middle-t96000",
+    "7b9888bc9885dadbaa09dc8fba9d6857a4d7da4cde5f9b7a963b823d845c185c": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-start-t96000",
+    "7e9f06894b43d4ac88e5d14b264b3e94b646cb39562245fa3157f37f7d5b67ff": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-middle-t128000",
+    "832cfebae649add82f20ac4b2d2b0826bd6823d5af1354333dc139545b258f95": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-start-t32768",
+    "91d7d045a5ac0f61ce57720c5a73fc9ee10dd4266103ba65096fe5a197eb28e9": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-middle-t200000",
+    "b695d5a39bfa4aa7334bc5069708ebb06234cf9d1de395e9fcdf4a10856aa875": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-end-t50000",
+    "bb7ffaad6455f03b8f8d1bcef6d8901f9dfa3648d61f407d02bb7bbd4fc64a0e": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-middle-t32768",
+    "da13c6156455aef45ab6ad86cd67e64c4db10c8b19f101e2b153fd3f00a72b75": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-start-t160000",
+    "de47595536d1de2dbf1673b5a6727c4dcf34bf1d3ba9654438be8d330c567c22": "qwen-context-20260910-repair-kv4350-continue-dflash2-huge-n7-kv4350mb-204800",
+    "e3401389e25e79bdb9d2f647bb358715a206aa50c271cc916863cc98cefd5cfb": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-start-t8192",
+    "ffeb96a573f768dc869058ea36a74a7065f95afb55e0fce67e2b3bfaccd6652b": "qwen-context-20260910-kv4350-continue-code-dflash2-huge-n7-kv4350mb-204800-context-code-end-t96000"
+  },
+  "timing_external_backup_overlap": [
+    "context-version-start-t32768",
+    "context-version-middle-t32768"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "schema": "qwen38-context-export/v1",
+  "source_host": "server-a",
+  "source_root": "/srv/ai-server/benchmarks/context-20260908-r1/results",
+  "source_manifest_sha256": "c71c26c5cf3124347a021489d60148b102a5ad2c35ee4b1314e37ef8eafa36e6",
+  "mode_id": "int8-mtp-huge",
+  "exported_at_utc": "2026-09-08T21:27:53.089202+00:00",
+  "capture_status": "84_complete_envelopes",
+  "grading_status": "pending_after_public_restoration",
+  "files": [
+    {
+      "name": "int8-mtp-huge.jsonl",
+      "source_bytes": 103615,
+      "source_sha256": "309333b0ecdef9e961dcff62bd915565a694ff6a84f7c02a2e9058f5955801ac",
+      "local_sha256": "309333b0ecdef9e961dcff62bd915565a694ff6a84f7c02a2e9058f5955801ac",
+      "normalization": "none"
+    },
+    {
+      "name": "int8-mtp-huge-resources.json",
+      "source_bytes": 843630,
+      "source_sha256": "f98dc874e3c70f24f20ba01b50bf1dd353e7e25e4aeb99283f10a4dec06359e4",
+      "local_sha256": "e5aa6ccd9cc02abcc4b48cab99fb83d57de8df240a315d0151852248dd8c845e",
+      "normalization": "One final LF added by text export; removing that LF reproduces the verified source SHA-256."
+    },
+    {
+      "name": "int8-mtp-huge.stderr",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported": false,
+      "reason": "empty; source retained"
+    }
+  ],
+  "captured_length_summary": [
+    {
+      "target": 8192,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 8235,
+      "min_input": 8192,
+      "ttft_median": 7.0739175,
+      "decode_median": 62.8835805,
+      "elapsed_max": 8.814411,
+      "finish_reasons": {
+        "stop": 12
+      }
+    },
+    {
+      "target": 32768,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 32807,
+      "min_input": 32781,
+      "ttft_median": 31.132635999999998,
+      "decode_median": 49.4685935,
+      "elapsed_max": 32.561476,
+      "finish_reasons": {
+        "stop": 12
+      }
+    },
+    {
+      "target": 50000,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 50042,
+      "min_input": 50016,
+      "ttft_median": 50.5741405,
+      "decode_median": 43.5245495,
+      "elapsed_max": 52.536802,
+      "finish_reasons": {
+        "stop": 12
+      }
+    },
+    {
+      "target": 96000,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 96032,
+      "min_input": 96006,
+      "ttft_median": 113.23658800000001,
+      "decode_median": 31.822975999999997,
+      "elapsed_max": 115.225806,
+      "finish_reasons": {
+        "stop": 12
+      }
+    },
+    {
+      "target": 128000,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 128027,
+      "min_input": 128001,
+      "ttft_median": 166.602256,
+      "decode_median": 26.7664115,
+      "elapsed_max": 169.00608,
+      "finish_reasons": {
+        "stop": 12
+      }
+    },
+    {
+      "target": 160000,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 160041,
+      "min_input": 160001,
+      "ttft_median": 226.98562149999998,
+      "decode_median": 23.255954000000003,
+      "elapsed_max": 229.96794,
+      "finish_reasons": {
+        "stop": 12
+      }
+    },
+    {
+      "target": 200000,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 200027,
+      "min_input": 200001,
+      "ttft_median": 313.393737,
+      "decode_median": 19.945701,
+      "elapsed_max": 316.580817,
+      "finish_reasons": {
+        "stop": 12
+      }
+    }
+  ],
+  "paired_autoround_huge": {
+    "count": 84,
+    "request_sha_input_count_mismatches": [],
+    "raw_outcome_pairs": {
+      "pass/pass": 63,
+      "pending_sandbox/pending_sandbox": 21
+    }
+  },
+  "resources_summary": {
+    "sample_count": 10606,
+    "max_gpu_mib": 22026,
+    "max_temp_c": 74,
+    "min_available_ram_bytes": 25008054272
+  },
+  "limitations": "Code remains pending_sandbox; no new inference or sandbox evaluation during export. Decode is measured on short outputs and includes stream delivery; not a sustained 1024-token benchmark. Host background filesystem allocations were observed and recorded in the roadmap."
+}

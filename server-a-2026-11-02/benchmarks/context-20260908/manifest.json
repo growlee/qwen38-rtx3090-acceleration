@@ -1,0 +1,10 @@
+{
+  "suite_id": "qwen38-context-12x7-v1",
+  "files": {
+    "execution.md": "97b317351bf10217410f89011ff8b88e6feb667e4229fe85cec25f53f6cbbe54",
+    "run_context.py": "c31717a56525fe275b8c0e12a3ee64367ac1301a7bc98c70cdaaf5f0d7d8801e",
+    "grade_context.py": "331ccf571e1bcd3ebe17ce4cc9ef9972ccd2b8e55a3439774e6271db0805e605",
+    "quality_context_suite.py": "bcfbb9a7978c3f8d5a4f9b4484b314ad8d5e4b141de6765fc5aeb1b88d2d2ea8",
+    "quality_context_client.py": "54e22e923991e6d7a3ec45bae2aac2576a8f53a873865393171d627f6dba9862"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "local-reviewed-source-snapshot-not-deployment-manifest",
+  "authoring_root": "E:/Projects/home_lab/outputs/qwen-context-20260908",
+  "files": {
+    "context_storage.py": "2085436ed77ec5a9f64d61568bb612254cb58158027869fc036fa666ff914cfd",
+    "continue_context.py": "79f51e36e7d148ba54904aa9cee9d2dc594c0ae89bf149a0694853b11a42c64c",
+    "grade_context_continuation.py": "145ed4d1d910aa416eced8f83105231353857eba614e949cc242ce2a82883dbc",
+    "continuation-execution.md": "5dbebc5ea741e97c040caa023e7c7c6795ad2195ea9dc34fbddd485b8ad66777",
+    "test_context_storage.py": "845c4ce26fa41c2bda9d651c15da5ce991fed7e16a6624de1b27d0a8211e4961",
+    "test_continue_context.py": "306bcfd3611ac0f13941bdb590bf769a661027bbd04e84dd82939359cfda7ad6",
+    "test_grade_context_continuation_integration.py": "55c9d3d89ca2149cad5c59d264de32ee533ba1ebb8037d91ac92a2e686390fcd"
+  }
+}

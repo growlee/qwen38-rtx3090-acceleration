@@ -1,0 +1,111 @@
+{
+  "at": "2026-09-09T00:27:33.824228+00:00",
+  "logical_path_sum_bytes": 226795716825,
+  "unique_inode_logical_bytes": 126293072636,
+  "unique_inode_physical_bytes": 112964624384,
+  "duplicate_hardlink_paths": 70,
+  "logical_by_top_directory": {
+    "outputs": 255988640,
+    "models-extra": 6938040682,
+    "staging": 134098403865,
+    "exports": 631,
+    "diagnostics": 204433492,
+    "artifacts": 16743785880,
+    "benchmarks": 38727342,
+    "state": 21530818167,
+    "model-store": 46985518126
+  },
+  "captured": 355,
+  "groups": {
+    "adaptive-mtp-fast.jsonl": {
+      "cases": 36,
+      "outcomes": {
+        "pass": 27,
+        "pending_sandbox": 9
+      },
+      "last_rows": []
+    },
+    "adaptive-mtp-huge.jsonl": {
+      "cases": 79,
+      "outcomes": {
+        "pass": 60,
+        "pending_sandbox": 18,
+        "error": 1
+      },
+      "last_rows": [
+        {
+          "case_id": "context-version-start-t200000",
+          "context_limit": 204800,
+          "family_id": "context-version-start",
+          "input_tokens": 200018,
+          "kind": "case_start",
+          "mode_id": "adaptive-mtp-huge",
+          "request_bytes": 733820,
+          "started_epoch": 1788913170.559177,
+          "target_tokens": 200000
+        },
+        {
+          "case_id": "context-version-start-t200000",
+          "content": "",
+          "context_limit": 204800,
+          "decode_rate_definition": "completion_tokens / seconds from first generated delta through stream end",
+          "decode_tokens_per_second": null,
+          "elapsed_seconds": 279.369051,
+          "ended_epoch": 1788913449.928271,
+          "error": "stream_incomplete",
+          "family_id": "context-version-start",
+          "finish_reason": null,
+          "input_tokens": 200018,
+          "kind": "case",
+          "mode_id": "adaptive-mtp-huge",
+          "model_id": "qwen3.8-27b",
+          "outcome": "error",
+          "reasoning": "",
+          "request_bytes": 733820,
+          "request_sha256": "5fd34e99ba0d8fda9bb7334005852019852ae7e3508545ecd03694d1da7833e7",
+          "schema": "qwen38-quality-jsonl/v1",
+          "sse_bytes": 0,
+          "started_epoch": 1788913170.559177,
+          "target_tokens": 200000,
+          "tool_calls": [],
+          "ttft_first_content_or_tool_seconds": null,
+          "ttft_first_generated_seconds": null,
+          "usage": null
+        }
+      ]
+    },
+    "autoround-mtp-fast.jsonl": {
+      "cases": 36,
+      "outcomes": {
+        "pass": 27,
+        "pending_sandbox": 9
+      },
+      "last_rows": []
+    },
+    "autoround-mtp-huge.jsonl": {
+      "cases": 84,
+      "outcomes": {
+        "pass": 63,
+        "pending_sandbox": 21
+      },
+      "last_rows": []
+    },
+    "int8-mtp-fast.jsonl": {
+      "cases": 36,
+      "outcomes": {
+        "pass": 27,
+        "pending_sandbox": 9
+      },
+      "last_rows": []
+    },
+    "int8-mtp-huge.jsonl": {
+      "cases": 84,
+      "outcomes": {
+        "pass": 63,
+        "pending_sandbox": 21
+      },
+      "last_rows": []
+    }
+  },
+  "root_free_bytes": 168252018688
+}

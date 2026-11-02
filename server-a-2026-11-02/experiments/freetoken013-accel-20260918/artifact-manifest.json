@@ -1,0 +1,103 @@
+{
+  "artifacts": [
+    {
+      "name": "cuda-tile",
+      "version": "1.6.0",
+      "url": "https://files.pythonhosted.org/packages/40/21/3dfeafbd3512e94a277a25ce022c10e7bdff5d43e364afffcc0928f7fcaf/cuda_tile-1.6.0-cp312-cp312-manylinux2014_x86_64.whl",
+      "size": 382170,
+      "sha256": "7e38f97bfedff359c926710387a40fbfc8f36efb7fe9ad2cb759d5a098eedde3",
+      "filename": "cuda_tile-1.6.0-cp312-cp312-manylinux2014_x86_64.whl",
+      "entries": 88,
+      "uncompressed_bytes": 1364358,
+      "allocated_bound_bytes": 1560576
+    },
+    {
+      "name": "flashinfer-python",
+      "version": "0.6.18.post1",
+      "url": "https://files.pythonhosted.org/packages/64/3f/bd0a74bfbb4f3813bfe61267ff696fb229ab70c0f1f44848287221928c95/flashinfer_python-0.6.18.post1-py3-none-any.whl",
+      "size": 18348022,
+      "sha256": "adb6d2952b47131138e108bd2999b1fe18b71f1a4c0b2684f168753db9563991",
+      "filename": "flashinfer_python-0.6.18.post1-py3-none-any.whl",
+      "entries": 5298,
+      "uncompressed_bytes": 94219622,
+      "allocated_bound_bytes": 105771008
+    },
+    {
+      "name": "nccl4py",
+      "version": "0.5.0",
+      "url": "https://files.pythonhosted.org/packages/4f/d8/4f259f648702739d5b041c8b6b97438acadb461690bbfcc6681e0ff90cdc/nccl4py-0.5.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "size": 3572033,
+      "sha256": "51156cbc35eb9122b870aa7ba1244d0c4781266442036c2bb3e1abb7e88d9376",
+      "filename": "nccl4py-0.5.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "entries": 51,
+      "uncompressed_bytes": 14249701,
+      "allocated_bound_bytes": 14352384
+    },
+    {
+      "name": "ninja",
+      "version": "1.13.2",
+      "url": "https://files.pythonhosted.org/packages/6e/53/ebfed7b689c338dd8ebeec9c0730c8d56821292f14e2536e5f3ef1a05744/ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "size": 183365,
+      "sha256": "65a24341b5ac09fcadcc37082660be40a94174e51a937fabf6e2cae26225fa2c",
+      "filename": "ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "entries": 17,
+      "uncompressed_bytes": 398640,
+      "allocated_bound_bytes": 430080
+    },
+    {
+      "name": "nvidia-cudnn-frontend",
+      "version": "1.29.0",
+      "url": "https://files.pythonhosted.org/packages/00/0f/e23b9aed64cd009029a2a18b6b9b20f88fa036bb96b7d8b50465eb3bccb6/nvidia_cudnn_frontend-1.29.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "size": 7292886,
+      "sha256": "596c9b7591457b4b49227fa2e22bd5960957a198e4336ce9ada8b5d2a1e4a5a1",
+      "filename": "nvidia_cudnn_frontend-1.29.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "entries": 811,
+      "uncompressed_bytes": 33256745,
+      "allocated_bound_bytes": 34824192
+    },
+    {
+      "name": "nvidia-cutlass-dsl-libs-cu13",
+      "version": "4.7.1",
+      "url": "https://files.pythonhosted.org/packages/10/71/e178bb0858fd7b96857e98e3acec70b23f13b88540a2fcc53569f8e8ea34/nvidia_cutlass_dsl_libs_cu13-4.7.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "size": 88260436,
+      "sha256": "20c14e16125cb8e36bc9947a9f0a57a660f44651365337b911c84abde4967f5f",
+      "filename": "nvidia_cutlass_dsl_libs_cu13-4.7.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "entries": 23,
+      "uncompressed_bytes": 223952073,
+      "allocated_bound_bytes": 223981568
+    },
+    {
+      "name": "nvidia-ml-py",
+      "version": "13.610.43",
+      "url": "https://files.pythonhosted.org/packages/23/45/caa600acfab94560807a20a64b5830d2cd3c3202b7f1328644d70b7d6bd8/nvidia_ml_py-13.610.43-py3-none-any.whl",
+      "size": 53163,
+      "sha256": "f13c72698edef492f985cc225f14faafe68ae065a2e407f45bdf6f4b9b43fde8",
+      "filename": "nvidia_ml_py-13.610.43-py3-none-any.whl",
+      "entries": 6,
+      "uncompressed_bytes": 311283,
+      "allocated_bound_bytes": 327680
+    },
+    {
+      "name": "sglang-kernel",
+      "version": "0.4.5",
+      "url": "https://files.pythonhosted.org/packages/ab/62/c99dac5404b004f1c8e0d846c18566f2678374cde919ed03db373084ba89/sglang_kernel-0.4.5-cp310-abi3-manylinux2014_x86_64.whl",
+      "size": 382990222,
+      "sha256": "5927a14dfff92ced8b1f7c7d5844144bc574ec58e604d4fd53e6f53c709003a8",
+      "filename": "sglang_kernel-0.4.5-cp310-abi3-manylinux2014_x86_64.whl",
+      "entries": 86,
+      "uncompressed_bytes": 1205702682,
+      "allocated_bound_bytes": 1205878784
+    },
+    {
+      "name": "tabulate",
+      "version": "0.10.0",
+      "url": "https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl",
+      "size": 39814,
+      "sha256": "f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3",
+      "filename": "tabulate-0.10.0-py3-none-any.whl",
+      "entries": 7,
+      "uncompressed_bytes": 150857,
+      "allocated_bound_bytes": 172032
+    }
+  ]
+}

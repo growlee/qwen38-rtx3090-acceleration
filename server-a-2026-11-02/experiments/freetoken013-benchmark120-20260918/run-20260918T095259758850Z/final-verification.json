@@ -1,0 +1,64 @@
+{
+  "utc": "2026-09-18T10:02:40.942646+00:00",
+  "qwen_exact_prestate_checks": {
+    "id": true,
+    "image": true,
+    "state": true,
+    "command": true,
+    "entrypoint": true,
+    "mounts": true,
+    "ports": true,
+    "restart": true,
+    "device_requests": true,
+    "compose_sha256": true,
+    "env_names": true,
+    "runtime_env": true
+  },
+  "candidate_id": "4a741eeb0dd8f832f222f0b458756f4755b72f19ef34588f918138a714afc7b7",
+  "candidate_state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-18T09:52:59.965100685Z",
+    "FinishedAt": "2026-09-18T09:59:56.671002513Z"
+  },
+  "candidate_config_matches": true,
+  "admission": {
+    "phase": "public",
+    "admission_epoch": 351,
+    "queue_depth": 0,
+    "restart_pending": false,
+    "reconciliation_required": false,
+    "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+    "coordinator_generation": "2c5f167b-655f-4a82-abf2-81da72c3348f"
+  },
+  "gateway": "healthy",
+  "supervisor": "active",
+  "gpu_compute_processes": [],
+  "endpoint_loopback_port_free": true,
+  "score": {
+    "BLOCKED": 0,
+    "FAIL": 11,
+    "PASS": 109,
+    "cases": 120,
+    "free_bytes_after": 122251948032,
+    "free_bytes_before": 122265993216,
+    "input_sha256": "84ba487063ef60728e2d4ec5c586f1da4abb7b8896d509b4d8294b58fe80198e",
+    "mode_id": "freetoken013-nvfp4-coding120"
+  },
+  "sandbox_containers_retained": 120,
+  "all_sandboxes_stopped": true,
+  "disk_free_bytes": 122251890688,
+  "artifact_physical_bytes": 1310720,
+  "memory": {
+    "mem_available_bytes": 29941497856,
+    "swap_free_bytes": 6849556480,
+    "container_limit_bytes": 25769803776
+  }
+}

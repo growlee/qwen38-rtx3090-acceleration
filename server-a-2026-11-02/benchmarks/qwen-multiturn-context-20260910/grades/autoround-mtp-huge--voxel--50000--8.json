@@ -1,0 +1,1 @@
+{"case_id":"autoround-mtp-huge--voxel--50000--8","status":"FAIL","reason":"patch:base_sha_mismatch","result_sha256":"325d44327a183ae27d8164ebbc335f807c9e8c03b0d4cfdd985b4c0f731a074f","response_sha256":"7261d5285d52ba09206ae5dd54f6df9f986d7395c2e278e861328dfc9f0a4ba0","snapshot_sha256":"a560fd5f090297a7e68a4741052fc7325c0e1afd57341b9713895837b8f39469"}

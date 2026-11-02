@@ -1,0 +1,14 @@
+{
+  "capture_sha256": {
+    "continue/dflash2-huge-n7-kv4350mb-204800-resources.json": "284fc06b66079a5aaaf6221c7d1737427716eac6659fb35af8f3054234168ce6",
+    "continue/dflash2-huge-n7-kv4350mb-204800.jsonl": "0482a9f0d1957bfd67eb17c57a7b4db6e0bb5c232b82c820d89eb6aa167d529d",
+    "preserved/dflash2-huge-n7-kv4350mb-204800.jsonl": "7ab958bb3a131122430226c4d2abd653f76df88206357c4ff91da5728237c1e9"
+  },
+  "context_report_sha256": "4388f49dffc37042d6020f52de1d14e9a4bc7cd3cda6d76ea137d464ebadb561",
+  "ended_epoch": 1789012456.2416697,
+  "outcome": "grading_complete",
+  "source_manifest_sha256": "fe7bea03234b74072f37b4a6f5ee8339dab57c4220360063bc7db466e4cfc0c3",
+  "source_scores_sha256": "4f47916f1f0444478cc408d2a0610c2781777fdbfd1579f6bd83d589e320391e",
+  "started_epoch": 1789012451.0935018,
+  "summary_sha256": "81246b79f3d6c16319c7421c9b90cd77f99f115065e63a15c306399e4c7bc639"
+}

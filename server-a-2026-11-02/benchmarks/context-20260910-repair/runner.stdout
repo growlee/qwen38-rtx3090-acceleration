@@ -1,0 +1,3 @@
+{"mode": "original-gguf", "phase": "preparation"}
+{"mode": "original-gguf", "phase": "capture"}
+{"outcome": "failed_restored", "report": "/srv/ai-server/benchmarks/context-20260910-repair/results/window-report.json"}

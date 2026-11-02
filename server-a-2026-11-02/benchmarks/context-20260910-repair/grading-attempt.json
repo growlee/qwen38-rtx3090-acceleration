@@ -1,0 +1,13 @@
+{
+  "capture_sha256": {
+    "original-gguf-resources.json": "ffb2cb0a1d37c9782fbe95d7cc5bfbb781b320e61d040077b3bb89e6178a4843",
+    "original-gguf.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "context_report_sha256": "64a362072a70b563cf88e89cf26c1a1c7eb3716d39de639e85243e7dffb912c8",
+  "ended_epoch": 1788995851.3014858,
+  "outcome": "grading_complete",
+  "source_manifest_sha256": "fc10b9dd1d5ced63b92104e16618f6aece18f851e262f0d8314b551b4e2af88b",
+  "source_scores_sha256": "777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9",
+  "started_epoch": 1788995851.1984246,
+  "summary_sha256": "87c17149c5d69c116241c3b652cf95fedc1beade2d9bc2719db1dd4e341ad47b"
+}

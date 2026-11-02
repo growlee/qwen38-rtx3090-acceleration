@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"uid\": 65532, \"cache\": \"/cache/torchinductor\", \"dynamo_import_ok\": true, \"fla_import_ok\": true}\n",
+  "stderr": "/opt/freetoken013/lib/python3.12/site-packages/freetoken/kernel/fla/utils.py:224: UserWarning: Triton is not supported on current platform, roll back to CPU.\n  warnings.warn(\n"
+}

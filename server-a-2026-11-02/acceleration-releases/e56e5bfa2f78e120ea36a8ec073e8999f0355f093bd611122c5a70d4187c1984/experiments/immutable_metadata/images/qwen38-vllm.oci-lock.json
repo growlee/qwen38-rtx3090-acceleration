@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "kind": "oci-image-metadata-lock",
+  "registry": "ghcr.io",
+  "repository": "syv-ai/qwen38-27b-rtx3090",
+  "manifest": {
+    "media_type": "application/vnd.oci.image.manifest.v1+json",
+    "digest": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "size": 2773,
+    "config": {
+      "media_type": "application/vnd.oci.image.config.v1+json",
+      "digest": "sha256:b0516eab4a689391cd73629593d53111777691c5f3c453d5064e77fe55981101",
+      "size": 14631
+    },
+    "layers": [
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:76249c7cd50397d2e8c06a75106723d057deaba0ffbc7f4af1bb02bcf71d81cf", "size": 29723064},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:401d11fb2a0945d50e4cbfd2cca983a3686804bd0f2f6ea8c088452bf7f203f9", "size": 4547100},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:ab7341a40ee7a7ada312ea6e9ee4a4841239b34a65c90bcbd75e7913dc9b73bf", "size": 105155374},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:d7913b78456aa0d9d7509d36fedb86528095b092d7e2a855b6fd6ac598459e84", "size": 184},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:c03b8ec8dd332435fbc4c1fe6eeb6f0e8e8da2dd9d5ddcb50ad14c4a7ebf8939", "size": 6886},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:4da92752d43dc8af44cc86e0d9a27cc8e8a051de09c5a2b329a6cf9945544c0c", "size": 385300825},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:93ff449dfa4feb39cc3a698e04db3dfb845e05a97ae5ad5d412d4757804e7e51", "size": 93},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:adcc5017343957f1ddaea3389d8db5052c5db73972fcd0d18ae9c7786e911906", "size": 3760483},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:deefd698bec7c2b528f9370541a486b991b46ad8bfcf66c6cfd7d8f8b6272571", "size": 722},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:a6ae1eec7a6bc44b67e64796db494f58cff57bb052dd39d4270179b12848f8e7", "size": 4041423123},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:bcc8742dd27bb108383f4151f7cc8cd54cbde841d09ecf0ab0db53c03a3fc922", "size": 7204139},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:a77cef3cfa74cc7822fae0e66aad89b44103ca1cb882a1dee55f052251af634c", "size": 779521},
+      {"media_type": "application/vnd.oci.image.layer.v1.tar+gzip", "digest": "sha256:a2fe27ece54f585fb5b877edc89599299f437849ba7c176abe3f54101ef25b9c", "size": 136}
+    ]
+  },
+  "config_metadata": {
+    "architecture": "amd64",
+    "os": "linux",
+    "created": "2026-08-27T08:55:40.479541114Z",
+    "entrypoint": ["bash", "docker/entrypoint.sh"],
+    "cmd": ["single"],
+    "working_dir": "/app",
+    "exposed_ports": ["18020/tcp"],
+    "labels": {
+      "org.opencontainers.image.created": "2026-08-27T08:52:29.474Z",
+      "org.opencontainers.image.licenses": "Apache-2.0",
+      "org.opencontainers.image.revision": "69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c",
+      "org.opencontainers.image.source": "https://github.com/syv-ai/qwen38-27b-rtx3090",
+      "org.opencontainers.image.title": "qwen38-27b-rtx3090"
+    }
+  }
+}

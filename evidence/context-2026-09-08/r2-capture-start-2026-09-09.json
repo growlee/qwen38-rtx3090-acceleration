@@ -1,0 +1,35 @@
+{
+  "observed_epoch": 1788953081.0321264,
+  "public_preflight": {
+    "container": {
+      "id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+      "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+      "running": true
+    },
+    "gateway_completions": 1,
+    "public_marker_outcome_unknown": false,
+    "qwen_ready": true,
+    "start_outcome_unknown": false,
+    "verified_epoch": 1788953020.4643815
+  },
+  "closed_idle_preflight": {
+    "runtime": {
+      "compute_pids": [],
+      "power_limit_w": 300,
+      "profiles": {
+        "higgs-tts3": "stopped",
+        "pony-v6": "stopped",
+        "pony-v7": "stopped",
+        "qwen": "stopped",
+        "qwen-dflash2": "stopped"
+      },
+      "timestamp": 1788953021.478775
+    },
+    "sha256": "6d5b118b9e19c983d62d763eb5b194363426281186775a132baf3d8f96478c50"
+  },
+  "raw_case_rows": 0,
+  "dispatch_rows": 0,
+  "unit": "MainPID=4101930\nActiveState=active\nSubState=running\nInvocationID=2828b0102ddc417c81c886af0e0fe554\n",
+  "candidate": "72c36b54f568a04e42407ba1a06c0b7160e2511dad6fb721db233d35f1bb624e true false\n"
+}

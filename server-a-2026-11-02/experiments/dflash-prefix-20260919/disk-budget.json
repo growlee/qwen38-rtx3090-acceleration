@@ -1,0 +1,25 @@
+{
+  "observed_root_free_bytes": 114788601856,
+  "additional_physical_bound_bytes": 536870912,
+  "restoration_reserve_bytes": 34359738368,
+  "user_override": "The former 150 GiB free-space floor is waived for this test.",
+  "already_retained": {
+    "target_logical_bytes": 16969942520,
+    "target_receipt_allocated_model_bytes": 16970018816,
+    "drafter_logical_bytes": 1280636224,
+    "image_logical_bytes": 14690095182,
+    "accounting": "These artifacts already occupy the baseline filesystem. Exact read-only mounts and the installed image are reused; no new full copies or downloads."
+  },
+  "additional_peak": {
+    "download_partial_final_overlap_bytes": 0,
+    "weight_staging_copy_bytes": 0,
+    "image_load_unpack_or_build_cache_bytes": 0,
+    "container_writable_root_bytes": 0,
+    "anonymous_volume_bytes": 0,
+    "docker_log_bound_bytes": 33554432,
+    "source_and_evidence_allowance_bytes": 33554432,
+    "docker_metadata_and_host_activity_allowance_bytes": 469762048
+  },
+  "tmpfs": "Cache4GiB, tmp4GiB, shm16GiB are demand-allocated under the container memory limit; /app/models1MiB read-only masks the image VOLUME. Existing swap is preallocated; no new swap file. These tmpfs maxima are not reserved host RAM.",
+  "execution": "Recheck physical capacity before staging and immediately before startup; measure filesystem delta after preparation and execution. Stop before another preparation phase if this bound or reserve is exceeded. No cleanup is authorized or needed."
+}

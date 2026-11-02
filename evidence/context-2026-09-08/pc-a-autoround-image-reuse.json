@@ -1,0 +1,29 @@
+{
+  "schema": "qwen38-pc-a-archive-reuse/v1",
+  "archive_path": "E:\\Projects\\home_lab-artifacts\\ai-server-acceleration-20260830\\syv-relay-v7\\syv-qwen38-27b-rtx3090.docker.tar",
+  "archive_sha256": "1d9664b083518b3f76340ed67fef8dc392d920680f5afdb5cfec0e2d433657f8",
+  "archive_bytes": 4577936896,
+  "manifest_digest": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+  "config_digest": "sha256:b0516eab4a689391cd73629593d53111777691c5f3c453d5064e77fe55981101",
+  "validation": "Existing syv_relay_import._validate_archive verified exact manifest/config, all 13 layer sizes and SHA256, archive structure, platform, labels, rootfs diff IDs and legacy linkage. Full archive SHA separately matches retained source receipt.",
+  "pull": {
+    "session_id": 78193,
+    "pid": 14710,
+    "terminal_exit_code": 1,
+    "stop": "SIGINT only after exact /proc PID command match; process absent and session terminal",
+    "reason": "Existing verified archive discovered after repeated unexpected EOF. No new pull or manual cache deletion."
+  },
+  "load_budget": {
+    "peak_additional_bound_bytes": 42949672960,
+    "physical_free_before_load_bytes": 330000302080,
+    "wsl_free_before_load_bytes": 1005506617344,
+    "existing_archive_counted_in_baseline": true,
+    "new_archive_copies": 0,
+    "unpacked_overlap_bound_bytes": 23622320128,
+    "compressed_temp_bound_bytes": 9155873792,
+    "retained_containers_bound_bytes": 138412032,
+    "metadata_and_reserve_bytes": 3221225472,
+    "physical_floor_bytes": 53687091200
+  },
+  "image_store": "overlay2; runtime config ID may differ from OCI manifest digest and must be bound before evaluation"
+}

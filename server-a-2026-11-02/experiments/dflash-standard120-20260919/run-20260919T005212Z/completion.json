@@ -1,0 +1,61 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-09-19T01:05:02.894899+00:00",
+  "cases": 120,
+  "counts": {
+    "PASS": 106,
+    "FAIL": 14,
+    "BLOCKED": 0
+  },
+  "restoration_verified": true,
+  "production": {
+    "qwen": "stopped",
+    "container_id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+    "compose_sha256": "88c7de590dd7dea693dba225242d81e52387415a1e4e0f5796b568dfc4468c3c",
+    "gateway": "healthy"
+  },
+  "fingerprint": "656d65a7293a8587423cd9bf9c4cc4d300fc38fbb281f599d24d87930e129e6b",
+  "admission": {
+    "active_ledger": [],
+    "active_ledger_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "admission_epoch": 367,
+    "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+    "capacity_mode": "serialized-99",
+    "coordinator_generation": "2c5f167b-655f-4a82-abf2-81da72c3348f",
+    "ok": true,
+    "phase": "public",
+    "queue_depth": 0,
+    "reconciliation_required": false,
+    "request_id": "ft013-1789779901267980094",
+    "restart_pending": false,
+    "resume_phase": "public",
+    "schema": "ai-admission-operator-response/v1"
+  },
+  "candidate_state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-19T00:52:12.777367712Z",
+    "FinishedAt": "2026-09-19T00:57:52.364714299Z"
+  },
+  "port_19193_free": true,
+  "gpu_idle": true,
+  "memory": {
+    "mem_available_bytes": 29791219712,
+    "swap_free_bytes": 7256666112,
+    "container_limit_bytes": 25769803776
+  },
+  "free_bytes": 92152164352,
+  "scoring_volume_growth_bytes": 14065664,
+  "retained_cpu_container_count": 120,
+  "container_metadata_allocated_bytes": 4423680,
+  "score_unit": "Result=success\nExecMainStatus=0\nActiveState=inactive\n",
+  "matrix_sha256": "9ed85e9f223ff2637f5fae93bbd032fca7bc29638b16875d5b686f93a139e55e",
+  "scored_sha256": "81b3126f24c1533af030e1ca6764119dd9864c616bb45ce77472a1dd83ae8230"
+}

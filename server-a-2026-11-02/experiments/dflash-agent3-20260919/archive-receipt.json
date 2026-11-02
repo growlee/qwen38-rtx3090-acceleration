@@ -1,0 +1,11 @@
+{
+  "archive": "/srv/ai-server/artifacts/experiments/dflash-agent3-20260919/evidence-20260919T001124Z.tar.gz",
+  "bytes": 463879,
+  "sha256": "44e06fe9d4b98212449ce0dfbc348b5ff4b4b3911da0dab06d018994d30eeb94",
+  "source_file_count": 51,
+  "source_logical_bytes": 4863785,
+  "before_free_bytes": 114750332928,
+  "after_free_bytes": 114749870080,
+  "archive_volume_growth_bytes": 462848,
+  "total_growth_from_staging_pre_bytes": 7954432
+}

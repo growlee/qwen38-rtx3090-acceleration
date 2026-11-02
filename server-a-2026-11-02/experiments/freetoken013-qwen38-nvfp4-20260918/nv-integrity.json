@@ -1,0 +1,115 @@
+{
+  "utc": "2026-09-18T03:49:16.138391+00:00",
+  "elapsed_seconds": 40.74800248187967,
+  "all_files_valid": true,
+  "files": [
+    {
+      "file": ".gitattributes",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/.gitattributes",
+      "symlink": false,
+      "size": 1752,
+      "sha256": "f7671961c6b50ee23cd4c5aab125529098efa48f82698efc039d642fb18f5159",
+      "expected_sha256": "f7671961c6b50ee23cd4c5aab125529098efa48f82698efc039d642fb18f5159",
+      "valid": true
+    },
+    {
+      "file": "README.md",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/README.md",
+      "symlink": false,
+      "size": 4915,
+      "sha256": "37f85a3d8eb0b9cda50f34c4ce81aadcad86c6e9cbe6d10ef7f8ed0a42a2672b",
+      "expected_sha256": "37f85a3d8eb0b9cda50f34c4ce81aadcad86c6e9cbe6d10ef7f8ed0a42a2672b",
+      "valid": true
+    },
+    {
+      "file": "chat_template.jinja",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/chat_template.jinja",
+      "symlink": false,
+      "size": 8952,
+      "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "expected_sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "valid": true
+    },
+    {
+      "file": "config.json",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/config.json",
+      "symlink": false,
+      "size": 15095,
+      "sha256": "0d6026f034dcd49bcfda896969fd4ae2a54dbdf92c7e68adeb46587bc27f6801",
+      "expected_sha256": "0d6026f034dcd49bcfda896969fd4ae2a54dbdf92c7e68adeb46587bc27f6801",
+      "valid": true
+    },
+    {
+      "file": "generation_config.json",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/generation_config.json",
+      "symlink": false,
+      "size": 214,
+      "sha256": "d0d0ed2e37cdfafef4a5067d5ea2407b05f4fb50526e47c008a5b235d50240fb",
+      "expected_sha256": "d0d0ed2e37cdfafef4a5067d5ea2407b05f4fb50526e47c008a5b235d50240fb",
+      "valid": true
+    },
+    {
+      "file": "preprocessor_config.json",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/preprocessor_config.json",
+      "symlink": false,
+      "size": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "expected_sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "valid": true
+    },
+    {
+      "file": "processor_config.json",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/processor_config.json",
+      "symlink": false,
+      "size": 1191,
+      "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+      "expected_sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+      "valid": true
+    },
+    {
+      "file": "recipe.yaml",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/recipe.yaml",
+      "symlink": false,
+      "size": 239,
+      "sha256": "059d27b9c85d9da88b027cd8f86e8bfe20bef3f81ce5ac55cec7146798e13ead",
+      "expected_sha256": "059d27b9c85d9da88b027cd8f86e8bfe20bef3f81ce5ac55cec7146798e13ead",
+      "valid": true
+    },
+    {
+      "file": "tokenizer.json",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226/model/tokenizer.json",
+      "symlink": true,
+      "size": 19989325,
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "expected_sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "valid": true
+    },
+    {
+      "file": "tokenizer_config.json",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/tokenizer_config.json",
+      "symlink": false,
+      "size": 1166,
+      "sha256": "5f7aa0d810000c4a0940b35c8f16e56c3439260fccc13a321826ebc3ccf2501f",
+      "expected_sha256": "5f7aa0d810000c4a0940b35c8f16e56c3439260fccc13a321826ebc3ccf2501f",
+      "valid": true
+    },
+    {
+      "file": "video_preprocessor_config.json",
+      "resolved": "/srv/ai-server/staging/experiments/qwen38-uncensored-nvfp4-37b5130a/model/video_preprocessor_config.json",
+      "symlink": false,
+      "size": 385,
+      "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "expected_sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "valid": true
+    },
+    {
+      "file": "model.safetensors",
+      "resolved": "/srv/ai-server/model-store/sha256/bc642c1159ab9b0fcd2fdc65be4fee72fa560cf0570604741db50061ea063277/model.safetensors",
+      "symlink": true,
+      "size": 19709883808,
+      "sha256": "bc642c1159ab9b0fcd2fdc65be4fee72fa560cf0570604741db50061ea063277",
+      "expected_sha256": "bc642c1159ab9b0fcd2fdc65be4fee72fa560cf0570604741db50061ea063277",
+      "valid": true
+    }
+  ]
+}

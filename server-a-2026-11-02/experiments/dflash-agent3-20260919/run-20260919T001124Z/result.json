@@ -1,0 +1,281 @@
+{
+  "status": "FAIL",
+  "phase": "complete",
+  "restoration_verified": true,
+  "output": "/srv/ai-server/artifacts/experiments/dflash-agent3-20260919/run-20260919T001124Z",
+  "matrix": {
+    "cases": [
+      {
+        "agent_task_seconds_first_request_through_final_grade": 20.679207854205742,
+        "budget_exhausted_after_successful_tests": false,
+        "case_id": "cursor-pagination-validation",
+        "failure": null,
+        "final_grade": {
+          "container_id": "997327d1f723e69c12525037e786c279ee1ff8c9acbcae4147f35c19deb77df0",
+          "container_name": "ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-cursor-pagination-validation-final-grade",
+          "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+          "outcome": "PASS",
+          "passed": true,
+          "returncode": 0,
+          "stderr": "test_cursor_survives_deletion_of_boundary_record (test_fixture.CustomerPaginationTests.test_cursor_survives_deletion_of_boundary_record) ... ok\ntest_does_not_mutate_or_alias_records (test_fixture.CustomerPaginationTests.test_does_not_mutate_or_alias_records) ... ok\ntest_empty_page_has_no_cursor (test_fixture.CustomerPaginationTests.test_empty_page_has_no_cursor) ... ok\ntest_orders_pages_and_returns_opaque_cursor (test_fixture.CustomerPaginationTests.test_orders_pages_and_returns_opaque_cursor) ... ok\ntest_rejects_invalid_limits (test_fixture.CustomerPaginationTests.test_rejects_invalid_limits) ... ok\ntest_rejects_invalid_records (test_fixture.CustomerPaginationTests.test_rejects_invalid_records) ... ok\ntest_rejects_malformed_or_noncanonical_cursors (test_fixture.CustomerPaginationTests.test_rejects_malformed_or_noncanonical_cursors) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.000s\n\nOK\n",
+          "stdout": "",
+          "stopped": true
+        },
+        "final_grade_seconds": 0.2517554748337716,
+        "initial_prompt_tokens": 7992,
+        "long_output_512_tokens_observed": true,
+        "max_completion_tokens_observed": 735,
+        "model_calls": 6,
+        "model_request_seconds_sum": 19.708051963010803,
+        "model_run_tests": 2,
+        "normal_finish": true,
+        "required_native_tool_use": true,
+        "status": "PASS",
+        "tool_seconds_including_final_grade": 0.833174352766946,
+        "tools_used": [
+          "read_file:app.py",
+          "write_file",
+          "run_tests",
+          "write_file",
+          "run_tests"
+        ],
+        "turns": [
+          {
+            "artifact": "turn-01.json",
+            "finish_reason": "tool_calls",
+            "turn": 1,
+            "usage": {
+              "completion_tokens": 26,
+              "prompt_tokens": 7992,
+              "total_tokens": 8018
+            }
+          },
+          {
+            "artifact": "turn-02.json",
+            "finish_reason": "tool_calls",
+            "turn": 2,
+            "usage": {
+              "completion_tokens": 735,
+              "prompt_tokens": 8164,
+              "total_tokens": 8899
+            }
+          },
+          {
+            "artifact": "turn-03.json",
+            "finish_reason": "tool_calls",
+            "turn": 3,
+            "usage": {
+              "completion_tokens": 15,
+              "prompt_tokens": 8937,
+              "total_tokens": 8952
+            }
+          },
+          {
+            "artifact": "turn-04.json",
+            "finish_reason": "tool_calls",
+            "turn": 4,
+            "usage": {
+              "completion_tokens": 732,
+              "prompt_tokens": 9946,
+              "total_tokens": 10678
+            }
+          },
+          {
+            "artifact": "turn-05.json",
+            "finish_reason": "tool_calls",
+            "turn": 5,
+            "usage": {
+              "completion_tokens": 15,
+              "prompt_tokens": 10716,
+              "total_tokens": 10731
+            }
+          },
+          {
+            "artifact": "turn-06.json",
+            "finish_reason": "stop",
+            "turn": 6,
+            "usage": {
+              "completion_tokens": 94,
+              "prompt_tokens": 11157,
+              "total_tokens": 11251
+            }
+          }
+        ]
+      },
+      {
+        "agent_task_seconds_first_request_through_final_grade": 28.51306771999225,
+        "budget_exhausted_after_successful_tests": false,
+        "case_id": "decimal-invoice-calculation",
+        "failure": null,
+        "final_grade": {
+          "container_id": "a8ce9a6ca2e09b56f92ca1331e3cd1668cb8b40a50fa2c8cb913d2837854fbb5",
+          "container_name": "ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-decimal-invoice-calculation-final-grade",
+          "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+          "outcome": "PASS",
+          "passed": true,
+          "returncode": 0,
+          "stderr": "test_calculates_line_discounts_then_invoice_tax (test_fixture.InvoiceTests.test_calculates_line_discounts_then_invoice_tax) ... ok\ntest_preserves_input_order_without_mutation (test_fixture.InvoiceTests.test_preserves_input_order_without_mutation) ... ok\ntest_rejects_bad_shapes_and_duplicate_skus (test_fixture.InvoiceTests.test_rejects_bad_shapes_and_duplicate_skus) ... ok\ntest_rejects_noncanonical_decimals_and_out_of_range_rates (test_fixture.InvoiceTests.test_rejects_noncanonical_decimals_and_out_of_range_rates) ... ok\ntest_rounds_half_up_not_bankers (test_fixture.InvoiceTests.test_rounds_half_up_not_bankers) ... ok\ntest_tax_is_rounded_once_after_summing_net (test_fixture.InvoiceTests.test_tax_is_rounded_once_after_summing_net) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n",
+          "stdout": "",
+          "stopped": true
+        },
+        "final_grade_seconds": 0.3176859449595213,
+        "initial_prompt_tokens": 15981,
+        "long_output_512_tokens_observed": true,
+        "max_completion_tokens_observed": 887,
+        "model_calls": 6,
+        "model_request_seconds_sum": 27.500098922057077,
+        "model_run_tests": 2,
+        "normal_finish": true,
+        "required_native_tool_use": true,
+        "status": "PASS",
+        "tool_seconds_including_final_grade": 0.8355775808449835,
+        "tools_used": [
+          "read_file:app.py",
+          "write_file",
+          "run_tests",
+          "write_file",
+          "run_tests"
+        ],
+        "turns": [
+          {
+            "artifact": "turn-01.json",
+            "finish_reason": "tool_calls",
+            "turn": 1,
+            "usage": {
+              "completion_tokens": 26,
+              "prompt_tokens": 15981,
+              "total_tokens": 16007
+            }
+          },
+          {
+            "artifact": "turn-02.json",
+            "finish_reason": "tool_calls",
+            "turn": 2,
+            "usage": {
+              "completion_tokens": 827,
+              "prompt_tokens": 16191,
+              "total_tokens": 17018
+            }
+          },
+          {
+            "artifact": "turn-03.json",
+            "finish_reason": "tool_calls",
+            "turn": 3,
+            "usage": {
+              "completion_tokens": 15,
+              "prompt_tokens": 17056,
+              "total_tokens": 17071
+            }
+          },
+          {
+            "artifact": "turn-04.json",
+            "finish_reason": "tool_calls",
+            "turn": 4,
+            "usage": {
+              "completion_tokens": 887,
+              "prompt_tokens": 17686,
+              "total_tokens": 18573
+            }
+          },
+          {
+            "artifact": "turn-05.json",
+            "finish_reason": "tool_calls",
+            "turn": 5,
+            "usage": {
+              "completion_tokens": 15,
+              "prompt_tokens": 18611,
+              "total_tokens": 18626
+            }
+          },
+          {
+            "artifact": "turn-06.json",
+            "finish_reason": "stop",
+            "turn": 6,
+            "usage": {
+              "completion_tokens": 172,
+              "prompt_tokens": 19048,
+              "total_tokens": 19220
+            }
+          }
+        ]
+      },
+      {
+        "agent_task_seconds_first_request_through_final_grade": 44.55955644790083,
+        "budget_exhausted_after_successful_tests": false,
+        "case_id": "jsonl-event-log-aggregation",
+        "failure": "tool_arguments_invalid_json",
+        "final_grade": {
+          "container_id": "ff4b669c5edf92c41bb9ff01240a7baefaeae819bf43fc3a8e23a715adf51484",
+          "container_name": "ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-jsonl-event-log-aggregation-final-grade",
+          "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+          "outcome": "FAIL",
+          "passed": false,
+          "returncode": 1,
+          "stderr": "test_conflicting_duplicate_reports_later_line (test_fixture.EventAggregationTests.test_conflicting_duplicate_reports_later_line) ... ok\ntest_empty_log (test_fixture.EventAggregationTests.test_empty_log) ... ok\ntest_enforces_conditional_amount_and_decimal_format (test_fixture.EventAggregationTests.test_enforces_conditional_amount_and_decimal_format) ... ok\ntest_normalized_equivalent_duplicates_are_identical (test_fixture.EventAggregationTests.test_normalized_equivalent_duplicates_are_identical) ... ERROR\ntest_orders_equal_timestamps_by_event_id (test_fixture.EventAggregationTests.test_orders_equal_timestamps_by_event_id) ... ERROR\ntest_parses_normalizes_deduplicates_orders_and_aggregates (test_fixture.EventAggregationTests.test_parses_normalizes_deduplicates_orders_and_aggregates) ... ERROR\ntest_rejects_bad_json_and_shape_with_physical_line_number (test_fixture.EventAggregationTests.test_rejects_bad_json_and_shape_with_physical_line_number) ... ok\ntest_rejects_naive_or_invalid_timestamps (test_fixture.EventAggregationTests.test_rejects_naive_or_invalid_timestamps) ... ok\n\n======================================================================\nERROR: test_normalized_equivalent_duplicates_are_identical (test_fixture.EventAggregationTests.test_normalized_equivalent_duplicates_are_identical)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/work/test_fixture.py\", line 57, in test_normalized_equivalent_duplicates_are_identical\n    result = app.aggregate_events(first + \"\\n\" + second)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/work/app.py\", line 125, in aggregate_events\n    normalized = _parse_event(line, n)\n                 ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/work/app.py\", line 101, in _parse_event\n    timestamp = _normalize_timestamp(obj[\"timestamp\"], n)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/work/app.py\", line 62, in _normalize_timestamp\n    offset = timezone(sign * __import__(\"timedelta\").timedelta(\n                             ^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'timedelta'\n\n======================================================================\nERROR: test_orders_equal_timestamps_by_event_id (test_fixture.EventAggregationTests.test_orders_equal_timestamps_by_event_id)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/work/test_fixture.py\", line 51, in test_orders_equal_timestamps_by_event_id\n    result = app.aggregate_events(text)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/work/app.py\", line 125, in aggregate_events\n    normalized = _parse_event(line, n)\n                 ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/work/app.py\", line 101, in _parse_event\n    timestamp = _normalize_timestamp(obj[\"timestamp\"], n)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/work/app.py\", line 62, in _normalize_timestamp\n    offset = timezone(sign * __import__(\"timedelta\").timedelta(\n                             ^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'timedelta'\n\n======================================================================\nERROR: test_parses_normalizes_deduplicates_orders_and_aggregates (test_fixture.EventAggregationTests.test_parses_normalizes_deduplicates_orders_and_aggregates)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/work/test_fixture.py\", line 22, in test_parses_normalizes_deduplicates_orders_and_aggregates\n    result = app.aggregate_events(text)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/work/app.py\", line 125, in aggregate_events\n    normalized = _parse_event(line, n)\n                 ^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/work/app.py\", line 101, in _parse_event\n    timestamp = _normalize_timestamp(obj[\"timestamp\"], n)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/work/app.py\", line 62, in _normalize_timestamp\n    offset = timezone(sign * __import__(\"timedelta\").timedelta(\n                             ^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'timedelta'\n\n----------------------------------------------------------------------\nRan 8 tests in 0.002s\n\nFAILED (errors=3)\n",
+          "stdout": "",
+          "stopped": true
+        },
+        "final_grade_seconds": 0.25174878677353263,
+        "initial_prompt_tokens": 28000,
+        "long_output_512_tokens_observed": true,
+        "max_completion_tokens_observed": 1671,
+        "model_calls": 4,
+        "model_request_seconds_sum": 43.90786801627837,
+        "model_run_tests": 1,
+        "normal_finish": false,
+        "required_native_tool_use": true,
+        "status": "FAIL",
+        "tool_seconds_including_final_grade": 0.5002172386739403,
+        "tools_used": [
+          "read_file:app.py",
+          "write_file",
+          "run_tests"
+        ],
+        "turns": [
+          {
+            "artifact": "turn-01.json",
+            "finish_reason": "tool_calls",
+            "turn": 1,
+            "usage": {
+              "completion_tokens": 26,
+              "prompt_tokens": 28000,
+              "total_tokens": 28026
+            }
+          },
+          {
+            "artifact": "turn-02.json",
+            "finish_reason": "tool_calls",
+            "turn": 2,
+            "usage": {
+              "completion_tokens": 1671,
+              "prompt_tokens": 28228,
+              "total_tokens": 29899
+            }
+          },
+          {
+            "artifact": "turn-03.json",
+            "finish_reason": "tool_calls",
+            "turn": 3,
+            "usage": {
+              "completion_tokens": 15,
+              "prompt_tokens": 29937,
+              "total_tokens": 29952
+            }
+          },
+          {
+            "artifact": "turn-04.json",
+            "finish_reason": "tool_calls",
+            "turn": 4,
+            "usage": {
+              "completion_tokens": 1479,
+              "prompt_tokens": 31161,
+              "total_tokens": 32640
+            }
+          }
+        ]
+      }
+    ],
+    "error": null,
+    "status": "FAIL"
+  }
+}

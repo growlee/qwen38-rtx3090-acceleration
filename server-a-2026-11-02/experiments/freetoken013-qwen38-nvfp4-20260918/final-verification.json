@@ -1,0 +1,49 @@
+{
+  "utc": "2026-09-18T07:53:36.578934+00:00",
+  "result": "BLOCKED_HOST_RAM_RESERVE",
+  "reason": "runner rejected MemAvailable < 27 GiB before candidate creation; exact value at rejection was not recorded",
+  "qwen_all_prestate_fields_unchanged": {
+    "id": true,
+    "image": true,
+    "state": true,
+    "command": true,
+    "mounts": true,
+    "ports": true,
+    "restart": true,
+    "devices": true,
+    "compose_sha256": true
+  },
+  "qwen_state": "exited",
+  "gateway": "healthy",
+  "supervisor": "active",
+  "admission": {
+    "active_ledger": [],
+    "active_ledger_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "admission_epoch": 337,
+    "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+    "capacity_mode": "serialized-99",
+    "coordinator_generation": "2c5f167b-655f-4a82-abf2-81da72c3348f",
+    "ok": true,
+    "phase": "public",
+    "queue_depth": 0,
+    "reconciliation_required": false,
+    "request_id": "ft013-1789718016391333847",
+    "restart_pending": false,
+    "resume_phase": "public",
+    "schema": "ai-admission-operator-response/v1"
+  },
+  "candidate_container_absent": true,
+  "gpu_compute_processes": [],
+  "gpu": "NVIDIA GeForce RTX 3090, 595.84, 1 MiB, 24576 MiB",
+  "network_empty_internal": true,
+  "version_check_container_stopped_exit0": true,
+  "mem_available_bytes_now": 28940169216,
+  "required_mem_available_bytes": 28991029248,
+  "storage": {
+    "ai_usage_bytes": 117505826816,
+    "root_free_bytes": 122419924992
+  },
+  "root_free_delta_bytes": 20082991104,
+  "cases_executed": 0,
+  "model_loaded": false
+}

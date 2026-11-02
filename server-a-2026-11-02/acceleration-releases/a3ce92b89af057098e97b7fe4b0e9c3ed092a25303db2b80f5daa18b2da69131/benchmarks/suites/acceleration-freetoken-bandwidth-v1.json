@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "profile_id": "acceleration-freetoken-bandwidth-v1",
+  "command": {
+    "family": ["ft", "bench", "bw"],
+    "argv": [
+      "ft", "bench", "bw",
+      "--model", "gpt-oss-20b",
+      "--out", "/cache/.cache/freetoken/benchbw.json"
+    ],
+    "output_profile_path": "/cache/.cache/freetoken/benchbw.json",
+    "timeout_seconds": 1800
+  },
+  "upstream": {
+    "repository": "https://github.com/FlashML-org/FreeToken",
+    "revision": "9db1a39455a3fb107f3db83e381d10ceadfe5d99",
+    "release": "v0.1.2",
+    "profile_version": 4
+  },
+  "workload": {
+    "model_repository": "openai/gpt-oss-20b",
+    "model_revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+    "model_name": "gpt-oss-20b",
+    "expert_format_cli": "mxfp4",
+    "expert_format_profile": "mxfp4_triton",
+    "hidden": 2880,
+    "intermediate": 2880,
+    "experts": 32,
+    "top_k": 4
+  },
+  "measurement_counts": {
+    "runs": 1,
+    "cpu_stream_iterations": 8,
+    "pcie_linear_iterations": 30,
+    "kernel_cpu_iterations": 64,
+    "kernel_pcie_iterations": 20
+  },
+  "gpu_safety": {
+    "device_index": 0,
+    "expected_name": "NVIDIA GeForce RTX 3090",
+    "power_cap_w": 300.0,
+    "maximum_temperature_c": 85.0,
+    "minimum_vram_free_mib": 512.0,
+    "minimum_ram_available_mib": 4096.0,
+    "maximum_swap_io_delta": 0,
+    "minimum_safety_sample_count": 2
+  },
+  "acceptance": {
+    "status": "measurement_only",
+    "reason": "upstream_defines_backend_selection_but_no_authoritative_rtx3090_performance_floor",
+    "metric_minimum_exclusive_gbs": 0,
+    "decision_threshold_cpu_to_pcie": 2.0,
+    "ratio_absolute_tolerance": 0.002,
+    "decision_rule": "hybrid_iff_cpu_moe_gbs_gt_threshold_times_pcie_gather_gbs"
+  },
+  "privacy": {
+    "prompts_recorded": false,
+    "responses_recorded": false,
+    "secrets_recorded": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "manifest_sha256": "115458c260f6d0d700949b1cfe6a5a7ffbd5f4a890e3cc4990b64106985dfd59",
+  "items": {
+    "retained_wheelhouse": 501122111,
+    "partial_overlap_reserve": 382990222,
+    "build_context_and_cache_two_copies": 1002244222,
+    "install_snapshot_and_final_layers_three_copies": 4963221504,
+    "compressed_layer_bound": 1670951239,
+    "metadata_logs_build_overhead": 2147483648,
+    "runtime_trace_and_receipts": 536870912
+  },
+  "calculated_growth_bytes": 11204883858,
+  "admission_expected_growth_bytes": 11811160064,
+  "root_restoration_reserve_bytes": 34359738368,
+  "ai_budget_bytes": 214748364800,
+  "new_model_copies": 0,
+  "new_base_image_copies": 0,
+  "download_phase_bound_bytes": 951221197,
+  "ram_tmpfs_cache_bytes": 2147483648,
+  "notes": [
+    "Existing base layers reused. No image export.",
+    "Immutable package hashes and ZIP directory allocation bound; full ZIP and hash verified after transfer.",
+    "No base packages upgraded. No persistent pip cache or bytecode compilation."
+  ]
+}

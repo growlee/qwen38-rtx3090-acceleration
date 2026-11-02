@@ -1,0 +1,18 @@
+{
+  "schema": "qwen-quality-bundle/v1",
+  "source_commit": "ee209715492a4e4b004e9377103941ba821727ea",
+  "suite_canonical_sha256": "51bc5577046b49aa95977171a911c22756e8754ed5378234e39b47eb7e1f5c02",
+  "files": {
+    "server_a_runner.py": "91150887cd6bd054a7357e301dc1df96e98724315cf4307d105850427cb271c4",
+    "syv_acceleration_runner.py": "f3c96419aef6e2e274556cde5c4e6c4ae3a70282a3612428795ffeb2e1dcc2c9",
+    "benchmark_client.py": "faa345a38c6fe82c0e7b80c0372ea4167d6e21ae929f8bba06fa5988b750fbc4",
+    "quality_client.py": "0ddac27b69cf30fae6aa6b7173571386fdfb283b34b6c227c4c016f76da12efc",
+    "quality_suite.py": "9bb1c15f69c4d2f3fc83eb613840a1c1422ff60d255ef3fdd37a4c93b1a4580f"
+  },
+  "other_files": {
+    "sources/quality_sandbox.py": "f9065cac6b88f6ba987deb91e6210ca91e00ea4a0a9a12a2c45797efeeb2006a",
+    "sources/score_quality.py": "442ec08cb9d2c803f196cea0132fb3c039e8950784d562653eda098f3f5e0c31",
+    "run_quality_window_r1.py": "0cce4d2dba290bce45a0c977d8fe25780d373bcca7d323f4acf4c4ee3df48bb9"
+  },
+  "harness_correction": "Preflight-only failure gguf_identity_invalid: verified root-owned 0644 CAS original; reject group/world write (022) rather than root-owner write (222). Model always bind-mounted readonly; no chmod or model bytes changed. Prior result retained, zero model cases or closure, same suite/runtime sources."
+}

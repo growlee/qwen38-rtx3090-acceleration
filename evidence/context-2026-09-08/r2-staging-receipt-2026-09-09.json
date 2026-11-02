@@ -1,0 +1,13 @@
+{
+  "staged_epoch": 1788952426.7922356,
+  "target": "/srv/ai-server/benchmarks/context-20260908-r2",
+  "manifest_sha256": "1bd2220fc052f295c906a9387b334e93a94e0a79af8bd447b0e78aecffcc3572",
+  "files": 12,
+  "owned_allocated_bytes": 593920,
+  "source_transfer_consumed": true,
+  "same_filesystem_move": true,
+  "root_free_before": 168219250688,
+  "root_free_after": 168219250688,
+  "original_preparation_free_bytes": 168220291072,
+  "root_owned_readonly": true
+}

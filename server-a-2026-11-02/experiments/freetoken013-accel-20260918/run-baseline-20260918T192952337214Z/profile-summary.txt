@@ -1,0 +1,35 @@
+{"actual_kernel_event_count": 804, "capture_mode": "one_cuda_graph_replay", "decode_forward_limit": 1, "hook": "freetoken.engine.graph.GraphRunner.replay", "monotonic": 1674275.40744409, "pid": 66, "profiler_event_count": 857, "status": "captured", "timing_available": true, "trace_note": null, "trace_path": "/cache/profile-trace.json"}
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                     _nvfp4_gemv_kernel         0.00%       0.000us         0.00%       0.000us       0.000us      10.184ms        42.23%      10.184ms     159.118us            64  
+                              _nvfp4_gemv_splitk_kernel         0.00%       0.000us         0.00%       0.000us       0.000us       9.782ms        40.56%       9.782ms      40.760us           240  
+void gemv2T_kernel_val<int, int, __nv_bfloat16, __nv...         0.00%       0.000us         0.00%       0.000us       0.000us       2.858ms        11.85%       2.858ms       2.858ms             1  
+          fused_sigmoid_gating_delta_rule_update_kernel         0.00%       0.000us         0.00%       0.000us       0.000us     416.708us         1.73%     416.708us       8.681us            48  
+                              _fused_add_rmsnorm_kernel         0.00%       0.000us         0.00%       0.000us       0.000us     278.014us         1.15%     278.014us       2.172us           128  
+                           _causal_conv1d_update_kernel         0.00%       0.000us         0.00%       0.000us       0.000us     106.532us         0.44%     106.532us       2.219us            48  
+                                    _act_and_mul_kernel         0.00%       0.000us         0.00%       0.000us       0.000us     100.293us         0.42%     100.293us       1.567us            64  
+                           _layer_norm_fwd_1pass_kernel         0.00%       0.000us         0.00%       0.000us       0.000us      75.171us         0.31%      75.171us       1.566us            48  
+                          _decode_grouped_stage1_kernel         0.00%       0.000us         0.00%       0.000us       0.000us      69.026us         0.29%      69.026us       4.314us            16  
+void at::native::elementwise_kernel<128, 4, at::nati...         0.00%       0.000us         0.00%       0.000us       0.000us      62.753us         0.26%      62.753us       1.961us            32  
+                                        _rmsnorm_kernel         0.00%       0.000us         0.00%       0.000us       0.000us      41.953us         0.17%      41.953us       1.271us            33  
+                                  _decode_stage2_kernel         0.00%       0.000us         0.00%       0.000us       0.000us      35.040us         0.15%      35.040us       2.190us            16  
+                                            _rope_tiled         0.00%       0.000us         0.00%       0.000us       0.000us      26.622us         0.11%      26.622us       1.664us            16  
+void at::native::vectorized_elementwise_kernel<4, at...         0.00%       0.000us         0.00%       0.000us       0.000us      25.312us         0.10%      25.312us       1.582us            16  
+void (anonymous namespace)::store_kv_cache<128ul, 1u...         0.00%       0.000us         0.00%       0.000us       0.000us      21.282us         0.09%      21.282us       1.330us            16  
+void at::native::vectorized_elementwise_kernel<4, at...         0.00%       0.000us         0.00%       0.000us       0.000us      18.433us         0.08%      18.433us       1.152us            16  
+                                            aten::copy_         3.07%     827.550us         8.62%       2.323ms     290.373us      10.048us         0.04%      11.392us       1.424us             8  
+                         Memcpy DtoD (Device -> Device)         0.00%       0.000us         0.00%       0.000us       0.000us      10.048us         0.04%      10.048us       1.256us             8  
+void at::native::unrolled_elementwise_kernel<at::nat...         0.00%       0.000us         0.00%       0.000us       0.000us       3.520us         0.01%       3.520us       3.520us             1  
+void (anonymous namespace)::index_kernel<128ul, 1ul,...         0.00%       0.000us         0.00%       0.000us       0.000us       1.952us         0.01%       1.952us       1.952us             1  
+                                Activity Buffer Request         4.73%       1.275ms         4.73%       1.275ms       1.275ms       1.344us         0.01%       1.344us       1.344us             1  
+                                        cudaMemcpyAsync         0.82%     220.167us         0.82%     220.167us      27.521us       0.000us         0.00%       0.000us       0.000us             8  
+                                             aten::view         0.03%       7.318us         0.03%       7.318us       7.318us       0.000us         0.00%       0.000us       0.000us             1  
+                                            aten::slice         0.10%      26.903us         0.13%      34.875us       2.906us       0.000us         0.00%       0.000us       0.000us            12  
+                                       aten::as_strided         0.03%       7.972us         0.03%       7.972us       0.664us       0.000us         0.00%       0.000us       0.000us            12  
+                                  cudaStreamIsCapturing         0.00%       1.077us         0.00%       1.077us       1.077us       0.000us         0.00%       0.000us       0.000us             1  
+                                        cudaGraphLaunch         1.93%     520.770us         1.93%     520.770us     520.770us       0.000us         0.00%       0.000us       0.000us             1  
+                                  cudaDeviceSynchronize        89.28%      24.050ms        89.28%      24.050ms      24.050ms       0.000us         0.00%       0.000us       0.000us             1  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 26.937ms
+Self CUDA time total: 24.117ms

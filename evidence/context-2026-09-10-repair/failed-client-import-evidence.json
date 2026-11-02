@@ -1,0 +1,79 @@
+{
+  "root": "/srv/ai-server/benchmarks/context-20260910-repair",
+  "files": {
+    "manifest.json": {
+      "sha256": "fc10b9dd1d5ced63b92104e16618f6aece18f851e262f0d8314b551b4e2af88b",
+      "bytes": 1557,
+      "utf8": "{\n  \"schema\": \"qwen-context-repair-bundle/v1\",\n  \"files\": {\n    \"repair_context.py\": \"72ceec6fafb5b64d971a0ec77df58836b2dd66607a97bfdd43d1c7c5b5b2e01b\",\n    \"quality_context_continue_client.py\": \"cd0ecad8389e296c379cf32f5840b22d488b12cba0883af81145e516a7520156\",\n    \"grade_repair.py\": \"06a8aabedd0f76df3455edc07d07cdfcd1723e3211b0efe67a18b8292b44df6f\",\n    \"selection.json\": \"85753cab4b1a6932cb6c5cc3fc11989847fcd9b307774fadb2e11cf5a9652fb6\",\n    \"runbook.md\": \"9be742afc8f68f2736bcc74b4247beaef5caf9fcfca377c0677afd10a5749c07\"\n  },\n  \"dependencies\": {\n    \"r1/run_context.py\": \"7cb2f97465a69992babc9887780477ab98d3eb548500e33052cba7eb70248816\",\n    \"r1/controller.py\": \"4ad216fc2ff90ea9a8971e10904681fd11396f86977bc3e865ae736cf7dcccc5\",\n    \"r1/frozen/frozen.json\": \"2df1be2cff66b53ce57b3eefe3eed8be2d16c59d1e37b783341f176995689d94\",\n    \"r2/manifest.json\": \"89e8667d4c2031b6ce91fe0f73b206592ea9a6f4066b2e9328b4d570e209299e\",\n    \"r2/continue_context.py\": \"6d2e89059388a5fef595cfc80f76a070d46f21e3a8865c38054b33691c6a5307\",\n    \"r2/context_storage.py\": \"2085436ed77ec5a9f64d61568bb612254cb58158027869fc036fa666ff914cfd\",\n    \"r2/quality_context_remaining.py\": \"d05b4125873eb7afdea27e64f47515c2ff2371c85771ec60fbaee5b1bc6e3979\",\n    \"r2/results/combined-scores.jsonl\": \"777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9\",\n    \"r2/restoration-after-abort.json\": \"5c4db227957e37a03fb36cddd61d9d5eef4be0a1766ce9969a0a7fe4eb3328a0\",\n    \"r2/results/grading-summary.json\": \"99f61e0b3b0746d2d69d57435e5281fd95bf4d3d0c80c6b46b44d28638488641\"\n  }\n}\n"
+    },
+    "attempt.json": {
+      "sha256": "94fd433d011c4f655abf660ddf5ddfd14103dba3e0197f1c39ff6b81da10a04c",
+      "bytes": 943,
+      "utf8": "{\n  \"context_report_sha256\": \"64a362072a70b563cf88e89cf26c1a1c7eb3716d39de639e85243e7dffb912c8\",\n  \"controller_exit_code\": 1,\n  \"ended_epoch\": 1788995851.3029003,\n  \"grading_counts\": {\n    \"new_modes\": {\n      \"dflash2-huge-n7-kv4gb-204800\": {\n        \"BLOCKED\": 84\n      },\n      \"original-gguf\": {\n        \"BLOCKED\": 12\n      }\n    },\n    \"original\": {\n      \"BLOCKED\": 96,\n      \"FAIL\": 1,\n      \"PASS\": 515\n    }\n  },\n  \"grading_summary_sha256\": \"87c17149c5d69c116241c3b652cf95fedc1beade2d9bc2719db1dd4e341ad47b\",\n  \"manifest_sha256\": \"fc10b9dd1d5ced63b92104e16618f6aece18f851e262f0d8314b551b4e2af88b\",\n  \"old_owned_count\": 52,\n  \"outcome\": \"terminal_failure_graded\",\n  \"schema\": \"qwen-context-repair-attempt/v1\",\n  \"selection_sha256\": \"85753cab4b1a6932cb6c5cc3fc11989847fcd9b307774fadb2e11cf5a9652fb6\",\n  \"source_combined_sha256\": \"777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9\",\n  \"started_epoch\": 1788995399.734096\n}\n"
+    },
+    "results/context-window-report.json": {
+      "sha256": "64a362072a70b563cf88e89cf26c1a1c7eb3716d39de639e85243e7dffb912c8",
+      "bytes": 5212,
+      "utf8": "{\"content_recorded\": true, \"ended_epoch\": 1788995851, \"error_code\": \"context_client_failed\", \"error_details\": {\"returncode\": 1}, \"fixture_sha256\": \"2df1be2cff66b53ce57b3eefe3eed8be2d16c59d1e37b783341f176995689d94\", \"legacy_controller_report_sha256\": \"52204f262a8c086631c89f8d7801ee05b189159e13ee4e762bb283e606bfd056\", \"limits\": {\"case_timeout_seconds\": 1800, \"max_growth_bytes\": 4294967296, \"mode_seconds\": 541620, \"restore_reserve_seconds\": 2700, \"storage_reserve_bytes\": 161061273600, \"window_seconds\": 544320}, \"models\": {\"autoround-bf16-mtp\": {\"files\": 16, \"logical_bytes\": 16969942520, \"path\": \"/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226/model\", \"receipt_sha256\": \"a1a385314549147c266eb404ab8d9255fc224b126040973797a95d34adfa621a\"}, \"current-adaptive-k4\": {\"files\": 18, \"logical_bytes\": 15812574987, \"path\": \"/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model\", \"receipt_sha256\": \"0031745a1a615256cc37b2a345f2dca2d1744787927d81f04a5752e498e822bb\"}, \"original-gguf\": {\"existing_receipt_sha256\": null, \"no_model_writes\": true}}, \"modes\": {\"dflash2-huge-n7-kv4gb-204800\": {\"abort_code\": \"context_client_failed\", \"attempted\": false, \"reason\": \"window_aborted_before_launch\", \"status\": \"BLOCKED\"}, \"original-gguf\": {\"attempted\": true, \"cleanup\": {\"candidate\": {\"exit_code\": 0, \"id\": \"9ab99b2d0ec6453ef3f5f9bf4c253ae7444c32b54bc0156894f0b85733c8c000\", \"retained\": true, \"stop_attempted\": true}, \"client\": {\"exit_code\": 1, \"id\": \"4288da32fd7a3da19789d34fb2b75b876872cbb58d9120ba95cc39c28abbaa50\", \"retained\": true, \"stop_attempted\": false}}, \"details\": {\"returncode\": 1}, \"image\": \"ghcr.io/ggml-org/llama.cpp:server-cuda@sha256:995fe9f237c622ac257905948c3cdde447ab343db22e0686322445b5ec6d3131\", \"load_seconds\": 43.203, \"model\": \"/srv/ai-server/model-store/sha256/3445102e9cde5d562508642c100a2f5ac3368a5a3f748442811d7a95daee3bec/Qwen3.8-27B-Uncensored-Q4_K_M.gguf\", \"reason\": \"context_client_failed\", \"runtime_contract\": {\"cdi_gpu\": \"nvidia.com/gpu=0\", \"id\": \"9ab99b2d0ec6453ef3f5f9bf4c253ae7444c32b54bc0156894f0b85733c8c000\", \"model_read_only\": true, \"network\": \"none\", \"pid\": 2350323, \"ports\": false}, \"startup_evidence\": {\"argv\": [\"--mount\", \"type=bind,src=/srv/ai-server/model-store/sha256/3445102e9cde5d562508642c100a2f5ac3368a5a3f748442811d7a95daee3bec/Qwen3.8-27B-Uncensored-Q4_K_M.gguf,dst=/models/qwen.gguf,readonly\", \"ghcr.io/ggml-org/llama.cpp:server-cuda@sha256:995fe9f237c622ac257905948c3cdde447ab343db22e0686322445b5ec6d3131\", \"--model\", \"/models/qwen.gguf\", \"--alias\", \"qwen3.8-27b\", \"--ctx-size\", \"16384\", \"--parallel\", \"1\", \"--n-gpu-layers\", \"99\", \"--jinja\", \"--reasoning\", \"off\", \"--host\", \"0.0.0.0\", \"--port\", \"8080\", \"--timeout\", \"1800\", \"--threads-http\", \"4\", \"--no-webui\"], \"reasoning\": \"off\"}, \"status\": \"FAIL\"}}, \"outcome\": \"failed_restored\", \"post_restore_storage_bound_ok\": true, \"production_prestate\": {\"id\": \"15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f\", \"image\": \"sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0\", \"model\": \"/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model\", \"running\": true}, \"restore\": {\"admission_public\": true, \"container\": {\"id\": \"15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f\", \"image\": \"sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0\", \"model\": \"/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model\", \"running\": true}, \"gateway_completions\": 2, \"qwen_ready\": true, \"thinking_disabled_in_markers\": true}, \"restore_error_code\": null, \"runtime_prestate\": {\"container\": {\"id\": \"15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f\", \"image\": \"sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0\", \"model\": \"/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model\", \"running\": true}, \"gateway_completions\": 1, \"public_marker_outcome_unknown\": false, \"qwen_ready\": true, \"start_outcome_unknown\": false, \"verified_epoch\": 1788995575.2046738}, \"runtime_prestate_sha256\": \"340775c6b34c3d4dc1850e1ebd45f8bb8b93b366657b1e8d2850e0f4808290a8\", \"schema\": \"qwen-context-repair-window/v1\", \"secrets_recorded\": false, \"selection_sha256\": \"85753cab4b1a6932cb6c5cc3fc11989847fcd9b307774fadb2e11cf5a9652fb6\", \"source_combined_sha256\": \"777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9\", \"source_commit\": \"ee209715492a4e4b004e9377103941ba821727ea\", \"source_manifest_sha256\": \"fc10b9dd1d5ced63b92104e16618f6aece18f851e262f0d8314b551b4e2af88b\", \"started_epoch\": 1788995399, \"storage_available_after_bytes\": 167767109632, \"storage_available_before_bytes\": 167767797760, \"storage_available_post_restore_bytes\": 167767105536, \"storage_error\": null, \"storage_owned_containers\": {\"4288da32fd7a3da19789d34fb2b75b876872cbb58d9120ba95cc39c28abbaa50\": \"qwen-context-20260910-repair-original-gguf-client\", \"9ab99b2d0ec6453ef3f5f9bf4c253ae7444c32b54bc0156894f0b85733c8c000\": \"qwen-context-20260910-repair-original-gguf\"}, \"storage_post_restore\": {\"owned_allocated_bytes\": 528384, \"owned_container_count\": 2, \"reserved_write_bytes\": 536870912, \"root_free_bytes\": 167767105536}, \"suite_id\": \"qwen38-context-repair-96-v1\"}"
+    },
+    "results/grading-summary.json": {
+      "sha256": "87c17149c5d69c116241c3b652cf95fedc1beade2d9bc2719db1dd4e341ad47b",
+      "bytes": 978,
+      "utf8": "{\n  \"combined_original_sha256\": \"72103e603400b48ee00a63accc51f6d5389ce6c6eb1371418d8d3227ed232745\",\n  \"new_modes\": {\n    \"dflash2-huge-n7-kv4gb-204800\": {\n      \"BLOCKED\": 84\n    },\n    \"original-gguf\": {\n      \"BLOCKED\": 12\n    }\n  },\n  \"newly_graded_coordinates\": 96,\n  \"original_coordinates\": 612,\n  \"original_counts\": {\n    \"BLOCKED\": 96,\n    \"FAIL\": 1,\n    \"PASS\": 515\n  },\n  \"repaired_coordinates\": 84,\n  \"repaired_profile_sha256\": \"7fab944895b99568a26444fb4430165523ccf436f9590337ad0c409c762b7847\",\n  \"sandbox_fenced\": false,\n  \"storage\": {\n    \"owned_allocated_bytes\": 1191936,\n    \"owned_container_count\": 2,\n    \"reserved_write_bytes\": 536870912,\n    \"root_free_bytes\": 167766441984\n  },\n  \"storage_owned_containers\": {\n    \"4288da32fd7a3da19789d34fb2b75b876872cbb58d9120ba95cc39c28abbaa50\": \"qwen-context-20260910-repair-original-gguf-client\",\n    \"9ab99b2d0ec6453ef3f5f9bf4c253ae7444c32b54bc0156894f0b85733c8c000\": \"qwen-context-20260910-repair-original-gguf\"\n  }\n}\n"
+    },
+    "results/original-gguf.stderr": {
+      "sha256": "c6b626cee5a2f330fa5c039967543e8127fda0890480278d9039c1828359e89f",
+      "bytes": 230,
+      "utf8": "Traceback (most recent call last):\n  File \"/continuation/quality_context_continue_client.py\", line 13, in <module>\n    from quality_context_remaining import require\nModuleNotFoundError: No module named 'quality_context_remaining'\n"
+    },
+    "results/original-gguf.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "utf8": ""
+    }
+  },
+  "9ab99b2d0ec6453ef3f5f9bf4c253ae7444c32b54bc0156894f0b85733c8c000": {
+    "name": "/qwen-context-20260910-repair-original-gguf",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-09T23:12:56.30111891Z",
+      "FinishedAt": "2026-09-09T23:13:42.65141183Z",
+      "Health": {
+        "Status": "unhealthy",
+        "FailingStreak": 1,
+        "Log": [
+          {
+            "Start": "2026-09-09T23:13:27.544687544Z",
+            "End": "2026-09-09T23:13:27.577166709Z",
+            "ExitCode": 22,
+            "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0    75    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (22) The requested URL returned error: 503\n"
+          }
+        ]
+      }
+    }
+  },
+  "4288da32fd7a3da19789d34fb2b75b876872cbb58d9120ba95cc39c28abbaa50": {
+    "name": "/qwen-context-20260910-repair-original-gguf-client",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 1,
+      "Error": "",
+      "StartedAt": "2026-09-09T23:13:40.953054972Z",
+      "FinishedAt": "2026-09-09T23:13:41.102675014Z"
+    }
+  }
+}

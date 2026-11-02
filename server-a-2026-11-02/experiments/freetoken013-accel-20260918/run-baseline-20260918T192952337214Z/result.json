@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "phase": "complete",
+  "terminal_class": "valid_result",
+  "restoration_verified": true,
+  "mode": "baseline",
+  "image_id": "sha256:10bc9d29f79941c71bb27a77974be4b2312ae64f02636dd5445db20e77675134"
+}

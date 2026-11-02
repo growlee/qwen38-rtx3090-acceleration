@@ -1,0 +1,39 @@
+name: ai-exp-qwen38-vllm-mtp
+services:
+  qwen38-vllm-mtp:
+    image: ghcr.io/syv-ai/qwen38-27b-rtx3090:sha-69ba4d0@sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0
+    user: "0:0"
+    container_name: ai-exp-qwen38-vllm-mtp
+    command: ["single"]
+    restart: "no"
+    ipc: private
+    shm_size: "16gb"
+    read_only: true
+    environment:
+      CTX: fast
+      HOME: /cache
+      MODELS_DIR: /app/models
+      PORT: "18020"
+      PREPARE: "0"
+      SPEC: mtp
+      VERIFY: "1"
+      VLLM_OFFLOAD_KEEP_SHM: "1"
+    ports:
+      - "127.0.0.1:18020:18020"
+    volumes:
+      - /srv/ai-server/staging/experiments/qwen38-vllm/69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c/models:/app/models:ro
+      - /srv/ai-server/staging/experiments/qwen38-vllm/69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c/cache:/cache:rw
+      - <redacted-secret-path>:/app/api_key.txt:ro
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://127.0.0.1:18020/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 900s

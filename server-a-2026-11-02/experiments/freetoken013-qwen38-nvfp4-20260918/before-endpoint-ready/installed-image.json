@@ -1,0 +1,41 @@
+{
+  "id": "sha256:10bc9d29f79941c71bb27a77974be4b2312ae64f02636dd5445db20e77675134",
+  "size": 23244253967,
+  "layers": [
+    "sha256:9d592720ced4a7a4ddf16adef8a126e4c8c49f22114de769343320b37674321e",
+    "sha256:66d3d8a459d5610ab77c9e2541f7de7c977629fc89134ce000e29922c8326924",
+    "sha256:6e7fca69a642c3dfa6e52b07f4bb96c93c57dcf7e2ee4dd5d96682b1aaa9398c",
+    "sha256:b800df4a565ef7287963fe8ee2de71a600389b25eba88ef56c15482209449e39",
+    "sha256:495bbaf4cc5ca53d8286fe305d2fc2fd3ecb2c8791cfdd4473e984d2eb0f3ea1",
+    "sha256:4692acc482b0aa4d012405edad3f5fdd7b0713fd39a3f16eea678a42023d68f1",
+    "sha256:a150296a2a3236b3079825fc40bd62947c988e3ddd998eea94e36b890641a636",
+    "sha256:853fc253ea59eb1fe529f4e267b42584298ca24cfd13876143981093a894c7a4",
+    "sha256:5e7ae145538575ff1aedfd992dba517141d7d34e478725f70ef6b219f602085c",
+    "sha256:553c5de92d4c656b7fcf802522d5a3bfee8ebf77d4ac31f491b638f34156fdf1",
+    "sha256:37e95a729d841a69b5c33ba2c3b047935df2e24bc78597f4d014caad2cebfcf4",
+    "sha256:9012026b2edae3d48dd0485bf8fd591cd9f6f278d2471cff4bfc222016ce8fe4",
+    "sha256:3c8197315babf4aacc865bc6650b007f46149f2b67f6cfd844d25b1a49130431",
+    "sha256:c8a0ccf438d2819a1190e6a9d5fed21cdc0654be6783dd8dac84a933893afa1c",
+    "sha256:fe8ce2fdd02138cb0631f80d7c8683fd1b77aeb181f6b2bffcdc25204dfa6025",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+  ],
+  "labels": {
+    "ai.server.experiment": "qwen38-nvfp4-20260918",
+    "ai.server.freetoken.version": "0.1.3",
+    "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+    "org.opencontainers.image.created": "2026-08-27T08:52:29.474Z",
+    "org.opencontainers.image.description": "Qwen3.8-27B on a single RTX 3090 with vLLM: ~1,000 tok/s at 64 concurrent (int8 tensor-core GEMMs, fp16 DeltaNet state), ~114 tok/s single-user at default sampling / ~124 greedy (MTP drafts, own-output draft vocab, calibrated int4 lm_head, split-KV verify attention), 150k-262k context; patches, requant scripts, benchmarks",
+    "org.opencontainers.image.licenses": "Apache-2.0",
+    "org.opencontainers.image.ref.name": "ubuntu",
+    "org.opencontainers.image.revision": "cac247a860e316e06580d05aeb05f2e647bde214",
+    "org.opencontainers.image.source": "https://github.com/FlashML-org/FreeToken",
+    "org.opencontainers.image.title": "qwen38-27b-rtx3090",
+    "org.opencontainers.image.url": "https://github.com/syv-ai/qwen38-27b-rtx3090",
+    "org.opencontainers.image.version": "latest"
+  },
+  "base_id": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+  "network_id": "e409bb9c21187389033eb4619c1c25bc4d751355d7118ea1baeadcb3defe7f87",
+  "bundle_sha256": "9543730fb11dab252c7e162ffe23e006ca7200e89a065689df97290ae0542387",
+  "build_bundle_sha256": "884bff69cd920ff42d424d758e1b2f5d7445141c1b14bec903ed05633ff1c85a",
+  "previous_receipt_sha256": "9dba4430553efafea2ca6222f506da4eef32898623468c776f31d7d669528f15"
+}

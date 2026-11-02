@@ -1,0 +1,7 @@
+/opt/freetoken013/lib/python3.12/site-packages/huggingface_hub/constants.py:301: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<stdin>", line 221, in <module>
+  File "<stdin>", line 212, in main
+  File "<stdin>", line 205, in fresh
+RuntimeError: fixture_token_target_not_met

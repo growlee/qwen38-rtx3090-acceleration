@@ -1,0 +1,19 @@
+{
+  "id": "02388c1ca59f3c97d4999ac27d7410f194e642c1d4a7bfc9f69a4f79e3422862",
+  "exit_code": 0,
+  "stdout": "{\"default_type\": \"BatchEncoding\", \"default_len\": 2, \"keys\": [\"input_ids\", \"attention_mask\"], \"explicit_type\": \"list\", \"explicit_len\": 24, \"sample\": [248045, 846, 198, 20206, 440]}\n",
+  "stderr": "/opt/freetoken013/lib/python3.12/site-packages/huggingface_hub/constants.py:301: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.\n  warnings.warn(\n",
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-18T08:42:16.316101477Z",
+    "FinishedAt": "2026-09-18T08:42:22.931179365Z"
+  }
+}

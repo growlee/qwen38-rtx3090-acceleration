@@ -1,0 +1,97 @@
+{
+  "agent_task_seconds_first_request_through_final_grade": 28.51306771999225,
+  "budget_exhausted_after_successful_tests": false,
+  "case_id": "decimal-invoice-calculation",
+  "failure": null,
+  "final_grade": {
+    "container_id": "a8ce9a6ca2e09b56f92ca1331e3cd1668cb8b40a50fa2c8cb913d2837854fbb5",
+    "container_name": "ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-decimal-invoice-calculation-final-grade",
+    "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "outcome": "PASS",
+    "passed": true,
+    "returncode": 0,
+    "stderr": "test_calculates_line_discounts_then_invoice_tax (test_fixture.InvoiceTests.test_calculates_line_discounts_then_invoice_tax) ... ok\ntest_preserves_input_order_without_mutation (test_fixture.InvoiceTests.test_preserves_input_order_without_mutation) ... ok\ntest_rejects_bad_shapes_and_duplicate_skus (test_fixture.InvoiceTests.test_rejects_bad_shapes_and_duplicate_skus) ... ok\ntest_rejects_noncanonical_decimals_and_out_of_range_rates (test_fixture.InvoiceTests.test_rejects_noncanonical_decimals_and_out_of_range_rates) ... ok\ntest_rounds_half_up_not_bankers (test_fixture.InvoiceTests.test_rounds_half_up_not_bankers) ... ok\ntest_tax_is_rounded_once_after_summing_net (test_fixture.InvoiceTests.test_tax_is_rounded_once_after_summing_net) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n",
+    "stdout": "",
+    "stopped": true
+  },
+  "final_grade_seconds": 0.3176859449595213,
+  "initial_prompt_tokens": 15981,
+  "long_output_512_tokens_observed": true,
+  "max_completion_tokens_observed": 887,
+  "model_calls": 6,
+  "model_request_seconds_sum": 27.500098922057077,
+  "model_run_tests": 2,
+  "normal_finish": true,
+  "required_native_tool_use": true,
+  "status": "PASS",
+  "tool_seconds_including_final_grade": 0.8355775808449835,
+  "tools_used": [
+    "read_file:app.py",
+    "write_file",
+    "run_tests",
+    "write_file",
+    "run_tests"
+  ],
+  "turns": [
+    {
+      "artifact": "turn-01.json",
+      "finish_reason": "tool_calls",
+      "turn": 1,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 15981,
+        "total_tokens": 16007
+      }
+    },
+    {
+      "artifact": "turn-02.json",
+      "finish_reason": "tool_calls",
+      "turn": 2,
+      "usage": {
+        "completion_tokens": 827,
+        "prompt_tokens": 16191,
+        "total_tokens": 17018
+      }
+    },
+    {
+      "artifact": "turn-03.json",
+      "finish_reason": "tool_calls",
+      "turn": 3,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 17056,
+        "total_tokens": 17071
+      }
+    },
+    {
+      "artifact": "turn-04.json",
+      "finish_reason": "tool_calls",
+      "turn": 4,
+      "usage": {
+        "completion_tokens": 887,
+        "prompt_tokens": 17686,
+        "total_tokens": 18573
+      }
+    },
+    {
+      "artifact": "turn-05.json",
+      "finish_reason": "tool_calls",
+      "turn": 5,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 18611,
+        "total_tokens": 18626
+      }
+    },
+    {
+      "artifact": "turn-06.json",
+      "finish_reason": "stop",
+      "turn": 6,
+      "usage": {
+        "completion_tokens": 172,
+        "prompt_tokens": 19048,
+        "total_tokens": 19220
+      }
+    }
+  ]
+}

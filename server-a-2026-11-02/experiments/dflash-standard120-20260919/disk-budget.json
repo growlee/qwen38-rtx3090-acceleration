@@ -1,0 +1,13 @@
+{
+  "existing_images_and_weights": "Already present; immutable references; no download/build/pull/staging copies",
+  "source_ingress_and_final_bound_bytes": 4194304,
+  "generation_evidence_and_existing_rotated_logs_bound_bytes": 268435456,
+  "scoring_120_retained_cpu_containers_bound_bytes": 268435456,
+  "evidence_archive_bound_bytes": 67108864,
+  "total_additional_bound_bytes": 608174080,
+  "restoration_reserve_bytes": 34359738368,
+  "gpu_container_ram_limit_bytes": 25769803776,
+  "cpu_scorer_ram_limit_bytes": 268435456,
+  "preflight_free_bytes": 114748579840,
+  "cleanup": "None; retain sources, partial ingress, evidence, and exact stopped containers"
+}

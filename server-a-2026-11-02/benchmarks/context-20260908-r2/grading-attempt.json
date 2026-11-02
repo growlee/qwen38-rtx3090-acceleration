@@ -1,0 +1,34 @@
+{
+  "benchmark_dispatched": false,
+  "capture_integrity_sha256": "b64e60f20caf9b819282a8db2b9eb72c957edbaf2412212bcaf2f031a3631c75",
+  "captured_code_cases": 42,
+  "combined_scores_sha256": "777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9",
+  "context_report_sha256": "19576e40e10a0977b3c62373a3614e7457ec5488dae037fe4e276bb4b9a8a80d",
+  "ended_epoch": 1788970358.2333918,
+  "error_captures": 1,
+  "grading_summary_sha256": "99f61e0b3b0746d2d69d57435e5281fd95bf4d3d0c80c6b46b44d28638488641",
+  "normal_captures": 162,
+  "outcome": "grading_complete",
+  "restoration_sha256": "5c4db227957e37a03fb36cddd61d9d5eef4be0a1766ce9969a0a7fe4eb3328a0",
+  "schema": "qwen-context-r2-grading-attempt/v1",
+  "source_manifest_sha256": "89e8667d4c2031b6ce91fe0f73b206592ea9a6f4066b2e9328b4d570e209299e",
+  "started_epoch": 1788970346.5301414,
+  "storage": {
+    "owned_allocated_bytes": 9740288,
+    "owned_container_count": 52,
+    "reserved_write_bytes": 536870912,
+    "root_free_bytes": 167779688448
+  },
+  "storage_owned_containers": {
+    "0a0a8d57f51acd29269cdaabb3b259b577e5ef552406f1417b8fcba4ad49373a": "qwen-context-20260908-r2-dflash2-fast-n7-client",
+    "32511ebd357482b40c8df5d1e7207487429de389ff6f39a8365e62b5a07d0bb7": "qwen-context-20260908-r2-dflash2-huge-n7",
+    "3bd5122253f3572afd8daa4a0a72cb47371be43bdf6bd67c0d3b951b527f6c70": "qwen-context-20260908-r2-reconstructed-mtp-fast",
+    "570e2301007e1f2cee1a828fdca8b0a79489a52203ee2ffb6238d8ce9542bb17": "qwen-context-20260908-r2-dflash2-fast-n7",
+    "58300881b2207b86c5a839f62572f8e9084a69bdc8a17ac6eb53fec262221c3c": "qwen-context-20260908-r2-dflash2-huge-n7-client",
+    "629089d23038770c627c99407a8e511c3104206ba6ecfca019dce1d43b7b5e61": "qwen-context-20260908-r2-reconstructed-mtp-huge",
+    "72c36b54f568a04e42407ba1a06c0b7160e2511dad6fb721db233d35f1bb624e": "qwen-context-20260908-r2-adaptive-mtp-huge",
+    "9adf0bcf44232ac76b963953671e9d99e3406f716591f4388145ccc7a6094d5a": "qwen-context-20260908-r2-reconstructed-mtp-fast-client",
+    "d7a949e7f76843e589916fcf9bb8b6ca1b718ee9eedd02734efea0cc1bc67416": "qwen-context-20260908-r2-reconstructed-mtp-huge-client",
+    "e90862291570babc458833023247a7131e79d9ebf077ca93c0fa0d2486301497": "qwen-context-20260908-r2-adaptive-mtp-huge-client"
+  }
+}

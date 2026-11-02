@@ -1,0 +1,6 @@
+{"mode": "original-gguf", "phase": "preparation"}
+{"mode": "original-gguf", "phase": "capture"}
+{"mode": "original-gguf", "phase": "capture_finished", "status": "CAPTURED"}
+{"mode": "dflash2-huge-n7-kv4gb-204800", "phase": "preparation"}
+{"mode": "dflash2-huge-n7-kv4gb-204800", "phase": "capture"}
+{"outcome": "failed_restored", "report": "/srv/ai-server/benchmarks/context-20260910-repair-clientfix/results/window-report.json"}

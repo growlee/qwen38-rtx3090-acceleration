@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/srv/ai-server/benchmarks/context-20260910-repair-kv4350/repair_context.py", line 338, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/srv/ai-server/benchmarks/context-20260910-repair-kv4350/repair_context.py", line 334, in main
+    return run(sys.argv[1])
+           ^^^^^^^^^^^^^^^^
+  File "/srv/ai-server/benchmarks/context-20260910-repair-kv4350/repair_context.py", line 311, in run
+    continuation.storage_check(storage)
+  File "/srv/ai-server/benchmarks/context-20260908-r2/continue_context.py", line 63, in storage_check
+    return storage.check(WRITE_RESERVE)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/ai-server/benchmarks/context-20260908-r2/context_storage.py", line 184, in check
+    need(free >= ROOT_FLOOR + reserve_bytes, 'root_storage_reserve_exhausted')
+  File "/srv/ai-server/benchmarks/context-20260908-r2/context_storage.py", line 40, in need
+    raise StorageError(code)
+context_storage.StorageError: root_storage_reserve_exhausted

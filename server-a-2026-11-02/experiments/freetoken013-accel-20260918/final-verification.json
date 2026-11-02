@@ -1,0 +1,111 @@
+{
+  "utc": "2026-09-18T21:27:09.438225+00:00",
+  "production": {
+    "qwen": "stopped",
+    "container_id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+    "compose_sha256": "88c7de590dd7dea693dba225242d81e52387415a1e4e0f5796b568dfc4468c3c",
+    "gateway": "healthy"
+  },
+  "qwen_exact_prestate_matches": {
+    "id": true,
+    "image": true,
+    "state": true,
+    "command": true,
+    "entrypoint": true,
+    "env_names": true,
+    "runtime_env": true,
+    "mounts": true,
+    "ports": true,
+    "restart": true,
+    "device_requests": true,
+    "compose_sha256": true
+  },
+  "qwen_stopped_since": "2026-09-10T17:02:28.75415933Z",
+  "candidates": {
+    "baseline": {
+      "id": "cc1e578d5e85f1fcdc563dc6247696dfae41a7d620a3f8b84aa510c4ded90660",
+      "image": "sha256:10bc9d29f79941c71bb27a77974be4b2312ae64f02636dd5445db20e77675134",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-18T19:29:52.614475727Z",
+        "FinishedAt": "2026-09-18T19:31:54.705538539Z"
+      },
+      "exact_config_matches": true
+    },
+    "native": {
+      "id": "2bc5c122568acffbd75042c79ebff63d850c2253717b4333bb85175ccaf12e62",
+      "image": "sha256:e64e250ab64f1c06f2246f7ac16027d59d998155d7d61a6301865e4e263bed03",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-18T19:32:24.378053747Z",
+        "FinishedAt": "2026-09-18T19:35:20.954092701Z"
+      },
+      "exact_config_matches": true
+    },
+    "fi": {
+      "id": "4eff001de4a9877ef1581740498afcfd9e518fbfff0a1d06b3d7b83213b9ce41",
+      "image": "sha256:e64e250ab64f1c06f2246f7ac16027d59d998155d7d61a6301865e4e263bed03",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-18T21:19:49.545441448Z",
+        "FinishedAt": "2026-09-18T21:23:30.482369916Z"
+      },
+      "exact_config_matches": true
+    }
+  },
+  "admission": {
+    "active_ledger": [],
+    "active_ledger_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "admission_epoch": 361,
+    "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+    "capacity_mode": "serialized-99",
+    "coordinator_generation": "2c5f167b-655f-4a82-abf2-81da72c3348f",
+    "ok": true,
+    "phase": "public",
+    "queue_depth": 0,
+    "reconciliation_required": false,
+    "request_id": "ft013-1789766829259454455",
+    "restart_pending": false,
+    "resume_phase": "public",
+    "schema": "ai-admission-operator-response/v1"
+  },
+  "supervisor_enabled": "enabled",
+  "gpu": "1 MiB, 0 %",
+  "gpu_compute_idle": true,
+  "locks_available": true,
+  "loopback_19191_free": true,
+  "network_idle": true,
+  "memory": {
+    "mem_available_bytes": 29958475776,
+    "swap_free_bytes": 6996357120,
+    "container_limit_bytes": 25769803776
+  },
+  "storage": {
+    "ai_usage_bytes": 118010191872,
+    "root_free_bytes": 115468877824
+  }
+}

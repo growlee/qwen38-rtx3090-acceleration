@@ -1,0 +1,156 @@
+{
+  "files": {
+    "results/window-report.json": {
+      "remote_sha256": "b16794d81771985c45d104eaeaab78dc3c00117903a1797a73a8ec653f89488a",
+      "remote_bytes": 34060,
+      "local_sha256": "b16794d81771985c45d104eaeaab78dc3c00117903a1797a73a8ec653f89488a",
+      "local_bytes": 34060,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "results/context-window-report.json": {
+      "remote_sha256": "19576e40e10a0977b3c62373a3614e7457ec5488dae037fe4e276bb4b9a8a80d",
+      "remote_bytes": 36531,
+      "local_sha256": "02b26da9a892bb8ce2816e72365fe18965113a13c0311016ca417cef7a756aff",
+      "local_bytes": 36532,
+      "local_added_trailing_lf": true,
+      "verified": true
+    },
+    "results/dflash2-huge-n7.jsonl": {
+      "remote_sha256": "3681403d4cef975700c8b620e30f53535bf561445c97f073897b67092c221b44",
+      "remote_bytes": 1684,
+      "local_sha256": "3681403d4cef975700c8b620e30f53535bf561445c97f073897b67092c221b44",
+      "local_bytes": 1684,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "results/dflash2-huge-n7-resources.json": {
+      "remote_sha256": "a5d3623244cab1580c29c996eb7bd5892f3e70cb74e274b2660c5b34e2d2d0f1",
+      "remote_bytes": 1098,
+      "local_sha256": "7f095d74da3dafb00f928aa6b59b6426ade11bc3179b322ee6f7fdcc416bc438",
+      "local_bytes": 1099,
+      "local_added_trailing_lf": true,
+      "verified": true
+    },
+    "controller.log": {
+      "remote_sha256": "f7dc17873887d9ce9fa032df711866079d6910ee4b0a3efc609ada40e4a336aa",
+      "remote_bytes": 1804,
+      "local_sha256": "f7dc17873887d9ce9fa032df711866079d6910ee4b0a3efc609ada40e4a336aa",
+      "local_bytes": 1804,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "execution-settings.json": {
+      "remote_sha256": "ce649029d1764671fefc2f70f726a100414d31de1749d490e0688b38205c98a8",
+      "remote_bytes": 25373,
+      "local_sha256": "cafc66ae4516e539cd3244cceaaf559a60a2edcf5b39e994a417e3bc2a5a9d77",
+      "local_bytes": 25374,
+      "local_added_trailing_lf": true,
+      "verified": true
+    },
+    "public-preflight.json": {
+      "remote_sha256": "1447f3bf8b67279af558cabaf2dc228add9c1ff9b6d4e50ce01391f271c2bc68",
+      "remote_bytes": 429,
+      "local_sha256": "f9e09e49093749341f7af5eb3889247a583dac016a9943247ff4954eb18eeffc",
+      "local_bytes": 430,
+      "local_added_trailing_lf": true,
+      "verified": true
+    },
+    "closed-idle-preflight.json": {
+      "remote_sha256": "52cc81d985202573b78f63e5bf3d75888ade87166f43ffb3fbd44211373f06a8",
+      "remote_bytes": 294,
+      "local_sha256": "efac9e5f483854133238845d37edfc74e89728667384c3b3ac6750b6ed1d7d90",
+      "local_bytes": 295,
+      "local_added_trailing_lf": true,
+      "verified": true
+    },
+    "payload-preflight.json": {
+      "remote_sha256": "fbe7823cbe2f59d8fbd7002ac33c613d56a4fe8aba663685f8a3fc5e8ecf07d9",
+      "remote_bytes": 1500,
+      "local_sha256": "6e1dcd4c07152861f279f81ef21cc05c49682dd2640eb027fd24e0ae39708833",
+      "local_bytes": 1501,
+      "local_added_trailing_lf": true,
+      "verified": true
+    },
+    "results/combined-scores.jsonl": {
+      "remote_sha256": "777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9",
+      "remote_bytes": 579701,
+      "local_sha256": "777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9",
+      "local_bytes": 579701,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "results/grading-summary.json": {
+      "remote_sha256": "99f61e0b3b0746d2d69d57435e5281fd95bf4d3d0c80c6b46b44d28638488641",
+      "remote_bytes": 8153,
+      "local_sha256": "98e36675596051302e819363d0fb15348265075778d155ee831ebbcff569f65a",
+      "local_bytes": 8154,
+      "local_added_trailing_lf": true,
+      "verified": true
+    },
+    "grading-attempt.json": {
+      "remote_sha256": "f60e2be1e63158195ecf73b73f077c63369cce960756b122ef90dba58de6c5c1",
+      "remote_bytes": 2275,
+      "local_sha256": "f60e2be1e63158195ecf73b73f077c63369cce960756b122ef90dba58de6c5c1",
+      "local_bytes": 2275,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "grading.log": {
+      "remote_sha256": "1f73c5f32912c91aeaddb2cf3ff1185ec490965e08f7666ff4d4e7ad82a3d1fb",
+      "remote_bytes": 10331,
+      "local_sha256": "1f73c5f32912c91aeaddb2cf3ff1185ec490965e08f7666ff4d4e7ad82a3d1fb",
+      "local_bytes": 10331,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "results/scores-adaptive-mtp-huge.jsonl": {
+      "remote_sha256": "b0e92e4a64d1f6efb0c3c1e8ed0be73d7adae25e2dd095fe3b99dc5c7b8d331b",
+      "remote_bytes": 6861,
+      "local_sha256": "b0e92e4a64d1f6efb0c3c1e8ed0be73d7adae25e2dd095fe3b99dc5c7b8d331b",
+      "local_bytes": 6861,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "results/scores-reconstructed-mtp-fast.jsonl": {
+      "remote_sha256": "e5351c3ae3301f974385696ad4b5cd9faf91f08d62f5a8256473bbf1ba2a6738",
+      "remote_bytes": 35239,
+      "local_sha256": "e5351c3ae3301f974385696ad4b5cd9faf91f08d62f5a8256473bbf1ba2a6738",
+      "local_bytes": 35239,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "results/scores-reconstructed-mtp-huge.jsonl": {
+      "remote_sha256": "c72f0039e8c714b6eb41d803125e974f2d98ed6d11632754b72b35cfcbedd37e",
+      "remote_bytes": 82807,
+      "local_sha256": "c72f0039e8c714b6eb41d803125e974f2d98ed6d11632754b72b35cfcbedd37e",
+      "local_bytes": 82807,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "results/scores-dflash2-fast-n7.jsonl": {
+      "remote_sha256": "2ffb3f712b47bafd63c06d394ae0070562f9c2a287c6f773c59f05aa58f230f0",
+      "remote_bytes": 34937,
+      "local_sha256": "2ffb3f712b47bafd63c06d394ae0070562f9c2a287c6f773c59f05aa58f230f0",
+      "local_bytes": 34937,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "results/scores-dflash2-huge-n7.jsonl": {
+      "remote_sha256": "2d96c43324e3f879abd80f129d3c5364a78e6673b13a70dbd6fe3e9460816eea",
+      "remote_bytes": 28756,
+      "local_sha256": "2d96c43324e3f879abd80f129d3c5364a78e6673b13a70dbd6fe3e9460816eea",
+      "local_bytes": 28756,
+      "local_added_trailing_lf": false,
+      "verified": true
+    },
+    "results/scores-original-gguf.jsonl": {
+      "remote_sha256": "5a09281921cfaac347d2596adf723c9a10788135c1950ba8bc28d2e3632d2c2e",
+      "remote_bytes": 3994,
+      "local_sha256": "5a09281921cfaac347d2596adf723c9a10788135c1950ba8bc28d2e3632d2c2e",
+      "local_bytes": 3994,
+      "local_added_trailing_lf": false,
+      "verified": true
+    }
+  }
+}

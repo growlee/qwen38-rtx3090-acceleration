@@ -1,0 +1,22 @@
+{
+  "cases": 258,
+  "codeCases": 66,
+  "profiles": 6,
+  "capture_seconds": 1452060,
+  "window_seconds": 1454760,
+  "unit_runtime_max_seconds": 1461960,
+  "additional_allocation_mib": {
+    "source_evidence_and_transfer_overlap": 16,
+    "model_fixture_image_copies": 0,
+    "capture_and_stderr": 198,
+    "candidate_logs": 24,
+    "container_metadata_active_init_allowance": 312,
+    "samples_scores_reports": 419,
+    "headroom": 512
+  },
+  "test_owned_cap_bytes": 4294967296,
+  "root_floor_bytes": 161061273600,
+  "write_reserve_bytes": 536870912,
+  "stage_and_close_minimum_free_bytes": 165356240896,
+  "planned_allocation_plus_headroom_mib": 1481
+}

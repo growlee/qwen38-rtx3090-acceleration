@@ -1,0 +1,14 @@
+[
+  {
+    "case": "original",
+    "exit_code": 0,
+    "stdout": "{\"cache_mount\": [\"2591 2562 0:311 / /cache rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,size=65536k,uid=65532,gid=65532,inode64\"], \"dlopen\": false, \"error\": \"/cache/probe.so: failed to map segment from shared object\"}\n",
+    "stderr": ""
+  },
+  {
+    "case": "exec",
+    "exit_code": 0,
+    "stdout": "{\"cache_mount\": [\"2591 2562 0:311 / /cache rw,nosuid,nodev,relatime - tmpfs tmpfs rw,size=65536k,uid=65532,gid=65532,inode64\"], \"dlopen\": true}\n",
+    "stderr": ""
+  }
+]

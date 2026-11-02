@@ -1,0 +1,32 @@
+{
+  "schema": "qwen38-context-export/v1",
+  "source_host": "server-a",
+  "source_root": "/srv/ai-server/benchmarks/context-20260908-r1/results",
+  "source_manifest_sha256": "c71c26c5cf3124347a021489d60148b102a5ad2c35ee4b1314e37ef8eafa36e6",
+  "mode_id": "autoround-mtp-fast",
+  "capture_status": "CAPTURED",
+  "grading_status": "pending_after_public_restoration",
+  "files": [
+    {
+      "name": "autoround-mtp-fast.jsonl",
+      "source_bytes": 45022,
+      "source_sha256": "88df9e73ff07f5a2a8270102af14c2ab9579384088233fa7638be49d38e3c3f0",
+      "local_sha256": "88df9e73ff07f5a2a8270102af14c2ab9579384088233fa7638be49d38e3c3f0",
+      "normalization": "none"
+    },
+    {
+      "name": "autoround-mtp-fast-resources.json",
+      "source_bytes": 81390,
+      "source_sha256": "f9f97838c472dd89b462a0d9742e777334470f9bcab86917f26dab9795249f01",
+      "local_sha256": "31154998ccfa0f7fb248ee1b6e9c7359f632ee7e5c464b8f34a469e730b84c93",
+      "normalization": "One final LF added by text export; removing that LF reproduces the verified source SHA-256."
+    },
+    {
+      "name": "autoround-mtp-fast.stderr",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported": false,
+      "reason": "empty; source retained"
+    }
+  ]
+}

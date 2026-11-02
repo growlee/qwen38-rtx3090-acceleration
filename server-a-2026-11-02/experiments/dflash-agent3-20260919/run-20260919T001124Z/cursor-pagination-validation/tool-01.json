@@ -1,0 +1,31 @@
+{
+  "arguments": {
+    "path": "app.py"
+  },
+  "assistant_message": {
+    "content": "",
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\": \"app.py\"}",
+          "name": "read_file"
+        },
+        "id": "chatcmpl-tool-b8b8e3f3fb07cb13",
+        "type": "function"
+      }
+    ]
+  },
+  "name": "read_file",
+  "result": {
+    "content": "\"\"\"Cursor-based access to an in-memory customer snapshot.\"\"\"\n\n\ndef list_customers(records, cursor=None, limit=50):\n    \"\"\"Return one page of customers.\n\n    This provisional implementation predates the opaque cursor contract.\n    \"\"\"\n    start = int(cursor or 0)\n    page = records[start : start + limit]\n    next_cursor = str(start + limit) if page else None\n    return {\"items\": page, \"next_cursor\": next_cursor}\n",
+    "ok": true,
+    "path": "app.py"
+  },
+  "tool_message": {
+    "content": "{\"content\": \"\\\"\\\"\\\"Cursor-based access to an in-memory customer snapshot.\\\"\\\"\\\"\\n\\n\\ndef list_customers(records, cursor=None, limit=50):\\n    \\\"\\\"\\\"Return one page of customers.\\n\\n    This provisional implementation predates the opaque cursor contract.\\n    \\\"\\\"\\\"\\n    start = int(cursor or 0)\\n    page = records[start : start + limit]\\n    next_cursor = str(start + limit) if page else None\\n    return {\\\"items\\\": page, \\\"next_cursor\\\": next_cursor}\\n\", \"ok\": true, \"path\": \"app.py\"}",
+    "name": "read_file",
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-b8b8e3f3fb07cb13"
+  }
+}

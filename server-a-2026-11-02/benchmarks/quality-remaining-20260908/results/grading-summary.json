@@ -1,0 +1,33 @@
+{
+  "dflash2-fast-n7": {
+    "BLOCKED": 0,
+    "FAIL": 43,
+    "PASS": 157,
+    "cases": 200,
+    "input_sha256": "23ce3d1c3c1e46c5deffc0f63dddab1444539cfca3e3cc0584192d17a5c5b9d6",
+    "mode_id": "dflash2-fast-n7"
+  },
+  "dflash2-huge-n7": {
+    "BLOCKED": 0,
+    "FAIL": 46,
+    "PASS": 154,
+    "cases": 200,
+    "input_sha256": "c9070d7f5f3a5e227d35fa3e13641bca569efe434acb28751209729e9f67a1d3",
+    "mode_id": "dflash2-huge-n7"
+  },
+  "fast-mtp-int8-vocab40960": {
+    "BLOCKED": 0,
+    "FAIL": 43,
+    "PASS": 157,
+    "cases": 200,
+    "input_sha256": "5c3ee00fe4c42beef5d70f9baa8378cbf795a4a94ca65605dc4434fd94780bfd",
+    "mode_id": "fast-mtp-int8-vocab40960"
+  },
+  "historical-adaptive-k4": {
+    "BLOCKED": 200,
+    "FAIL": 0,
+    "PASS": 0,
+    "cases": 200,
+    "reason": "historical_weights_and_exact_calibration_missing_helpers_recovered_current_calibration_differs"
+  }
+}

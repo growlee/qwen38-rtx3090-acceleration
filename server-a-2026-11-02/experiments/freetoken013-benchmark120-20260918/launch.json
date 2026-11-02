@@ -1,0 +1,16 @@
+{
+  "pid": 4166081,
+  "utc": "2026-09-18T09:52:59.567040+00:00",
+  "argv": [
+    "python3",
+    "-E",
+    "-B",
+    "/srv/ai-server/artifacts/experiments/freetoken013-benchmark120-20260918/run_benchmark120.py",
+    "--image-id",
+    "sha256:10bc9d29f79941c71bb27a77974be4b2312ae64f02636dd5445db20e77675134",
+    "--bundle-sha256",
+    "b0bbaf4fddce284d2987b8dcabcc47d295c2f27686a7e4ff1ca45d246102dc95",
+    "--benchmark-sha256",
+    "a0ea87d1a3bba59d07b8b7d6f9528314c058255af72803373433bf555fca027a"
+  ]
+}

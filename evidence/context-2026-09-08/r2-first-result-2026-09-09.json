@@ -1,0 +1,41 @@
+{
+  "epoch": 1788953597.9928548,
+  "unit": "MainPID=4101930\nActiveState=active\n",
+  "captured": 1,
+  "dispatched": 2,
+  "current_case": "context-version-middle-t200000",
+  "current_elapsed_seconds": 32.8,
+  "last_result": {
+    "case_id": "context-version-start-t200000",
+    "content": "7|83|Дарья",
+    "context_limit": 204800,
+    "decode_rate_definition": "completion_tokens / seconds from first generated delta through stream end",
+    "decode_tokens_per_second": 17.972042,
+    "elapsed_seconds": 316.826569,
+    "ended_epoch": 1788953565.1766062,
+    "error": null,
+    "family_id": "context-version-start",
+    "finish_reason": "stop",
+    "input_tokens": 200018,
+    "kind": "case",
+    "mode_id": "adaptive-mtp-huge",
+    "model_id": "qwen3.8-27b",
+    "outcome": "pass",
+    "reasoning": "",
+    "request_bytes": 733820,
+    "request_sha256": "5fd34e99ba0d8fda9bb7334005852019852ae7e3508545ecd03694d1da7833e7",
+    "schema": "qwen38-quality-jsonl/v1",
+    "sse_bytes": 1867,
+    "started_epoch": 1788953248.3499613,
+    "target_tokens": 200000,
+    "tool_calls": [],
+    "ttft_first_content_or_tool_seconds": 316.325791,
+    "ttft_first_generated_seconds": 316.325791,
+    "usage": {
+      "completion_tokens": 9,
+      "prompt_tokens": 200018,
+      "total_tokens": 200027
+    }
+  },
+  "window_report": false
+}

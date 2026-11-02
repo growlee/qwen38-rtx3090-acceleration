@@ -1,0 +1,16 @@
+{
+  "source_suite_sha256": "022f3817ad928da76160b3a1f0c2cfd56a4f9e5346b991a2e496c4504903f437",
+  "source_commit": "eb8932dd83130ac0330236a70c5caa5e5517ebfb",
+  "cases": [
+    "expanded-he-075",
+    "expanded-he-081",
+    "expanded-he-119"
+  ],
+  "previous_completion_tokens": [
+    280,
+    244,
+    364
+  ],
+  "previous_outcome": "PASS",
+  "new_max_tokens": 512
+}

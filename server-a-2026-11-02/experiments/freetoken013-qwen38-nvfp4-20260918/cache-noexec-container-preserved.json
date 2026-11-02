@@ -1,0 +1,20 @@
+{
+  "id": "415ce45f9c75dda2d14ca2b22046c006197b797abd860e641dd8375e1c7f59f9",
+  "previous_name": "ai-server-freetoken-q38-013-nvfp4",
+  "name": "ai-server-freetoken-q38-013-nvfp4-cache-noexec",
+  "image": "sha256:10bc9d29f79941c71bb27a77974be4b2312ae64f02636dd5445db20e77675134",
+  "bundle": "258a4aec37a1ca675b89f75771d2525471add365036ab78a22e1028e8eca0eb6",
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-18T08:14:56.999163793Z",
+    "FinishedAt": "2026-09-18T08:16:07.945307715Z"
+  }
+}

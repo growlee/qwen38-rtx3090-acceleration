@@ -1,0 +1,8 @@
+{
+  "status": "BLOCKED",
+  "phase": "generation",
+  "restoration_verified": true,
+  "output": "/srv/ai-server/artifacts/experiments/dflash-standard120-20260919/run-20260919T005212Z",
+  "mode_id": "dflash2-fast-n7-prefix32k-coding120-20260919",
+  "error": "RuntimeError: generation_storage_bound"
+}

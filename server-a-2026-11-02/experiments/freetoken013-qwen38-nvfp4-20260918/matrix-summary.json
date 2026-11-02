@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "short_stream",
+      "status": "PASS",
+      "evidence_run": "run-20260918T084024672232Z",
+      "local_prompt_tokens": 2,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 24,
+        "total_tokens": 50
+      },
+      "first_content_seconds": 7.208898471901193,
+      "duration_seconds": 7.822828959906474,
+      "cached_tokens": 0,
+      "peak_vram_mib": 22194,
+      "estimated_post_first_content_tokens_per_second": 40.72122249739937,
+      "completion_tokens_per_total_second": 3.323605837895099,
+      "triton_compile_seconds_sum": 3.908462,
+      "triton_compile_cache_load_seconds_sum": 0.0,
+      "reasoning_chars": 0,
+      "finish_reason": "stop",
+      "response_content": "A Python function is a reusable block of code that performs a specific task and can be called by name to execute its instructions."
+    },
+    {
+      "case": "8000_fresh",
+      "status": "PASS",
+      "evidence_run": "run-20260918T084817863237Z",
+      "local_prompt_tokens": 7976,
+      "usage": {
+        "completion_tokens": 47,
+        "prompt_tokens": 7976,
+        "total_tokens": 8023
+      },
+      "first_content_seconds": 12.424099463969469,
+      "duration_seconds": 13.637585469987243,
+      "cached_tokens": 0,
+      "peak_vram_mib": 23334,
+      "estimated_post_first_content_tokens_per_second": 37.907318067025344,
+      "completion_tokens_per_total_second": 3.4463578690989474,
+      "triton_compile_seconds_sum": 2.943625,
+      "triton_compile_cache_load_seconds_sum": 0.0,
+      "reasoning_chars": 0,
+      "finish_reason": "stop",
+      "response_content": "The code defines a series of functions that filter a list to include only non-negative numbers and then add a specific offset to each. The offset cycles through the values 0 to 6 in a repeating pattern across the function indices."
+    },
+    {
+      "case": "8000_continuation",
+      "status": "PASS",
+      "evidence_run": "run-20260918T084817863237Z",
+      "local_prompt_tokens": 8049,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 8049,
+        "prompt_tokens_details": {
+          "cached_tokens": 8023
+        },
+        "total_tokens": 8089
+      },
+      "first_content_seconds": 1.902883973903954,
+      "duration_seconds": 2.9320733689237386,
+      "cached_tokens": 8023,
+      "peak_vram_mib": 23334,
+      "estimated_post_first_content_tokens_per_second": 37.893899984511876,
+      "completion_tokens_per_total_second": 13.642223425903765,
+      "triton_compile_seconds_sum": 1.513517,
+      "triton_compile_cache_load_seconds_sum": 0.0,
+      "reasoning_chars": 0,
+      "finish_reason": "stop",
+      "response_content": "A useful unit test would verify that for a given function index, the returned list correctly filters out negative numbers and adds the expected offset (index % 7) to each remaining non-negative element."
+    },
+    {
+      "case": "28000_fresh",
+      "status": "PASS",
+      "evidence_run": "run-20260918T084817863237Z",
+      "local_prompt_tokens": 27994,
+      "usage": {
+        "completion_tokens": 47,
+        "prompt_tokens": 27994,
+        "total_tokens": 28041
+      },
+      "first_content_seconds": 27.883191485889256,
+      "duration_seconds": 29.23784001194872,
+      "cached_tokens": 0,
+      "peak_vram_mib": 23394,
+      "estimated_post_first_content_tokens_per_second": 33.95714764021438,
+      "completion_tokens_per_total_second": 1.6075058889710172,
+      "triton_compile_seconds_sum": 0.0,
+      "triton_compile_cache_load_seconds_sum": 0.0,
+      "reasoning_chars": 0,
+      "finish_reason": "stop",
+      "response_content": "This fixture defines a large series of functions that filter a list to keep only non-negative values and add a small offset to each. The offset cycles through the values 0 through 6 in a repeating pattern across the function indices."
+    },
+    {
+      "case": "28000_continuation",
+      "status": "PASS",
+      "evidence_run": "run-20260918T084817863237Z",
+      "local_prompt_tokens": 28067,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 28067,
+        "prompt_tokens_details": {
+          "cached_tokens": 28041
+        },
+        "total_tokens": 28107
+      },
+      "first_content_seconds": 0.21402021404355764,
+      "duration_seconds": 1.3742409590631723,
+      "cached_tokens": 28041,
+      "peak_vram_mib": 23394,
+      "estimated_post_first_content_tokens_per_second": 33.614292941590755,
+      "completion_tokens_per_total_second": 29.106977008797802,
+      "triton_compile_seconds_sum": 0.0,
+      "triton_compile_cache_load_seconds_sum": 0.0,
+      "reasoning_chars": 0,
+      "finish_reason": "stop",
+      "response_content": "A useful unit test would verify that for a given function index, the returned list correctly filters out negative numbers and adds the expected offset (index % 7) to each remaining non-negative element."
+    }
+  ],
+  "scope": "one short plus two fresh/continuation pairs; no successful case repeated",
+  "short_local_counter_note": "Old local count=2 was invalid BatchEncoding field count; server usage=24 authoritative, independently reproduced with return_dict=False."
+}

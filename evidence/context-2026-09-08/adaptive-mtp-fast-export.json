@@ -1,0 +1,104 @@
+{
+  "schema": "qwen38-context-export/v1",
+  "source_host": "server-a",
+  "source_root": "/srv/ai-server/benchmarks/context-20260908-r1/results",
+  "source_manifest_sha256": "c71c26c5cf3124347a021489d60148b102a5ad2c35ee4b1314e37ef8eafa36e6",
+  "mode_id": "adaptive-mtp-fast",
+  "exported_at_utc": "2026-09-08T21:45:34.384721+00:00",
+  "capture_status": "36_complete_envelopes",
+  "grading_status": "pending_after_public_restoration",
+  "files": [
+    {
+      "name": "adaptive-mtp-fast.jsonl",
+      "source_bytes": 44854,
+      "source_sha256": "16697d22bc223faf1573265b4cf6ba8e0e7acaee3a3597c3566f12f156966cdf",
+      "local_sha256": "16697d22bc223faf1573265b4cf6ba8e0e7acaee3a3597c3566f12f156966cdf",
+      "normalization": "none"
+    },
+    {
+      "name": "adaptive-mtp-fast-resources.json",
+      "source_bytes": 81099,
+      "source_sha256": "1665fe75677cae4793739303680e1da86564a3d870f3c430aa2f1d6f21ff5b03",
+      "local_sha256": "c402f42b8d05601095c12e7429602bc1a0680abe17a7d26598efde485a15ef84",
+      "normalization": "One final LF added by text export; removing that LF reproduces the verified source SHA-256."
+    },
+    {
+      "name": "adaptive-mtp-fast.stderr",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported": false,
+      "reason": "empty; source retained"
+    }
+  ],
+  "captured_length_summary": [
+    {
+      "target": 8192,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 8235,
+      "min_input": 8192,
+      "ttft_median": 6.844393999999999,
+      "decode_median": 91.95126350000001,
+      "elapsed_max": 7.721166,
+      "finish_reasons": {
+        "stop": 12
+      },
+      "autoround_ttft_median": 6.8792575,
+      "autoround_decode_median": 132.750981
+    },
+    {
+      "target": 32768,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 32807,
+      "min_input": 32781,
+      "ttft_median": 30.4057375,
+      "decode_median": 78.8545655,
+      "elapsed_max": 31.119998,
+      "finish_reasons": {
+        "stop": 12
+      },
+      "autoround_ttft_median": 30.517936499999998,
+      "autoround_decode_median": 121.390449
+    },
+    {
+      "target": 50000,
+      "n": 12,
+      "outcomes": {
+        "pass": 9,
+        "pending_sandbox": 3
+      },
+      "max_input": 50042,
+      "min_input": 50016,
+      "ttft_median": 49.5491165,
+      "decode_median": 76.4308665,
+      "elapsed_max": 50.401874,
+      "finish_reasons": {
+        "stop": 12
+      },
+      "autoround_ttft_median": 49.7061315,
+      "autoround_decode_median": 114.295412
+    }
+  ],
+  "paired_autoround_fast": {
+    "count": 36,
+    "request_sha_input_count_mismatches": [],
+    "raw_outcome_pairs": {
+      "pass/pass": 27,
+      "pending_sandbox/pending_sandbox": 9
+    }
+  },
+  "resources_summary": {
+    "sample_count": 1018,
+    "max_gpu_mib": 21960,
+    "max_temp_c": 74,
+    "min_available_ram_bytes": 25636179968
+  },
+  "limitations": "Nine code answers remain pending_sandbox. No new inference or sandbox evaluation during export. Decode is from short answers, includes stream delivery and is not a sustained 1024-token benchmark."
+}

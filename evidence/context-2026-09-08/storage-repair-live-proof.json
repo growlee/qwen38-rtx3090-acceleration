@@ -1,0 +1,60 @@
+{
+  "at": "2026-09-09T01:07:01.546499+00:00",
+  "admission": {
+    "active_ledger": [],
+    "active_ledger_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "admission_epoch": 314,
+    "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+    "capacity_mode": "serialized-99",
+    "coordinator_generation": "874330d3-6376-4242-a86a-cbf52df011d3",
+    "ok": true,
+    "phase": "public",
+    "queue_depth": 0,
+    "reconciliation_required": false,
+    "request_id": "higgs-queue-4ebec8f57f8b4771a0d273a75a6c7350",
+    "restart_pending": false,
+    "resume_phase": "public",
+    "schema": "ai-admission-operator-response/v1"
+  },
+  "queue": {
+    "queue_depth": 0,
+    "active_job": null,
+    "gpu_owner": "qwen",
+    "switch_phase": "idle",
+    "last_error": null,
+    "profile_readiness": {
+      "higgs-tts3": "stopped",
+      "pony-v6": "stopped",
+      "pony-v7": "stopped",
+      "qwen": "ready",
+      "qwen-dflash2": "stopped"
+    },
+    "entries": [],
+    "capacity_mode": "serialized-99"
+  },
+  "health": {
+    "ai-server-qwen": {
+      "id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+      "running": true,
+      "health": "healthy",
+      "oom": false
+    },
+    "ai-server-gateway": {
+      "id": "9b868e3ef90df3936c23b3a83eef872a1057793ac978e683293780b032ffbb74",
+      "running": true,
+      "health": "healthy",
+      "oom": false
+    },
+    "ai-server-open-webui": {
+      "id": "89a34400fcf8a75fee6fe497cef18d9c00f8e14e61af8e56ec6495ede89388c6",
+      "running": true,
+      "health": "healthy",
+      "oom": false
+    }
+  },
+  "free_bytes": 168313749504,
+  "service_sha256": "14726d0e0b21b29443043936925b3a791156d79e3980048b1dcbff6ee5a967f4",
+  "repair_script_sha256": "6341b58ee92f0b055e15b496bc870288cfebdd876f0fa587e874c6eeeaec7628",
+  "repair_unit": "MainPID=0\nExecMainStatus=0\nActiveState=inactive\n",
+  "test_containers_running": []
+}

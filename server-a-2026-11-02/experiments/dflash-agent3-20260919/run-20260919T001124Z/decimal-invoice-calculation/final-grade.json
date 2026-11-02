@@ -1,0 +1,11 @@
+{
+  "container_id": "a8ce9a6ca2e09b56f92ca1331e3cd1668cb8b40a50fa2c8cb913d2837854fbb5",
+  "container_name": "ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-decimal-invoice-calculation-final-grade",
+  "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+  "outcome": "PASS",
+  "passed": true,
+  "returncode": 0,
+  "stderr": "test_calculates_line_discounts_then_invoice_tax (test_fixture.InvoiceTests.test_calculates_line_discounts_then_invoice_tax) ... ok\ntest_preserves_input_order_without_mutation (test_fixture.InvoiceTests.test_preserves_input_order_without_mutation) ... ok\ntest_rejects_bad_shapes_and_duplicate_skus (test_fixture.InvoiceTests.test_rejects_bad_shapes_and_duplicate_skus) ... ok\ntest_rejects_noncanonical_decimals_and_out_of_range_rates (test_fixture.InvoiceTests.test_rejects_noncanonical_decimals_and_out_of_range_rates) ... ok\ntest_rounds_half_up_not_bankers (test_fixture.InvoiceTests.test_rounds_half_up_not_bankers) ... ok\ntest_tax_is_rounded_once_after_summing_net (test_fixture.InvoiceTests.test_tax_is_rounded_once_after_summing_net) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n",
+  "stdout": "",
+  "stopped": true
+}

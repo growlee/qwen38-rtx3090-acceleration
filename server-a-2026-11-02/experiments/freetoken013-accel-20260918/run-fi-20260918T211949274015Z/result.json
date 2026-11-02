@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "phase": "complete",
+  "terminal_class": "valid_result",
+  "restoration_verified": true,
+  "mode": "fi",
+  "image_id": "sha256:e64e250ab64f1c06f2246f7ac16027d59d998155d7d61a6301865e4e263bed03"
+}

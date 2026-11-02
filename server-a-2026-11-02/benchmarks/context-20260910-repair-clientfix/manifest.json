@@ -1,0 +1,26 @@
+{
+  "schema": "qwen-context-repair-bundle/v1",
+  "files": {
+    "repair_context.py": "7c7866bb0d8a0eeae3eb46019d0a051aef5b0da23971bd80a00fd25e282233c2",
+    "quality_context_continue_client.py": "6fbfabccf70cf7ca9ba3d016d31f2ede69e8357134eba9e907148ad824abf6bf",
+    "grade_repair.py": "10657a98026befc4ff047f4e489bc50ed7d3c4c4abc802b93ef4c3604960826a",
+    "selection.json": "c66c54edc22c1dd48b147470f99a127cb23aacab21675186332713194036db01",
+    "runbook.md": "3da09faa01e47c587a376b22d6f813afb024def8246a824f9eb63c5d269715ac"
+  },
+  "dependencies": {
+    "r1/run_context.py": "7cb2f97465a69992babc9887780477ab98d3eb548500e33052cba7eb70248816",
+    "r1/controller.py": "4ad216fc2ff90ea9a8971e10904681fd11396f86977bc3e865ae736cf7dcccc5",
+    "r1/frozen/frozen.json": "2df1be2cff66b53ce57b3eefe3eed8be2d16c59d1e37b783341f176995689d94",
+    "r2/manifest.json": "89e8667d4c2031b6ce91fe0f73b206592ea9a6f4066b2e9328b4d570e209299e",
+    "r2/continue_context.py": "6d2e89059388a5fef595cfc80f76a070d46f21e3a8865c38054b33691c6a5307",
+    "r2/context_storage.py": "2085436ed77ec5a9f64d61568bb612254cb58158027869fc036fa666ff914cfd",
+    "r2/quality_context_remaining.py": "d05b4125873eb7afdea27e64f47515c2ff2371c85771ec60fbaee5b1bc6e3979",
+    "r2/results/combined-scores.jsonl": "777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9",
+    "r2/restoration-after-abort.json": "5c4db227957e37a03fb36cddd61d9d5eef4be0a1766ce9969a0a7fe4eb3328a0",
+    "r2/results/grading-summary.json": "99f61e0b3b0746d2d69d57435e5281fd95bf4d3d0c80c6b46b44d28638488641",
+    "previous/attempt.json": "94fd433d011c4f655abf660ddf5ddfd14103dba3e0197f1c39ff6b81da10a04c",
+    "previous/results/context-window-report.json": "64a362072a70b563cf88e89cf26c1a1c7eb3716d39de639e85243e7dffb912c8",
+    "previous/results/original-gguf.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "previous/results/original-gguf.stderr": "c6b626cee5a2f330fa5c039967543e8127fda0890480278d9039c1828359e89f"
+  }
+}

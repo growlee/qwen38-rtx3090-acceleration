@@ -1,0 +1,1 @@
+{"runtime": {"compute_pids": [], "power_limit_w": 300, "profiles": {"higgs-tts3": "stopped", "pony-v6": "stopped", "pony-v7": "stopped", "qwen": "stopped", "qwen-dflash2": "stopped"}, "timestamp": 1788999604.9831169}, "sha256": "de27395f397d4066c25c9f7aa0c704dbc5bbd31244afba86d8e65f7fa8500f32"}

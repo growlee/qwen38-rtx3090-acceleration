@@ -1,0 +1,11 @@
+{
+  "ended_epoch": 1789000629.5837588,
+  "error": "StorageError: root_storage_reserve_exhausted",
+  "manifest_sha256": "d422861a845fb35a200e70b9fc0c10bbf1a7d0df76e7b1ab6c383ebc5c783afd",
+  "old_owned_count": 60,
+  "outcome": "terminal_failure",
+  "schema": "qwen-context-repair-attempt/v1",
+  "selection_sha256": "a205678ff858691535f7c26b18b1bf5e38a2a75ad08ba54b344aff6923fcfc30",
+  "source_combined_sha256": "4f47916f1f0444478cc408d2a0610c2781777fdbfd1579f6bd83d589e320391e",
+  "started_epoch": 1788999425.80288
+}

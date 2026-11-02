@@ -1,0 +1,174 @@
+{
+  "audit": "PASS",
+  "coordinates": 612,
+  "counts": {
+    "BLOCKED": 258,
+    "FAIL": 1,
+    "PASS": 353
+  },
+  "capture": {
+    "complete": 354,
+    "interrupted": 1,
+    "not_dispatched": 257
+  },
+  "paired_request_and_token_matches": 235,
+  "coding_answers": 87,
+  "coding_pass": 86,
+  "vectors_pass": 634,
+  "vectors_total": 638,
+  "metrics": {
+    "adaptive-mtp-fast": {
+      "normal_answers": 36,
+      "max_elapsed_seconds": 50.401874,
+      "max_vram_mib": 21960,
+      "min_host_available_bytes": 25636179968,
+      "output_token_range": [
+        8,
+        162
+      ]
+    },
+    "adaptive-mtp-huge": {
+      "normal_answers": 78,
+      "max_elapsed_seconds": 314.163962,
+      "max_vram_mib": 22002,
+      "min_host_available_bytes": 24956604416,
+      "output_token_range": [
+        8,
+        158
+      ]
+    },
+    "autoround-mtp-fast": {
+      "normal_answers": 36,
+      "max_elapsed_seconds": 50.90003,
+      "max_vram_mib": 21878,
+      "min_host_available_bytes": 25940443136,
+      "output_token_range": [
+        8,
+        158
+      ]
+    },
+    "autoround-mtp-huge": {
+      "normal_answers": 84,
+      "max_elapsed_seconds": 317.702198,
+      "max_vram_mib": 21964,
+      "min_host_available_bytes": 25201954816,
+      "output_token_range": [
+        8,
+        158
+      ]
+    },
+    "dflash2-fast-n7": {
+      "normal_answers": 0,
+      "max_elapsed_seconds": null,
+      "max_vram_mib": null,
+      "min_host_available_bytes": null,
+      "output_token_range": [
+        null,
+        null
+      ]
+    },
+    "dflash2-huge-n7": {
+      "normal_answers": 0,
+      "max_elapsed_seconds": null,
+      "max_vram_mib": null,
+      "min_host_available_bytes": null,
+      "output_token_range": [
+        null,
+        null
+      ]
+    },
+    "int8-mtp-fast": {
+      "normal_answers": 36,
+      "max_elapsed_seconds": 50.797538,
+      "max_vram_mib": 21900,
+      "min_host_available_bytes": 25504030720,
+      "output_token_range": [
+        8,
+        158
+      ]
+    },
+    "int8-mtp-huge": {
+      "normal_answers": 84,
+      "max_elapsed_seconds": 316.580817,
+      "max_vram_mib": 22026,
+      "min_host_available_bytes": 25008054272,
+      "output_token_range": [
+        8,
+        158
+      ]
+    },
+    "original-gguf": {
+      "normal_answers": 0,
+      "max_elapsed_seconds": null,
+      "max_vram_mib": null,
+      "min_host_available_bytes": null,
+      "output_token_range": [
+        null,
+        null
+      ]
+    },
+    "reconstructed-mtp-fast": {
+      "normal_answers": 0,
+      "max_elapsed_seconds": null,
+      "max_vram_mib": null,
+      "min_host_available_bytes": null,
+      "output_token_range": [
+        null,
+        null
+      ]
+    },
+    "reconstructed-mtp-huge": {
+      "normal_answers": 0,
+      "max_elapsed_seconds": null,
+      "max_vram_mib": null,
+      "min_host_available_bytes": null,
+      "output_token_range": [
+        null,
+        null
+      ]
+    }
+  },
+  "kinds": {
+    "adaptive-mtp-fast": {
+      "warmup": 1,
+      "case_start": 36,
+      "case": 36
+    },
+    "adaptive-mtp-huge": {
+      "warmup": 1,
+      "case_start": 79,
+      "case": 79
+    },
+    "autoround-mtp-fast": {
+      "warmup": 1,
+      "case_start": 36,
+      "case": 36
+    },
+    "autoround-mtp-huge": {
+      "warmup": 1,
+      "case_start": 84,
+      "case": 84
+    },
+    "int8-mtp-fast": {
+      "warmup": 1,
+      "case_start": 36,
+      "case": 36
+    },
+    "int8-mtp-huge": {
+      "warmup": 1,
+      "case_start": 84,
+      "case": 84
+    }
+  },
+  "score_sha256": "e3e6e42be7c789b82f7dae45ef9327a925804117b2cf958fabe1908c2aa805d2",
+  "summary_sha256": "c0221fdd60a28d3ccd6ba8c9c76343276418f9a458aa7399c36ab822b625c31e",
+  "remaining_code_sha256": "7e89704b0ba248045d9637b2725e28288dd3d6d22e9f940b5d9c1c8968e05d6c",
+  "pc_a_container_inspection": {
+    "containers_verified": 57,
+    "all_stopped_exit0_oom_false": true,
+    "sandbox_contract_verified": true,
+    "writable_layer_bytes": 0,
+    "identity_source": "pc-a-remaining-code.jsonl evaluation.container_id",
+    "verification": "docker inspect --size for all 57 exact IDs; no candidate re-execution"
+  }
+}

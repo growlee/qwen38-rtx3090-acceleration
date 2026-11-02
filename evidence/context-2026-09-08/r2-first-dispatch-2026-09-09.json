@@ -1,0 +1,14 @@
+{
+  "observed_epoch": 1788953266.2002687,
+  "unit": "qwen-context-20260908-r2.service",
+  "invocation_id": "2828b0102ddc417c81c886af0e0fe554",
+  "main_pid": 4101930,
+  "active_state": "active",
+  "mode_id": "adaptive-mtp-huge",
+  "case_id": "context-version-start-t200000",
+  "kind": "case_start",
+  "input_tokens": 200018,
+  "started_epoch": 1788953248.3499613,
+  "completed_result_observed": false,
+  "source": "/srv/ai-server/benchmarks/context-20260908-r2/results/adaptive-mtp-huge.jsonl"
+}

@@ -1,0 +1,30 @@
+{
+  "physical_source_logical_bytes": 554897,
+  "final_evidence": {
+    "final-r1/r1-final-audit.json": "98f21e0d76485d7de9bb17e6195dfb2f2e145dc82bedebbe0e63ee61af6d5f71",
+    "final-r1/r1-final-scores.jsonl": "e3e6e42be7c789b82f7dae45ef9327a925804117b2cf958fabe1908c2aa805d2",
+    "final-r1/r1-final-summary.json": "c0221fdd60a28d3ccd6ba8c9c76343276418f9a458aa7399c36ab822b625c31e",
+    "final-r1/storage-repair-restoration.json": "6d5e4b444d69b8caf52dd598b06de59ebc2b20ab6e204ca80f9d142518b7b9c8"
+  },
+  "files": {
+    "quality_context_continue_client.py": "c805279c7025bfbc91db64c9a6744bb50a8959e234744981f5a00545adb3b2ae",
+    "selection.json": "14942473ada2faa2cb1d235699d3074a7e785de1fc5a1748190b18c30dd8d524",
+    "context_storage.py": "2085436ed77ec5a9f64d61568bb612254cb58158027869fc036fa666ff914cfd",
+    "quality_context_remaining.py": "d05b4125873eb7afdea27e64f47515c2ff2371c85771ec60fbaee5b1bc6e3979",
+    "continue_context.py": "a0a96fc533bb0dd962ff049a9b17fd0d950fb0d69650c97eee582e196476ef3e",
+    "continuation-execution.md": "9b251015a4869339829c6da2dde3a279f544b2bef97d7be31c714219d99994bc",
+    "grade_context_continuation.py": "e89b034035990aa87906a84a40ea03f16f71e0fe956ef98dfde57c3b48a4261b"
+  },
+  "source_evidence": {
+    "execution-settings.json": "b58d1cf73a547943abd00f535af5b697908cb17351e4a0ef16d8ec9605bdb6ce",
+    "frozen/frozen.json": "2df1be2cff66b53ce57b3eefe3eed8be2d16c59d1e37b783341f176995689d94",
+    "results/context-window-report.json": "9090bb05991c03401a0d8cc9c1ba224e3cb797ab83c81ea3a45d50d055292ab5",
+    "results/autoround-mtp-fast.jsonl": "88df9e73ff07f5a2a8270102af14c2ab9579384088233fa7638be49d38e3c3f0",
+    "results/autoround-mtp-huge.jsonl": "d987d712cd164bf843252fe820875926e25bcc35a6b68a071e7eced4a60c1bab",
+    "results/int8-mtp-fast.jsonl": "74f6c31955a1a91848071ec91c8a5e227e1faa5a15016a8f3a5f65b1317801c6",
+    "results/int8-mtp-huge.jsonl": "309333b0ecdef9e961dcff62bd915565a694ff6a84f7c02a2e9058f5955801ac",
+    "results/adaptive-mtp-fast.jsonl": "16697d22bc223faf1573265b4cf6ba8e0e7acaee3a3597c3566f12f156966cdf",
+    "results/adaptive-mtp-huge.jsonl": "ffd16cf0cc75134fcd3b1349ca0c26e0b01efbf462dfd47d3a34657ffe53d700"
+  },
+  "schema": "qwen38-context-continuation-r2/v1"
+}

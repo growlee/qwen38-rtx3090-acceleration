@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "candidate_id": "qwen38-vllm",
+  "source": {
+    "repository": "https://github.com/syv-ai/qwen38-27b-rtx3090",
+    "revision": "69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c",
+    "tree": "91d02477a91721be01350915534d1ebf882ea45f",
+    "archive_sha256": "e92392376cf886c4fec1b326d5a4caf6b9596e26a5b816d26d5c14e81c8d60ea",
+    "archive_size": 7197512,
+    "license": {
+      "id": "Apache-2.0",
+      "url": "https://github.com/syv-ai/qwen38-27b-rtx3090/blob/69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c/LICENSE"
+    }
+  },
+  "image": {
+    "reference": "ghcr.io/syv-ai/qwen38-27b-rtx3090:sha-69ba4d0@sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "digest": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "revision_label": "69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c",
+    "lock_sha256": "707fac2a24fe546eb7dedbdea3853fecba0e00086bd0c418054e9551f83ae22d"
+  },
+  "models": [
+    {
+      "role": "target",
+      "repository": "dbirks/Qwen3.8-27B-W4A16-AutoRound",
+      "revision": "1f05c441c4e64ae0549de44fa9ea5a6d43610314",
+      "manifest_sha256": "1b19a6fb7a4cf7043f024dda30201af763a11db7b02b6cdda5c9d06c418a14cf",
+      "license": {"id": "Apache-2.0", "url": "https://huggingface.co/dbirks/Qwen3.8-27B-W4A16-AutoRound/blob/1f05c441c4e64ae0549de44fa9ea5a6d43610314/README.md"},
+      "blobs": [
+        {"filename": "chat_template.jinja", "size": 8952, "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"},
+        {"filename": "config.json", "size": 15587, "sha256": "3176e8ef1f8a6a11ca189436a8ad9245973d420a4eb5acca67be3fb0a5d2f98c"},
+        {"filename": "generation_config.json", "size": 219, "sha256": "1a450b75a54bf9e6ffdc681d8b764d453061dd2d271df33fcfed46949b67c3de"},
+        {"filename": "model-00001-of-00007.safetensors", "size": 3211003472, "sha256": "6b2adc4f1b93386eedd033a62c63221bf85e789c09ada8ff43939c55e9f06250"},
+        {"filename": "model-00002-of-00007.safetensors", "size": 3195027104, "sha256": "a223fa487834749a14d86d558af9a4d5799b79be9bc28bdefa43eed055d10578"},
+        {"filename": "model-00003-of-00007.safetensors", "size": 3195027104, "sha256": "8719567ac822768ac61872894604d3a4d13f2edbd22c9bd3c4680ebc83e24ca5"},
+        {"filename": "model-00004-of-00007.safetensors", "size": 3217442568, "sha256": "8faf8d4a57c69b9b96e27c4eabf1ba0caadd3d48344d6f65df17f30da2a7e6e3"},
+        {"filename": "model-00005-of-00007.safetensors", "size": 699275200, "sha256": "0994bb8d91c07ceefc4bfffd3a7b7fd110cc9bd3ce865bdcb2821abf02a02fab"},
+        {"filename": "model-00006-of-00007.safetensors", "size": 2542807272, "sha256": "55a14ee79d3e5a65a8731d89426f4df477e8bdc7daa7976d41254d8afb9432f0"},
+        {"filename": "model-00007-of-00007.safetensors", "size": 2542796896, "sha256": "6866cf8adcccc4cc6a00e74bc025f1a774fb52103b70f2674d0288272951a733"},
+        {"filename": "model.safetensors.index.json", "size": 198290, "sha256": "43b30ffd1e2f940a08e2ea03f6039ad26008949af74158855beeec2b2cd79a86"},
+        {"filename": "model_extra_tensors.safetensors", "size": 849400392, "sha256": "1d8268aa85ace093a561e3e7b63b9d390dac1cd55a90cd55b5ec509c3c9da9fe"},
+        {"filename": "processor_config.json", "size": 1191, "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1"},
+        {"filename": "quantization_config.json", "size": 11112, "sha256": "2f3122aa57dd2f35fda8e08f3e1c0ca4e16b72a6eda3f26a435455dfe7fd2d50"},
+        {"filename": "tokenizer.json", "size": 19989325, "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523"},
+        {"filename": "tokenizer_config.json", "size": 1166, "sha256": "5f7aa0d810000c4a0940b35c8f16e56c3439260fccc13a321826ebc3ccf2501f"}
+      ]
+    },
+    {
+      "role": "drafter",
+      "repository": "syvai/Qwen3.8-27B-DFlash2-W4A16",
+      "revision": "4d30ec736ffc6b8688dc2ae2b502d9b48bdec279",
+      "manifest_sha256": "123e5ac7f250f4552f0e5412a8beda01cfb7dfc3333d17895e895a579e88398c",
+      "license": {"id": "Apache-2.0", "url": "https://huggingface.co/syvai/Qwen3.8-27B-DFlash2-W4A16/blob/4d30ec736ffc6b8688dc2ae2b502d9b48bdec279/README.md"},
+      "blobs": [
+        {"filename": "config.json", "size": 2264, "sha256": "61d6276fe8d76295232cb02d26cbb0d29c25565911f50441e779c88c9220c556"},
+        {"filename": "model.safetensors", "size": 1280633960, "sha256": "ec26996e6a0745ab5edb857117220ce1e219ad524f71e6e149b703804947d8e7"}
+      ]
+    },
+    {
+      "role": "fast-variant",
+      "repository": "syvai/qwen3.8-27b-3090-fast-variant",
+      "revision": "124c14e7e8c7d2f5402933b9af368e772a9fcf0c",
+      "manifest_sha256": "4dbdb9dbf55976d6b4d3fda56e1ad04d460c6c0d7b5c5f1e4a5703c954f1545a",
+      "license": {"id": "Apache-2.0", "url": "https://huggingface.co/syvai/qwen3.8-27b-3090-fast-variant/blob/124c14e7e8c7d2f5402933b9af368e772a9fcf0c/README.md"},
+      "overlay": {
+        "base_manifest_sha256": "1b19a6fb7a4cf7043f024dda30201af763a11db7b02b6cdda5c9d06c418a14cf",
+        "replaces": ["config.json", "model-00007-of-00007.safetensors", "model.safetensors.index.json", "model_extra_tensors.safetensors"],
+        "adds": ["draft_vocab_ids.json", "mtp_draft_vocab_ids.pt"]
+      },
+      "blobs": [
+        {"filename": "config.json", "size": 17060, "sha256": "5a3e7312dee3a6c5909beb854b05ac818be836683730e4facba81f547b77fd62"},
+        {"filename": "draft_vocab_ids.json", "size": 279256, "sha256": "b64b6dfcf5441eb995ddf77d3d37b018e91b88c56ad1b4c5774ad8fbfac1c388"},
+        {"filename": "model-00007-of-00007.safetensors", "size": 655565120, "sha256": "ac4511ddfbdcd8399dffee570c31708c13f974a18e46d3c337ca652a46a1a437"},
+        {"filename": "model.safetensors.index.json", "size": 200180, "sha256": "0821f46e4a9888262e8f63d5a3c39e3be93e62fa3acd95febeb9a2c9bd9131a1"},
+        {"filename": "model_extra_tensors.safetensors", "size": 327162544, "sha256": "3643128012845562d066540990eceb012e6dc9d1ba794c668d774a91edcd9dbb"},
+        {"filename": "mtp_draft_vocab_ids.pt", "size": 329341, "sha256": "8af9028616e41932e0c949cd5364d2da0a69d15375af9bb404cab1e4d723f581"}
+      ]
+    }
+  ],
+  "runtime_identity": {"uid": 0, "gid": 0},
+  "storage_root": "/srv/ai-server/staging/experiments/qwen38-vllm/69ba4d0688c6ae76cb9d3c4a5c3b36445e1b040c",
+  "writable_cas": false,
+  "ipc": {"mode": "private", "shm_size_bytes": 17179869184, "cleanup": "container_scoped"},
+  "modes": {
+    "mtp": {
+      "compose_file": "compose.mtp.yaml", "compose_sha256": "11f99f2357ecfc8e3755dde735f068c15d2ae5d19b3d19191345e9f763d0a83a",
+      "project_name": "ai-exp-qwen38-vllm-mtp", "service": "qwen38-vllm-mtp", "container_name": "ai-exp-qwen38-vllm-mtp",
+      "endpoint": "http://127.0.0.1:18020", "argv": ["single"], "readiness_path": "/health", "readiness_timeout_seconds": 900,
+      "auth_mode": "bearer", "auth_file": "<redacted-secret-path>", "auth_file_mode": 384, "capabilities": ["text", "tools"], "evaluator": "generic-openai-v1"
+    },
+    "dflash2": {
+      "compose_file": "compose.dflash2.yaml", "compose_sha256": "8ea998052ee3c36cf29b35941eb039860f83478a5a1b46a021c67f7ed0ea2a7c",
+      "project_name": "ai-exp-qwen38-vllm-dflash2", "service": "qwen38-vllm-dflash2", "container_name": "ai-exp-qwen38-vllm-dflash2",
+      "endpoint": "http://127.0.0.1:18020", "argv": ["single"], "readiness_path": "/health", "readiness_timeout_seconds": 900,
+      "auth_mode": "bearer", "auth_file": "<redacted-secret-path>", "auth_file_mode": 384, "capabilities": ["text", "tools"], "evaluator": "generic-openai-v1"
+    }
+  },
+  "benchmark": {"suite": "acceleration-quality-v1", "suite_sha256": "50451fcd5d850c9d94a08d2bd8466baca737ff1bac6ea7821e63eddb7200fb48"},
+  "clean_stop": "compose_down_then_gpu_idle",
+  "restore": "exact_production_qwen_then_two_authenticated_completions",
+  "build_time_required": []
+}

@@ -1,0 +1,364 @@
+{
+  "epoch": 1788970461.276958,
+  "admission": {
+    "active_ledger": [],
+    "active_ledger_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "admission_epoch": 317,
+    "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+    "capacity_mode": "serialized-99",
+    "coordinator_generation": "874330d3-6376-4242-a86a-cbf52df011d3",
+    "ok": true,
+    "phase": "public",
+    "queue_depth": 0,
+    "reconciliation_required": false,
+    "request_id": "higgs-queue-91b450e17fa54a109d635c79cd60ca4d",
+    "restart_pending": false,
+    "resume_phase": "public",
+    "schema": "ai-admission-operator-response/v1"
+  },
+  "qwen_state": "ready",
+  "production": {
+    "id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+    "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+    "running": true
+  },
+  "health": {
+    "ai-server-gateway": {
+      "running": true,
+      "health": "healthy"
+    },
+    "ai-server-open-webui": {
+      "running": true,
+      "health": "healthy"
+    }
+  },
+  "owned_container_count": 52,
+  "owned_containers": {
+    "06e0ce0ce780e2a1b4d78d6ec2b40f861e37988f8c30c1bed582e88e8e93138b": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-fast-context-code-start-t50000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "09bb65254c312c5b09ee7ec96082a0a65bd778a3473f3e55d772d0126456de88": {
+      "name": "qwen-context-20260908-r2-code-dflash2-fast-n7-context-code-end-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "0a0a8d57f51acd29269cdaabb3b259b577e5ef552406f1417b8fcba4ad49373a": {
+      "name": "qwen-context-20260908-r2-dflash2-fast-n7-client",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "0eabe9afaa706004b9430bc23a4804e6fc73ddf5f2f310ef40d5c5615d3b0059": {
+      "name": "qwen-context-20260908-r2-code-dflash2-fast-n7-context-code-end-t32768",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "19ab500210a4ba24142da39d5dd94c4bf931aadd490596ea9b4320f239781099": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-fast-context-code-middle-t50000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "1e7b2d0c081aba2bc0d56f616cced362bb7fa3a277570fc42f96e7b5a440c7a3": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-middle-t200000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "225e91ba6b22413fe1ef679f455b3a4cb21935131bed9e005c861586a09dd1c2": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-fast-context-code-start-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "24e5aa305b79b059486e6b726cfd2cc67fc64588c5906411dcf554247c3a3120": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-fast-context-code-middle-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "26b6597d1ef3846ccc4c81096546864d42fb29e54d1dae3f71741b6a870cb835": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-end-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "3156f5d96917bf78293c76b1ec9c84798976625795d788988540b1e0c6471a53": {
+      "name": "qwen-context-20260908-r2-code-dflash2-fast-n7-context-code-middle-t50000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "31ab85b099fa4e97a1564ff2a22595a28b2b913c68203b8900a5fa87e5653e05": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-end-t32768",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "32511ebd357482b40c8df5d1e7207487429de389ff6f39a8365e62b5a07d0bb7": {
+      "name": "qwen-context-20260908-r2-dflash2-huge-n7",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "35113c97a854b70e3d9d264cfa3dfd5d2a98a39d41588f97460e2095b50df2c5": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-middle-t32768",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "35348f1b9e56d726e13bd30aad3dc89d4ba92a27a703617d9c053794b630dc12": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-fast-context-code-start-t32768",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "3bd5122253f3572afd8daa4a0a72cb47371be43bdf6bd67c0d3b951b527f6c70": {
+      "name": "qwen-context-20260908-r2-reconstructed-mtp-fast",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "3c0eaefcabaa06c7e4a67e454bbbd6102bd133979d17772672e5869a5f8e279a": {
+      "name": "qwen-context-20260908-r2-code-dflash2-fast-n7-context-code-start-t50000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "42566bf6a81cb857f79a72e91e02a72bad7537a330dcf8ebacecd01757fcf6c9": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-end-t96000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "44cb5078d483ae2bdbef2e0873a45d9f77d5ade700866dfd895c69158b5b0fb8": {
+      "name": "qwen-context-20260908-r2-code-dflash2-fast-n7-context-code-middle-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "4645a38e3370eb65479204fc9078064da620e5e6a4af57c6839ae3a9bddbfc12": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-fast-context-code-middle-t32768",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "489fefa0b734a8caf503765f0839bba84b78b99db638760b0775a5c18cd5fda8": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-start-t200000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "48ccc1b48b97aab650db092f37a8708a4d925fa5e337fec7fbdae9f03492e46a": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-middle-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "4cf8c8a488a5feb355e4af21ca78d2e0fae71d6233068b0abc8d4bd9e44cdb1a": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-middle-t160000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "570e2301007e1f2cee1a828fdca8b0a79489a52203ee2ffb6238d8ce9542bb17": {
+      "name": "qwen-context-20260908-r2-dflash2-fast-n7",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "58300881b2207b86c5a839f62572f8e9084a69bdc8a17ac6eb53fec262221c3c": {
+      "name": "qwen-context-20260908-r2-dflash2-huge-n7-client",
+      "running": false,
+      "exit_code": 3,
+      "oom_killed": false
+    },
+    "629089d23038770c627c99407a8e511c3104206ba6ecfca019dce1d43b7b5e61": {
+      "name": "qwen-context-20260908-r2-reconstructed-mtp-huge",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "6ba59cb76a629827d0d947eddc972950005912e9622d21e4fbb90fd4e2604030": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-start-t32768",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "72c36b54f568a04e42407ba1a06c0b7160e2511dad6fb721db233d35f1bb624e": {
+      "name": "qwen-context-20260908-r2-adaptive-mtp-huge",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "72e46f7890d33cffe9e3b48de87a96bab005f4d9c7c8725af447530078a97185": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-fast-context-code-end-t50000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "731f2eb634c9cbe615b308c03a8ef8f9c0370c2f4704bba258720a25e6fb3e6b": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-end-t200000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "756a36e7213c88dcb186dda27c27658899762323c57c467de697304232ca6ac5": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-start-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "757946a0ba4a5224bd559c4ca9e4e1d22f6ce854ca5f4ebd1ac48ca0ce1254cb": {
+      "name": "qwen-context-20260908-r2-code-adaptive-mtp-huge-context-code-end-t200000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "88e24808a14f92ad667421b3b87cc9693aceb43b4fefd50bfee10a4c46d08368": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-fast-context-code-end-t32768",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "8cf42866cb9e7670087ef745b377ddf838af3d8b4d2081515d44b01125ad2cfa": {
+      "name": "qwen-context-20260908-r2-code-dflash2-fast-n7-context-code-end-t50000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "9227b992cfaec1ccc2c54de80d3822e7c794a8f955bd4ef8d0a6e94fb0164463": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-middle-t50000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "93763e993479e9c722ad3b7f560b405384bced55ab7eb4c8ef3fbaebfdbe6791": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-middle-t96000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "967ab585e268a956a4cf7fedc9ee481573ff2726b0b0780011449b6ae4ac6f72": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-start-t160000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "99ebe2bbdd96b76b7acf5c4950a6f56602fc4b6f676503504b50af74dd301d65": {
+      "name": "qwen-context-20260908-r2-code-dflash2-fast-n7-context-code-start-t32768",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "9adf0bcf44232ac76b963953671e9d99e3406f716591f4388145ccc7a6094d5a": {
+      "name": "qwen-context-20260908-r2-reconstructed-mtp-fast-client",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "9ca87b5e0ee17385503b04b2cd8b82136bba7a1d653d255c1e728aef4fb22e8e": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-start-t96000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "9edf6379f069298650ee4f881e6f7e65c1d3d7fb382fcc60ba299988f2a9c76d": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-middle-t128000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "a4c449b8efe6533df2e4383bc5d878fd97a2fc001a31fa38573238f311af3a7e": {
+      "name": "qwen-context-20260908-r2-code-adaptive-mtp-huge-context-code-start-t200000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "a678883de996e838d4ed8db20be675e61140f090ec860e002575eace3192e716": {
+      "name": "qwen-context-20260908-r2-code-adaptive-mtp-huge-context-code-middle-t200000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "a6df90b28ebbc9d3b54a26ce71691a533c1afbec89556db130e47ededcd421a1": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-start-t50000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "c9b5aa5284bcf33ebfbc5e74794940bcea49e4c143cccdbce1853e2fe1820e51": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-end-t50000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "d518f38e82263ee63d3bca70c305aeef0c1faa262878709565a6e8369bdf1e2e": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-end-t160000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "d710b2c360287b613ee4fadd730198ebf4d8a004fe4b193dd372bf3e6ff802fc": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-start-t128000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "d7a949e7f76843e589916fcf9bb8b6ca1b718ee9eedd02734efea0cc1bc67416": {
+      "name": "qwen-context-20260908-r2-reconstructed-mtp-huge-client",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "e1884fd16fce99fabba6a38e4a6acaa1e3e57c5d222977a5ea37efd0bda71ebb": {
+      "name": "qwen-context-20260908-r2-code-dflash2-fast-n7-context-code-middle-t32768",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "e90862291570babc458833023247a7131e79d9ebf077ca93c0fa0d2486301497": {
+      "name": "qwen-context-20260908-r2-adaptive-mtp-huge-client",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "ef17762c0fb64eb9aac34eaefcce2dec9219cbfa8f5ae687b89877bb52bd0a44": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-huge-context-code-end-t128000",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "f8bc808d9ce29ec037ed020afd7dfd812637b899cf70e1f6f00cbb8634a488ff": {
+      "name": "qwen-context-20260908-r2-code-dflash2-fast-n7-context-code-start-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    },
+    "faa33054df7e64c32d88436fa8601ad9567fba030a1b7a1510cec40bf9af01fa": {
+      "name": "qwen-context-20260908-r2-code-reconstructed-mtp-fast-context-code-end-t8192",
+      "running": false,
+      "exit_code": 0,
+      "oom_killed": false
+    }
+  },
+  "storage": {
+    "owned_allocated_bytes": 9760768,
+    "root_free_bytes": 167779573760,
+    "owned_container_count": 52,
+    "reserved_write_bytes": 536870912
+  },
+  "units": {
+    "qwen-context-20260908-r2.service": "MainPID=0\nExecMainStatus=1\nActiveState=failed\nInvocationID=2828b0102ddc417c81c886af0e0fe554\n",
+    "qwen-context-20260908-r2-restore.service": "MainPID=0\nExecMainStatus=0\nActiveState=inactive\nInvocationID=\n",
+    "qwen-context-20260908-r2-grade.service": "MainPID=0\nExecMainStatus=0\nActiveState=inactive\nInvocationID=\n"
+  },
+  "frozen_report_sha256": "19576e40e10a0977b3c62373a3614e7457ec5488dae037fe4e276bb4b9a8a80d",
+  "manifest_sha256": "89e8667d4c2031b6ce91fe0f73b206592ea9a6f4066b2e9328b4d570e209299e"
+}

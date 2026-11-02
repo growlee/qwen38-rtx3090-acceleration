@@ -1,0 +1,16 @@
+{
+  "CANDIDATE.md": "d71e7ecbd8d9f868ea7c0143bcdceebff9f2a0231f7ce74775495df44947faf9",
+  "benchmark_client120.py": "6203534933ed5b94a3a9585e52043d7c1322b0092f729b3e9c98d5a4071cee35",
+  "harness/benchmark_client.py": "98bcc2a476b10dfe2ab019ae7158000aab8aac1ea6f97b18a5bf76debdb6b134",
+  "harness/quality_client.py": "0540c6e7c6fba4be6c6876c8f9f61dacaad4370c7d5481bea98b3a5f6a60192e",
+  "harness/quality_expanded_suite.py": "03b74f351f8c24159d968c094679387ef69603b943781370da60ddeb68af9d3b",
+  "harness/quality_expanded_v2.json": "022f3817ad928da76160b3a1f0c2cfd56a4f9e5346b991a2e496c4504903f437",
+  "harness/quality_sandbox.py": "f9065cac6b88f6ba987deb91e6210ca91e00ea4a0a9a12a2c45797efeeb2006a",
+  "harness/quality_suite.py": "9bb1c15f69c4d2f3fc83eb613840a1c1422ff60d255ef3fdd37a4c93b1a4580f",
+  "harness/score_quality.py": "825a8d789548a8533a73732dff6b2669645afc4ec36076de27d9e3f7396b379d",
+  "harness/score_quality_32g.py": "c0290f4bdb994b8c71453ceb907f098fda3213c9412ce65cb4666dec9a8e8222",
+  "provenance.json": "26835ced5fe48d2798a78e7e7c19851e1988d471c498190006c6236810f42d8d",
+  "run_benchmark120.py": "15056e9859c500c1ea5825f6dc585ef09dbef577356203c16eda0c495a016a1f",
+  "score120.py": "b443a52703953a5495cae2882727c9e40a66b2ed536102604bc913631efa1dca",
+  "tokenize120.py": "d3b9aed377dc49b9f7ef5a3ed44c9e21a068490a862de72e32df5463ad9116f1"
+}

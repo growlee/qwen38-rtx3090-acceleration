@@ -1,0 +1,35 @@
+{
+  "combined_original_sha256": "4f47916f1f0444478cc408d2a0610c2781777fdbfd1579f6bd83d589e320391e",
+  "new_modes": {
+    "dflash2-huge-n7-kv4gb-204800": {
+      "BLOCKED": 84
+    },
+    "original-gguf": {
+      "PASS": 12
+    }
+  },
+  "newly_graded_coordinates": 96,
+  "original_coordinates": 612,
+  "original_counts": {
+    "BLOCKED": 84,
+    "FAIL": 1,
+    "PASS": 527
+  },
+  "repaired_coordinates": 84,
+  "repaired_profile_sha256": "530d7d2fa039aedb673eafaeeb5b32e2c859f0ca0db510341466451d3d126d2c",
+  "sandbox_fenced": false,
+  "storage": {
+    "owned_allocated_bytes": 1921024,
+    "owned_container_count": 6,
+    "reserved_write_bytes": 536870912,
+    "root_free_bytes": 167755018240
+  },
+  "storage_owned_containers": {
+    "268dd2bce76bc95eebd70f3ccd5dbd7c74b5c9757304292d07686adc5097e193": "qwen-context-20260910-repair-clientfix-dflash2-huge-n7-kv4gb-204800",
+    "31e2657863d031578f95d8fe14b79cf4941898cfd3005836b5a95567985849ef": "qwen-context-20260910-repair-clientfix-code-original-gguf-context-code-middle-t8192",
+    "4c469579d3d551c9cbd6416d7c928a90ec670539b2918600900c7e4d358006cf": "qwen-context-20260910-repair-clientfix-code-original-gguf-context-code-end-t8192",
+    "505d1ebe235e207bc35a20f9c79f1b1ea1c613dd4dca1cbd9a0994ff576d2259": "qwen-context-20260910-repair-clientfix-original-gguf-client",
+    "75dacaa6ac2335fd908dbf4b5740d3dd6b99b3545817f67397e30a1c7b7c569c": "qwen-context-20260910-repair-clientfix-code-original-gguf-context-code-start-t8192",
+    "a1db9a07c129cccdf71c35c1c1a2d34dcbe39da2dac641d067f820641ab38f6a": "qwen-context-20260910-repair-clientfix-original-gguf"
+  }
+}

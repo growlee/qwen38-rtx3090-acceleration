@@ -1,0 +1,20 @@
+{
+  "schema": "ai-server-oci-layer-receipt/v1",
+  "repository": "lmsysorg/sglang-omni",
+  "manifest_digest": "sha256:46235435997d1fa93fc81fb1c2d5b7fd8470d77395a5c348c0176094ffddf95e",
+  "manifest_bytes": 11046,
+  "config_digest": "sha256:803f7cbaf1b859458302348680ef35ae0e458a0ff9193d2d1a622a8f8f50cffe",
+  "config_bytes": 66364,
+  "layer_count": 66,
+  "unique_layer_count": 62,
+  "unique_compressed_bytes": 18039615376,
+  "unique_unpacked_bytes": 44993650176,
+  "peak_content_plus_unpacked_bytes": 63033265552,
+  "metadata_reserve_bytes": 1073741824,
+  "admission_expected_growth_bytes": 64107007376,
+  "verification": {
+    "compressed": "Every unique blob was streamed once and matched its immutable registry sha256 digest.",
+    "unpacked": "Every layer stream was decompressed once and matched the corresponding rootfs.diff_ids sha256 from the immutable OCI config.",
+    "storage_bound": "unique_compressed_bytes + unique_unpacked_bytes + metadata_reserve_bytes"
+  }
+}

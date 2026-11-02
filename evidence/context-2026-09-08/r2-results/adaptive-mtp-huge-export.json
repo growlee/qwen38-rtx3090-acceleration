@@ -1,0 +1,20 @@
+{
+  "exported_epoch": 1788955204.8103619,
+  "source_root": "/srv/ai-server/benchmarks/context-20260908-r2/results",
+  "files": {
+    "adaptive-mtp-huge.jsonl": {
+      "source_sha256": "3f5fb12a7994afac877b5d436229343aa7c569be3ceb73d9f086e1af816475a7",
+      "source_bytes": 7881,
+      "local_sha256": "3f5fb12a7994afac877b5d436229343aa7c569be3ceb73d9f086e1af816475a7",
+      "local_bytes": 7881,
+      "local_added_trailing_lf": false
+    },
+    "adaptive-mtp-huge-resources.json": {
+      "source_sha256": "321c5146aaaa97b95f517389259c2ff72a75fe63aade21204acdb145d2c16a97",
+      "source_bytes": 188070,
+      "local_sha256": "ed10ea5ffc30f3130dfe1cd60637b1799ea21560af4fa74934115323b6292ee3",
+      "local_bytes": 188071,
+      "local_added_trailing_lf": true
+    }
+  }
+}

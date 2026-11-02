@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "950b2178b4afb94048cc2ff4ce737a39e3286fa450783ef5009de24c0c2ce471",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-000",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:42.027007216Z",
+      "FinishedAt": "2026-09-19T01:03:42.118189851Z"
+    }
+  },
+  {
+    "id": "8d7953fc5a59a7ec0f3785e24a5ef4b6306fa71c9e5622041af10f1af39f9e03",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-001",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:42.283702415Z",
+      "FinishedAt": "2026-09-19T01:03:42.360250924Z"
+    }
+  },
+  {
+    "id": "471b4ac456777d4f6cf4ed532b725e111c9729c01d5a32a34addbd1da9c34795",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-003",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:42.524277804Z",
+      "FinishedAt": "2026-09-19T01:03:42.611304767Z"
+    }
+  },
+  {
+    "id": "b16cc3ae2028d89bd4852b70ea05ffbe27a62b170332d5ec66d609260081ee09",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-005",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:42.781132246Z",
+      "FinishedAt": "2026-09-19T01:03:42.872164624Z"
+    }
+  },
+  {
+    "id": "9a316a8615aef7df2800c5c6ba8f211f2425e4571f0bb79f176bed6a21308e3e",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-006",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:43.044886322Z",
+      "FinishedAt": "2026-09-19T01:03:43.136696996Z"
+    }
+  },
+  {
+    "id": "66548205d5032f780ebef5cf732decbd1cd59634c449a397e33b9dccbbbe0ec4",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-007",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:43.307870841Z",
+      "FinishedAt": "2026-09-19T01:03:43.379558817Z"
+    }
+  },
+  {
+    "id": "a0519576b90adab7f20ee623c20998224261c8568f9c99a1ba590fc23a04fab3",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-009",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:43.556006831Z",
+      "FinishedAt": "2026-09-19T01:03:43.63847815Z"
+    }
+  },
+  {
+    "id": "25647d4845916b702c993fdc33fc9f2175cf3b4eb525e1a63a059191d74aa4a3",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-010",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:43.807531372Z",
+      "FinishedAt": "2026-09-19T01:03:43.893871372Z"
+    }
+  },
+  {
+    "id": "b08a3450f349f3a511ca8f88c5db07c8f6f6f0be6fbe9734e7ffebf1e7b9ae0c",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-011",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:44.060252721Z",
+      "FinishedAt": "2026-09-19T01:03:44.149651662Z"
+    }
+  },
+  {
+    "id": "78d5dcb62d7ea6accd721780b552bfb8b8ca1b29227fed736352ef29f9e7990a",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-012",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:44.316999309Z",
+      "FinishedAt": "2026-09-19T01:03:44.399790756Z"
+    }
+  },
+  {
+    "id": "2054ebe6267bf5f9f81494cad7dcfdc3fd4cb076781714fab9efaf87d1b50243",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-013",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:44.566565828Z",
+      "FinishedAt": "2026-09-19T01:03:44.652865257Z"
+    }
+  },
+  {
+    "id": "e4388886ef465bdbe7a5201c1e0d346fe8ce0f2a1c1e34b8704f014e59a2335f",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-014",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:44.854822865Z",
+      "FinishedAt": "2026-09-19T01:03:44.937057428Z"
+    }
+  },
+  {
+    "id": "f427af10c7d5919bb44d3325341ce6c5cfcc41690e35d8c0219dc1890ffc08a7",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-015",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:45.122274495Z",
+      "FinishedAt": "2026-09-19T01:03:45.20329069Z"
+    }
+  },
+  {
+    "id": "28d5d599dd2a0301ff188bd547995c176eec2ddb569412634c074d31f5bd01dd",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-016",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:45.366990462Z",
+      "FinishedAt": "2026-09-19T01:03:45.446071147Z"
+    }
+  },
+  {
+    "id": "b46ff4df67f6b80ca4dcdfcec663fc210d0cd2be22987a7d85702e87b3cd8eb3",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-017",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:45.616778616Z",
+      "FinishedAt": "2026-09-19T01:03:45.699534097Z"
+    }
+  },
+  {
+    "id": "1827ff71d29c0819abcb224f2bc5b019031f5ecf1010db7a79e27f0e8f19ea48",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-018",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:45.858975894Z",
+      "FinishedAt": "2026-09-19T01:03:45.945154693Z"
+    }
+  },
+  {
+    "id": "ac3af43d835286ff1adc4fb457c3fc4d7d28fe2d31eaab89a28169f7aee7c35e",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-019",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:46.121797464Z",
+      "FinishedAt": "2026-09-19T01:03:46.194234896Z"
+    }
+  },
+  {
+    "id": "c913b301fd329b820a5e1e09b6189fe2a8ef0cd754bb0b93d8c86368cd1733fa",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-021",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:46.3576952Z",
+      "FinishedAt": "2026-09-19T01:03:46.437607969Z"
+    }
+  },
+  {
+    "id": "3fec1e4a83f2c1e15c20176754db013f9caa2e5de0016aa916ce77faf0e60ea3",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-022",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:46.616834607Z",
+      "FinishedAt": "2026-09-19T01:03:46.685175406Z"
+    }
+  },
+  {
+    "id": "7276a753e2df267327fd6afb4e88a39e772cd79da29ef7138ab48e4893214a35",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-024",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:46.852316153Z",
+      "FinishedAt": "2026-09-19T01:03:46.934427503Z"
+    }
+  },
+  {
+    "id": "bd81d483030548669d4225c5bf87f18e4b3314a7a18e2fac40d23b44082862b2",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-025",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:47.111428258Z",
+      "FinishedAt": "2026-09-19T01:03:47.191613351Z"
+    }
+  },
+  {
+    "id": "5674550a4c10e6d4c780078c0580f26cba1b2ff56993113bda7c6d3218d6fed3",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-026",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:47.381054562Z",
+      "FinishedAt": "2026-09-19T01:03:47.464528121Z"
+    }
+  },
+  {
+    "id": "224de733cedc06a42da87b47083f61caf5a88b9c7c118e0ee59d5a928fad490c",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-030",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:47.640512845Z",
+      "FinishedAt": "2026-09-19T01:03:47.720579777Z"
+    }
+  },
+  {
+    "id": "86e5bcd997e12f8c2ef3ab20cfd69a820b0ecbec30f29861d686031b55544e97",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-031",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:47.886062487Z",
+      "FinishedAt": "2026-09-19T01:03:47.970370995Z"
+    }
+  },
+  {
+    "id": "ae8f6ba14896a8b5e4d8deca359502ee2247fbcc6ad162b8ba9480712ac2e91c",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-036",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:48.127742262Z",
+      "FinishedAt": "2026-09-19T01:03:48.212390352Z"
+    }
+  },
+  {
+    "id": "0fc1d3e46fe2da4ec74995a0cc24960f8c983bc2688e8e85e3feb0e70edc87ee",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-039",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:48.377849235Z",
+      "FinishedAt": "2026-09-19T01:03:48.459361128Z"
+    }
+  },
+  {
+    "id": "d0bd7bd21df65ccfb15c0f0772b133594080e5f2bf66415a9cbe54fe936a02d2",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-040",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:48.628950823Z",
+      "FinishedAt": "2026-09-19T01:03:48.70315853Z"
+    }
+  },
+  {
+    "id": "919b03883de62a6e4913c5987ebbb51b9fa6ca8b2d9e0c9a7560b0499ca21856",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-041",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:48.869785825Z",
+      "FinishedAt": "2026-09-19T01:03:48.948781144Z"
+    }
+  },
+  {
+    "id": "00e7b6392a3e3321dd776e3bb0d87cc92c5700d51f64b296a8fa59b30be9d3cd",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-043",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:49.109366422Z",
+      "FinishedAt": "2026-09-19T01:03:49.189517554Z"
+    }
+  },
+  {
+    "id": "f37aac0a8695ebef1a80abe311e5704a47a5ec73ead5c6479175169bf0e72b10",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-044",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:49.350616397Z",
+      "FinishedAt": "2026-09-19T01:03:49.426404411Z"
+    }
+  },
+  {
+    "id": "e9e27d111de06e84436a2fbda265ce09ccfba66e107d9a5c40142ceaf7e6425f",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-046",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:49.584826039Z",
+      "FinishedAt": "2026-09-19T01:03:49.657570265Z"
+    }
+  },
+  {
+    "id": "0d1c667a65ec436bbd23e378ffc03fdc63581f7a04dd6207a7ee47cfec0aac73",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-047",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:49.822946122Z",
+      "FinishedAt": "2026-09-19T01:03:49.904684283Z"
+    }
+  },
+  {
+    "id": "8c7cf03fbcb268863801c3f20f2915351c692b7b94e2eb7187f0a3c3b25a6272",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-049",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:50.086437841Z",
+      "FinishedAt": "2026-09-19T01:03:50.165280823Z"
+    }
+  },
+  {
+    "id": "b44173eb98d85e2f03c0fea6b252a984b85a0be12349d54a775f7b92cbb3185d",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-051",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:50.338645341Z",
+      "FinishedAt": "2026-09-19T01:03:50.415406259Z"
+    }
+  },
+  {
+    "id": "acd71642f276419ea76f0d59c35ae056205d95b7a4e34584f1f75273240033e6",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-052",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:50.566763559Z",
+      "FinishedAt": "2026-09-19T01:03:50.659168866Z"
+    }
+  },
+  {
+    "id": "77105c6935e57604f0ae6d60e705341ba0b5a436dba447c23f74087bddd5eecd",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-054",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:50.817196853Z",
+      "FinishedAt": "2026-09-19T01:03:50.89423401Z"
+    }
+  },
+  {
+    "id": "55d01b204c6ea2e66c736f9ae7a7a5d764cc75b4e43f6de1b5322943805de835",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-055",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:51.053070504Z",
+      "FinishedAt": "2026-09-19T01:03:51.131232005Z"
+    }
+  },
+  {
+    "id": "6bc8a2a1c4fd2293a9418e68b5774090f691f29d943b1e275b1368a606fdc95b",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-057",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:51.303120761Z",
+      "FinishedAt": "2026-09-19T01:03:51.377411072Z"
+    }
+  },
+  {
+    "id": "71397a7a4efd2f229e2d8208f4fbebfa342cf7191f237b385ee2490954dba86f",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-058",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:51.544788949Z",
+      "FinishedAt": "2026-09-19T01:03:51.633450948Z"
+    }
+  },
+  {
+    "id": "5845d69b245a0e9c1f771ba49280314b3e9900666ffb5d0729b7767c4c926aae",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-059",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:51.793602712Z",
+      "FinishedAt": "2026-09-19T01:03:51.872301536Z"
+    }
+  },
+  {
+    "id": "bc4b6855e37865a78976b277e6d6105659fa1417b7a7e4ffda223618303f2d86",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-062",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:52.029388414Z",
+      "FinishedAt": "2026-09-19T01:03:52.106908305Z"
+    }
+  },
+  {
+    "id": "b1e37b726b0e233e6622e634c3fe17eec46b42e535aea69271cd790188386bde",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-063",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:52.28595415Z",
+      "FinishedAt": "2026-09-19T01:03:52.357168671Z"
+    }
+  },
+  {
+    "id": "0a4f82b9a1367cb2f65c0ddfd427d8664ca455c1a55a3667112671b687a365c5",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-064",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:52.535059804Z",
+      "FinishedAt": "2026-09-19T01:03:52.614860453Z"
+    }
+  },
+  {
+    "id": "c0f5562dc637da09dbda49508f445d8ca2ae68920df4caabe281d30a1dc5e6b3",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-065",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:52.783745758Z",
+      "FinishedAt": "2026-09-19T01:03:52.871119743Z"
+    }
+  },
+  {
+    "id": "ce0da83c51a313028d230a5a09fa25d37361d20077267d1cd333274986d2645e",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-066",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:53.039653995Z",
+      "FinishedAt": "2026-09-19T01:03:53.106360482Z"
+    }
+  },
+  {
+    "id": "9a5a85ebe22571b2a6df936b98dd7ac6362a02cf0fce80fbc59eafcffd3882cd",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-067",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:53.268037708Z",
+      "FinishedAt": "2026-09-19T01:03:53.347644677Z"
+    }
+  },
+  {
+    "id": "f6b0e179df7e60aecbada72ba3e8f22f6099983c6cc26810930042f9a1074c0a",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-068",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:53.571459531Z",
+      "FinishedAt": "2026-09-19T01:03:53.645508906Z"
+    }
+  },
+  {
+    "id": "9a6daf88b5c5071c66fd8a0d0ca15e136792524d7eb93e8baeea1fbd9e401d85",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-069",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:53.90649493Z",
+      "FinishedAt": "2026-09-19T01:03:54.021023329Z"
+    }
+  },
+  {
+    "id": "e7a4f64ce7c9acf82539144513ca9e38ee7bb5b89c74ccdc98b3dd569a1fb766",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-070",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:54.268839269Z",
+      "FinishedAt": "2026-09-19T01:03:54.348883767Z"
+    }
+  },
+  {
+    "id": "fc537d58a3a7f29cddd24b0ab853f556eb5b374d02c4ec6d52536c42056f9dfe",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-071",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:54.606560268Z",
+      "FinishedAt": "2026-09-19T01:03:54.708350406Z"
+    }
+  },
+  {
+    "id": "bbbc4788463206c986b4f31f4880e99a160a7f8f303a33c4965413578d91c6d1",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-072",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:54.95018721Z",
+      "FinishedAt": "2026-09-19T01:03:55.05994292Z"
+    }
+  },
+  {
+    "id": "4da8fa5cb465e8bcaf87d1f057322b0816ab594e8c028211501d8c50366f4bc0",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-073",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:55.346089592Z",
+      "FinishedAt": "2026-09-19T01:03:55.439802484Z"
+    }
+  },
+  {
+    "id": "4015cce76b1745ecbca52b9b6cb173fa0c6266234952ee0d2a2509e09b70396d",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-074",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:55.715395765Z",
+      "FinishedAt": "2026-09-19T01:03:55.79530785Z"
+    }
+  },
+  {
+    "id": "8fa93242b342eea7b13c5b1b0bed101c227d44c487c01ab85cf1d3424d159823",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-075",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:56.017150942Z",
+      "FinishedAt": "2026-09-19T01:03:56.127719924Z"
+    }
+  },
+  {
+    "id": "db3cebb18a2f5e6e9d37eae8c4f95d650abdc7090f209edcd457ce6564e7ddba",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-076",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:56.368542803Z",
+      "FinishedAt": "2026-09-19T01:03:56.470137898Z"
+    }
+  },
+  {
+    "id": "fcd89da6eead986ff6de58791d261e8f67bea5120eb16f5c1966d842df30ce71",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-077",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:56.715305137Z",
+      "FinishedAt": "2026-09-19T01:03:56.809321322Z"
+    }
+  },
+  {
+    "id": "4140835fa896267522e151696bbb5c10caf79bdf3d71c2eb8468953c51d86762",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-078",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:57.064461871Z",
+      "FinishedAt": "2026-09-19T01:03:57.150595346Z"
+    }
+  },
+  {
+    "id": "44d806c3873c3486005ebd1f2c336ba1d75c8a24f45314bc3a28609ec8e4dbd2",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-079",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:57.432706266Z",
+      "FinishedAt": "2026-09-19T01:03:57.550495222Z"
+    }
+  },
+  {
+    "id": "ad0c81483797adfe3e82164dde83654a25e71a0ac5433f44f24ccf7bce21b3d6",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-080",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:57.85137998Z",
+      "FinishedAt": "2026-09-19T01:03:57.93387751Z"
+    }
+  },
+  {
+    "id": "75655e30144092d4511368d4084866ab4c6b3ee7426c29efcff3f260aacc9b83",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-081",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:58.178963288Z",
+      "FinishedAt": "2026-09-19T01:03:58.298846938Z"
+    }
+  },
+  {
+    "id": "1a7c8b6b32c11bec2ec4f19a73ae1c3464916bcb50e872043f54f58d9456fb5b",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-082",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:58.594707368Z",
+      "FinishedAt": "2026-09-19T01:03:58.657491734Z"
+    }
+  },
+  {
+    "id": "f5260977e770dbffa583dd3271d308af411e13ff297ada6d626e47e811100fd6",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-083",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:58.902226322Z",
+      "FinishedAt": "2026-09-19T01:03:58.985647086Z"
+    }
+  },
+  {
+    "id": "202fba6d23b4759eab7de0949adff7dcc84b6d826b5626daa02395a0c34ccab7",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-084",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:59.242470216Z",
+      "FinishedAt": "2026-09-19T01:03:59.343417549Z"
+    }
+  },
+  {
+    "id": "207e2ecd162ae3ffb8d101c4930abf8527dc9b0839605cf83a399771bf2397f7",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-085",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:59.608412755Z",
+      "FinishedAt": "2026-09-19T01:03:59.681681712Z"
+    }
+  },
+  {
+    "id": "183322ae6a5ececf6ea4c3b8f4157c9e933c6a980fae3d9bc2d54eaa916cdde6",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-086",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:03:59.893225719Z",
+      "FinishedAt": "2026-09-19T01:03:59.96896839Z"
+    }
+  },
+  {
+    "id": "e685f96a6ac1d5c69585f4fdc6224121c2808901ac34bb71f7d490be8da3b86c",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-088",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:00.245605956Z",
+      "FinishedAt": "2026-09-19T01:04:00.323384744Z"
+    }
+  },
+  {
+    "id": "59325f81971212a020b1bcb85f6f13ef765feb6f46caf3bd2d88897635eb46a9",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-089",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:00.602317852Z",
+      "FinishedAt": "2026-09-19T01:04:00.680466737Z"
+    }
+  },
+  {
+    "id": "f87a284c944868543cfc1c9dd98e85d8c51884c853a54e627b776e7a5292f9b8",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-090",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:00.947192064Z",
+      "FinishedAt": "2026-09-19T01:04:01.021354599Z"
+    }
+  },
+  {
+    "id": "92250f50c3df114c5d80eecdc3afd4fbc1a90c3420008ed216c3808db89ede7d",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-091",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:01.287997977Z",
+      "FinishedAt": "2026-09-19T01:04:01.365400424Z"
+    }
+  },
+  {
+    "id": "3581147a6e58cd04c5ddfc9cf3626950aed1f57f34dcebacdb2fdaadc20c6e22",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-092",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:01.608635892Z",
+      "FinishedAt": "2026-09-19T01:04:01.692046805Z"
+    }
+  },
+  {
+    "id": "625eac3fe3c934ef665f20cd1df5616279620c84ea455cfe71e1783759b0e34e",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-093",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:01.940394948Z",
+      "FinishedAt": "2026-09-19T01:04:02.051784379Z"
+    }
+  },
+  {
+    "id": "051bfb35e53cb1792c993c2777a0443e751fc53ea1d5b8a3d9c0434de2e7746f",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-094",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:02.29360001Z",
+      "FinishedAt": "2026-09-19T01:04:02.400912877Z"
+    }
+  },
+  {
+    "id": "0af7962e4dc3f8678929f3e4a0829308e689110ca6e19ddef4ce8e3c2068cef5",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-096",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:02.638338036Z",
+      "FinishedAt": "2026-09-19T01:04:02.752963945Z"
+    }
+  },
+  {
+    "id": "ceea60b9485437026823690af4d8b9e7ea813e5cc4edcb6b45852a3bede36269",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-097",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:03.013022595Z",
+      "FinishedAt": "2026-09-19T01:04:03.091621784Z"
+    }
+  },
+  {
+    "id": "6c0ecbc953f2d6860441f1381eb423fa16b45f88299ab9a8abc447bbbd3e0088",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-098",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:03.361031397Z",
+      "FinishedAt": "2026-09-19T01:04:03.43582934Z"
+    }
+  },
+  {
+    "id": "fab4f32e986bf85db9c222a6f7c26b41f1e971e87a90888851ff5a2f07b65278",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-099",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:03.671092979Z",
+      "FinishedAt": "2026-09-19T01:04:03.76863641Z"
+    }
+  },
+  {
+    "id": "d2647c6d8877ca16c3384f8d805798f6c55c9f3e73b50e1da73a561daf91cb07",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-100",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:04.060981276Z",
+      "FinishedAt": "2026-09-19T01:04:04.146949707Z"
+    }
+  },
+  {
+    "id": "91775c5021f5167a0dd3906bc9b5a2863006fb184edafd7f1bc347105ae18f0e",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-101",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:04.413857888Z",
+      "FinishedAt": "2026-09-19T01:04:04.492212715Z"
+    }
+  },
+  {
+    "id": "789c732013b620790d38614ff5c844e717b3577492bf7425a21211ce0ee70159",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-102",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:04.729193549Z",
+      "FinishedAt": "2026-09-19T01:04:04.828839238Z"
+    }
+  },
+  {
+    "id": "56870ea36b0aa07c869133fc18b819c72e09e667c2d7038f24177f43de8c8b00",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-103",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:05.061330126Z",
+      "FinishedAt": "2026-09-19T01:04:05.162608756Z"
+    }
+  },
+  {
+    "id": "b5de0052b25a6fa5be74759fc905e479bb8cef2fadb48c94543e674f046067b7",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-104",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:05.401517184Z",
+      "FinishedAt": "2026-09-19T01:04:05.476202815Z"
+    }
+  },
+  {
+    "id": "24843c6cce1bed06c6ef532d2e481af896228f91c274554b22054bfa96f056d3",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-105",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:05.714402268Z",
+      "FinishedAt": "2026-09-19T01:04:05.800312441Z"
+    }
+  },
+  {
+    "id": "9194512089b9edce2db7b316a3103092ecc0805a5b14f440bf95031568de9ae7",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-106",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:06.03178655Z",
+      "FinishedAt": "2026-09-19T01:04:06.111152592Z"
+    }
+  },
+  {
+    "id": "a1e8ba1f2e8ce527ba56af56eb77d8cbf1622104ebcaccafcce2aceea028eb18",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-108",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:06.364462575Z",
+      "FinishedAt": "2026-09-19T01:04:06.466173974Z"
+    }
+  },
+  {
+    "id": "e1f500c65f2790bf83033cf94932fa3ff633107c7fc51d6aa684a6d9cb5f6929",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-109",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:06.696544828Z",
+      "FinishedAt": "2026-09-19T01:04:06.771988481Z"
+    }
+  },
+  {
+    "id": "79fbdd4b52dc54118dd90e296efeb5a20dab2063cda8eb0754b9b55b57d8e62f",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-110",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:07.008096023Z",
+      "FinishedAt": "2026-09-19T01:04:07.085361164Z"
+    }
+  },
+  {
+    "id": "4c72426d566c52f508bc0d3839d02a34ff29ba6bec983ae6c826e1fd0c062775",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-111",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:07.311575204Z",
+      "FinishedAt": "2026-09-19T01:04:07.41784664Z"
+    }
+  },
+  {
+    "id": "1bf3f3822ef3002742cb3c566fca75a7dc6e30ab565021f82da21c399a878932",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-113",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:07.658022308Z",
+      "FinishedAt": "2026-09-19T01:04:07.770681041Z"
+    }
+  },
+  {
+    "id": "b27692ebe397b1a7ae88fdb970b9a72239d3662a56179083aa4ca3e3e2b5cd44",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-114",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:07.998310237Z",
+      "FinishedAt": "2026-09-19T01:04:08.108297874Z"
+    }
+  },
+  {
+    "id": "34e594b18df0460d2dac126ba1713238c1ff788e411e81d47e22ff6726b5bb58",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-115",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:08.402898461Z",
+      "FinishedAt": "2026-09-19T01:04:08.495681181Z"
+    }
+  },
+  {
+    "id": "f2bda3753aec794312fdced27449ece82f52d7b2d24ad1b6ae28a5ce4c93157a",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-117",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:08.774575383Z",
+      "FinishedAt": "2026-09-19T01:04:08.885557354Z"
+    }
+  },
+  {
+    "id": "a560eb58d0f9ad3aa29651921af5338a00a43e5626f6c20243a61ce15ea0554b",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-118",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:09.125755882Z",
+      "FinishedAt": "2026-09-19T01:04:09.21997378Z"
+    }
+  },
+  {
+    "id": "86907395fdd99a9c90f603ff7a37415e40f2e68784c795e9bf1279a77bd3646c",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-119",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:09.634506111Z",
+      "FinishedAt": "2026-09-19T01:04:09.714741412Z"
+    }
+  },
+  {
+    "id": "b9174ed85e8dee98c3e63e9752c2eb781d823dbae5b8486db18153a91eb7b4f3",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-120",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:10.149097792Z",
+      "FinishedAt": "2026-09-19T01:04:10.250653107Z"
+    }
+  },
+  {
+    "id": "f69bcd9326f691d4a377ce8569548e2b07d6a365b0db8d24641d017ae2a56be8",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-121",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:10.5686933Z",
+      "FinishedAt": "2026-09-19T01:04:10.646477942Z"
+    }
+  },
+  {
+    "id": "22445fea39e16104055a471d45c227ab799f0680f28b6dc7664910ee225d2895",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-122",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:10.911235299Z",
+      "FinishedAt": "2026-09-19T01:04:11.008542385Z"
+    }
+  },
+  {
+    "id": "8e6c99ca25ffb569e765e494d135ce7b3c8acc748f9b3337155697e6d956ba75",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-123",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:11.269509501Z",
+      "FinishedAt": "2026-09-19T01:04:11.353920837Z"
+    }
+  },
+  {
+    "id": "618d766589785a3b7ac9f6722a574f5cc603cfdbb62dd67b9206805049667803",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-124",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:11.570080691Z",
+      "FinishedAt": "2026-09-19T01:04:11.675924529Z"
+    }
+  },
+  {
+    "id": "782882faa9e51085b4b6ed86b92822f0421a84e60e051eccb38d9caa0e030da5",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-125",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:11.916161471Z",
+      "FinishedAt": "2026-09-19T01:04:11.996817309Z"
+    }
+  },
+  {
+    "id": "7c1dcc8f3a64c0f9cc74bdc2330770b46c94eb3625d49a6628a57debe5f272ec",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-126",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:12.230306432Z",
+      "FinishedAt": "2026-09-19T01:04:12.30827378Z"
+    }
+  },
+  {
+    "id": "65ee7743ba42ce01f20451b753188e14b8ea6f3772ff65670cbd0ddc55c8e5a2",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-128",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:12.57641534Z",
+      "FinishedAt": "2026-09-19T01:04:12.657354328Z"
+    }
+  },
+  {
+    "id": "cce1b658e9c82398c0ff4a9d0beea63b1895193da05823ffc873fd03fef2a9ef",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-129",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:12.922839797Z",
+      "FinishedAt": "2026-09-19T01:04:13.005841332Z"
+    }
+  },
+  {
+    "id": "9845637afdaabae8fd5a69de8589ea5fcae998d393434104ef173ef6df46ebc9",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-130",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:13.24811385Z",
+      "FinishedAt": "2026-09-19T01:04:13.323088337Z"
+    }
+  },
+  {
+    "id": "51b8731317c47c3654486a1f643b0a9cef9b371bf0d70169515f98bcd9399d2e",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-131",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:13.597366389Z",
+      "FinishedAt": "2026-09-19T01:04:13.699541889Z"
+    }
+  },
+  {
+    "id": "b30c5c4566611be9dc1387e0e86c042a1cc7638f607bb59ad41f36e4ed2479fd",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-132",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:13.992229495Z",
+      "FinishedAt": "2026-09-19T01:04:14.072792812Z"
+    }
+  },
+  {
+    "id": "b571be527b5bf1fa7686896185a65a4f5a4a386c5cf47fa5ff96b268e5ef1872",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-133",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:14.3441521Z",
+      "FinishedAt": "2026-09-19T01:04:14.428042598Z"
+    }
+  },
+  {
+    "id": "1081b0c2412125b07b8e12e99fbd1c9d1f10d404bad214d064e29457407d1cd4",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-134",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:14.703106944Z",
+      "FinishedAt": "2026-09-19T01:04:14.778499889Z"
+    }
+  },
+  {
+    "id": "8f12a13e0c1427660b8d75cdc9b52bf74f2f5f2fc9c97f5a1b2b68f40e8caefb",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-135",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:15.038508207Z",
+      "FinishedAt": "2026-09-19T01:04:15.112170814Z"
+    }
+  },
+  {
+    "id": "c75eb77924fddf5d6eb349081c354a3640d0e7d6bfd76d3046e29c57bb47cabb",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-137",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:15.326442324Z",
+      "FinishedAt": "2026-09-19T01:04:15.409037889Z"
+    }
+  },
+  {
+    "id": "934fa51b862f9334fe0e33d5726b2ceecd92c38c44d0b447fac3f40548d56d7c",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-138",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:15.644196488Z",
+      "FinishedAt": "2026-09-19T01:04:15.707906657Z"
+    }
+  },
+  {
+    "id": "7f752dde3ed7ccc023590d99e1232eea2f86ed7524c7facd52e6a500b235892e",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-139",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:15.955241839Z",
+      "FinishedAt": "2026-09-19T01:04:16.036250553Z"
+    }
+  },
+  {
+    "id": "b7603b5495cd46f7501f16f80dbef20f31e3c3f7f3f106dbbf494a0ae1c416a8",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-he-140",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:16.29894883Z",
+      "FinishedAt": "2026-09-19T01:04:16.373734895Z"
+    }
+  },
+  {
+    "id": "050ce698ee8e37208529c7a925887b9fb09fb1c9ccdbd03c6c720174607c6ea5",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-fix-checked_index",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:16.643575652Z",
+      "FinishedAt": "2026-09-19T01:04:16.716504344Z"
+    }
+  },
+  {
+    "id": "9a71c5b3aa2d1e716f4344999cfd9cd07f92c0aeb07dbdba798ad9852bfaad09",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-fix-checked_repeat",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:16.9660819Z",
+      "FinishedAt": "2026-09-19T01:04:17.049860936Z"
+    }
+  },
+  {
+    "id": "283dc69246c45d3e0372d622b2fefe9b4bb9e79c42da7c8f1d95693603024339",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-fix-checked_percent",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:17.345032003Z",
+      "FinishedAt": "2026-09-19T01:04:17.453267746Z"
+    }
+  },
+  {
+    "id": "d1e5456090e7a603e62b92f619d00b6a717da04c1aaf9b1f1186a62338db0cba",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-fix-parse_binary",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:17.751992106Z",
+      "FinishedAt": "2026-09-19T01:04:17.832503724Z"
+    }
+  },
+  {
+    "id": "bc113841d8ebc923ad778cd542512f26954908b47a1341f83736501f6bb59656",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-fix-unique_keys",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:18.145313936Z",
+      "FinishedAt": "2026-09-19T01:04:18.229628523Z"
+    }
+  },
+  {
+    "id": "5e8b2721b863a57d19b569c9f09beca5d947bae1ce9113f96a8eb6d7690bd083",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-fix-closed_overlap",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:18.542897342Z",
+      "FinishedAt": "2026-09-19T01:04:18.623578829Z"
+    }
+  },
+  {
+    "id": "e73c28cfca8e2d3a680534f4995e0f3a06bc35d8451f7d216b596e94fcf4f63e",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-fix-drop_suffix",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:18.926054915Z",
+      "FinishedAt": "2026-09-19T01:04:19.003311345Z"
+    }
+  },
+  {
+    "id": "fe1f262de3d9809c62c8c34a025c0d15081bac96e5ca9977a8982a549a91c729",
+    "name": "/qwen-quality-20260908-code-dflash2-fast-n7-prefix32k-coding120-20260919-expanded-fix-decimal_cents",
+    "state": {
+      "Status": "exited",
+      "Running": false,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 0,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-19T01:04:19.293009786Z",
+      "FinishedAt": "2026-09-19T01:04:19.375502071Z"
+    }
+  }
+]

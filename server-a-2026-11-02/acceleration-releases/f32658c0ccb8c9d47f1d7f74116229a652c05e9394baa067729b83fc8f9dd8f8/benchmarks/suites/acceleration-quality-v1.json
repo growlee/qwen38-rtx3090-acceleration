@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "suite_id": "acceleration-quality-v1",
+  "cases": [
+    {
+      "case_id": "exact-fact-arithmetic",
+      "critical": true,
+      "request": {
+        "messages": [
+          {"role": "system", "content": "Answer with only the requested value. Do not explain."},
+          {"role": "user", "content": "Give the capital of France, then a vertical bar, then the exact value of 12 multiplied by 12."}
+        ],
+        "generation": {"temperature": 0, "seed": 8101, "max_tokens": 32}
+      },
+      "check": {"type": "exact", "expected": "Paris|144", "casefold": true}
+    },
+    {
+      "case_id": "prompt-json-schema",
+      "critical": true,
+      "request": {
+        "messages": [
+          {"role": "system", "content": "Return one JSON object and no markdown. The exact keys are service, replicas, and healthy."},
+          {"role": "user", "content": "Report that the service named atlas has 3 replicas and is healthy."}
+        ],
+        "generation": {"temperature": 0, "seed": 8102, "max_tokens": 64}
+      },
+      "check": {
+        "type": "json_shape",
+        "schema": {
+          "type": "object",
+          "required": ["service", "replicas", "healthy"],
+          "properties": {
+            "service": {"type": "string"},
+            "replicas": {"type": "integer"},
+            "healthy": {"type": "boolean"}
+          },
+          "additionalProperties": false
+        },
+        "expected": {"service": "atlas", "replicas": 3, "healthy": true}
+      }
+    },
+    {
+      "case_id": "code-unit-expression",
+      "critical": true,
+      "request": {
+        "messages": [
+          {"role": "system", "content": "Return only one Python lambda expression. Do not use markdown, imports, calls, attributes, or assignments."},
+          {"role": "user", "content": "Write a lambda with argument x that computes x squared plus two times x minus 3."}
+        ],
+        "generation": {"temperature": 0, "seed": 8103, "max_tokens": 64}
+      },
+      "check": {
+        "type": "python_lambda_cases",
+        "argument": "x",
+        "cases": [
+          {"input": -4, "expected": 5},
+          {"input": 0, "expected": -3},
+          {"input": 3, "expected": 12},
+          {"input": 11, "expected": 140}
+        ]
+      }
+    },
+    {
+      "case_id": "instruction-constraints",
+      "critical": false,
+      "request": {
+        "messages": [
+          {"role": "system", "content": "Follow every formatting constraint exactly."},
+          {"role": "user", "content": "Return exactly one line containing the three uppercase words ALPHA, BRAVO, CHARLIE in that order, separated by one comma and no spaces."}
+        ],
+        "generation": {"temperature": 0, "seed": 8104, "max_tokens": 32}
+      },
+      "check": {
+        "type": "text_constraints",
+        "required_regex": ["ALPHA,BRAVO,CHARLIE"],
+        "forbidden_regex": ["```", "\\n", "[a-z]", " "],
+        "max_lines": 1
+      }
+    },
+    {
+      "case_id": "tool-call-schema",
+      "critical": true,
+      "request": {
+        "messages": [
+          {"role": "system", "content": "Use the required function and do not answer with prose."},
+          {"role": "user", "content": "Look up the service named cedar in the eu-west region."}
+        ],
+        "generation": {"temperature": 0, "seed": 8105, "max_tokens": 96},
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "lookup_service",
+              "description": "Look up one service in one region.",
+              "parameters": {
+                "type": "object",
+                "required": ["service", "region"],
+                "properties": {
+                  "service": {"type": "string"},
+                  "region": {"type": "string"}
+                },
+                "additionalProperties": false
+              }
+            }
+          }
+        ],
+        "tool_choice": {"type": "function", "function": {"name": "lookup_service"}}
+      },
+      "check": {
+        "type": "tool_call",
+        "function_name": "lookup_service",
+        "arguments": {"service": "cedar", "region": "eu-west"}
+      }
+    },
+    {
+      "case_id": "long-context-needle",
+      "critical": true,
+      "request": {
+        "messages": [
+          {"role": "system", "content": "Use only the supplied inventory. Return exactly owner|port and no other text."},
+          {"role":"user","content":"Archived records are irrelevant to the final inventory question but remain part of the supplied context. archive-041 owner=ArchiveOwner041 port=6041 checksum=24679 status=retired; archive-042 owner=ArchiveOwner042 port=6042 checksum=32598 status=retired; archive-043 owner=ArchiveOwner043 port=6043 checksum=40517 status=retired; archive-044 owner=ArchiveOwner044 port=6044 checksum=48436 status=retired; archive-045 owner=ArchiveOwner045 port=6045 checksum=56355 status=retired; archive-046 owner=ArchiveOwner046 port=6046 checksum=64274 status=retired; archive-047 owner=ArchiveOwner047 port=6047 checksum=72193 status=retired; archive-048 owner=ArchiveOwner048 port=6048 checksum=80112 status=retired; archive-049 owner=ArchiveOwner049 port=6049 checksum=88031 status=retired; archive-050 owner=ArchiveOwner050 port=6050 checksum=95950 status=retired; archive-051 owner=ArchiveOwner051 port=6051 checksum=03869 status=retired; archive-052 owner=ArchiveOwner052 port=6052 checksum=11788 status=retired; archive-053 owner=ArchiveOwner053 port=6053 checksum=19707 status=retired; archive-054 owner=ArchiveOwner054 port=6054 checksum=27626 status=retired; archive-055 owner=ArchiveOwner055 port=6055 checksum=35545 status=retired; archive-056 owner=ArchiveOwner056 port=6056 checksum=43464 status=retired; archive-057 owner=ArchiveOwner057 port=6057 checksum=51383 status=retired; archive-058 owner=ArchiveOwner058 port=6058 checksum=59302 status=retired; archive-059 owner=ArchiveOwner059 port=6059 checksum=67221 status=retired; archive-060 owner=ArchiveOwner060 port=6060 checksum=75140 status=retired; archive-061 owner=ArchiveOwner061 port=6061 checksum=83059 status=retired; archive-062 owner=ArchiveOwner062 port=6062 checksum=90978 status=retired; archive-063 owner=ArchiveOwner063 port=6063 checksum=98897 status=retired; archive-064 owner=ArchiveOwner064 port=6064 checksum=06816 status=retired; archive-065 owner=ArchiveOwner065 port=6065 checksum=14735 status=retired; archive-066 owner=ArchiveOwner066 port=6066 checksum=22654 status=retired; archive-067 owner=ArchiveOwner067 port=6067 checksum=30573 status=retired; archive-068 owner=ArchiveOwner068 port=6068 checksum=38492 status=retired; archive-069 owner=ArchiveOwner069 port=6069 checksum=46411 status=retired; archive-070 owner=ArchiveOwner070 port=6070 checksum=54330 status=retired; archive-071 owner=ArchiveOwner071 port=6071 checksum=62249 status=retired; archive-072 owner=ArchiveOwner072 port=6072 checksum=70168 status=retired; archive-073 owner=ArchiveOwner073 port=6073 checksum=78087 status=retired; archive-074 owner=ArchiveOwner074 port=6074 checksum=86006 status=retired; archive-075 owner=ArchiveOwner075 port=6075 checksum=93925 status=retired; archive-076 owner=ArchiveOwner076 port=6076 checksum=01844 status=retired; archive-077 owner=ArchiveOwner077 port=6077 checksum=09763 status=retired; archive-078 owner=ArchiveOwner078 port=6078 checksum=17682 status=retired; archive-079 owner=ArchiveOwner079 port=6079 checksum=25601 status=retired; archive-080 owner=ArchiveOwner080 port=6080 checksum=33520 status=retired; archive-081 owner=ArchiveOwner081 port=6081 checksum=41439 status=retired; archive-082 owner=ArchiveOwner082 port=6082 checksum=49358 status=retired; archive-083 owner=ArchiveOwner083 port=6083 checksum=57277 status=retired; archive-084 owner=ArchiveOwner084 port=6084 checksum=65196 status=retired; archive-085 owner=ArchiveOwner085 port=6085 checksum=73115 status=retired; archive-086 owner=ArchiveOwner086 port=6086 checksum=81034 status=retired; archive-087 owner=ArchiveOwner087 port=6087 checksum=88953 status=retired; archive-088 owner=ArchiveOwner088 port=6088 checksum=96872 status=retired; archive-089 owner=ArchiveOwner089 port=6089 checksum=04791 status=retired; archive-090 owner=ArchiveOwner090 port=6090 checksum=12710 status=retired; archive-091 owner=ArchiveOwner091 port=6091 checksum=20629 status=retired; archive-092 owner=ArchiveOwner092 port=6092 checksum=28548 status=retired; archive-093 owner=ArchiveOwner093 port=6093 checksum=36467 status=retired; archive-094 owner=ArchiveOwner094 port=6094 checksum=44386 status=retired; archive-095 owner=ArchiveOwner095 port=6095 checksum=52305 status=retired; archive-096 owner=ArchiveOwner096 port=6096 checksum=60224 status=retired; archive-097 owner=ArchiveOwner097 port=6097 checksum=68143 status=retired; archive-098 owner=ArchiveOwner098 port=6098 checksum=76062 status=retired; archive-099 owner=ArchiveOwner099 port=6099 checksum=83981 status=retired; archive-100 owner=ArchiveOwner100 port=6100 checksum=91900 status=retired; archive-101 owner=ArchiveOwner101 port=6101 checksum=99819 status=retired; archive-102 owner=ArchiveOwner102 port=6102 checksum=07738 status=retired; archive-103 owner=ArchiveOwner103 port=6103 checksum=15657 status=retired; archive-104 owner=ArchiveOwner104 port=6104 checksum=23576 status=retired; archive-105 owner=ArchiveOwner105 port=6105 checksum=31495 status=retired; archive-106 owner=ArchiveOwner106 port=6106 checksum=39414 status=retired; archive-107 owner=ArchiveOwner107 port=6107 checksum=47333 status=retired; archive-108 owner=ArchiveOwner108 port=6108 checksum=55252 status=retired; archive-109 owner=ArchiveOwner109 port=6109 checksum=63171 status=retired; archive-110 owner=ArchiveOwner110 port=6110 checksum=71090 status=retired; archive-111 owner=ArchiveOwner111 port=6111 checksum=79009 status=retired; archive-112 owner=ArchiveOwner112 port=6112 checksum=86928 status=retired; archive-113 owner=ArchiveOwner113 port=6113 checksum=94847 status=retired; archive-114 owner=ArchiveOwner114 port=6114 checksum=02766 status=retired; archive-115 owner=ArchiveOwner115 port=6115 checksum=10685 status=retired; archive-116 owner=ArchiveOwner116 port=6116 checksum=18604 status=retired; archive-117 owner=ArchiveOwner117 port=6117 checksum=26523 status=retired; archive-118 owner=ArchiveOwner118 port=6118 checksum=34442 status=retired; archive-119 owner=ArchiveOwner119 port=6119 checksum=42361 status=retired; archive-120 owner=ArchiveOwner120 port=6120 checksum=50280 status=retired; archive-121 owner=ArchiveOwner121 port=6121 checksum=58199 status=retired; archive-122 owner=ArchiveOwner122 port=6122 checksum=66118 status=retired; archive-123 owner=ArchiveOwner123 port=6123 checksum=74037 status=retired; archive-124 owner=ArchiveOwner124 port=6124 checksum=81956 status=retired; archive-125 owner=ArchiveOwner125 port=6125 checksum=89875 status=retired; archive-126 owner=ArchiveOwner126 port=6126 checksum=97794 status=retired; archive-127 owner=ArchiveOwner127 port=6127 checksum=05713 status=retired; archive-128 owner=ArchiveOwner128 port=6128 checksum=13632 status=retired; archive-129 owner=ArchiveOwner129 port=6129 checksum=21551 status=retired; archive-130 owner=ArchiveOwner130 port=6130 checksum=29470 status=retired; archive-131 owner=ArchiveOwner131 port=6131 checksum=37389 status=retired; archive-132 owner=ArchiveOwner132 port=6132 checksum=45308 status=retired; archive-133 owner=ArchiveOwner133 port=6133 checksum=53227 status=retired; archive-134 owner=ArchiveOwner134 port=6134 checksum=61146 status=retired; archive-135 owner=ArchiveOwner135 port=6135 checksum=69065 status=retired; archive-136 owner=ArchiveOwner136 port=6136 checksum=76984 status=retired; archive-137 owner=ArchiveOwner137 port=6137 checksum=84903 status=retired; archive-138 owner=ArchiveOwner138 port=6138 checksum=92822 status=retired; archive-139 owner=ArchiveOwner139 port=6139 checksum=00741 status=retired; archive-140 owner=ArchiveOwner140 port=6140 checksum=08660 status=retired; archive-141 owner=ArchiveOwner141 port=6141 checksum=16579 status=retired; archive-142 owner=ArchiveOwner142 port=6142 checksum=24498 status=retired; archive-143 owner=ArchiveOwner143 port=6143 checksum=32417 status=retired; archive-144 owner=ArchiveOwner144 port=6144 checksum=40336 status=retired; archive-145 owner=ArchiveOwner145 port=6145 checksum=48255 status=retired; archive-146 owner=ArchiveOwner146 port=6146 checksum=56174 status=retired; archive-147 owner=ArchiveOwner147 port=6147 checksum=64093 status=retired; archive-148 owner=ArchiveOwner148 port=6148 checksum=72012 status=retired; archive-149 owner=ArchiveOwner149 port=6149 checksum=79931 status=retired; archive-150 owner=ArchiveOwner150 port=6150 checksum=87850 status=retired; archive-151 owner=ArchiveOwner151 port=6151 checksum=95769 status=retired; archive-152 owner=ArchiveOwner152 port=6152 checksum=03688 status=retired; archive-153 owner=ArchiveOwner153 port=6153 checksum=11607 status=retired; archive-154 owner=ArchiveOwner154 port=6154 checksum=19526 status=retired; archive-155 owner=ArchiveOwner155 port=6155 checksum=27445 status=retired; archive-156 owner=ArchiveOwner156 port=6156 checksum=35364 status=retired; archive-157 owner=ArchiveOwner157 port=6157 checksum=43283 status=retired; archive-158 owner=ArchiveOwner158 port=6158 checksum=51202 status=retired; archive-159 owner=ArchiveOwner159 port=6159 checksum=59121 status=retired; archive-160 owner=ArchiveOwner160 port=6160 checksum=67040 status=retired; archive-161 owner=ArchiveOwner161 port=6161 checksum=74959 status=retired; archive-162 owner=ArchiveOwner162 port=6162 checksum=82878 status=retired; archive-163 owner=ArchiveOwner163 port=6163 checksum=90797 status=retired; archive-164 owner=ArchiveOwner164 port=6164 checksum=98716 status=retired; archive-165 owner=ArchiveOwner165 port=6165 checksum=06635 status=retired; archive-166 owner=ArchiveOwner166 port=6166 checksum=14554 status=retired; archive-167 owner=ArchiveOwner167 port=6167 checksum=22473 status=retired; archive-168 owner=ArchiveOwner168 port=6168 checksum=30392 status=retired; archive-169 owner=ArchiveOwner169 port=6169 checksum=38311 status=retired; archive-170 owner=ArchiveOwner170 port=6170 checksum=46230 status=retired; archive-171 owner=ArchiveOwner171 port=6171 checksum=54149 status=retired; archive-172 owner=ArchiveOwner172 port=6172 checksum=62068 status=retired; archive-173 owner=ArchiveOwner173 port=6173 checksum=69987 status=retired; archive-174 owner=ArchiveOwner174 port=6174 checksum=77906 status=retired; archive-175 owner=ArchiveOwner175 port=6175 checksum=85825 status=retired; archive-176 owner=ArchiveOwner176 port=6176 checksum=93744 status=retired; archive-177 owner=ArchiveOwner177 port=6177 checksum=01663 status=retired; archive-178 owner=ArchiveOwner178 port=6178 checksum=09582 status=retired; archive-179 owner=ArchiveOwner179 port=6179 checksum=17501 status=retired; archive-180 owner=ArchiveOwner180 port=6180 checksum=25420 status=retired; archive-181 owner=ArchiveOwner181 port=6181 checksum=33339 status=retired; archive-182 owner=ArchiveOwner182 port=6182 checksum=41258 status=retired; archive-183 owner=ArchiveOwner183 port=6183 checksum=49177 status=retired; archive-184 owner=ArchiveOwner184 port=6184 checksum=57096 status=retired; archive-185 owner=ArchiveOwner185 port=6185 checksum=65015 status=retired; archive-186 owner=ArchiveOwner186 port=6186 checksum=72934 status=retired; archive-187 owner=ArchiveOwner187 port=6187 checksum=80853 status=retired; archive-188 owner=ArchiveOwner188 port=6188 checksum=88772 status=retired; archive-189 owner=ArchiveOwner189 port=6189 checksum=96691 status=retired; archive-190 owner=ArchiveOwner190 port=6190 checksum=04610 status=retired; archive-191 owner=ArchiveOwner191 port=6191 checksum=12529 status=retired; archive-192 owner=ArchiveOwner192 port=6192 checksum=20448 status=retired; archive-193 owner=ArchiveOwner193 port=6193 checksum=28367 status=retired; archive-194 owner=ArchiveOwner194 port=6194 checksum=36286 status=retired; archive-195 owner=ArchiveOwner195 port=6195 checksum=44205 status=retired; archive-196 owner=ArchiveOwner196 port=6196 checksum=52124 status=retired; archive-197 owner=ArchiveOwner197 port=6197 checksum=60043 status=retired; archive-198 owner=ArchiveOwner198 port=6198 checksum=67962 status=retired; archive-199 owner=ArchiveOwner199 port=6199 checksum=75881 status=retired; archive-200 owner=ArchiveOwner200 port=6200 checksum=83800 status=retired; archive-201 owner=ArchiveOwner201 port=6201 checksum=91719 status=retired; archive-202 owner=ArchiveOwner202 port=6202 checksum=99638 status=retired; archive-203 owner=ArchiveOwner203 port=6203 checksum=07557 status=retired; archive-204 owner=ArchiveOwner204 port=6204 checksum=15476 status=retired; archive-205 owner=ArchiveOwner205 port=6205 checksum=23395 status=retired; archive-206 owner=ArchiveOwner206 port=6206 checksum=31314 status=retired; archive-207 owner=ArchiveOwner207 port=6207 checksum=39233 status=retired; archive-208 owner=ArchiveOwner208 port=6208 checksum=47152 status=retired; archive-209 owner=ArchiveOwner209 port=6209 checksum=55071 status=retired; archive-210 owner=ArchiveOwner210 port=6210 checksum=62990 status=retired; archive-211 owner=ArchiveOwner211 port=6211 checksum=70909 status=retired; archive-212 owner=ArchiveOwner212 port=6212 checksum=78828 status=retired; archive-213 owner=ArchiveOwner213 port=6213 checksum=86747 status=retired; archive-214 owner=ArchiveOwner214 port=6214 checksum=94666 status=retired; archive-215 owner=ArchiveOwner215 port=6215 checksum=02585 status=retired; archive-216 owner=ArchiveOwner216 port=6216 checksum=10504 status=retired; archive-217 owner=ArchiveOwner217 port=6217 checksum=18423 status=retired; archive-218 owner=ArchiveOwner218 port=6218 checksum=26342 status=retired; archive-219 owner=ArchiveOwner219 port=6219 checksum=34261 status=retired; archive-220 owner=ArchiveOwner220 port=6220 checksum=42180 status=retired; Do not use an archived record as the answer."},
+          {"role": "user", "content": "Inventory snapshot follows. node-001 owner=Ada port=5101 color=amber; node-002 owner=Boris port=5102 color=blue; node-003 owner=Cleo port=5103 color=coral; node-004 owner=Daria port=5104 color=denim; node-005 owner=Emil port=5105 color=emerald; node-006 owner=Farah port=5106 color=fuchsia; node-007 owner=Gleb port=5107 color=gold; node-008 owner=Hana port=5108 color=hazel; node-009 owner=Ilya port=5109 color=indigo; node-010 owner=Jana port=5110 color=jade; node-011 owner=Kir port=5111 color=khaki; node-012 owner=Lina port=5112 color=lilac; node-013 owner=Marek port=5113 color=maroon; node-014 owner=Nina port=5114 color=navy; node-015 owner=Omar port=5115 color=olive; node-016 owner=Petra port=5116 color=pearl; node-017 owner=Quinn port=5117 color=quartz; node-018 owner=Rita port=5118 color=red; node-019 owner=Sven port=5119 color=silver; node-020 owner=Tala port=5120 color=teal; node-021 owner=Umar port=5121 color=umber; node-022 owner=Vera port=5122 color=violet; node-023 owner=Wade port=5123 color=white; node-024 owner=Xena port=5124 color=xanthic; node-025 owner=Yara port=5125 color=yellow; node-026 owner=Zane port=5126 color=zinc; node-027 owner=Arun port=5127 color=apricot; node-028 owner=Bela port=5128 color=beige; node-029 owner=Cato port=5129 color=cyan; node-030 owner=Dora port=5130 color=drab; node-031 owner=Eran port=5131 color=ecru; node-032 owner=Faye port=5132 color=flax; node-033 owner=Gina port=5133 color=green; node-034 owner=Hugo port=5134 color=heliotrope; node-035 owner=Ines port=5135 color=ivory; node-036 owner=Juri port=5136 color=jet; node-037 owner=Kira port=5137 color=kelly; node-038 owner=Leon port=5138 color=lemon; node-039 owner=Mira port=5139 color=magenta; node-040 owner=Niko port=5140 color=ochre. Maintenance note: all odd-numbered nodes are checked on Monday and all even-numbered nodes on Thursday. The checksum labels are independent of owner names and ports. Ignore colors and maintenance schedules. Which owner and port belong to node-037?"}
+        ],
+        "generation": {"temperature": 0, "seed": 8106, "max_tokens": 32}
+      },
+      "check": {"type": "exact", "expected": "Kira|5137", "casefold": false}
+    }
+  ]
+}

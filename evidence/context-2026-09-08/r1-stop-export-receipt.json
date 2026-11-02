@@ -1,0 +1,96 @@
+{
+  "schema": "qwen-context-export/v1",
+  "remote_root": "/srv/ai-server/benchmarks/context-20260908-r1",
+  "files": [
+    {
+      "local_name": "adaptive-mtp-huge.jsonl",
+      "remote_name": "adaptive-mtp-huge.jsonl",
+      "remote_size": 97340,
+      "remote_sha256": "ffd16cf0cc75134fcd3b1349ca0c26e0b01efbf462dfd47d3a34657ffe53d700",
+      "local_size": 97340,
+      "local_sha256": "ffd16cf0cc75134fcd3b1349ca0c26e0b01efbf462dfd47d3a34657ffe53d700",
+      "byte_identical": true,
+      "normalization": null
+    },
+    {
+      "local_name": "adaptive-mtp-huge-resources.json",
+      "remote_name": "adaptive-mtp-huge-resources.json",
+      "remote_size": 718618,
+      "remote_sha256": "735f058adc3be7806a9699be528b4ae6f36e0492197fabcca653eacefa29486a",
+      "local_size": 718619,
+      "local_sha256": "26ba105f9422b855af25da2505952ec49c1729636fbab55fef3e2de62bb2520f",
+      "byte_identical": false,
+      "normalization": "one final LF added; removing exactly that byte reproduces remote SHA256"
+    },
+    {
+      "local_name": "r1-window-report.json",
+      "remote_name": "window-report.json",
+      "remote_size": 44108,
+      "remote_sha256": "2d10730b5c1d702bfbb652e089c755145cf14d28bd3622791f966fc41b38e996",
+      "local_size": 44108,
+      "local_sha256": "2d10730b5c1d702bfbb652e089c755145cf14d28bd3622791f966fc41b38e996",
+      "byte_identical": true,
+      "normalization": null
+    },
+    {
+      "local_name": "r1-context-window-report.json",
+      "remote_name": "context-window-report.json",
+      "remote_size": 45044,
+      "remote_sha256": "9090bb05991c03401a0d8cc9c1ba224e3cb797ab83c81ea3a45d50d055292ab5",
+      "local_size": 45045,
+      "local_sha256": "d077d42f2077809667df9b320554171613bbbfb513596b018078ff679f9ec319",
+      "byte_identical": false,
+      "normalization": "one final LF added; removing exactly that byte reproduces remote SHA256"
+    },
+    {
+      "local_name": "r1-controller.log",
+      "remote_name": "controller.log",
+      "remote_size": 2353,
+      "remote_sha256": "717181f8545f0b39d2cb62af24808124091d0baf98b49c819f0ed6b56306d71b",
+      "local_size": 2353,
+      "local_sha256": "717181f8545f0b39d2cb62af24808124091d0baf98b49c819f0ed6b56306d71b",
+      "byte_identical": true,
+      "normalization": null
+    },
+    {
+      "local_name": "r1-execution-settings.json",
+      "remote_name": "execution-settings.json",
+      "remote_size": 6329,
+      "remote_sha256": "b58d1cf73a547943abd00f535af5b697908cb17351e4a0ef16d8ec9605bdb6ce",
+      "local_size": 6330,
+      "local_sha256": "505ac09f22bd5d71ec04f80281b47f65a94b221da5a15b4fbe59fc89da057f20",
+      "byte_identical": false,
+      "normalization": "one final LF added; removing exactly that byte reproduces remote SHA256"
+    },
+    {
+      "local_name": "r1-manifest.json",
+      "remote_name": "manifest.json",
+      "remote_size": 531,
+      "remote_sha256": "c71c26c5cf3124347a021489d60148b102a5ad2c35ee4b1314e37ef8eafa36e6",
+      "local_size": 531,
+      "local_sha256": "c71c26c5cf3124347a021489d60148b102a5ad2c35ee4b1314e37ef8eafa36e6",
+      "byte_identical": true,
+      "normalization": null
+    },
+    {
+      "local_name": "r1-preflight.json",
+      "remote_name": "preflight.json",
+      "remote_size": 1881,
+      "remote_sha256": "78515285c5933ea42237d4e39a609f34a1534e91bf5a1fb1b8595421d8922e31",
+      "local_size": 1882,
+      "local_sha256": "112da96fb295b716f8246dea2121835e07a9b82a0857582e7b1b3fc67a78a0e1",
+      "byte_identical": false,
+      "normalization": "one final LF added; removing exactly that byte reproduces remote SHA256"
+    },
+    {
+      "local_name": "r1-fixture-receipt.json",
+      "remote_name": "fixture-receipt.json",
+      "remote_size": 181,
+      "remote_sha256": "31d30cdc992fe8aded9124af88625528080bd7d286305ff336df402ff2d3ee8c",
+      "local_size": 182,
+      "local_sha256": "cb57ddff79acbe100767e97e25ecfd669ece52f5c857ce44a065aaa259a6c57b",
+      "byte_identical": false,
+      "normalization": "one final LF added; removing exactly that byte reproduces remote SHA256"
+    }
+  ]
+}

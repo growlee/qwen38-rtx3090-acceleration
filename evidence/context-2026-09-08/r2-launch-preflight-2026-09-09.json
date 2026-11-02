@@ -1,0 +1,45 @@
+{
+  "verified_epoch": 1788952727.426447,
+  "manifest_sha256": "89e8667d4c2031b6ce91fe0f73b206592ea9a6f4066b2e9328b4d570e209299e",
+  "source": "PASS",
+  "selection": "PASS",
+  "partition": {
+    "coordinates": 612,
+    "captured": 354,
+    "untouched": 257,
+    "unresolved_dispatches": 1
+  },
+  "selected_counts": {
+    "adaptive-mtp-huge": 6,
+    "reconstructed-mtp-fast": 36,
+    "reconstructed-mtp-huge": 84,
+    "dflash2-fast-n7": 36,
+    "dflash2-huge-n7": 84,
+    "original-gguf": 12
+  },
+  "budget": {
+    "capture_seconds": 1452060,
+    "restore_reserve_seconds": 2700,
+    "window_seconds": 1454760,
+    "unit_runtime_max_seconds": 1461960
+  },
+  "root_free": 168219025408,
+  "mem_available": 29689270272,
+  "gpu": [
+    1,
+    24126,
+    32.4,
+    300,
+    39,
+    0
+  ],
+  "production": {
+    "id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+    "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+    "running": false
+  },
+  "admission": "public_empty",
+  "profiles": "all_stopped",
+  "unit": "LoadState=not-found\nActiveState=inactive\n"
+}

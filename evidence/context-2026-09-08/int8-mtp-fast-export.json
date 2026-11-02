@@ -1,0 +1,55 @@
+{
+  "schema": "qwen38-context-export/v1",
+  "source_host": "server-a",
+  "source_root": "/srv/ai-server/benchmarks/context-20260908-r1/results",
+  "source_manifest_sha256": "c71c26c5cf3124347a021489d60148b102a5ad2c35ee4b1314e37ef8eafa36e6",
+  "mode_id": "int8-mtp-fast",
+  "capture_status": "36_complete_envelopes",
+  "grading_status": "pending_after_public_restoration",
+  "files": [
+    {
+      "name": "int8-mtp-fast.jsonl",
+      "source_bytes": 44830,
+      "source_sha256": "74f6c31955a1a91848071ec91c8a5e227e1faa5a15016a8f3a5f65b1317801c6",
+      "local_sha256": "74f6c31955a1a91848071ec91c8a5e227e1faa5a15016a8f3a5f65b1317801c6",
+      "normalization": "none"
+    },
+    {
+      "name": "int8-mtp-fast-resources.json",
+      "source_bytes": 81299,
+      "source_sha256": "a12d0f587cc9d93d55f1a17eb22f1a0ace87e73594c7fa5e0d289fca07bc47f7",
+      "local_sha256": "678f99ff48bc1865a3640018805689ff8471c0e63ead8dcb15be6fbbc7d0fd7e",
+      "normalization": "One final LF added by text export; removing that LF reproduces the verified source SHA-256."
+    },
+    {
+      "name": "int8-mtp-fast.stderr",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported": false,
+      "reason": "empty; source retained"
+    }
+  ],
+  "captured_length_summary": [
+    {
+      "target_tokens": 8192,
+      "cases": 12,
+      "max_input_tokens": 8235,
+      "median_ttft_seconds": 6.8820035,
+      "max_elapsed_seconds": 7.740891
+    },
+    {
+      "target_tokens": 32768,
+      "cases": 12,
+      "max_input_tokens": 32807,
+      "median_ttft_seconds": 30.493307,
+      "max_elapsed_seconds": 31.348865
+    },
+    {
+      "target_tokens": 50000,
+      "cases": 12,
+      "max_input_tokens": 50042,
+      "median_ttft_seconds": 49.6675805,
+      "max_elapsed_seconds": 50.797538
+    }
+  ]
+}

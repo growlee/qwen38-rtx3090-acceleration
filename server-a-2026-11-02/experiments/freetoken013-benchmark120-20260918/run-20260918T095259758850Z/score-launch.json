@@ -1,0 +1,15 @@
+{
+  "pid": 8397,
+  "utc": "2026-09-18T10:00:48.966781+00:00",
+  "argv": [
+    "python3",
+    "-E",
+    "-B",
+    "/srv/ai-server/artifacts/experiments/freetoken013-benchmark120-20260918/score120.py",
+    "--input",
+    "/srv/ai-server/artifacts/experiments/freetoken013-benchmark120-20260918/run-20260918T095259758850Z/matrix.jsonl",
+    "--output",
+    "/srv/ai-server/artifacts/experiments/freetoken013-benchmark120-20260918/run-20260918T095259758850Z/scores.jsonl"
+  ],
+  "matrix_sha256": "84ba487063ef60728e2d4ec5c586f1da4abb7b8896d509b4d8294b58fe80198e"
+}

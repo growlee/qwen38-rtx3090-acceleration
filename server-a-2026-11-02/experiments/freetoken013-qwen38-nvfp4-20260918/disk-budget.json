@@ -1,0 +1,65 @@
+{
+  "status": "PLANNED_BOUND_REQUIRES_FRESH_ADMISSION",
+  "manifest_sha256": "9e26bf03a6d6078f4b889c84c3c50415cbea7785d92391fa09217e5a6462c4bc",
+  "wheel_count": 95,
+  "compressed_bytes": 2974808160,
+  "unpacked_file_allocation_bound_bytes": 5661691904,
+  "items": [
+    {
+      "item": "retained_exact_wheelhouse",
+      "bytes": 2974808160
+    },
+    {
+      "item": "max_partial_overlap_reserve",
+      "bytes": 530712279
+    },
+    {
+      "item": "build_context_and_content_cache_2_copies",
+      "bytes": 5949616320
+    },
+    {
+      "item": "writable_venv_and_build_snapshot_2_copies",
+      "bytes": 11860254720
+    },
+    {
+      "item": "unpacked_final_layer_retention",
+      "bytes": 5930127360
+    },
+    {
+      "item": "compressed_layer_blob_bound",
+      "bytes": 5989428634
+    },
+    {
+      "item": "metadata_logs_and_unclassified_build_overhead_reserve",
+      "bytes": 4294967296
+    }
+  ],
+  "calculated_growth_bytes": 37529914769,
+  "admission_expected_growth_bytes": 37580963840,
+  "admission_expected_growth_gib": 35,
+  "root_restoration_reserve_bytes": 34359738368,
+  "ai_budget_bytes": 214748364800,
+  "new_model_copies": 0,
+  "new_base_image_copies": 0,
+  "image_export_or_archive_copies": 0,
+  "phase_growth_bounds": {
+    "download": 3773955895,
+    "build_total": 37580963840,
+    "runtime_disk_total": 37580963840
+  },
+  "separate_ram_caps_bytes": {
+    "container": 27917287424,
+    "tmpfs_tmp": 4294967296,
+    "tmpfs_cache": 2147483648,
+    "shm": 1073741824
+  },
+  "requirements": [
+    "No base image pull; existing pinned layers shared",
+    "Verify every complete wheel SHA and ZIP metadata before install",
+    "No bytecode compilation or persistent pip cache",
+    "BuildKit read-only wheelhouse mount; no final wheelhouse COPY",
+    "Measure physical filesystem growth at each phase; stop if bound exceeded",
+    "Global 150GiB policy unchanged; scoped 32GiB reserve per user test waiver",
+    "No cleanup required or authorized by this estimate"
+  ]
+}

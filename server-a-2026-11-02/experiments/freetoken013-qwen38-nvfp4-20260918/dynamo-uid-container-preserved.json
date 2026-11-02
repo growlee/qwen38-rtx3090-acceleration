@@ -1,0 +1,20 @@
+{
+  "id": "446b9b7c00ada444c00aeba87d23c0d1e2e4bcd75ebfc3913b405a93205bfb31",
+  "previous_name": "ai-server-freetoken-q38-013-nvfp4",
+  "name": "ai-server-freetoken-q38-013-nvfp4-dynamo-uid",
+  "image": "sha256:10bc9d29f79941c71bb27a77974be4b2312ae64f02636dd5445db20e77675134",
+  "bundle": "4c34661329fc3cf6771541631bdc949ed70d42706a36103ae5bf28aba33250c7",
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-18T08:20:45.280997414Z",
+    "FinishedAt": "2026-09-18T08:21:55.226940819Z"
+  }
+}

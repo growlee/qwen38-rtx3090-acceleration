@@ -1,0 +1,35 @@
+{
+  "arguments": {},
+  "assistant_message": {
+    "content": "",
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{}",
+          "name": "run_tests"
+        },
+        "id": "chatcmpl-tool-a0767670c2b5fab1",
+        "type": "function"
+      }
+    ]
+  },
+  "name": "run_tests",
+  "result": {
+    "container_id": "d6244b8ea96683513a93c8154d6a26204f05cc8f2576a6e4351d46fb43d60d06",
+    "container_name": "ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-cursor-pagination-validation-model-test-5",
+    "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "outcome": "PASS",
+    "passed": true,
+    "returncode": 0,
+    "stderr": "test_cursor_survives_deletion_of_boundary_record (test_fixture.CustomerPaginationTests.test_cursor_survives_deletion_of_boundary_record) ... ok\ntest_does_not_mutate_or_alias_records (test_fixture.CustomerPaginationTests.test_does_not_mutate_or_alias_records) ... ok\ntest_empty_page_has_no_cursor (test_fixture.CustomerPaginationTests.test_empty_page_has_no_cursor) ... ok\ntest_orders_pages_and_returns_opaque_cursor (test_fixture.CustomerPaginationTests.test_orders_pages_and_returns_opaque_cursor) ... ok\ntest_rejects_invalid_limits (test_fixture.CustomerPaginationTests.test_rejects_invalid_limits) ... ok\ntest_rejects_invalid_records (test_fixture.CustomerPaginationTests.test_rejects_invalid_records) ... ok\ntest_rejects_malformed_or_noncanonical_cursors (test_fixture.CustomerPaginationTests.test_rejects_malformed_or_noncanonical_cursors) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.000s\n\nOK\n",
+    "stdout": "",
+    "stopped": true
+  },
+  "tool_message": {
+    "content": "{\"container_id\": \"d6244b8ea96683513a93c8154d6a26204f05cc8f2576a6e4351d46fb43d60d06\", \"container_name\": \"ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-cursor-pagination-validation-model-test-5\", \"image\": \"sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0\", \"outcome\": \"PASS\", \"passed\": true, \"returncode\": 0, \"stderr\": \"test_cursor_survives_deletion_of_boundary_record (test_fixture.CustomerPaginationTests.test_cursor_survives_deletion_of_boundary_record) ... ok\\ntest_does_not_mutate_or_alias_records (test_fixture.CustomerPaginationTests.test_does_not_mutate_or_alias_records) ... ok\\ntest_empty_page_has_no_cursor (test_fixture.CustomerPaginationTests.test_empty_page_has_no_cursor) ... ok\\ntest_orders_pages_and_returns_opaque_cursor (test_fixture.CustomerPaginationTests.test_orders_pages_and_returns_opaque_cursor) ... ok\\ntest_rejects_invalid_limits (test_fixture.CustomerPaginationTests.test_rejects_invalid_limits) ... ok\\ntest_rejects_invalid_records (test_fixture.CustomerPaginationTests.test_rejects_invalid_records) ... ok\\ntest_rejects_malformed_or_noncanonical_cursors (test_fixture.CustomerPaginationTests.test_rejects_malformed_or_noncanonical_cursors) ... ok\\n\\n----------------------------------------------------------------------\\nRan 7 tests in 0.000s\\n\\nOK\\n\", \"stdout\": \"\", \"stopped\": true}",
+    "name": "run_tests",
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-a0767670c2b5fab1"
+  }
+}

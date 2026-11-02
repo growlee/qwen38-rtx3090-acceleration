@@ -1,0 +1,4 @@
+{"mode": "dflash2-huge-n7-kv4350mb-204800", "phase": "preparation"}
+{"mode": "dflash2-huge-n7-kv4350mb-204800", "phase": "capture"}
+{"mode": "dflash2-huge-n7-kv4350mb-204800", "phase": "capture_finished", "status": "CAPTURED"}
+{"outcome": "captured_restored", "report": "/srv/ai-server/benchmarks/context-20260910-repair-kv4350-continue/results/window-report.json"}

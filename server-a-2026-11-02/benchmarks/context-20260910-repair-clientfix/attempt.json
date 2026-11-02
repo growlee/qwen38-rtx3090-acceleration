@@ -1,0 +1,28 @@
+{
+  "context_report_sha256": "d369f32e7a5a5729ee6054b8b1f9a56c352c808a99dde5085070cdadc4fb7561",
+  "controller_exit_code": 1,
+  "ended_epoch": 1788997229.9597933,
+  "grading_counts": {
+    "new_modes": {
+      "dflash2-huge-n7-kv4gb-204800": {
+        "BLOCKED": 84
+      },
+      "original-gguf": {
+        "PASS": 12
+      }
+    },
+    "original": {
+      "BLOCKED": 84,
+      "FAIL": 1,
+      "PASS": 527
+    }
+  },
+  "grading_summary_sha256": "22fbde807054aafd68183964664300f877ac97b60ca4b2d4d5b86b03a6cc2b1d",
+  "manifest_sha256": "8f8bfc60b8a84ffa6a4c2e0b30d1ad943b2cd1693445811398e7b9b2f7630571",
+  "old_owned_count": 54,
+  "outcome": "terminal_failure_graded",
+  "schema": "qwen-context-repair-attempt/v1",
+  "selection_sha256": "c66c54edc22c1dd48b147470f99a127cb23aacab21675186332713194036db01",
+  "source_combined_sha256": "777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9",
+  "started_epoch": 1788996528.2467685
+}

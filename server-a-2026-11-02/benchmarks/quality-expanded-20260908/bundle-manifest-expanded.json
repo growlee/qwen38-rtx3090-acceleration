@@ -1,0 +1,23 @@
+{
+  "files": {
+    "benchmark_client.py": "faa345a38c6fe82c0e7b80c0372ea4167d6e21ae929f8bba06fa5988b750fbc4",
+    "quality_client.py": "0540c6e7c6fba4be6c6876c8f9f61dacaad4370c7d5481bea98b3a5f6a60192e",
+    "quality_expanded_suite.py": "03b74f351f8c24159d968c094679387ef69603b943781370da60ddeb68af9d3b",
+    "quality_expanded_v2.json": "022f3817ad928da76160b3a1f0c2cfd56a4f9e5346b991a2e496c4504903f437",
+    "quality_suite.py": "9bb1c15f69c4d2f3fc83eb613840a1c1422ff60d255ef3fdd37a4c93b1a4580f",
+    "server_a_runner.py": "91150887cd6bd054a7357e301dc1df96e98724315cf4307d105850427cb271c4",
+    "syv_acceleration_runner.py": "f3c96419aef6e2e274556cde5c4e6c4ae3a70282a3612428795ffeb2e1dcc2c9"
+  },
+  "other_files": {
+    "HumanEval-LICENSE": "bcba3de214851cce46ed5af42d6698044616eeace887c3231bc7a20474ab639e",
+    "grade_expanded.py": "56924b2c51dcb71ad8799681aa8add8bd5d42c8057dd019720ca14f2b175a418",
+    "run_quality_window_expanded.py": "6154eacc253543c3d5392393d872f54e3f5ff2e6eb0b8f847f19c1cbacb60b95",
+    "sources/quality_sandbox.py": "f9065cac6b88f6ba987deb91e6210ca91e00ea4a0a9a12a2c45797efeeb2006a",
+    "sources/score_quality.py": "825a8d789548a8533a73732dff6b2669645afc4ec36076de27d9e3f7396b379d",
+    "trusted_preflight.py": "ea6314273856d7b5ec7010a79aa965c35ebe1d261e2bc2babac545c0acbb7d97"
+  },
+  "schema": "qwen-quality-bundle/v1",
+  "source_commit": "ee209715492a4e4b004e9377103941ba821727ea",
+  "suite_canonical_sha256": "2ea25b195358d0d78a1f4e025c6c63e604693bc00ec4cbc5224e4772e77f187f",
+  "suite_id": "qwen38-quality-expanded-200-v1"
+}

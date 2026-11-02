@@ -1,0 +1,22 @@
+{
+  "schema": "qwen-context-repair-bundle/v1",
+  "files": {
+    "repair_context.py": "72ceec6fafb5b64d971a0ec77df58836b2dd66607a97bfdd43d1c7c5b5b2e01b",
+    "quality_context_continue_client.py": "cd0ecad8389e296c379cf32f5840b22d488b12cba0883af81145e516a7520156",
+    "grade_repair.py": "06a8aabedd0f76df3455edc07d07cdfcd1723e3211b0efe67a18b8292b44df6f",
+    "selection.json": "85753cab4b1a6932cb6c5cc3fc11989847fcd9b307774fadb2e11cf5a9652fb6",
+    "runbook.md": "9be742afc8f68f2736bcc74b4247beaef5caf9fcfca377c0677afd10a5749c07"
+  },
+  "dependencies": {
+    "r1/run_context.py": "7cb2f97465a69992babc9887780477ab98d3eb548500e33052cba7eb70248816",
+    "r1/controller.py": "4ad216fc2ff90ea9a8971e10904681fd11396f86977bc3e865ae736cf7dcccc5",
+    "r1/frozen/frozen.json": "2df1be2cff66b53ce57b3eefe3eed8be2d16c59d1e37b783341f176995689d94",
+    "r2/manifest.json": "89e8667d4c2031b6ce91fe0f73b206592ea9a6f4066b2e9328b4d570e209299e",
+    "r2/continue_context.py": "6d2e89059388a5fef595cfc80f76a070d46f21e3a8865c38054b33691c6a5307",
+    "r2/context_storage.py": "2085436ed77ec5a9f64d61568bb612254cb58158027869fc036fa666ff914cfd",
+    "r2/quality_context_remaining.py": "d05b4125873eb7afdea27e64f47515c2ff2371c85771ec60fbaee5b1bc6e3979",
+    "r2/results/combined-scores.jsonl": "777d45c1eb2e495cc33cf1d9a031fa0eb5100dc69f6e2401aca87dc3de2a4af9",
+    "r2/restoration-after-abort.json": "5c4db227957e37a03fb36cddd61d9d5eef4be0a1766ce9969a0a7fe4eb3328a0",
+    "r2/results/grading-summary.json": "99f61e0b3b0746d2d69d57435e5281fd95bf4d3d0c80c6b46b44d28638488641"
+  }
+}

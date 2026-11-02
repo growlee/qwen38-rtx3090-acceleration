@@ -1,0 +1,16 @@
+{
+  "script_sha256": "c0e550708ed2da98b87052045de28a03ec7247f89b96aba15bae22fb4363bcd6",
+  "launch": {
+    "exitCode": 0,
+    "timedOut": false,
+    "durationMs": 215,
+    "stdout": "",
+    "stderr": "Running as unit: qwen-context-20260910-kv4350-restore.service; invocation ID: 887c1b78084b418787cbbabce574b940\n"
+  },
+  "receipt": {
+    "unit": "ExecMainStatus=0\nActiveState=inactive\n",
+    "sha256": "bd837831136de91466b46e4bbf0ccf28b332640c42fff413b33bf241a433f308",
+    "bytes": 2130,
+    "utf8": "{\n  \"admission\": {\n    \"active_ledger\": [],\n    \"active_ledger_digest\": \"4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945\",\n    \"admission_epoch\": 326,\n    \"boot_id\": \"2be34c8a-714a-4c34-9e3a-8721e656ea7d\",\n    \"capacity_mode\": \"serialized-99\",\n    \"coordinator_generation\": \"874330d3-6376-4242-a86a-cbf52df011d3\",\n    \"ok\": true,\n    \"phase\": \"public\",\n    \"queue_depth\": 0,\n    \"reconciliation_required\": false,\n    \"request_id\": \"higgs-queue-b97af88246ea4fccb1a6e44fcef223b7\",\n    \"restart_pending\": false,\n    \"resume_phase\": \"public\",\n    \"schema\": \"ai-admission-operator-response/v1\"\n  },\n  \"benchmark_dispatched\": false,\n  \"ended_epoch\": 1789001232.7814255,\n  \"idempotency_key\": \"qwen-context-kv4350-restore-20260910-bf113c51\",\n  \"outcome\": \"failed_restored\",\n  \"preflight_epoch\": 1789001009.2526386,\n  \"production_before\": {\n    \"id\": \"15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f\",\n    \"image\": \"sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0\",\n    \"model\": \"/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model\",\n    \"running\": false\n  },\n  \"restoration\": {\n    \"admission_public\": true,\n    \"container\": {\n      \"id\": \"15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f\",\n      \"image\": \"sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0\",\n      \"model\": \"/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model\",\n      \"running\": true\n    },\n    \"gateway_completions\": 2,\n    \"qwen_ready\": true,\n    \"thinking_disabled_in_markers\": true\n  },\n  \"root_free_after_bytes\": 167338598400,\n  \"root_free_before_bytes\": 167338840064,\n  \"source_report_sha256\": \"a0fff7ea92c8f060a986e60ea2a2d9fa09393da82446a72c9f475eba4920294f\",\n  \"started_epoch\": 1789001009.1194043,\n  \"stopped_owned_containers\": {\n    \"5708e673f43d5fc29ef5cc11ca0b29b9f1eaa19179ce65bead9faca200fb12fd\": \"qwen-context-20260910-repair-kv4350-dflash2-huge-n7-kv4350mb-204800-client\",\n    \"e5aec0877b5d576bdf4395cedbab12c157c537c213d26f9bf54bfb2040857a97\": \"qwen-context-20260910-repair-kv4350-dflash2-huge-n7-kv4350mb-204800\"\n  }\n}\n"
+  }
+}

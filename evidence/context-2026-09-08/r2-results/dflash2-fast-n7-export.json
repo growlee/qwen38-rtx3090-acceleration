@@ -1,0 +1,20 @@
+{
+  "exported_epoch": 1788968961.8765225,
+  "source_root": "/srv/ai-server/benchmarks/context-20260908-r2/results",
+  "files": {
+    "dflash2-fast-n7.jsonl": {
+      "source_sha256": "8c479b20f86ec96a094868616669f3e93bafbaa808af61fe72a0b64123337577",
+      "source_bytes": 44765,
+      "local_sha256": "8c479b20f86ec96a094868616669f3e93bafbaa808af61fe72a0b64123337577",
+      "local_bytes": 44765,
+      "local_added_trailing_lf": false
+    },
+    "dflash2-fast-n7-resources.json": {
+      "source_sha256": "11b7de861a6a2b689651a47390fe2b2d2abaee07598a5f93f1e8ee6b5aa38db3",
+      "source_bytes": 102259,
+      "local_sha256": "47920cf189c4b6bac527421e6103af6f6bfd8bdeb94afe792b87654e2545ccfd",
+      "local_bytes": 102260,
+      "local_added_trailing_lf": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "1bd2220fc052f295c906a9387b334e93a94e0a79af8bd447b0e78aecffcc3572",
+  "stage": "check_source",
+  "error": "final_evidence_audit_hash_mismatch",
+  "cause": "Audit binds score and summary; restoration_sha256 is in the hash-bound summary, not audit.",
+  "inference_started": false,
+  "admission_changed": false,
+  "systemd_unit_launched": false
+}

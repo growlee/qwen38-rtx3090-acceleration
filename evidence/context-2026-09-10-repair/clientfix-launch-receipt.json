@@ -1,0 +1,98 @@
+{
+  "manifest_sha256": "8f8bfc60b8a84ffa6a4c2e0b30d1ad943b2cd1693445811398e7b9b2f7630571",
+  "review": "APPROVE: existing repair_exact_review, delta-only review",
+  "stage_files": [
+    {
+      "file": "manifest.json",
+      "bytes": 1998,
+      "sha256": "8f8bfc60b8a84ffa6a4c2e0b30d1ad943b2cd1693445811398e7b9b2f7630571",
+      "allocated_bytes": 4096
+    },
+    {
+      "file": "selection.json",
+      "bytes": 4427,
+      "sha256": "c66c54edc22c1dd48b147470f99a127cb23aacab21675186332713194036db01",
+      "allocated_bytes": 8192
+    },
+    {
+      "file": "quality_context_continue_client.py",
+      "bytes": 4977,
+      "sha256": "6fbfabccf70cf7ca9ba3d016d31f2ede69e8357134eba9e907148ad824abf6bf",
+      "allocated_bytes": 8192
+    },
+    {
+      "file": "runbook.md",
+      "bytes": 3073,
+      "sha256": "3da09faa01e47c587a376b22d6f813afb024def8246a824f9eb63c5d269715ac",
+      "allocated_bytes": 4096
+    },
+    {
+      "file": "repair_context.py",
+      "bytes": 21618,
+      "sha256": "7c7866bb0d8a0eeae3eb46019d0a051aef5b0da23971bd80a00fd25e282233c2",
+      "allocated_bytes": 24576
+    },
+    {
+      "file": "grade_repair.py",
+      "bytes": 12857,
+      "sha256": "10657a98026befc4ff047f4e489bc50ed7d3c4c4abc802b93ef4c3604960826a",
+      "allocated_bytes": 16384
+    }
+  ],
+  "preflight": {
+    "bundle_verified": true,
+    "prior_harness_failure_verified": true,
+    "free_bytes": 167765917696,
+    "bundle_allocated_bytes": 69632,
+    "admission": {
+      "active_ledger": [],
+      "active_ledger_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "admission_epoch": 320,
+      "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+      "capacity_mode": "serialized-99",
+      "coordinator_generation": "874330d3-6376-4242-a86a-cbf52df011d3",
+      "ok": true,
+      "phase": "public",
+      "queue_depth": 0,
+      "reconciliation_required": false,
+      "request_id": "higgs-queue-efbf09418d0a4261bb06c393d15fcfbe",
+      "restart_pending": false,
+      "resume_phase": "public",
+      "schema": "ai-admission-operator-response/v1"
+    },
+    "active_profiles": [
+      "qwen"
+    ],
+    "profiles": {
+      "higgs-tts3": {
+        "state": "stopped",
+        "breaker_open": false
+      },
+      "pony-v6": {
+        "state": "stopped",
+        "breaker_open": false
+      },
+      "pony-v7": {
+        "state": "stopped",
+        "breaker_open": false
+      },
+      "qwen": {
+        "state": "ready",
+        "breaker_open": false
+      },
+      "qwen-dflash2": {
+        "state": "stopped",
+        "breaker_open": false
+      }
+    }
+  },
+  "launch": {
+    "exitCode": 0,
+    "timedOut": false,
+    "durationMs": 211,
+    "stdout": "",
+    "stderr": "Running as unit: qwen-context-20260910-repair-clientfix.service; invocation ID: b3189f1f4f8f422ea5372764e38c2e06\n"
+  },
+  "unit": "qwen-context-20260910-repair-clientfix.service",
+  "invocation_id": "b3189f1f4f8f422ea5372764e38c2e06"
+}

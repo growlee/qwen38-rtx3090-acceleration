@@ -1,0 +1,21 @@
+{
+  "schema": "finite-experiment-disk-budget/v1",
+  "initial_server_free_bytes": 114755960832,
+  "existing_target_allocated_bytes": 16970018816,
+  "existing_drafter_logical_bytes": 1280636224,
+  "existing_weight_additional_copies": 0,
+  "downloads_bytes": 0,
+  "image_load_or_build_bytes": 0,
+  "partial_ingress_allowance_bytes": 2097152,
+  "final_source_allowance_bytes": 2097152,
+  "evidence_and_offhost_archive_allowance_bytes": 67108864,
+  "docker_metadata_allowance_bytes": 134217728,
+  "gpu_container_log_cap_bytes": 33554432,
+  "cpu_sandbox_log_cap_bytes": 0,
+  "phase_total_bound_bytes": 536870912,
+  "restoration_reserve_bytes": 34359738368,
+  "ram_gpu_limit_bytes": 25769803776,
+  "ram_cpu_sandbox_limit_bytes": 268435456,
+  "ram_host_reserve_bytes": 2147483648,
+  "copies_note": "All existing images and model trees retained and read-only. No new retained full weight copies, unpacked layers, build cache, backups or quarantine. Final source plus ingress counted. tmpfs is RAM within cgroup limits. Max18 retained CPU sandboxes (6 controls and <=4 per task), log driver none; no cleanup."
+}

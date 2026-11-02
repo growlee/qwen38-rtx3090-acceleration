@@ -78,6 +78,9 @@ not the stable headline result. The maximum confirmed median remains
   September 8 quality reports and consolidated context findings.
 - `runners/`: portable benchmark clients, the two Adaptive GPTQ helper sources,
   and their narrow unit tests from the provenance commit below.
+- `server-a-2026-11-02/`: the Server A deployment (runtime image, compose, Studio bridge,
+  weight identities) and its raw benchmark/experiment trees, collected when Unsloth Studio
+  left Server A; secret-file paths redacted ([details](server-a-2026-11-02/README.md)).
 
 The included benchmark clients assume an already prepared Linux/GPU environment,
 a pinned syv-ai container image, and a separately acquired model. They do not

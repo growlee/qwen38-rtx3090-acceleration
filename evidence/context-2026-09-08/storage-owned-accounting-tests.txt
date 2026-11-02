@@ -1,0 +1,57 @@
+Initial targeted invocation (17 methods):
+test_candidate_hook_reserves_then_registers_and_never_starts_on_registration_failure (test_context_storage.AdapterTests.test_candidate_hook_reserves_then_registers_and_never_starts_on_registration_failure) ... ok
+test_controller_rewrites_exactly_two_predicates_without_touching_source_or_available (test_context_storage.AdapterTests.test_controller_rewrites_exactly_two_predicates_without_touching_source_or_available) ... ok
+test_sandbox_registers_successful_create_receipt_before_return (test_context_storage.AdapterTests.test_sandbox_registers_successful_create_receipt_before_return) ... ok
+test_invalid_id_and_inspected_identity_mismatch_fail_closed (test_context_storage.ContainerRegistrationTests.test_invalid_id_and_inspected_identity_mismatch_fail_closed) ... ok
+test_writable_or_unsupported_container_layout_fails_closed (test_context_storage.ContainerRegistrationTests.test_writable_or_unsupported_container_layout_fails_closed) ... ok
+test_foreign_root_drop_over_four_gib_is_allowed_while_floor_holds (test_context_storage.OwnedStorageLimitTests.test_foreign_root_drop_over_four_gib_is_allowed_while_floor_holds) ... ok
+test_missing_or_replaced_registered_root_fails_closed (test_context_storage.OwnedStorageLimitTests.test_missing_or_replaced_registered_root_fails_closed) ... ok
+test_owned_four_gib_boundary_is_inclusive_and_independent (test_context_storage.OwnedStorageLimitTests.test_owned_four_gib_boundary_is_inclusive_and_independent) ... ok
+test_root_floor_is_inclusive_and_independent (test_context_storage.OwnedStorageLimitTests.test_root_floor_is_inclusive_and_independent) ... ok
+test_write_reserve_is_charged_to_both_constraints (test_context_storage.OwnedStorageLimitTests.test_write_reserve_is_charged_to_both_constraints) ... ok
+test_allocated_blocks_are_deduplicated_and_symlinks_are_not_followed (test_context_storage.PhysicalAccountingTests.test_allocated_blocks_are_deduplicated_and_symlinks_are_not_followed) ... ok
+test_exact_seven_argv_mount_description_uses_upper_and_first_lower (test_context_storage.SnapshotParserTests.test_exact_seven_argv_mount_description_uses_upper_and_first_lower) ... FAIL
+test_extra_mount_argv_is_rejected (test_context_storage.SnapshotParserTests.test_extra_mount_argv_is_rejected) ... ok
+test_paths_outside_snapshot_root_and_wrong_workdir_are_rejected (test_context_storage.SnapshotParserTests.test_paths_outside_snapshot_root_and_wrong_workdir_are_rejected) ... ok
+test_snapshot_identity_mismatch_fails_closed (test_context_storage.SnapshotParserTests.test_snapshot_identity_mismatch_fails_closed) ... ok
+test_disk_accounting_is_unconditional_with_write_reserve (test_continue_context.ContinuationSafetyTests.test_disk_accounting_is_unconditional_with_write_reserve) ... ok
+test_one_new_sandbox_call_exact_612_merge_and_repeat_is_fenced (test_grade_context_continuation_integration.GraderIntegrationTests.test_one_new_sandbox_call_exact_612_merge_and_repeat_is_fenced) ... ok
+
+======================================================================
+FAIL: test_exact_seven_argv_mount_description_uses_upper_and_first_lower (test_context_storage.SnapshotParserTests.test_exact_seven_argv_mount_description_uses_upper_and_first_lower)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\Projects\home_lab\outputs\qwen-context-20260908\test_context_storage.py", line 207, in test_exact_seven_argv_mount_description_uses_upper_and_first_lower
+    self.assertEqual(roots, (storage.SNAPSHOTS/'41', storage.SNAPSHOTS/'40'))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: (WindowsPath('/var/lib/containerd/io.conta[129 chars]40')) != (PurePosixPath('/var/lib/containerd/io.con[133 chars]40'))
+
+First differing element 0:
+WindowsPath('/var/lib/containerd/io.conta[40 chars]/41')
+PurePosixPath('/var/lib/containerd/io.con[42 chars]/41')
+
+- (WindowsPath('/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/41'),
+?  ^ ^^^^^
+
++ (PurePosixPath('/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/41'),
+?  ^^^^^^^ ^
+
+-  WindowsPath('/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/40'))
+?  ^ ^^^^^
+
++  PurePosixPath('/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/40'))
+?  ^^^^^^^ ^
+
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.137s
+
+FAILED (failures=1)
+
+Corrected only the Windows expected Path type; reran only the failed harness method:
+test_exact_seven_argv_mount_description_uses_upper_and_first_lower (test_context_storage.SnapshotParserTests.test_exact_seven_argv_mount_description_uses_upper_and_first_lower) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK

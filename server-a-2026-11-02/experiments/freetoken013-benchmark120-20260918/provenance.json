@@ -1,0 +1,41 @@
+{
+  "commit": "eb8932dd83130ac0330236a70c5caa5e5517ebfb",
+  "remote": "ssh://git@forgejo/growlee/qwen38-rtx3090-acceleration.git",
+  "files": {
+    "benchmark_client.py": {
+      "git_blob": "6453aae9046929ec5f6b120e325416af5ec9355f",
+      "bytes": 14897,
+      "sha256": "98bcc2a476b10dfe2ab019ae7158000aab8aac1ea6f97b18a5bf76debdb6b134"
+    },
+    "quality_client.py": {
+      "git_blob": "60d26282858c522221bca6bdfa94a6748a671208",
+      "bytes": 24055,
+      "sha256": "0540c6e7c6fba4be6c6876c8f9f61dacaad4370c7d5481bea98b3a5f6a60192e"
+    },
+    "quality_suite.py": {
+      "git_blob": "8e5850e65603c50d05642d63bd5ffe7991b77708",
+      "bytes": 33231,
+      "sha256": "9bb1c15f69c4d2f3fc83eb613840a1c1422ff60d255ef3fdd37a4c93b1a4580f"
+    },
+    "quality_expanded_suite.py": {
+      "git_blob": "648538e765681cfbc1ed3ddcb57c9e9c60dd60ff",
+      "bytes": 814,
+      "sha256": "03b74f351f8c24159d968c094679387ef69603b943781370da60ddeb68af9d3b"
+    },
+    "quality_expanded_v2.json": {
+      "git_blob": "6bdbf4ded79b2e70b934626fb8fa9e9595f6de36",
+      "bytes": 520255,
+      "sha256": "022f3817ad928da76160b3a1f0c2cfd56a4f9e5346b991a2e496c4504903f437"
+    },
+    "quality_sandbox.py": {
+      "git_blob": "d10043344980b1b33b45d07cb1efd06a0f48de83",
+      "bytes": 16168,
+      "sha256": "f9065cac6b88f6ba987deb91e6210ca91e00ea4a0a9a12a2c45797efeeb2006a"
+    },
+    "score_quality.py": {
+      "git_blob": "aad007e851d496a1cfb0cc2d98860e9ef6095935",
+      "bytes": 4450,
+      "sha256": "825a8d789548a8533a73732dff6b2669645afc4ec36076de27d9e3f7396b379d"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "qwen38-context-resource-observation/v1",
+  "host": "server-a",
+  "unit": "qwen-context-20260908-r1.service",
+  "observed_interval_utc": [
+    "2026-09-08T15:24:03.508203+00:00",
+    "2026-09-08T15:25:11.740307+00:00"
+  ],
+  "free_bytes_before": 172195315712,
+  "free_bytes_after": 168970870784,
+  "decrease_bytes": 3224444928,
+  "reserve_floor_bytes": 161061273600,
+  "observation": "A sudden host filesystem allocation occurred during AutoRound huge 96k capture. The 150 GiB reserve and 4 GiB total-growth guard had not triggered; the same controller remained active.",
+  "experiment_root_apparent_bytes": 30021529,
+  "possible_source": {
+    "path": "/srv/ai-server/state/unsloth_studio.ext4",
+    "logical_bytes": 21474836480,
+    "allocated_blocks": 15872920,
+    "block_bytes": 512,
+    "mount": "/opt/homelab/unsloth_studio",
+    "status": "Recent mtime observed; no prior allocated-block baseline. Causation is not proven. No recently modified regular files larger than 64 MiB found inside this mounted filesystem."
+  },
+  "checks": "No download-related process found besides the diagnostic grep itself. Experiment and Docker container logs did not explain the multi-GiB change. Subsequent free space was stable apart from small background writes. No files or services were modified by this investigation.",
+  "case_near_observation": {
+    "case_id": "context-version-start-t96000",
+    "outcome": "pass",
+    "input_tokens": 96023,
+    "elapsed_seconds": 113.90838
+  },
+  "interpretation": "Retain the response without replay. Record this background host-storage activity when interpreting latency; do not claim a completely isolated host benchmark or attribute the allocation to the experiment without evidence."
+}

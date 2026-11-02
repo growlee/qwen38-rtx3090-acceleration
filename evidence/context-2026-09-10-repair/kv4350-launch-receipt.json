@@ -1,0 +1,21 @@
+{
+  "profile": "dflash2-huge-n7-kv4350mb-204800",
+  "manifest_sha256": "d422861a845fb35a200e70b9fc0c10bbf1a7d0df76e7b1ab6c383ebc5c783afd",
+  "invocation_id": "bf113c51638a4151a9215db16b11e139",
+  "launch_command": "sudo -n systemd-run --unit=qwen-context-20260910-repair-kv4350 --property=Restart=no --property=RuntimeMaxSec=480780 --property=TimeoutStopSec=2700 --property=KillMode=mixed --property=WorkingDirectory=/srv/ai-server/benchmarks/context-20260910-repair-kv4350 --property=StandardOutput=append:/srv/ai-server/benchmarks/context-20260910-repair-kv4350/runner.stdout --property=StandardError=append:/srv/ai-server/benchmarks/context-20260910-repair-kv4350/runner.stderr /usr/bin/python3 -B /srv/ai-server/benchmarks/context-20260910-repair-kv4350/repair_context.py d422861a845fb35a200e70b9fc0c10bbf1a7d0df76e7b1ab6c383ebc5c783afd",
+  "launch": {
+    "exitCode": 0,
+    "timedOut": false,
+    "durationMs": 389,
+    "stdout": "",
+    "stderr": "Running as unit: qwen-context-20260910-repair-kv4350.service; invocation ID: bf113c51638a4151a9215db16b11e139\n"
+  },
+  "fresh_preflight": {
+    "exitCode": 0,
+    "timedOut": false,
+    "durationMs": 331,
+    "stdout": "{\"bundle_verified\": true, \"previous_terminal_verified\": true, \"no_attempt\": true, \"unit\": \"LoadState=not-found\", \"free_bytes\": 167340847104, \"allocated_bytes\": 57344, \"admission\": {\"phase\": \"public\", \"queue_depth\": 0, \"active_ledger\": [], \"reconciliation_required\": false, \"restart_pending\": false}, \"profiles\": {\"higgs-tts3\": {\"state\": \"stopped\", \"breaker_open\": false}, \"pony-v6\": {\"state\": \"stopped\", \"breaker_open\": false}, \"pony-v7\": {\"state\": \"stopped\", \"breaker_open\": false}, \"qwen\": {\"state\": \"stopped\", \"breaker_open\": false}, \"qwen-dflash2\": {\"state\": \"stopped\", \"breaker_open\": false}}, \"active_profiles\": []}\n",
+    "stderr": ""
+  },
+  "coordination": "FACEIT API closure confirmed complete 2026-09-10T00:16:11Z; no upload or remaining A-intensive work."
+}

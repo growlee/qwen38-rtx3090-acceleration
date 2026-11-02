@@ -1,0 +1,91 @@
+name: ai-server
+
+services:
+  qwen:
+    image: ghcr.io/ggml-org/llama.cpp:server-cuda@sha256:995fe9f237c622ac257905948c3cdde447ab343db22e0686322445b5ec6d3131
+    pull_policy: never
+    container_name: ai-server-qwen
+    restart: "no"
+    user: "65532:65532"
+    # PROMOTED_GPU_PROFILE: accepted on RTX 3090 after the post-PSU reset probe,
+    # full 99-layer smoke, and the 250/280/300 W power-cap benchmark.
+    command:
+      - --model
+      - /models/qwen/Qwen3.8-27B-Uncensored-Q4_K_M.gguf
+      - --mmproj
+      - /models/qwen-vision/mmproj-Qwen3.8-27B-Uncensored-f16.gguf
+      - --alias
+      - qwen3.8-27b-uncensored
+      - --ctx-size
+      - "16384"
+      - --parallel
+      - "1"
+      - --n-gpu-layers
+      - "99"
+      - --jinja
+      - --reasoning
+      - on
+      - --reasoning-format
+      - deepseek
+      - --reasoning-effort
+      - medium
+      - --reasoning-budget
+      - "512"
+      - --reasoning-budget-message
+      - Now provide the final answer.
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8080"
+      - --timeout
+      - "1800"
+      - --threads-http
+      - "4"
+      - --api-key-file
+      - <redacted-secret-path>
+      - --metrics
+      - --no-webui
+    environment:
+      LLAMA_ARG_SPEC_TYPE: none
+      NVIDIA_VISIBLE_DEVICES: void
+      CUDA_VISIBLE_DEVICES: "0"
+    devices:
+      - "nvidia.com/gpu=all"
+    expose:
+      - "8080"
+    volumes:
+      - /srv/ai-server/model-store/sha256/3445102e9cde5d562508642c100a2f5ac3368a5a3f748442811d7a95daee3bec/Qwen3.8-27B-Uncensored-Q4_K_M.gguf:/models/qwen/Qwen3.8-27B-Uncensored-Q4_K_M.gguf:ro
+      - /srv/ai-server/artifacts/extensions/qwen-vision-b33b1563/models/qwen:/models/qwen-vision:ro
+    secrets:
+      - qwen_api_keys
+    networks:
+      - ai-control
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:size=256m,mode=1777
+    init: true
+    pids_limit: 512
+    cpus: 8.0
+    mem_limit: 24g
+    memswap_limit: 28g
+    stop_grace_period: 60s
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8080/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 60
+      start_period: 30s
+      start_interval: 2s
+
+networks:
+  ai-control:
+    name: ai-server-control
+    internal: true
+
+secrets:
+  qwen_api_keys:
+    file: <redacted-secret-path>

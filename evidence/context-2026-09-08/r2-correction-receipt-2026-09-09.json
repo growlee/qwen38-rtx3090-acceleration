@@ -1,0 +1,10 @@
+{
+  "updated_epoch": 1788952701.5338607,
+  "manifest_sha256": "89e8667d4c2031b6ce91fe0f73b206592ea9a6f4066b2e9328b4d570e209299e",
+  "owned_allocated_bytes": 630784,
+  "retained_old_files": [
+    "preparation-history/manifest-before-source-check.json",
+    "preparation-history/continue_context-before-source-check.py"
+  ],
+  "inference_started": false
+}

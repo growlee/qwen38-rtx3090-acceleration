@@ -1,0 +1,292 @@
+{
+  "utc": "2026-09-19T00:18:51.124630+00:00",
+  "production": {
+    "qwen": "stopped",
+    "container_id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+    "compose_sha256": "88c7de590dd7dea693dba225242d81e52387415a1e4e0f5796b568dfc4468c3c",
+    "gateway": "healthy"
+  },
+  "fingerprint": "656d65a7293a8587423cd9bf9c4cc4d300fc38fbb281f599d24d87930e129e6b",
+  "admission": {
+    "active_ledger": [],
+    "active_ledger_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "admission_epoch": 365,
+    "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+    "capacity_mode": "serialized-99",
+    "coordinator_generation": "2c5f167b-655f-4a82-abf2-81da72c3348f",
+    "ok": true,
+    "phase": "public",
+    "queue_depth": 0,
+    "reconciliation_required": false,
+    "request_id": "ft013-1789777130922333634",
+    "restart_pending": false,
+    "resume_phase": "public",
+    "schema": "ai-admission-operator-response/v1"
+  },
+  "supervisor": "active",
+  "memory": {
+    "mem_available_bytes": 30322167808,
+    "swap_free_bytes": 7054028800,
+    "container_limit_bytes": 25769803776
+  },
+  "free_bytes": 114750365696,
+  "port_19193_free": true,
+  "gpu_idle": true,
+  "containers": [
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-jsonl-event-log-aggregation-final-grade",
+      "id": "ff4b669c5edf92c41bb9ff01240a7baefaeae819bf43fc3a8e23a715adf51484",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:17:17.215072261Z",
+        "FinishedAt": "2026-09-19T00:17:17.326066096Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-jsonl-event-log-aggregation-model-test-3",
+      "id": "4a49d5516d56718fd366368e3a56e32bf327c4acf5a0cbdc66b1ce22e14966a7",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:17:08.683393084Z",
+        "FinishedAt": "2026-09-19T00:17:08.793226158Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-decimal-invoice-calculation-final-grade",
+      "id": "a8ce9a6ca2e09b56f92ca1331e3cd1668cb8b40a50fa2c8cb913d2837854fbb5",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:16:32.112272373Z",
+        "FinishedAt": "2026-09-19T00:16:32.226913873Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-decimal-invoice-calculation-model-test-5",
+      "id": "f096dc684b0931a2acc3b5380e2fedb3b875848de366fd7d6c45520d0084f4b8",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:16:29.352164813Z",
+        "FinishedAt": "2026-09-19T00:16:29.463331017Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-decimal-invoice-calculation-model-test-3",
+      "id": "4ff6a0659b7da926d04336533788f1d2e5a9b8247ac7d5e869ef35071aadf12f",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:16:23.707806228Z",
+        "FinishedAt": "2026-09-19T00:16:23.82440838Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-cursor-pagination-validation-final-grade",
+      "id": "997327d1f723e69c12525037e786c279ee1ff8c9acbcae4147f35c19deb77df0",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:16:03.313302453Z",
+        "FinishedAt": "2026-09-19T00:16:03.419490209Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-cursor-pagination-validation-model-test-5",
+      "id": "d6244b8ea96683513a93c8154d6a26204f05cc8f2576a6e4351d46fb43d60d06",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:16:01.137438083Z",
+        "FinishedAt": "2026-09-19T00:16:01.254875144Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-cursor-pagination-validation-model-test-3",
+      "id": "c5096b9c06ab956bdc93cf791ffd764db9c3af25745e4b51fc1eeae26c8e91c6",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:15:55.222010422Z",
+        "FinishedAt": "2026-09-19T00:15:55.334877545Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919",
+      "id": "649d73c700620d1a378c9475178fa40d53f887a95ffa7371a9c8204fd1be0fd9",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:11:26.725339842Z",
+        "FinishedAt": "2026-09-19T00:17:18.205932552Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-jsonl-event-log-aggregation-control-referenc",
+      "id": "59a835126a6d524da6e9209c55ae6e939acc1fcd69e50d3668e14e4246fedafd",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:11:26.416542848Z",
+        "FinishedAt": "2026-09-19T00:11:26.530262046Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-jsonl-event-log-aggregation-control-baseline",
+      "id": "b18121a460910b856adcdb0c3086212b96a33ff9e372e1ce7afdd7d9d4a9130d",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:11:26.165269558Z",
+        "FinishedAt": "2026-09-19T00:11:26.274261236Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-decimal-invoice-calculation-control-referenc",
+      "id": "9cd573506deca0f17fe8fe2b1e49bba98f3ab18d60a1b51940b87551b5bcf4c2",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:11:25.913321997Z",
+        "FinishedAt": "2026-09-19T00:11:26.026765753Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-decimal-invoice-calculation-control-baseline",
+      "id": "6ac5be717473a152360fea6ee08ee6e5f048fd4a7e4b4f07f31a03519012ff9b",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:11:25.676360229Z",
+        "FinishedAt": "2026-09-19T00:11:25.784706534Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-cursor-pagination-validation-control-referenc",
+      "id": "83ff2954af77e57ecd3d4fa3b05269f6d3fef0c528b3b49fd65d93ca14eb1b18",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:11:25.430383124Z",
+        "FinishedAt": "2026-09-19T00:11:25.539952365Z"
+      }
+    },
+    {
+      "name": "/ai-exp-dflash-agent3-20260919-cpu-f0c04c5e-cursor-pagination-validation-control-baseline",
+      "id": "8906299945a5c91aaf92f567f1e99e3682b4b5ffa113cb36b8f931af2bcfecf1",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-09-19T00:11:25.181235578Z",
+        "FinishedAt": "2026-09-19T00:11:25.295093754Z"
+      }
+    }
+  ]
+}

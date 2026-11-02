@@ -1,0 +1,10 @@
+{
+  "payload_sha256": "d2ca823c063890439f84beaa04a59dfb28bcff349482b885928888a4b5ba121e",
+  "manifest_sha256": "a0ea87d1a3bba59d07b8b7d6f9528314c058255af72803373433bf555fca027a",
+  "files": 15,
+  "source_bytes": 656837,
+  "free_before": 122281136128,
+  "free_after": 122280435712,
+  "source_physical_bytes": 700416,
+  "ingress_retained_bytes": 877537
+}

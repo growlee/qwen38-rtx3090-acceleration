@@ -1,0 +1,56 @@
+{
+  "admission": {
+    "active_ledger": [],
+    "active_ledger_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "admission_epoch": 317,
+    "boot_id": "2be34c8a-714a-4c34-9e3a-8721e656ea7d",
+    "capacity_mode": "serialized-99",
+    "coordinator_generation": "874330d3-6376-4242-a86a-cbf52df011d3",
+    "ok": true,
+    "phase": "public",
+    "queue_depth": 0,
+    "reconciliation_required": false,
+    "request_id": "higgs-queue-f79f83aae73b4e0b9e6cf7923cab8ecc",
+    "restart_pending": false,
+    "resume_phase": "public",
+    "schema": "ai-admission-operator-response/v1"
+  },
+  "benchmark_dispatched": false,
+  "ended_epoch": 1788970129.4104853,
+  "idempotency_key": "qwen-context-r2-restore-20260909-8d076ef1",
+  "outcome": "failed_restored",
+  "preflight_epoch": 1788969941.2510805,
+  "production_before": {
+    "id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+    "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+    "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+    "running": false
+  },
+  "restoration": {
+    "admission_public": true,
+    "container": {
+      "id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+      "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+      "running": true
+    },
+    "gateway_completions": 2,
+    "qwen_ready": true,
+    "thinking_disabled_in_markers": true
+  },
+  "root_free_before_bytes": 167785738240,
+  "source_report_sha256": "19576e40e10a0977b3c62373a3614e7457ec5488dae037fe4e276bb4b9a8a80d",
+  "started_epoch": 1788969941.0553505,
+  "stopped_owned_containers": {
+    "0a0a8d57f51acd29269cdaabb3b259b577e5ef552406f1417b8fcba4ad49373a": "qwen-context-20260908-r2-dflash2-fast-n7-client",
+    "32511ebd357482b40c8df5d1e7207487429de389ff6f39a8365e62b5a07d0bb7": "qwen-context-20260908-r2-dflash2-huge-n7",
+    "3bd5122253f3572afd8daa4a0a72cb47371be43bdf6bd67c0d3b951b527f6c70": "qwen-context-20260908-r2-reconstructed-mtp-fast",
+    "570e2301007e1f2cee1a828fdca8b0a79489a52203ee2ffb6238d8ce9542bb17": "qwen-context-20260908-r2-dflash2-fast-n7",
+    "58300881b2207b86c5a839f62572f8e9084a69bdc8a17ac6eb53fec262221c3c": "qwen-context-20260908-r2-dflash2-huge-n7-client",
+    "629089d23038770c627c99407a8e511c3104206ba6ecfca019dce1d43b7b5e61": "qwen-context-20260908-r2-reconstructed-mtp-huge",
+    "72c36b54f568a04e42407ba1a06c0b7160e2511dad6fb721db233d35f1bb624e": "qwen-context-20260908-r2-adaptive-mtp-huge",
+    "9adf0bcf44232ac76b963953671e9d99e3406f716591f4388145ccc7a6094d5a": "qwen-context-20260908-r2-reconstructed-mtp-fast-client",
+    "d7a949e7f76843e589916fcf9bb8b6ca1b718ee9eedd02734efea0cc1bc67416": "qwen-context-20260908-r2-reconstructed-mtp-huge-client",
+    "e90862291570babc458833023247a7131e79d9ebf077ca93c0fa0d2486301497": "qwen-context-20260908-r2-adaptive-mtp-huge-client"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "kind": "higgs-russian-tts-smoke",
+  "request": {
+    "input": "Привет! Это проверка русской речи.",
+    "voice": "default",
+    "response_format": "wav",
+    "max_new_tokens": 128
+  },
+  "response": {
+    "content_type": "audio/wav",
+    "riff_magic": "RIFF",
+    "wave_magic": "WAVE",
+    "minimum_bytes": 45,
+    "max_bytes": 16777216
+  }
+}

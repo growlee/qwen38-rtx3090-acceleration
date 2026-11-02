@@ -1,0 +1,46 @@
+config_cls: HiggsTtsPipelineConfig
+model_path: /models/higgs-tts-3-4b
+name: higgs-tts3-3090
+relay_backend: shm
+stages:
+  - name: preprocessing
+    process: pipeline
+    factory: sglang_omni.models.higgs_tts.stages.create_preprocessing_executor
+    factory_args:
+      max_concurrency: 1
+    next: audio_encoder
+  - name: audio_encoder
+    process: pipeline
+    factory: sglang_omni.models.higgs_tts.stages.create_audio_encoder_executor
+    factory_args:
+      device: cuda
+      max_batch_size: 1
+    gpu: 0
+    next: tts_engine
+  - name: tts_engine
+    process: pipeline
+    factory: sglang_omni.models.higgs_tts.stages.create_sglang_tts_engine_executor
+    factory_args:
+      device: cuda
+      max_new_tokens: 512
+      enable_async_decode: false
+      server_args_overrides:
+        disable_cuda_graph: true
+        cuda_graph_max_bs: 1
+        mem_fraction_static: 0.70
+        max_running_requests: 1
+        chunked_prefill_size: 4096
+        dtype: bfloat16
+    gpu: 0
+    next: vocoder
+    stream_to:
+      - vocoder
+  - name: vocoder
+    process: pipeline
+    factory: sglang_omni.models.higgs_tts.stages.create_vocoder_executor
+    factory_args:
+      device: cuda
+      max_batch_size: 1
+    gpu: 0
+    terminal: true
+    can_accept_stream_before_payload: true

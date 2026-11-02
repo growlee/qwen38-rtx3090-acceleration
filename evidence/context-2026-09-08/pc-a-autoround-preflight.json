@@ -1,0 +1,22 @@
+{
+  "schema": "qwen38-pc-a-autoround-preflight/v1",
+  "host": "growleePC",
+  "processor": "AMD Ryzen 7 9800X3D",
+  "wsl_distro": "DockerEngine",
+  "wsl_base_path": "E:\\WSL\\DockerEngine",
+  "docker_version": "29.7.2",
+  "image": "ghcr.io/syv-ai/qwen38-27b-rtx3090@sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+  "config_digest": "sha256:b0516eab4a689391cd73629593d53111777691c5f3c453d5064e77fe55981101",
+  "compressed_layers_bytes": 4577901650,
+  "unpacked_bound_bytes": 11811160064,
+  "unpacked_bound_basis": "Sum of immutable source image history layer sizes, rounded upward below 11 GiB; source Docker image Size reports compressed/content bytes and is not used as unpacked size.",
+  "peak_bound_bytes": 42949672960,
+  "peak_components": "2 compressed copies (retained blobs and partial/finalization overlap); 2 x 11 GiB unpacked bound (final plus extraction temporary); 2 GiB engine metadata; 1 GiB reserve; 33 retained containers x 4 MiB; <=16 MiB tests/results/source; no model weights, builds or upstream backup copies.",
+  "physical_drive_free_before_bytes": 330033078272,
+  "wsl_free_before_bytes": 1005506711552,
+  "physical_drive_floor_bytes": 53687091200,
+  "sandbox_sha256": "f9065cac6b88f6ba987deb91e6210ca91e00ea4a0a9a12a2c45797efeeb2006a",
+  "builder_sha256": "bcfbb9a7978c3f8d5a4f9b4484b314ad8d5e4b141de6765fc5aeb1b88d2d2ea8",
+  "frozen_sha256": "2df1be2cff66b53ce57b3eefe3eed8be2d16c59d1e37b783341f176995689d94",
+  "scope": "One independent PC-A evaluation of 9 AutoRound fast and 21 AutoRound huge code answers, plus three reference prerequisites on this new host. Existing raw and recipe reused, no generations repeated. Local assessments do not replace or modify r1 scheduled canonical grading after restoration. No deletion or production mutation."
+}

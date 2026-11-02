@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "candidate_id": "higgs-tts3",
+  "source": {
+    "repository": "https://github.com/sgl-project/sglang-omni",
+    "revision": "bdb6748882465e0b4c0b3298f95cb6e47adf5e10",
+    "tree": "c11cb483ce143f036a2d546b84ce35381c1c6b7c",
+    "archive_sha256": "b448536e274a904add75fcde6fee00794f099c97d80c65a29e7038b45664d421",
+    "archive_size": 19743143,
+    "license": {
+      "id": "Apache-2.0",
+      "url": "https://github.com/sgl-project/sglang-omni/blob/bdb6748882465e0b4c0b3298f95cb6e47adf5e10/LICENSE"
+    }
+  },
+  "image": {
+    "reference": "lmsysorg/sglang-omni@sha256:46235435997d1fa93fc81fb1c2d5b7fd8470d77395a5c348c0176094ffddf95e",
+    "digest": "sha256:46235435997d1fa93fc81fb1c2d5b7fd8470d77395a5c348c0176094ffddf95e",
+    "revision_label": "bdb6748882465e0b4c0b3298f95cb6e47adf5e10",
+    "lock_sha256": "a808ab7f9011764aa9353566dca8b864df9bb53e13bfb2ad1fe4ec4790404d45"
+  },
+  "models": [
+    {
+      "role": "target",
+      "repository": "bosonai/higgs-tts-3-4b",
+      "revision": "7556c17e05201fccd9c8cc120bc216dcc7b5d561",
+      "manifest_sha256": "a7a59f2d347c94b71791bf4ce5117a328bca66b352519b902e1e9fc7d59eb9eb",
+      "license": {
+        "id": "LicenseRef-BosonAI",
+        "url": "https://huggingface.co/bosonai/higgs-tts-3-4b/blob/7556c17e05201fccd9c8cc120bc216dcc7b5d561/LICENSE"
+      },
+      "blobs": [
+        {"filename": ".gitattributes", "size": 1570, "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"},
+        {"filename": "AGENTS.md", "size": 9505, "sha256": "dad259b0c375bcacf10de6a277354cc2e8b96c85d8e713f6a2dc61b1dfbca568"},
+        {"filename": "LICENSE", "size": 32184, "sha256": "0382189330b87c38517530e4e5bf0c9dfeb6c7bfbe62812577ddcb73e09a60c5"},
+        {"filename": "PROMPTING.md", "size": 2812, "sha256": "8e6a23d19eca73b0f0a302076607edb7447c1b2ddd48c382fcd509e3292369d6"},
+        {"filename": "README.md", "size": 46017, "sha256": "8e20d72c9000a823a208ab42f9deec2f9ceef65260ce65fddca0cd343dcc23e2"},
+        {"filename": "assets/model_architecture.png", "size": 63078, "sha256": "f03b182a50ddc9fb3d9ee7d5861c9d9243512471085fafd49acd29827dd03074"},
+        {"filename": "chat_template.jinja", "size": 2427, "sha256": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5"},
+        {"filename": "config.json", "size": 2755, "sha256": "2ead4442c079ee35c2123a5b197e126e18eccfc0bdb65d31c94767e75d7864d4"},
+        {"filename": "model.safetensors", "size": 9309834930, "sha256": "2f7965264c360b38180885006944aa16bd1de20f4e6cff79f6473bfcf8ae3d5a"},
+        {"filename": "model.safetensors.index.json", "size": 90103, "sha256": "cf2689739828b9b77b7c09f66bc400d147541377f0b58fd6871f826cf4c16010"},
+        {"filename": "tokenizer.json", "size": 11433924, "sha256": "eb883de2de5adc5113f1f02b54830a0ea7cd6ef191cde65c41aceb3737d4d1c1"},
+        {"filename": "tokenizer_config.json", "size": 1937, "sha256": "b4d632e1239569fb1829bf0bfa3c674fa54f22c42e9cb2669d77c438d4b4e02c"}
+      ]
+    }
+  ],
+  "runtime_identity": {"uid": 0, "gid": 0},
+  "storage_root": "/srv/ai-server/staging/experiments/higgs-tts3/7556c17e05201fccd9c8cc120bc216dcc7b5d561",
+  "writable_cas": false,
+  "ipc": {"mode": "private", "cleanup": "none", "created_names": []},
+  "modes": {
+    "tts": {
+      "compose_file": "compose.yaml",
+      "compose_sha256": "a62c5578477ed08080fac5fdd39eb92716a5cd67d06ad1be7046d865763849fc",
+      "project_name": "ai-exp-higgs-tts3",
+      "service": "higgs-tts3",
+      "container_name": "ai-exp-higgs-tts3",
+      "endpoint": "http://127.0.0.1:18095",
+      "argv": ["python", "-m", "sglang_omni.cli", "serve", "--config", "/config/higgs-3090.yaml", "--host", "0.0.0.0", "--port", "8000"],
+      "readiness_path": "/health",
+      "readiness_timeout_seconds": 900,
+      "auth_mode": "none_loopback",
+      "capabilities": ["audio"],
+      "evaluator": "higgs-russian-tts-smoke-v1",
+      "auth_file": null,
+      "auth_file_mode": null
+    }
+  },
+  "benchmark": {
+    "suite": "higgs-russian-tts-smoke-v1",
+    "suite_sha256": "3b9e708565e4a6deb8605ee87626a1f8f492c7845bda0d9ba26c7b7921fde84f"
+  },
+  "clean_stop": "compose_down_then_gpu_idle",
+  "restore": "exact_production_qwen_then_two_authenticated_completions",
+  "build_time_required": []
+}

@@ -1,0 +1,1444 @@
+{
+  "schema": "qwen38-context-frozen-recipe/v1",
+  "server_source": "/srv/ai-server/benchmarks/context-20260908-r1/frozen/frozen.json",
+  "frozen_sha256": "2df1be2cff66b53ce57b3eefe3eed8be2d16c59d1e37b783341f176995689d94",
+  "frozen_bytes": 29781351,
+  "source_manifest_sha256": "c71c26c5cf3124347a021489d60148b102a5ad2c35ee4b1314e37ef8eafa36e6",
+  "fixture_builder_sha256": "bcfbb9a7978c3f8d5a4f9b4484b314ad8d5e4b141de6765fc5aeb1b88d2d2ea8",
+  "suite_fields": {
+    "margin": 128,
+    "max_len_mtp_huge": 204800,
+    "output_reserve": 4096,
+    "suite_id": "qwen38-context-12x7-v1"
+  },
+  "cases": [
+    {
+      "case_id": "context-fact-start-t8192",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-start",
+      "fixture": {
+        "family_id": "context-fact-start",
+        "padding_count": 180,
+        "position": "start",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 8216,
+      "padding_count": 180,
+      "request_bytes": 30470,
+      "request_sha256": "55c0582a334c7783aeb3ced9e7521b943ad197dd9160c053880ec206e1ce0d67",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-fact-middle-t8192",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-middle",
+      "fixture": {
+        "family_id": "context-fact-middle",
+        "padding_count": 180,
+        "position": "middle",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 8223,
+      "padding_count": 180,
+      "request_bytes": 30477,
+      "request_sha256": "27654401268bdb57942f690dd820bc39bf36e07f9fd02feee88d50ebacae7935",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-fact-end-t8192",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-end",
+      "fixture": {
+        "family_id": "context-fact-end",
+        "padding_count": 180,
+        "position": "end",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 8218,
+      "padding_count": 180,
+      "request_bytes": 30471,
+      "request_sha256": "f819ec849479fc7cc4db476d140ac7632750dd853459f59802044c372c253de3",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-join-start-t8192",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-start",
+      "fixture": {
+        "family_id": "context-join-start",
+        "padding_count": 179,
+        "position": "start",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 8220,
+      "padding_count": 179,
+      "request_bytes": 30509,
+      "request_sha256": "4bc411ca73fe069d5dc36cc15a466ccc23cead408d36679121f3de029ce65a14",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-join-middle-t8192",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-middle",
+      "fixture": {
+        "family_id": "context-join-middle",
+        "padding_count": 179,
+        "position": "middle",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 8224,
+      "padding_count": 179,
+      "request_bytes": 30515,
+      "request_sha256": "488e9405e405c67290c1b39bcd207900d7a4725fb661c0597e57396b184a4668",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-join-end-t8192",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-end",
+      "fixture": {
+        "family_id": "context-join-end",
+        "padding_count": 179,
+        "position": "end",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 8218,
+      "padding_count": 179,
+      "request_bytes": 30501,
+      "request_sha256": "36bec476cbc0daf7b2ba8371a66b6aa40166e91a9dbc0b9eefc0cec1ea0a5bd2",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-version-start-t8192",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-start",
+      "fixture": {
+        "family_id": "context-version-start",
+        "padding_count": 179,
+        "position": "start",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 8228,
+      "padding_count": 179,
+      "request_bytes": 30590,
+      "request_sha256": "7739c128cbfc9f327aee16f84a30c4620f839b8b59c3a8d05af8f3bdfc5ffc77",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-version-middle-t8192",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-middle",
+      "fixture": {
+        "family_id": "context-version-middle",
+        "padding_count": 179,
+        "position": "middle",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 8229,
+      "padding_count": 179,
+      "request_bytes": 30591,
+      "request_sha256": "41803ef9a24998176d046c03e1a89408ef7fc89fc604c6865d8c1340306ddca4",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-version-end-t8192",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-end",
+      "fixture": {
+        "family_id": "context-version-end",
+        "padding_count": 179,
+        "position": "end",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 8232,
+      "padding_count": 179,
+      "request_bytes": 30590,
+      "request_sha256": "a2388cc2284119533a99a011f7e7641ba6e0ba1cca2423d17581d9989aeeacd6",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-code-start-t8192",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-start",
+      "fixture": {
+        "family_id": "context-code-start",
+        "padding_count": 178,
+        "position": "start",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 8211,
+      "padding_count": 178,
+      "request_bytes": 30336,
+      "request_sha256": "f7552f7809e804477e3209410449698a2d56d69f163a80506cfd6fb0278084cd",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-code-middle-t8192",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-middle",
+      "fixture": {
+        "family_id": "context-code-middle",
+        "padding_count": 179,
+        "position": "middle",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 8235,
+      "padding_count": 179,
+      "request_bytes": 30464,
+      "request_sha256": "b924b3d659944497199e8eea2c74a92ba0481a55dafca1a55ceefd6335bf7f23",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-code-end-t8192",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-end",
+      "fixture": {
+        "family_id": "context-code-end",
+        "padding_count": 178,
+        "position": "end",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 8192,
+      "padding_count": 178,
+      "request_bytes": 30332,
+      "request_sha256": "a5d5baa922bcd2f121db14f380a5b82d91428558ef51dc8db0704d11fc73d475",
+      "target_tokens": 8192
+    },
+    {
+      "case_id": "context-fact-start-t32768",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-start",
+      "fixture": {
+        "family_id": "context-fact-start",
+        "padding_count": 726,
+        "position": "start",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 32786,
+      "padding_count": 726,
+      "request_bytes": 120560,
+      "request_sha256": "8e752ce61ced57205fb28d6ec1950cd6acc396613068da3b311d66e88432ce7f",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-fact-middle-t32768",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-middle",
+      "fixture": {
+        "family_id": "context-fact-middle",
+        "padding_count": 726,
+        "position": "middle",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 32793,
+      "padding_count": 726,
+      "request_bytes": 120567,
+      "request_sha256": "a45a5a3dfdd0a8c42ea4d2a0a59638191ba6c8d548829577c0dea18fc8115c5e",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-fact-end-t32768",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-end",
+      "fixture": {
+        "family_id": "context-fact-end",
+        "padding_count": 726,
+        "position": "end",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 32788,
+      "padding_count": 726,
+      "request_bytes": 120561,
+      "request_sha256": "77564b5da64a1eb0aa0464a87b328b283753a804588a2ef65499724bce1a80de",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-join-start-t32768",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-start",
+      "fixture": {
+        "family_id": "context-join-start",
+        "padding_count": 725,
+        "position": "start",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 32790,
+      "padding_count": 725,
+      "request_bytes": 120599,
+      "request_sha256": "a4d116c3b23af7ec69e3808b5a957cca2ee991309fc32ecd330b45acf0a3c6f6",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-join-middle-t32768",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-middle",
+      "fixture": {
+        "family_id": "context-join-middle",
+        "padding_count": 725,
+        "position": "middle",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 32794,
+      "padding_count": 725,
+      "request_bytes": 120605,
+      "request_sha256": "5afaf016e18d4e22a91bdf9f80bf842df19dd51f3f09d2f2aa122036136ad233",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-join-end-t32768",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-end",
+      "fixture": {
+        "family_id": "context-join-end",
+        "padding_count": 725,
+        "position": "end",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 32788,
+      "padding_count": 725,
+      "request_bytes": 120591,
+      "request_sha256": "8290d017a58ee2879160a850a7e93887850560e2e07d3c90812355655581f8a4",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-version-start-t32768",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-start",
+      "fixture": {
+        "family_id": "context-version-start",
+        "padding_count": 725,
+        "position": "start",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 32798,
+      "padding_count": 725,
+      "request_bytes": 120680,
+      "request_sha256": "2f7a5cae07c55dd79d3b3602d7465a812148e9d3b6231d3ddc1890f2a149402c",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-version-middle-t32768",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-middle",
+      "fixture": {
+        "family_id": "context-version-middle",
+        "padding_count": 725,
+        "position": "middle",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 32799,
+      "padding_count": 725,
+      "request_bytes": 120681,
+      "request_sha256": "727a2b0dbc00deafa34502151bca0eed80f7d9fa7ffc9c6061a7ac514fde0c28",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-version-end-t32768",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-end",
+      "fixture": {
+        "family_id": "context-version-end",
+        "padding_count": 725,
+        "position": "end",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 32802,
+      "padding_count": 725,
+      "request_bytes": 120680,
+      "request_sha256": "9ce87ef78dd8f5ac72e26a71ccd26545915d0461d209f038fabeb98dc24e48e7",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-code-start-t32768",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-start",
+      "fixture": {
+        "family_id": "context-code-start",
+        "padding_count": 724,
+        "position": "start",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 32781,
+      "padding_count": 724,
+      "request_bytes": 120426,
+      "request_sha256": "650ffc1d186bceaa93d2b9c5dd1956b403c1bb55adc98ce4aaf8db14a7e6db09",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-code-middle-t32768",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-middle",
+      "fixture": {
+        "family_id": "context-code-middle",
+        "padding_count": 725,
+        "position": "middle",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 32805,
+      "padding_count": 725,
+      "request_bytes": 120554,
+      "request_sha256": "5cbeee99cbd2e233de2238618d72fd3f353412ad764f709379b86244101499b8",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-code-end-t32768",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-end",
+      "fixture": {
+        "family_id": "context-code-end",
+        "padding_count": 725,
+        "position": "end",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 32807,
+      "padding_count": 725,
+      "request_bytes": 120587,
+      "request_sha256": "ace6e6b99cde4b5c4370e84ff381e0c6e0f6a9e693662b128b3728363bb14987",
+      "target_tokens": 32768
+    },
+    {
+      "case_id": "context-fact-start-t50000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-start",
+      "fixture": {
+        "family_id": "context-fact-start",
+        "padding_count": 1109,
+        "position": "start",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 50021,
+      "padding_count": 1109,
+      "request_bytes": 183755,
+      "request_sha256": "a7c92f8459590e1ff4f6bf6c3e82e6cb12dccf7dbb6e1e5b660b2466e8b9167b",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-fact-middle-t50000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-middle",
+      "fixture": {
+        "family_id": "context-fact-middle",
+        "padding_count": 1109,
+        "position": "middle",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 50028,
+      "padding_count": 1109,
+      "request_bytes": 183762,
+      "request_sha256": "a12188de668260a0ccfa4337dadc08aeca240658babe559efe018f691c1cda38",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-fact-end-t50000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-end",
+      "fixture": {
+        "family_id": "context-fact-end",
+        "padding_count": 1109,
+        "position": "end",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 50023,
+      "padding_count": 1109,
+      "request_bytes": 183756,
+      "request_sha256": "a746621e7e315b1d79722831da702601c8b1ccb3133fe8f8bde1252674d9df09",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-join-start-t50000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-start",
+      "fixture": {
+        "family_id": "context-join-start",
+        "padding_count": 1108,
+        "position": "start",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 50025,
+      "padding_count": 1108,
+      "request_bytes": 183794,
+      "request_sha256": "176bf333cb50cab40fba8a0eaa3ed31b12d52a302530bf1adc161a05e11e60e7",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-join-middle-t50000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-middle",
+      "fixture": {
+        "family_id": "context-join-middle",
+        "padding_count": 1108,
+        "position": "middle",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 50029,
+      "padding_count": 1108,
+      "request_bytes": 183800,
+      "request_sha256": "63feb4c48652a95cef77476c164aa294f7e895c74b7e091f35cdb8401149c8f7",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-join-end-t50000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-end",
+      "fixture": {
+        "family_id": "context-join-end",
+        "padding_count": 1108,
+        "position": "end",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 50023,
+      "padding_count": 1108,
+      "request_bytes": 183786,
+      "request_sha256": "41ebda6d49d106d7c323ac4de8652844b6c22de255c17e9e7bda724923a6c634",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-version-start-t50000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-start",
+      "fixture": {
+        "family_id": "context-version-start",
+        "padding_count": 1108,
+        "position": "start",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 50033,
+      "padding_count": 1108,
+      "request_bytes": 183875,
+      "request_sha256": "b64b0c36e842abd13898fde73c6904c07a9fa8fc5ed8f31c99b102fd860feaab",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-version-middle-t50000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-middle",
+      "fixture": {
+        "family_id": "context-version-middle",
+        "padding_count": 1108,
+        "position": "middle",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 50034,
+      "padding_count": 1108,
+      "request_bytes": 183876,
+      "request_sha256": "c577440de69d32f1e008044867772b9a288b2be501e8032e279b84a3b54a9dff",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-version-end-t50000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-end",
+      "fixture": {
+        "family_id": "context-version-end",
+        "padding_count": 1108,
+        "position": "end",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 50037,
+      "padding_count": 1108,
+      "request_bytes": 183875,
+      "request_sha256": "55b4b08329986ac368c779635d95f978e8822d56513639c33de5882d4b954dd2",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-code-start-t50000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-start",
+      "fixture": {
+        "family_id": "context-code-start",
+        "padding_count": 1107,
+        "position": "start",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 50016,
+      "padding_count": 1107,
+      "request_bytes": 183621,
+      "request_sha256": "6520dc3b4fc0fd5006c46e6be692ce319ddf7c35f90ae2667f56f5c9af20fcfb",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-code-middle-t50000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-middle",
+      "fixture": {
+        "family_id": "context-code-middle",
+        "padding_count": 1108,
+        "position": "middle",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 50040,
+      "padding_count": 1108,
+      "request_bytes": 183749,
+      "request_sha256": "6519fa9a480a3913504d2ab6ee7e2f5acca4ff1dbb7db9dc717d7da486b0bbf7",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-code-end-t50000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-end",
+      "fixture": {
+        "family_id": "context-code-end",
+        "padding_count": 1108,
+        "position": "end",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 50042,
+      "padding_count": 1108,
+      "request_bytes": 183782,
+      "request_sha256": "31f89f4f3c6a97f2a4620fdc463ddcf1fe4fba452403e4d11696c5f6fd4ffe48",
+      "target_tokens": 50000
+    },
+    {
+      "case_id": "context-fact-start-t96000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-start",
+      "fixture": {
+        "family_id": "context-fact-start",
+        "padding_count": 2131,
+        "position": "start",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 96011,
+      "padding_count": 2131,
+      "request_bytes": 352385,
+      "request_sha256": "9c2c4a62673dbc73411dccf76f6bedb9f2c53a3486ecd2913140f1fdeb61264d",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-fact-middle-t96000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-middle",
+      "fixture": {
+        "family_id": "context-fact-middle",
+        "padding_count": 2131,
+        "position": "middle",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 96018,
+      "padding_count": 2131,
+      "request_bytes": 352392,
+      "request_sha256": "d3c9ccfd61f2596d9d88cd5693eebb2303c633be6a5f13ffcc3a60b44b2552e0",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-fact-end-t96000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-end",
+      "fixture": {
+        "family_id": "context-fact-end",
+        "padding_count": 2131,
+        "position": "end",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 96013,
+      "padding_count": 2131,
+      "request_bytes": 352386,
+      "request_sha256": "9744db78a5349fb146bc3d73d4aa8bedbeb78194213f710512e07686f04a22ad",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-join-start-t96000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-start",
+      "fixture": {
+        "family_id": "context-join-start",
+        "padding_count": 2130,
+        "position": "start",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 96015,
+      "padding_count": 2130,
+      "request_bytes": 352424,
+      "request_sha256": "32aa337bf7a7ca4ab70d89bdef037e08877617aae8ded4cae35c7e4dbc4a1cc0",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-join-middle-t96000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-middle",
+      "fixture": {
+        "family_id": "context-join-middle",
+        "padding_count": 2130,
+        "position": "middle",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 96019,
+      "padding_count": 2130,
+      "request_bytes": 352430,
+      "request_sha256": "13d2f8a5065d728c5f2515d11f3e5240f0b7e32818c27d9b4e1fe36752b7c8c7",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-join-end-t96000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-end",
+      "fixture": {
+        "family_id": "context-join-end",
+        "padding_count": 2130,
+        "position": "end",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 96013,
+      "padding_count": 2130,
+      "request_bytes": 352416,
+      "request_sha256": "5e1e02e8ebc385149b6a9ece27445b6c84882726900c8261588fb0402fdb3e71",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-version-start-t96000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-start",
+      "fixture": {
+        "family_id": "context-version-start",
+        "padding_count": 2130,
+        "position": "start",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 96023,
+      "padding_count": 2130,
+      "request_bytes": 352505,
+      "request_sha256": "87a8cd05ad6724ef603abe99bf8b10f55fda21a4bafce3b60375441776d20a42",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-version-middle-t96000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-middle",
+      "fixture": {
+        "family_id": "context-version-middle",
+        "padding_count": 2130,
+        "position": "middle",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 96024,
+      "padding_count": 2130,
+      "request_bytes": 352506,
+      "request_sha256": "a44d6c952d71c9dcb0a49411bd53af54f1d054810e88cf492855be73a6e32d58",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-version-end-t96000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-end",
+      "fixture": {
+        "family_id": "context-version-end",
+        "padding_count": 2130,
+        "position": "end",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 96027,
+      "padding_count": 2130,
+      "request_bytes": 352505,
+      "request_sha256": "52ab95b7747ff56b661d9816b350bc65e8ad955ec19a1854d7f9ae1586568936",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-code-start-t96000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-start",
+      "fixture": {
+        "family_id": "context-code-start",
+        "padding_count": 2129,
+        "position": "start",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 96006,
+      "padding_count": 2129,
+      "request_bytes": 352251,
+      "request_sha256": "17bc9ecbdc39041fa9e9789c3bf6b27b36f78e31c5beb6aeb52f62d71d0aae38",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-code-middle-t96000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-middle",
+      "fixture": {
+        "family_id": "context-code-middle",
+        "padding_count": 2130,
+        "position": "middle",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 96030,
+      "padding_count": 2130,
+      "request_bytes": 352379,
+      "request_sha256": "6640ff5566d3086ca147533216a2522f0177c013ade734918cd61e8dc4e85863",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-code-end-t96000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-end",
+      "fixture": {
+        "family_id": "context-code-end",
+        "padding_count": 2130,
+        "position": "end",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 96032,
+      "padding_count": 2130,
+      "request_bytes": 352412,
+      "request_sha256": "607f8d40e36b566ad111c8c4e77be043134c8a640088aef2a7a282093396fa8c",
+      "target_tokens": 96000
+    },
+    {
+      "case_id": "context-fact-start-t128000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-start",
+      "fixture": {
+        "family_id": "context-fact-start",
+        "padding_count": 2842,
+        "position": "start",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 128006,
+      "padding_count": 2842,
+      "request_bytes": 469700,
+      "request_sha256": "2e9e86acd940154a2fb66b6bac29434995f1e231e347f59673ef75dfb8df3a89",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-fact-middle-t128000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-middle",
+      "fixture": {
+        "family_id": "context-fact-middle",
+        "padding_count": 2842,
+        "position": "middle",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 128013,
+      "padding_count": 2842,
+      "request_bytes": 469707,
+      "request_sha256": "5cde34c68af3954559b0083b8e1fb398b70fbfad9dc56a9e8dd88f241e46a752",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-fact-end-t128000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-end",
+      "fixture": {
+        "family_id": "context-fact-end",
+        "padding_count": 2842,
+        "position": "end",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 128008,
+      "padding_count": 2842,
+      "request_bytes": 469701,
+      "request_sha256": "8532d16932f72b7e060d82fe0b988d9b01c488115a1032c322af0d9e4379368b",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-join-start-t128000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-start",
+      "fixture": {
+        "family_id": "context-join-start",
+        "padding_count": 2841,
+        "position": "start",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 128010,
+      "padding_count": 2841,
+      "request_bytes": 469739,
+      "request_sha256": "b915f1e59e0d7e1670b72fa9fa17cefef7b4c29e3fcdf77171031e2e9f44af43",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-join-middle-t128000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-middle",
+      "fixture": {
+        "family_id": "context-join-middle",
+        "padding_count": 2841,
+        "position": "middle",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 128014,
+      "padding_count": 2841,
+      "request_bytes": 469745,
+      "request_sha256": "ec4a88f62aaf2de92e7a794903c3c139dd00b302f103fea5b2c205c17f9a7b6e",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-join-end-t128000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-end",
+      "fixture": {
+        "family_id": "context-join-end",
+        "padding_count": 2841,
+        "position": "end",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 128008,
+      "padding_count": 2841,
+      "request_bytes": 469731,
+      "request_sha256": "aceb21f979ba1b198ce3fd22f584b9b2ba6d84d04ff85305ff286434cd4a868c",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-version-start-t128000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-start",
+      "fixture": {
+        "family_id": "context-version-start",
+        "padding_count": 2841,
+        "position": "start",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 128018,
+      "padding_count": 2841,
+      "request_bytes": 469820,
+      "request_sha256": "165c8ddb63c7931f8f6e05ced7be91ace40858eb00761b1717d4afeb06ccadcd",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-version-middle-t128000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-middle",
+      "fixture": {
+        "family_id": "context-version-middle",
+        "padding_count": 2841,
+        "position": "middle",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 128019,
+      "padding_count": 2841,
+      "request_bytes": 469821,
+      "request_sha256": "97b286f80eb182c178db2aa8d0a4bcbab7dfe740f44b84822dc649a1e12c2704",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-version-end-t128000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-end",
+      "fixture": {
+        "family_id": "context-version-end",
+        "padding_count": 2841,
+        "position": "end",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 128022,
+      "padding_count": 2841,
+      "request_bytes": 469820,
+      "request_sha256": "3c527de8dc7252eaf752e9e48b4c126df7dddb26af9274ed2229e9634bb09ee3",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-code-start-t128000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-start",
+      "fixture": {
+        "family_id": "context-code-start",
+        "padding_count": 2840,
+        "position": "start",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 128001,
+      "padding_count": 2840,
+      "request_bytes": 469566,
+      "request_sha256": "c42203b7b5e16cefd06b8faacd154246ae56bc35fb1e823ee1c3c2371ce9339c",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-code-middle-t128000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-middle",
+      "fixture": {
+        "family_id": "context-code-middle",
+        "padding_count": 2841,
+        "position": "middle",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 128025,
+      "padding_count": 2841,
+      "request_bytes": 469694,
+      "request_sha256": "5206ae671b6d64a0f45dacefddb861c4acac50bffa1b8b9186ca5a127df22f64",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-code-end-t128000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-end",
+      "fixture": {
+        "family_id": "context-code-end",
+        "padding_count": 2841,
+        "position": "end",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 128027,
+      "padding_count": 2841,
+      "request_bytes": 469727,
+      "request_sha256": "0c8ddbbc4dd7e4bbb779c1b38350cf1da12100f579adc4594c83d7a76ca4db18",
+      "target_tokens": 128000
+    },
+    {
+      "case_id": "context-fact-start-t160000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-start",
+      "fixture": {
+        "family_id": "context-fact-start",
+        "padding_count": 3553,
+        "position": "start",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 160001,
+      "padding_count": 3553,
+      "request_bytes": 587015,
+      "request_sha256": "9f1dc322549fe9f2ecfac23ab8e83ee030f09cd9e7141c6f26e6bd2f89ede074",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-fact-middle-t160000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-middle",
+      "fixture": {
+        "family_id": "context-fact-middle",
+        "padding_count": 3553,
+        "position": "middle",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 160008,
+      "padding_count": 3553,
+      "request_bytes": 587022,
+      "request_sha256": "a7a60231bb631717f5e9e18c508a3c082d655fd3a8425422f947dfb78cd9b7ab",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-fact-end-t160000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-end",
+      "fixture": {
+        "family_id": "context-fact-end",
+        "padding_count": 3553,
+        "position": "end",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 160003,
+      "padding_count": 3553,
+      "request_bytes": 587016,
+      "request_sha256": "1dbb890b1bc60541be94729b98bca44b72becd2280379a2abd29ada86ed6b20a",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-join-start-t160000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-start",
+      "fixture": {
+        "family_id": "context-join-start",
+        "padding_count": 3552,
+        "position": "start",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 160005,
+      "padding_count": 3552,
+      "request_bytes": 587054,
+      "request_sha256": "5e8e17567a431088bd0674a79a819e3b1337f6e2a2ccb45bb2c59e6620be3d60",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-join-middle-t160000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-middle",
+      "fixture": {
+        "family_id": "context-join-middle",
+        "padding_count": 3552,
+        "position": "middle",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 160009,
+      "padding_count": 3552,
+      "request_bytes": 587060,
+      "request_sha256": "1e0946ebbea303f71a104fd67736f708f365f718790fcd999d47f8b52f0369d6",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-join-end-t160000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-end",
+      "fixture": {
+        "family_id": "context-join-end",
+        "padding_count": 3552,
+        "position": "end",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 160003,
+      "padding_count": 3552,
+      "request_bytes": 587046,
+      "request_sha256": "81782aa6801bcad4c02ec4fa42b37931093f4832f31cfa1c9ca34b329ff35121",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-version-start-t160000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-start",
+      "fixture": {
+        "family_id": "context-version-start",
+        "padding_count": 3552,
+        "position": "start",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 160013,
+      "padding_count": 3552,
+      "request_bytes": 587135,
+      "request_sha256": "9e3193c1a34b4718d517a2f0fb6d005a391b6bf57428a263d3becad243a72b95",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-version-middle-t160000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-middle",
+      "fixture": {
+        "family_id": "context-version-middle",
+        "padding_count": 3552,
+        "position": "middle",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 160014,
+      "padding_count": 3552,
+      "request_bytes": 587136,
+      "request_sha256": "3ed34a77d52e5318168d0362d194759fb807aaf8d03974dcd352dcf81c0134f6",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-version-end-t160000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-end",
+      "fixture": {
+        "family_id": "context-version-end",
+        "padding_count": 3552,
+        "position": "end",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 160017,
+      "padding_count": 3552,
+      "request_bytes": 587135,
+      "request_sha256": "9e4586b70756905b1dec2a2dd86431bbdddc2d440a881f113a1be97024e1ef21",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-code-start-t160000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-start",
+      "fixture": {
+        "family_id": "context-code-start",
+        "padding_count": 3552,
+        "position": "start",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 160041,
+      "padding_count": 3552,
+      "request_bytes": 587046,
+      "request_sha256": "07018eff208ce551e4656b1328424c1c17b88d1fe1e540e6cce9cee9f7767fd0",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-code-middle-t160000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-middle",
+      "fixture": {
+        "family_id": "context-code-middle",
+        "padding_count": 3552,
+        "position": "middle",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 160020,
+      "padding_count": 3552,
+      "request_bytes": 587009,
+      "request_sha256": "59a8ee42e0394af0b699becaaec59a467635bdb7fc2c472785ccb7cf3fea929f",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-code-end-t160000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-end",
+      "fixture": {
+        "family_id": "context-code-end",
+        "padding_count": 3552,
+        "position": "end",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 160022,
+      "padding_count": 3552,
+      "request_bytes": 587042,
+      "request_sha256": "f49f019e5aa3139032f74c7bffefdad8c39b06df44c86b15446c6c4f77e83f82",
+      "target_tokens": 160000
+    },
+    {
+      "case_id": "context-fact-start-t200000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-start",
+      "fixture": {
+        "family_id": "context-fact-start",
+        "padding_count": 4442,
+        "position": "start",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 200006,
+      "padding_count": 4442,
+      "request_bytes": 733700,
+      "request_sha256": "cb010e305ba60450d6213b23ff8498bb4c220791403b1d580bafae44e82d5b7e",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-fact-middle-t200000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-middle",
+      "fixture": {
+        "family_id": "context-fact-middle",
+        "padding_count": 4442,
+        "position": "middle",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 200013,
+      "padding_count": 4442,
+      "request_bytes": 733707,
+      "request_sha256": "d97138b41205ccefda1be622dd13de10cd6531d06b71132fe6886b30ec1d2468",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-fact-end-t200000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-fact-end",
+      "fixture": {
+        "family_id": "context-fact-end",
+        "padding_count": 4442,
+        "position": "end",
+        "task_type": "fact"
+      },
+      "frozen_input_tokens": 200008,
+      "padding_count": 4442,
+      "request_bytes": 733701,
+      "request_sha256": "4f7bc91fbd7eaba2032f3d71177a6e4c3647cb6c5f51c4a5d87bddc72abec362",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-join-start-t200000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-start",
+      "fixture": {
+        "family_id": "context-join-start",
+        "padding_count": 4441,
+        "position": "start",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 200010,
+      "padding_count": 4441,
+      "request_bytes": 733739,
+      "request_sha256": "b9900563348edf8563c8bcf2052a1df5d65ea2abbd31dd38a101df5596d96f0a",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-join-middle-t200000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-middle",
+      "fixture": {
+        "family_id": "context-join-middle",
+        "padding_count": 4441,
+        "position": "middle",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 200014,
+      "padding_count": 4441,
+      "request_bytes": 733745,
+      "request_sha256": "848357cbc5a6297294839428ca06ae2aadaed18be28858b39e7e98246d0bb3d3",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-join-end-t200000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-join-end",
+      "fixture": {
+        "family_id": "context-join-end",
+        "padding_count": 4441,
+        "position": "end",
+        "task_type": "join"
+      },
+      "frozen_input_tokens": 200008,
+      "padding_count": 4441,
+      "request_bytes": 733731,
+      "request_sha256": "5dbfdd978b88b2d42ee05ee85587c6ebecefc7b7ad8d8335ca469beaa1f0c57e",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-version-start-t200000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-start",
+      "fixture": {
+        "family_id": "context-version-start",
+        "padding_count": 4441,
+        "position": "start",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 200018,
+      "padding_count": 4441,
+      "request_bytes": 733820,
+      "request_sha256": "5fd34e99ba0d8fda9bb7334005852019852ae7e3508545ecd03694d1da7833e7",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-version-middle-t200000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-middle",
+      "fixture": {
+        "family_id": "context-version-middle",
+        "padding_count": 4441,
+        "position": "middle",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 200019,
+      "padding_count": 4441,
+      "request_bytes": 733821,
+      "request_sha256": "0c56a921991118ef0f0ccd011519a1f829892c22ceb4ed727aeb02ee2749d920",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-version-end-t200000",
+      "category": "retrieval",
+      "critical": true,
+      "family_id": "context-version-end",
+      "fixture": {
+        "family_id": "context-version-end",
+        "padding_count": 4441,
+        "position": "end",
+        "task_type": "version"
+      },
+      "frozen_input_tokens": 200022,
+      "padding_count": 4441,
+      "request_bytes": 733820,
+      "request_sha256": "1b9ccd70e7a9aef5b01b82f58118daf7aa40c072db0183e8fbcfab6e21ef9534",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-code-start-t200000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-start",
+      "fixture": {
+        "family_id": "context-code-start",
+        "padding_count": 4440,
+        "position": "start",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 200001,
+      "padding_count": 4440,
+      "request_bytes": 733566,
+      "request_sha256": "7605a3c4d9b3fd79a72459c0db2e2b68987f450b6a38d383e8129ded2d067491",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-code-middle-t200000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-middle",
+      "fixture": {
+        "family_id": "context-code-middle",
+        "padding_count": 4441,
+        "position": "middle",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 200025,
+      "padding_count": 4441,
+      "request_bytes": 733694,
+      "request_sha256": "de666ebe4a84a229ff67e8861e2806438b49cff300fad578c649dd14afe115b1",
+      "target_tokens": 200000
+    },
+    {
+      "case_id": "context-code-end-t200000",
+      "category": "coding",
+      "critical": true,
+      "family_id": "context-code-end",
+      "fixture": {
+        "family_id": "context-code-end",
+        "padding_count": 4441,
+        "position": "end",
+        "task_type": "code"
+      },
+      "frozen_input_tokens": 200027,
+      "padding_count": 4441,
+      "request_bytes": 733727,
+      "request_sha256": "0566e886b9b0bad1ba7f7b60f338b970c0197f6c288d2a26e680794d68158c77",
+      "target_tokens": 200000
+    }
+  ]
+}

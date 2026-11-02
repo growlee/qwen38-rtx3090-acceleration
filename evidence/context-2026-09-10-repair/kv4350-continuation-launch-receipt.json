@@ -1,0 +1,68 @@
+{
+  "manifest_sha256": "fe7bea03234b74072f37b4a6f5ee8339dab57c4220360063bc7db466e4cfc0c3",
+  "launch": {
+    "exitCode": 0,
+    "timedOut": false,
+    "durationMs": 224,
+    "stdout": "",
+    "stderr": "Running as unit: qwen-context-20260910-repair-kv4350-continue.service; invocation ID: c0a6c57b31aa4c41a19a3dc1a3adf2ca\n"
+  },
+  "launch_command": "sudo -n systemd-run --unit=qwen-context-20260910-repair-kv4350-continue --property=Restart=no --property=RuntimeMaxSec=364860 --property=TimeoutStopSec=2700 --property=KillMode=mixed --property=WorkingDirectory=/srv/ai-server/benchmarks/context-20260910-repair-kv4350-continue --property=StandardOutput=append:/srv/ai-server/benchmarks/context-20260910-repair-kv4350-continue/runner.stdout --property=StandardError=append:/srv/ai-server/benchmarks/context-20260910-repair-kv4350-continue/runner.stderr /usr/bin/python3 -B /srv/ai-server/benchmarks/context-20260910-repair-kv4350-continue/repair_context.py fe7bea03234b74072f37b4a6f5ee8339dab57c4220360063bc7db466e4cfc0c3",
+  "preflight": {
+    "exitCode": 0,
+    "timedOut": false,
+    "durationMs": 324,
+    "stdout": "{\"bundle_verified\": true, \"previous_terminal_verified\": true, \"no_attempt\": true, \"unit\": \"LoadState=not-found\", \"free_bytes\": 167337455616, \"allocated_bytes\": 61440, \"admission\": {\"phase\": \"public\", \"queue_depth\": 0, \"active_ledger\": [], \"reconciliation_required\": false, \"restart_pending\": false}, \"profiles\": {\"higgs-tts3\": {\"state\": \"stopped\", \"breaker_open\": false}, \"pony-v6\": {\"state\": \"stopped\", \"breaker_open\": false}, \"pony-v7\": {\"state\": \"stopped\", \"breaker_open\": false}, \"qwen\": {\"state\": \"ready\", \"breaker_open\": false}, \"qwen-dflash2\": {\"state\": \"stopped\", \"breaker_open\": false}}, \"active_profiles\": [\"qwen\"]}\n",
+    "stderr": ""
+  },
+  "staging": [
+    {
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 228,
+      "stdout": "{\"file\": \"manifest.json\", \"bytes\": 2588, \"sha256\": \"fe7bea03234b74072f37b4a6f5ee8339dab57c4220360063bc7db466e4cfc0c3\", \"free_before\": 167337541632}\n",
+      "stderr": ""
+    },
+    {
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 399,
+      "stdout": "{\"name\": \"repair_context.py\", \"bytes\": 19404, \"sha256\": \"938206a39bede6fdc2fffaad3836a483abf4a282a0557e0e9c86e1a9346badfe\"}\n",
+      "stderr": ""
+    },
+    {
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 219,
+      "stdout": "{\"name\": \"quality_context_continue_client.py\", \"bytes\": 4949, \"sha256\": \"53e3b54a7486638ed8c0f5d89debfaa0a61b6b1dd83f6c761ffe3d0e6de2b6e0\"}\n",
+      "stderr": ""
+    },
+    {
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 209,
+      "stdout": "{\"name\": \"grade_repair.py\", \"bytes\": 14036, \"sha256\": \"e74252d2b1a423d4a3b265c7fb47caf07975b679da18a239e75757bdc9168a48\"}\n",
+      "stderr": ""
+    },
+    {
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 211,
+      "stdout": "{\"name\": \"selection.json\", \"bytes\": 2949, \"sha256\": \"066c49078d4dfb39fdf6e93307dcee228a55694e6be0cb90a68e63a0ce078fa1\"}\n",
+      "stderr": ""
+    },
+    {
+      "exitCode": 0,
+      "timedOut": false,
+      "durationMs": 210,
+      "stdout": "{\"name\": \"runbook.md\", \"bytes\": 1884, \"sha256\": \"01310f4c00fd0686568b6964383f2c6c64a6ea30fd91d59c6243d5afde826a2c\"}\n",
+      "stderr": ""
+    }
+  ],
+  "preserved_prefix_sha256": "7ab958bb3a131122430226c4d2abd653f76df88206357c4ff91da5728237c1e9",
+  "counts": {
+    "preserved": 21,
+    "remaining": 63
+  },
+  "review": "APPROVE /root/repair_exact_review exact fe7bea manifest; prior 2039 manifest rejected before any dispatch due terminal state classification."
+}

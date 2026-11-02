@@ -1,0 +1,147 @@
+{
+  "utc": "2026-09-18T07:45:00.566590+00:00",
+  "id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+  "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-10T16:29:21.872103256Z",
+    "FinishedAt": "2026-09-10T17:02:28.75415933Z",
+    "Health": {
+      "Status": "unhealthy",
+      "FailingStreak": 0,
+      "Log": [
+        {
+          "Start": "2026-09-10T17:01:41.453711686Z",
+          "End": "2026-09-10T17:01:41.526632635Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-09-10T17:01:51.527534267Z",
+          "End": "2026-09-10T17:01:51.607868179Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-09-10T17:02:01.608339911Z",
+          "End": "2026-09-10T17:02:01.696373271Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-09-10T17:02:11.697224798Z",
+          "End": "2026-09-10T17:02:11.792284565Z",
+          "ExitCode": 0,
+          "Output": ""
+        },
+        {
+          "Start": "2026-09-10T17:02:21.793300011Z",
+          "End": "2026-09-10T17:02:21.875387943Z",
+          "ExitCode": 0,
+          "Output": ""
+        }
+      ]
+    }
+  },
+  "command": [
+    "set -euo pipefail\napi_key=\"$(cat <redacted-secret-path>)\"\ntest -n \"$api_key\"\nexport VLLM_API_KEY=\"$api_key\"\nunset api_key\nexec bash docker/entrypoint.sh single\n"
+  ],
+  "entrypoint": [
+    "/bin/bash",
+    "-lc"
+  ],
+  "env_names": [
+    "TRANSFORMERS_OFFLINE",
+    "DO_NOT_TRACK",
+    "PREFIX_CACHE",
+    "XDG_CACHE_HOME",
+    "EXTRA_ARGS",
+    "SPEC",
+    "VLLM_OFFLOAD_KEEP_SHM",
+    "GPU_UTIL",
+    "NVIDIA_DRIVER_CAPABILITIES",
+    "PREPARE",
+    "HOME",
+    "VERIFY",
+    "CUDA_VISIBLE_DEVICES",
+    "MAX_LEN",
+    "MODEL",
+    "NVIDIA_VISIBLE_DEVICES",
+    "PORT",
+    "DRAFT_TOKENS",
+    "CTX",
+    "HF_DATASETS_OFFLINE",
+    "HF_HUB_OFFLINE",
+    "PATH",
+    "NVARCH",
+    "NVIDIA_REQUIRE_CUDA",
+    "NV_CUDA_CUDART_VERSION",
+    "CUDA_VERSION",
+    "LD_LIBRARY_PATH",
+    "DEBIAN_FRONTEND",
+    "PIP_NO_CACHE_DIR",
+    "PYTHONUNBUFFERED",
+    "VLLM_NO_USAGE_STATS",
+    "HF_HUB_ENABLE_HF_TRANSFER"
+  ],
+  "runtime_env": {
+    "SPEC": "mtp",
+    "GPU_UTIL": "0.93",
+    "MAX_LEN": "57344",
+    "DRAFT_TOKENS": "4",
+    "CTX": "fast"
+  },
+  "mounts": [
+    {
+      "Type": "volume",
+      "Name": "f7d9fa73022a3cc1528796f5c740771a72df74ea9f63a8473b9593ca236b1353",
+      "Source": "/var/lib/docker/volumes/f7d9fa73022a3cc1528796f5c740771a72df74ea9f63a8473b9593ca236b1353/_data",
+      "Destination": "/app/models",
+      "Driver": "local",
+      "Mode": "",
+      "RW": true,
+      "Propagation": ""
+    },
+    {
+      "Type": "bind",
+      "Source": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+      "Destination": "/models/qwen",
+      "Mode": "ro",
+      "RW": false,
+      "Propagation": "rprivate"
+    },
+    {
+      "Type": "bind",
+      "Source": "<redacted-secret-path>",
+      "Destination": "<redacted-secret-path>",
+      "Mode": "",
+      "RW": false,
+      "Propagation": "rprivate"
+    }
+  ],
+  "ports": {},
+  "restart": {
+    "Name": "no",
+    "MaximumRetryCount": 0
+  },
+  "device_requests": [
+    {
+      "Driver": "cdi",
+      "Count": 0,
+      "DeviceIDs": [
+        "nvidia.com/gpu=all"
+      ],
+      "Capabilities": null,
+      "Options": null
+    }
+  ],
+  "compose_sha256": "88c7de590dd7dea693dba225242d81e52387415a1e4e0f5796b568dfc4468c3c"
+}

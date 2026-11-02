@@ -1,0 +1,13 @@
+{
+  "epoch": 1788953947.5926383,
+  "storage": {
+    "owned_allocated_bytes": 1093632,
+    "root_free_bytes": 168209342464,
+    "owned_container_count": 2,
+    "reserved_write_bytes": 536870912
+  },
+  "owned_container_ids": [
+    "72c36b54f568a04e42407ba1a06c0b7160e2511dad6fb721db233d35f1bb624e",
+    "e90862291570babc458833023247a7131e79d9ebf077ca93c0fa0d2486301497"
+  ]
+}

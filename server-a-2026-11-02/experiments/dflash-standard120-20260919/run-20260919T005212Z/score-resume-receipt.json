@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-19T01:03:41.815541+00:00",
+  "reason": "All120 generations retained; whole-volume growth guard interrupted before scoring; owned artifacts434176B and log176128B; available disk refreshed for original unchanged CPU scorer. No regenerated requests.",
+  "matrix_sha256": "9ed85e9f223ff2637f5fae93bbd032fca7bc29638b16875d5b686f93a139e55e",
+  "free_bytes": 92166230016,
+  "memory": {
+    "mem_available_bytes": 30107160576,
+    "swap_free_bytes": 7256403968,
+    "container_limit_bytes": 25769803776
+  },
+  "source_manifest": "43dea087f0767e3596fae1644a1ac0963f38ede4d471f1e16f757454b7ca097b",
+  "launch": [
+    "systemd-run",
+    "--unit=ai-exp-dflash-standard120-score-20260919",
+    "--property=RuntimeMaxSec=1800",
+    "--property=TimeoutStopSec=60",
+    "--property=KillMode=mixed",
+    "/usr/bin/python3",
+    "-E",
+    "-B",
+    "/srv/ai-server/artifacts/experiments/dflash-standard120-20260919/benchmark_adapter.py",
+    "--score",
+    "/srv/ai-server/artifacts/experiments/dflash-standard120-20260919/run-20260919T005212Z"
+  ]
+}

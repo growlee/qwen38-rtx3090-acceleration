@@ -1,0 +1,3 @@
+/opt/freetoken013/lib/python3.12/site-packages/huggingface_hub/constants.py:301: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (394930 > 262144). Running this sequence through the model will result in indexing errors

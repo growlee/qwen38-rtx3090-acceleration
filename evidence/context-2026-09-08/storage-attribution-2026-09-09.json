@@ -1,0 +1,797 @@
+{
+  "schema": "qwen-context-storage-attribution/v1",
+  "observed_at": "2026-09-09T08:28:23.637888+00:00",
+  "scope": "read-only server-a; no model requests or server mutations",
+  "historic_stop": {
+    "baseline_free_bytes": 172198895616,
+    "stop_free_bytes": 167902392320,
+    "growth_bytes": 4296503296,
+    "limit_bytes": 4294967296,
+    "excess_bytes": 1536000
+  },
+  "new_background_files": {
+    "at": "2026-09-09T08:28:23.637888+00:00",
+    "files": [
+      {
+        "path": "/var/lib/homelab-storage/demo-api-a.ext4",
+        "dev": 64512,
+        "inode": 30186842,
+        "logical_bytes": 3221225472,
+        "allocated_bytes": 3221229568,
+        "nlink": 1,
+        "mtime": "2026-09-08T15:24:42.567555+00:00",
+        "birth": "2026-09-08 15:24:14.760016776 +0000"
+      },
+      {
+        "path": "/var/backups/homelab/guarded-rollout-input-20260908T193338Z/guarded-image.tar",
+        "dev": 64512,
+        "inode": 30579958,
+        "logical_bytes": 230611968,
+        "allocated_bytes": 230612992,
+        "nlink": 1,
+        "mtime": "2026-09-08T20:21:11.455388+00:00",
+        "birth": "2026-09-08 20:20:47.711852410 +0000"
+      },
+      {
+        "path": "/var/backups/homelab/guarded-rollout-input-20260908T193338Z/test_demo.dem",
+        "dev": 64512,
+        "inode": 30579957,
+        "logical_bytes": 60601900,
+        "allocated_bytes": 60604416,
+        "nlink": 1,
+        "mtime": "2026-09-08T20:21:07.479299+00:00",
+        "birth": "2026-09-08 20:20:47.711852410 +0000"
+      },
+      {
+        "path": "/var/lib/containerd/io.containerd.content.v1.content/blobs/sha256/f467b00ca3efcb5b6a186b885b2f953ebcaafe718037830678307fd49e9ea668",
+        "dev": 64512,
+        "inode": 30186865,
+        "logical_bytes": 155936256,
+        "allocated_bytes": 155938816,
+        "nlink": 1,
+        "mtime": "2026-09-08T20:21:53.970405+00:00",
+        "birth": "2026-09-08 20:21:53.277328237 +0000"
+      },
+      {
+        "path": "/var/lib/containerd/io.containerd.content.v1.content/blobs/sha256/eb2d89ade15068dbe2cb53d1a7f15edb2e1755a8a5e20dc0d70b168d95e6aa65",
+        "dev": 64512,
+        "inode": 30186864,
+        "logical_bytes": 59880448,
+        "allocated_bytes": 59887616,
+        "nlink": 1,
+        "mtime": "2026-09-08T20:21:53.274919+00:00",
+        "birth": "2026-09-08 20:21:52.991321824 +0000"
+      }
+    ],
+    "distinct_allocated_bytes": 3728273408
+  },
+  "provisioning_receipt": {
+    "receipt_sha256": "9984a86110bdc2a9df597ae5088a26d99864e93e4b10ff5aeedef9da30b54c34",
+    "utc": "2026-09-08T15:24:14.663263+00:00",
+    "allocated_bytes": 3221229568,
+    "prestate_keys": [
+      "containers",
+      "node_processes",
+      "services"
+    ],
+    "prepared_host_storage": true,
+    "new_files": [
+      {
+        "mode": 493,
+        "path": "/usr/local/libexec/homelab-demo-storage-check",
+        "sha256": "770a5e02de6150dc66ea747ebd911437b60f4e233f1835277358e2d9626b20a2"
+      },
+      {
+        "mode": 292,
+        "path": "/srv/faceit-demo-uploads/.homelab-demo-storage.json",
+        "sha256": "ad5029f58a9b4d95e7b0a2d7b639c4ab900b28d91fad2b1d8fe4eb9ddde747b3"
+      },
+      {
+        "mode": 292,
+        "path": "/etc/homelab-demo-storage/api-a.json",
+        "sha256": "fa9bd92795e8bf8fdfba3f06107c443508a332b35240b58d496b83dc0e52fe1b"
+      },
+      {
+        "mode": 420,
+        "path": "/etc/systemd/system/homelab-demo-storage-api-a.service",
+        "sha256": "0967796d6059fae37df42574f817608153112fb21d1daadb01b1880a5f87bb48"
+      },
+      {
+        "mode": 420,
+        "path": "/etc/tmpfiles.d/homelab-demo-storage.conf",
+        "sha256": "af919efbd5f484898e543211f08daf5da891ae4057a4514475add62c84142fc2"
+      }
+    ],
+    "backing_identity": {
+      "dev": 64512,
+      "exists": true,
+      "gid": 0,
+      "ino": 30186842,
+      "kind": "file",
+      "mode": 384,
+      "nlink": 1,
+      "path": "/var/lib/homelab-storage/demo-api-a.ext4",
+      "uid": 0
+    }
+  },
+  "snapshot_inventory": {
+    "new_snapshot_allocations": [
+      {
+        "snapshot": "6867",
+        "physical_bytes": 69111808,
+        "birth": "2026-09-08 20:21:54.010344673 +0000"
+      },
+      {
+        "snapshot": "6872",
+        "physical_bytes": 60686336,
+        "birth": "2026-09-08 21:21:17.237348587 +0000"
+      },
+      {
+        "snapshot": "6858",
+        "physical_bytes": 57434112,
+        "birth": "2026-09-08 18:16:00.101608959 +0000"
+      },
+      {
+        "snapshot": "6868",
+        "physical_bytes": 659456,
+        "birth": "2026-09-08 20:21:54.219349359 +0000"
+      },
+      {
+        "snapshot": "6862",
+        "physical_bytes": 204800,
+        "birth": "2026-09-08 18:17:39.824488596 +0000"
+      },
+      {
+        "snapshot": "6878",
+        "physical_bytes": 204800,
+        "birth": "2026-09-08 21:44:26.025259322 +0000"
+      },
+      {
+        "snapshot": "6846",
+        "physical_bytes": 204800,
+        "birth": "2026-09-08 14:30:12.680605013 +0000"
+      },
+      {
+        "snapshot": "6854",
+        "physical_bytes": 204800,
+        "birth": "2026-09-08 17:57:32.796683240 +0000"
+      },
+      {
+        "snapshot": "6874",
+        "physical_bytes": 204800,
+        "birth": "2026-09-08 21:24:27.477925682 +0000"
+      },
+      {
+        "snapshot": "6850",
+        "physical_bytes": 204800,
+        "birth": "2026-09-08 14:50:20.922498844 +0000"
+      },
+      {
+        "snapshot": "6866",
+        "physical_bytes": 94208,
+        "birth": "2026-09-08 20:21:54.003344516 +0000"
+      },
+      {
+        "snapshot": "6873",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 21:24:27.468925552 +0000"
+      },
+      {
+        "snapshot": "6849",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 14:50:20.915498728 +0000"
+      },
+      {
+        "snapshot": "6875",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 21:26:50.774068127 +0000"
+      },
+      {
+        "snapshot": "6845",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 14:30:12.671604892 +0000"
+      },
+      {
+        "snapshot": "6871",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 21:21:17.216348323 +0000"
+      },
+      {
+        "snapshot": "6843",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 14:30:12.087597034 +0000"
+      },
+      {
+        "snapshot": "6857",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 18:16:00.075608470 +0000"
+      },
+      {
+        "snapshot": "6853",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 17:57:32.763682701 +0000"
+      },
+      {
+        "snapshot": "6847",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 14:32:41.116671742 +0000"
+      },
+      {
+        "snapshot": "6877",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 21:44:26.015259140 +0000"
+      },
+      {
+        "snapshot": "6859",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 18:16:00.490616280 +0000"
+      },
+      {
+        "snapshot": "6869",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 21:17:42.337963821 +0000"
+      },
+      {
+        "snapshot": "6863",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 18:21:19.669649319 +0000"
+      },
+      {
+        "snapshot": "6851",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 14:54:00.819176198 +0000"
+      },
+      {
+        "snapshot": "6879",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 21:48:05.892269619 +0000"
+      },
+      {
+        "snapshot": "6855",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 18:00:01.306164590 +0000"
+      },
+      {
+        "snapshot": "6861",
+        "physical_bytes": 32768,
+        "birth": "2026-09-08 18:17:39.816488445 +0000"
+      },
+      {
+        "snapshot": "6870",
+        "physical_bytes": 28672,
+        "birth": "2026-09-08 21:17:42.354963981 +0000"
+      },
+      {
+        "snapshot": "6860",
+        "physical_bytes": 28672,
+        "birth": "2026-09-08 18:16:00.516616770 +0000"
+      },
+      {
+        "snapshot": "6880",
+        "physical_bytes": 24576,
+        "birth": "2026-09-08 21:48:05.907269893 +0000"
+      },
+      {
+        "snapshot": "6876",
+        "physical_bytes": 24576,
+        "birth": "2026-09-08 21:26:50.791068390 +0000"
+      },
+      {
+        "snapshot": "6852",
+        "physical_bytes": 24576,
+        "birth": "2026-09-08 14:54:00.829176366 +0000"
+      },
+      {
+        "snapshot": "6864",
+        "physical_bytes": 24576,
+        "birth": "2026-09-08 18:21:19.680649528 +0000"
+      },
+      {
+        "snapshot": "6856",
+        "physical_bytes": 24576,
+        "birth": "2026-09-08 18:00:01.320164829 +0000"
+      },
+      {
+        "snapshot": "6848",
+        "physical_bytes": 24576,
+        "birth": "2026-09-08 14:32:41.131671957 +0000"
+      },
+      {
+        "snapshot": "6865",
+        "physical_bytes": 16384,
+        "birth": "2026-09-08 20:21:53.990344225 +0000"
+      },
+      {
+        "snapshot": "6844",
+        "physical_bytes": 16384,
+        "birth": "2026-09-08 14:30:12.096597156 +0000"
+      }
+    ]
+  },
+  "r1_containers": [
+    {
+      "name": "/qwen-context-20260908-r1-adaptive-mtp-huge-client",
+      "id": "a3e4996012b70e20176895eddfd99f6fc450e059c11f9dd9d32e05b78148504d",
+      "created": "2026-09-08T21:48:05.889260972Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 3,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T21:48:05.935916242Z",
+        "FinishedAt": "2026-09-09T00:24:09.942804046Z"
+      },
+      "size_rw": 12288,
+      "log_bytes": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/context-20260908-r1",
+          "Destination": "/context",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-adaptive-mtp-huge",
+      "id": "54b8dfec96b44892f446048bd2228e141fa176a8a4f347b4a7aaa8d5819d1cdd",
+      "created": "2026-09-08T21:44:26.013137033Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 137,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T21:44:26.061013676Z",
+        "FinishedAt": "2026-09-09T00:24:10.049040368Z"
+      },
+      "size_rw": 192512,
+      "log_bytes": 142232,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+          "Destination": "/app/models/qwen",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-adaptive-mtp-fast-client",
+      "id": "46beab5784b4ab96a4316e9859904c71c57fc5d17dfeafd6bbed2c8c96781ae2",
+      "created": "2026-09-08T21:26:50.770882745Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T21:26:50.822368728Z",
+        "FinishedAt": "2026-09-08T21:44:24.687314646Z"
+      },
+      "size_rw": 12288,
+      "log_bytes": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/context-20260908-r1",
+          "Destination": "/context",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-adaptive-mtp-fast",
+      "id": "c1f6eb47de02849646e110713c1fe892df569185e1e88d2682cfb6d618efcc8e",
+      "created": "2026-09-08T21:24:27.466916992Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T21:24:27.511411296Z",
+        "FinishedAt": "2026-09-08T21:44:25.901681641Z"
+      },
+      "size_rw": 192512,
+      "log_bytes": 83001,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+          "Destination": "/app/models/qwen",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-int8-mtp-huge-client",
+      "id": "96c231a61a881f10b0597bbced4b056f1abf7b60d04461e725a19d20e1316bb7",
+      "created": "2026-09-08T18:21:19.667502016Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T18:21:19.712195936Z",
+        "FinishedAt": "2026-09-08T21:24:25.856044251Z"
+      },
+      "size_rw": 12288,
+      "log_bytes": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/context-20260908-r1",
+          "Destination": "/context",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-int8-mtp-huge",
+      "id": "cb57325547636ca7df9fc8221e507e1ec58d623329fdb302aa4e57ff48bb3a03",
+      "created": "2026-09-08T18:17:39.814579959Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T18:17:39.856398116Z",
+        "FinishedAt": "2026-09-08T21:24:27.351663361Z"
+      },
+      "size_rw": 192512,
+      "log_bytes": 149695,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey-fast-mtp/f958acb153eb8c7bbd25638149c8c75185559226-syv69ba4d0-int8-vocab40960/model",
+          "Destination": "/app/models/qwen",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-int8-mtp-fast-client",
+      "id": "53e7e3fa6f1d028ebc7a1f90e1d5c8b42d763f1be1577f302613eade01d146b7",
+      "created": "2026-09-08T18:00:01.304111495Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T18:00:01.351113221Z",
+        "FinishedAt": "2026-09-08T18:17:39.122817088Z"
+      },
+      "size_rw": 12288,
+      "log_bytes": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/context-20260908-r1",
+          "Destination": "/context",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-int8-mtp-fast",
+      "id": "6f92a4fe707436d8e3f91d9adcc12f3ce37b2afc2f806d53263e5f1b2346b1ab",
+      "created": "2026-09-08T17:57:32.761600352Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T17:57:32.840366693Z",
+        "FinishedAt": "2026-09-08T18:17:39.691290168Z"
+      },
+      "size_rw": 192512,
+      "log_bytes": 83725,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey-fast-mtp/f958acb153eb8c7bbd25638149c8c75185559226-syv69ba4d0-int8-vocab40960/model",
+          "Destination": "/app/models/qwen",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-autoround-mtp-huge-client",
+      "id": "98bd3def14bba90dbb670549f7f2902fab0f75ebefe53a7f37d330746c645ba9",
+      "created": "2026-09-08T14:54:00.816728936Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T14:54:00.860364769Z",
+        "FinishedAt": "2026-09-08T17:57:31.103921147Z"
+      },
+      "size_rw": 12288,
+      "log_bytes": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/context-20260908-r1",
+          "Destination": "/context",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-autoround-mtp-huge",
+      "id": "3d15b30f64667cc8b1e5096716f4ef11d0fedb3cef1569fdfa4c8e0c928e6a0b",
+      "created": "2026-09-08T14:50:20.913246685Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T14:50:20.954453889Z",
+        "FinishedAt": "2026-09-08T17:57:32.653047089Z"
+      },
+      "size_rw": 192512,
+      "log_bytes": 148543,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226/model",
+          "Destination": "/app/models/qwen",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-autoround-mtp-fast-client",
+      "id": "c2305d0fa5f9e498db10d8f3d6990f8ed67e0da4b2f2eeabc4af9f3b8f7ad53a",
+      "created": "2026-09-08T14:32:41.114095894Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T14:32:41.164017721Z",
+        "FinishedAt": "2026-09-08T14:50:19.261904223Z"
+      },
+      "size_rw": 12288,
+      "log_bytes": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/context-20260908-r1",
+          "Destination": "/context",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-autoround-mtp-fast",
+      "id": "2635957d3b0cf8e46249f7240633cdba3bedfa3edfcfe4c2b2ae3591022adc58",
+      "created": "2026-09-08T14:30:12.670336576Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T14:30:12.712517153Z",
+        "FinishedAt": "2026-09-08T14:50:20.800681203Z"
+      },
+      "size_rw": 192512,
+      "log_bytes": 83799,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226/model",
+          "Destination": "/app/models/qwen",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        }
+      ],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-reference-reference-context-code-end-t8192",
+      "id": "53555327874f258d4cca7f93e5a3dd817c7f1cbac2fa1c7ff25f5cebeb0a3922",
+      "created": "2026-09-08T14:30:12.085536432Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T14:30:12.11956585Z",
+        "FinishedAt": "2026-09-08T14:30:12.190597947Z"
+      },
+      "size_rw": 4096,
+      "log_bytes": null,
+      "mounts": [],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-reference-reference-context-code-middle-t8192",
+      "id": "780267cf530608987e5b3bde0f19b98c80c59c7e53bb87e4046cafc8aa0a9532",
+      "created": "2026-09-08T14:30:11.917252409Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T14:30:11.951981529Z",
+        "FinishedAt": "2026-09-08T14:30:12.019301518Z"
+      },
+      "size_rw": 4096,
+      "log_bytes": null,
+      "mounts": [],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-reference-reference-context-code-start-t8192",
+      "id": "6ed7a6d08c02205afc75af0759d5cc43e2393015d4d5febf0e44274b7dea24a0",
+      "created": "2026-09-08T14:30:11.729909544Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T14:30:11.764864054Z",
+        "FinishedAt": "2026-09-08T14:30:11.843404955Z"
+      },
+      "size_rw": 4096,
+      "log_bytes": null,
+      "mounts": [],
+      "storage": null
+    },
+    {
+      "name": "/qwen-context-20260908-r1-tokenizer",
+      "id": "3bff9d616c9d5aaeeea004df1445242aadbf6e649652e3b947d544f2a8e04db5",
+      "created": "2026-09-08T14:28:15.439311119Z",
+      "state": {
+        "Status": "exited",
+        "ExitCode": 0,
+        "OOMKilled": false,
+        "StartedAt": "2026-09-08T14:28:15.478891027Z",
+        "FinishedAt": "2026-09-08T14:30:11.436125957Z"
+      },
+      "size_rw": 20480,
+      "log_bytes": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/quality-remaining-20260908/sources",
+          "Destination": "/runner",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/context-20260908-r1",
+          "Destination": "/context",
+          "RW": false
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/benchmarks/context-20260908-r1/frozen",
+          "Destination": "/output",
+          "RW": true
+        },
+        {
+          "Type": "bind",
+          "Source": "/srv/ai-server/staging/experiments/qwen38-syv-uncensored/leminkozey/f958acb153eb8c7bbd25638149c8c75185559226/model",
+          "Destination": "/model",
+          "RW": false
+        }
+      ],
+      "storage": null
+    }
+  ],
+  "container_totals": {
+    "count": 16,
+    "rw": 1261568,
+    "log": 690995
+  },
+  "public_state": {
+    "at": "2026-09-09T08:29:20.976590+00:00",
+    "admission_empty_public_verified": true,
+    "admission_phase": "public",
+    "runtime": {
+      "profiles": {
+        "pony-v7": "stopped",
+        "qwen": "stopped",
+        "qwen-dflash2": "stopped",
+        "pony-v6": "stopped",
+        "higgs-tts3": "stopped"
+      },
+      "compute_pids": [],
+      "power_limit_w": 300,
+      "timestamp": 1788942560.9720662
+    },
+    "runtime_sha256": "37b174673fc9d53b4ae8fc229e16196dfb410ee73745166cdbe2d553ff6ecb72",
+    "capacity_mode": "serialized-99",
+    "global_breaker_open": false,
+    "active_profile": null,
+    "queue_depth": null,
+    "production_identity": {
+      "id": "15fc9d27b9c035e8d1304c0fcfc5c6a3170b4dc2c00e32a3b178696465f2ea5f",
+      "image": "sha256:5b14f62188d90d394b6e517bc76b964b511cde81fbb572ac5a87eaf41f5ed9c0",
+      "model": "/srv/ai-server/artifacts/extensions/qwen-syv-k4-4d4166b891489bfc/model",
+      "running": false
+    },
+    "root_free_bytes": 168247549952,
+    "supervisor_source_sha256": "14726d0e0b21b29443043936925b3a791156d79e3980048b1dcbff6ee5a967f4"
+  },
+  "limitations": [
+    "Retained allocation and birth times identify large concurrent writes, not a complete net filesystem-growth decomposition.",
+    "No complete per-directory baseline was recorded by r1; sysstat -F activity unavailable in sa08 and sa09.",
+    "No full-generation or browser smoke was run; Qwen is idle stopped, original identity preserved, public admission empty."
+  ],
+  "actions": {
+    "server_mutations": 0,
+    "model_requests": 0,
+    "deletions": 0,
+    "limit_changes": 0,
+    "matrix_resumed": false
+  }
+}
